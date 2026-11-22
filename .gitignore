@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+__pycache__/
+.venv/
+# large downloaded sources are re-fetchable with tools/fetch_sources.py
+data/raw/**/*.zip
+data/raw/**/*.tar.gz
+data/raw/**/*.bz2
+data/cache/
+app/android/
+app/test-results/

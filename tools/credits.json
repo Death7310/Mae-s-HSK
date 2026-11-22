@@ -1,0 +1,44 @@
+[
+  {
+    "name": "complete-hsk-vocabulary",
+    "what": "HSK word lists for the 2.0, 3.0 (2021) and 3.0 (2025 syllabus) standards, with frequency and part-of-speech tags",
+    "license": "MIT © Yanis Zafirópulos",
+    "url": "https://github.com/drkameleon/complete-hsk-vocabulary"
+  },
+  {
+    "name": "CC-CEDICT",
+    "what": "Chinese-English dictionary definitions (source of the English glosses)",
+    "license": "CC BY-SA 4.0 © MDBG",
+    "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict"
+  },
+  {
+    "name": "Make Me a Hanzi / hanzi-writer-data",
+    "what": "Stroke-order data for Chinese characters",
+    "license": "Arphic Public License (stroke data) / LGPL-3.0",
+    "url": "https://github.com/chanind/hanzi-writer-data"
+  },
+  {
+    "name": "Hanzi Writer",
+    "what": "Stroke-order animation and handwriting practice",
+    "license": "MIT © David Chanin",
+    "url": "https://github.com/chanind/hanzi-writer"
+  },
+  {
+    "name": "ts-fsrs (FSRS)",
+    "what": "Free Spaced Repetition Scheduler used to time reviews",
+    "license": "MIT © Open Spaced Repetition",
+    "url": "https://github.com/open-spaced-repetition/ts-fsrs"
+  },
+  {
+    "name": "Vazirmatn",
+    "what": "Persian interface typeface",
+    "license": "SIL Open Font License 1.1 © Saber Rastikerdar",
+    "url": "https://github.com/rastikerdar/vazirmatn"
+  },
+  {
+    "name": "Preact",
+    "what": "User-interface library",
+    "license": "MIT",
+    "url": "https://preactjs.com"
+  }
+]
