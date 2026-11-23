@@ -1,0 +1,233 @@
+[
+ {"id": "hsk3-g0123", "std": "hsk3", "level": 2, "no": 123,
+  "pattern": "فعل + (了) + مدت زمان (+ 的) + مفعول",
+  "title": {"fa": "گفتن مدتِ انجام یک کار: فعل + مدت زمان", "en": "Saying how long an action lasts: verb + duration"},
+  "body": "برای گفتن اینکه کاری چه مدت طول می‌کشد، مدت زمان را بعد از فعل می‌آوریم، نه قبل از آن.\nدر فارسی می‌گوییم «دو ساعت خوابیدم»، ولی در چینی ترتیب برعکس است: 睡了两个小时.\nاگر فعل مفعول داشته باشد، مدت زمان بین فعل و مفعول می‌نشیند و می‌توان بعد از آن 的 هم آورد: 学了两年(的)汉语.",
+  "examples": [
+   {"zh": "我等了半个小时。", "py": "Wǒ děng le bàn ge xiǎoshí.", "fa": "من نیم ساعت منتظر ماندم.", "en": "I waited for half an hour."},
+   {"zh": "他学了两年汉语。", "py": "Tā xué le liǎng nián Hànyǔ.", "fa": "او دو سال چینی خواند.", "en": "He studied Chinese for two years."},
+   {"zh": "我每天睡八个小时。", "py": "Wǒ měi tiān shuì bā ge xiǎoshí.", "fa": "من هر روز هشت ساعت می‌خوابم.", "en": "I sleep eight hours every day."}
+  ]},
+ {"id": "hsk3-g0124", "std": "hsk3", "level": 2, "no": 124,
+  "pattern": "صفت + (了) + عدد + واحد شمارش",
+  "title": {"fa": "گفتن مقدارِ تفاوت بعد از صفت: 快五分钟", "en": "Saying by how much: adjective + amount"},
+  "body": "وقتی می‌خواهیم بگوییم چیزی «چقدر» بلندتر، گران‌تر، زودتر و… است، مقدار را درست بعد از صفت می‌آوریم.\nاین مقدار می‌تواند دقیق باشد (五分钟، 十块) یا نامشخص (一点儿).\nاگر 了 بیاید، یعنی این تفاوت با آنچه باید باشد پیش آمده است: 长了一点儿 یعنی «کمی بلند (از آب درآمده) است».",
+  "examples": [
+   {"zh": "我的手表快五分钟。", "py": "Wǒ de shǒubiǎo kuài wǔ fēnzhōng.", "fa": "ساعت من پنج دقیقه جلو است.", "en": "My watch is five minutes fast."},
+   {"zh": "这条裤子长了一点儿。", "py": "Zhè tiáo kùzi cháng le yìdiǎnr.", "fa": "این شلوار کمی بلند است.", "en": "These trousers are a little too long."},
+   {"zh": "他今天早了十分钟。", "py": "Tā jīntiān zǎo le shí fēnzhōng.", "fa": "او امروز ده دقیقه زود آمد.", "en": "He was ten minutes early today."}
+  ]},
+ {"id": "hsk3-g0125", "std": "hsk3", "level": 2, "no": 125,
+  "pattern": "فاعل اصلی + (فاعل کوچک + صفت / فعل)",
+  "title": {"fa": "توصیف یک بخش یا ویژگی از کسی: 他个子很高", "en": "Describing one aspect of someone: topic + (subject + predicate)"},
+  "body": "در این جمله اول موضوع اصلی می‌آید و بعد یک جملهٔ کوچک دربارهٔ بخشی یا ویژگی‌ای از آن.\nدر فارسی می‌گوییم «قدِ او بلند است»، ولی در چینی بدون 的 و بدون 是 می‌گوییم: 他个子很高 (او، قدش بلند است).\nمنفی را در همان جملهٔ کوچک می‌سازیم: 他身体不好.",
+  "examples": [
+   {"zh": "他个子很高。", "py": "Tā gèzi hěn gāo.", "fa": "قد او بلند است.", "en": "He is tall."},
+   {"zh": "奶奶身体很好。", "py": "Nǎinai shēntǐ hěn hǎo.", "fa": "حال مادربزرگ خوب است.", "en": "Grandma is in good health."},
+   {"zh": "今天天气不错。", "py": "Jīntiān tiānqì búcuò.", "fa": "امروز هوا خوب است.", "en": "The weather is nice today."}
+  ]},
+ {"id": "hsk3-g0126", "std": "hsk3", "level": 2, "no": 126,
+  "pattern": "الف + 还是 + ب？",
+  "title": {"fa": "پرسیدن «این یا آن؟» با 还是", "en": "Asking \"A or B?\" with 还是"},
+  "body": "برای پرسشی که شنونده باید یکی از دو گزینه را انتخاب کند، بین دو گزینه 还是 می‌گذاریم.\nخودِ 还是 جمله را پرسشی می‌کند، پس در پایان جمله 吗 نمی‌آید.\nفعل را می‌توان در گزینهٔ دوم تکرار کرد: 喝茶还是喝咖啡.",
+  "examples": [
+   {"zh": "你喝茶还是喝咖啡？", "py": "Nǐ hē chá háishi hē kāfēi?", "fa": "چای می‌خوری یا قهوه؟", "en": "Do you drink tea or coffee?"},
+   {"zh": "他是老师还是学生？", "py": "Tā shì lǎoshī háishi xuésheng?", "fa": "او معلم است یا دانش‌آموز؟", "en": "Is he a teacher or a student?"}
+  ]},
+ {"id": "hsk3-g0127", "std": "hsk3", "level": 2, "no": 127,
+  "pattern": "(你) + 别 + فعل (+ 了)",
+  "title": {"fa": "نهی کردن: «نکن» با 别", "en": "Telling someone not to do something: 别"},
+  "body": "«别» پیش از فعل می‌آید و یعنی «این کار را نکن»؛ همان معنای 不要 را دارد.\nدر فارسی فعل نهی با «نـ» ساخته می‌شود، ولی در چینی فعل تغییری نمی‌کند و فقط 别 جلوی آن می‌آید.\nاگر در پایان جمله 了 بیاید، یعنی «دیگر ادامه نده»: 别说了.",
+  "examples": [
+   {"zh": "上课的时候别说话。", "py": "Shàngkè de shíhou bié shuōhuà.", "fa": "سر کلاس حرف نزن.", "en": "Don't talk during class."},
+   {"zh": "你别走，再坐一会儿吧。", "py": "Nǐ bié zǒu, zài zuò yíhuìr ba.", "fa": "نرو، کمی دیگر بنشین.", "en": "Don't leave; sit a little longer."},
+   {"zh": "别忘了明天的考试。", "py": "Bié wàng le míngtiān de kǎoshì.", "fa": "امتحان فردا را فراموش نکن.", "en": "Don't forget tomorrow's exam."}
+  ]},
+ {"id": "hsk3-g0128", "std": "hsk3", "level": 2, "no": 128,
+  "pattern": "فاعل + 是 + توضیح / ویژگی (+ 的)",
+  "title": {"fa": "توضیح دادن یا گفتن ویژگی با 是", "en": "Explaining or describing a feature with 是"},
+  "body": "«是» فقط برای «او معلم است» نیست؛ با آن می‌توان دربارهٔ چیزی توضیح داد یا ویژگی‌اش را گفت.\nبرای رنگ، مالکیت و مانند آن معمولاً در پایان 的 می‌آید: 是白色的، 是我的.\nمنفی با 不是 ساخته می‌شود.",
+  "examples": [
+   {"zh": "这个杯子是白色的。", "py": "Zhège bēizi shì báisè de.", "fa": "این لیوان سفید است.", "en": "This cup is white."},
+   {"zh": "她是一个爱笑的人。", "py": "Tā shì yí ge ài xiào de rén.", "fa": "او آدم خنده‌رویی است.", "en": "She is someone who loves to laugh."},
+   {"zh": "这件衣服不是我的。", "py": "Zhè jiàn yīfu bú shì wǒ de.", "fa": "این لباس مال من نیست.", "en": "This piece of clothing isn't mine."}
+  ]},
+ {"id": "hsk3-g0129", "std": "hsk3", "level": 2, "no": 129,
+  "pattern": "فاعل + 有 + مقدار / اسم (+ 这么/那么 + صفت)",
+  "title": {"fa": "رسیدن به یک اندازه یا مقدار با 有", "en": "Reaching an amount or degree with 有"},
+  "body": "«有» در اینجا به معنی «داشتن» نیست؛ یعنی چیزی به مقدار یا اندازه‌ای رسیده است.\nبعد از 有 یا یک مقدار می‌آید (二十岁، 十分钟) یا چیزی که با آن مقایسه می‌کنیم، همراه با 这么/那么 و صفت.\nمعمولاً حالت تخمین دارد: «حدوداً، به اندازهٔ…».",
+  "examples": [
+   {"zh": "他有二十岁了吧？", "py": "Tā yǒu èrshí suì le ba?", "fa": "او حتماً بیست سالش شده، نه؟", "en": "He must be about twenty by now, right?"},
+   {"zh": "从这儿到车站有十分钟的路。", "py": "Cóng zhèr dào chēzhàn yǒu shí fēnzhōng de lù.", "fa": "از اینجا تا ایستگاه ده دقیقه راه است.", "en": "It's a ten-minute walk from here to the station."},
+   {"zh": "他儿子有桌子这么高了。", "py": "Tā érzi yǒu zhuōzi zhème gāo le.", "fa": "قد پسرش به اندازهٔ میز شده است.", "en": "His son is already as tall as the table."}
+  ]},
+ {"id": "hsk3-g0130", "std": "hsk3", "level": 2, "no": 130,
+  "pattern": "مکان + فعل + 着 (+ عدد + واحد شمارش) + اسم",
+  "title": {"fa": "گفتن اینکه در جایی چیزی هست و در چه حالتی: مکان + فعل + 着", "en": "Saying what is somewhere and in what state: place + verb + 着"},
+  "body": "این جمله با مکان شروع می‌شود و می‌گوید در آنجا چیزی یا کسی به چه حالتی قرار دارد (نشسته، ایستاده، نوشته‌شده…).\nپیش از مکان 在 نمی‌آید و چیزی که وجود دارد در پایان جمله می‌نشیند و معمولاً نامشخص است (یک…، دو…).\nدر فارسی می‌گوییم «دمِ در دو نفر ایستاده‌اند»؛ در چینی فعل قبل از آن دو نفر می‌آید: 门口站着两个人.",
+  "examples": [
+   {"zh": "门口站着两个人。", "py": "Ménkǒu zhànzhe liǎng ge rén.", "fa": "دمِ در دو نفر ایستاده‌اند.", "en": "Two people are standing at the door."},
+   {"zh": "本子上写着他的名字。", "py": "Běnzi shang xiězhe tā de míngzi.", "fa": "روی دفتر اسم او نوشته شده است.", "en": "His name is written on the notebook."},
+   {"zh": "床上睡着一只小猫。", "py": "Chuáng shang shuìzhe yì zhī xiǎo māo.", "fa": "روی تخت یک بچه‌گربه خوابیده است.", "en": "A kitten is sleeping on the bed."}
+  ]},
+ {"id": "hsk3-g0131", "std": "hsk3", "level": 2, "no": 131,
+  "pattern": "الف + 比 + ب + صفت",
+  "title": {"fa": "مقایسه: «الف از ب …تر است» با 比", "en": "Comparing: \"A is more … than B\" with 比"},
+  "body": "«比» مثل «از» در مقایسهٔ فارسی است، ولی صفت در پایان می‌آید و هیچ نشانه‌ای مثل «ـ‌تر» نمی‌گیرد.\nپیش از صفت 很 یا 非常 نمی‌آید؛ «他比我很高» غلط است.\nبرای منفی معمولاً 没有 به کار می‌رود: 我没有他高 (من به بلندی او نیستم).",
+  "examples": [
+   {"zh": "今天比昨天冷。", "py": "Jīntiān bǐ zuótiān lěng.", "fa": "امروز از دیروز سردتر است.", "en": "Today is colder than yesterday."},
+   {"zh": "哥哥比我高。", "py": "Gēge bǐ wǒ gāo.", "fa": "برادر بزرگم از من بلندتر است.", "en": "My older brother is taller than me."},
+   {"zh": "坐地铁比坐公交车快。", "py": "Zuò dìtiě bǐ zuò gōngjiāochē kuài.", "fa": "مترو از اتوبوس سریع‌تر است.", "en": "Taking the subway is faster than taking the bus."}
+  ]},
+ {"id": "hsk3-g0132", "std": "hsk3", "level": 2, "no": 132,
+  "pattern": "الف + 比 + ب + صفت + مقدار / 一点儿 / 得多 / 多了",
+  "title": {"fa": "مقایسه با گفتن مقدار تفاوت: 比……大两岁 / 贵得多", "en": "Comparing and saying by how much: 比 … + adjective + amount/degree"},
+  "body": "برای گفتن اینکه تفاوت چقدر است، مقدار را بعد از صفت می‌آوریم: 大两岁 (دو سال بزرگ‌تر).\nاگر تفاوت کم باشد 一点儿 و اگر زیاد باشد 得多 یا 多了 می‌آید.\nدر فارسی مقدار پیش از صفت می‌آید («دو سال بزرگ‌تر»)، ولی در چینی همیشه بعد از صفت است.",
+  "examples": [
+   {"zh": "姐姐比我大两岁。", "py": "Jiějie bǐ wǒ dà liǎng suì.", "fa": "خواهر بزرگم دو سال از من بزرگ‌تر است.", "en": "My older sister is two years older than me."},
+   {"zh": "这个手机比那个贵一点儿。", "py": "Zhège shǒujī bǐ nàge guì yìdiǎnr.", "fa": "این گوشی کمی از آن یکی گران‌تر است.", "en": "This phone is a little more expensive than that one."},
+   {"zh": "今天比昨天热得多。", "py": "Jīntiān bǐ zuótiān rè de duō.", "fa": "امروز خیلی از دیروز گرم‌تر است.", "en": "Today is much hotter than yesterday."}
+  ]},
+ {"id": "hsk3-g0133", "std": "hsk3", "level": 2, "no": 133,
+  "pattern": "الف + 有 / 没有 + ب (+ 这么 / 那么) + صفت",
+  "title": {"fa": "مقایسه: «به اندازهٔ ب هست / نیست» با 有 و 没有", "en": "Comparing: \"as … as\" / \"not as … as\" with 有 / 没有"},
+  "body": "«الف 没有 ب + صفت» یعنی الف به اندازهٔ ب آن ویژگی را ندارد؛ این رایج‌ترین شکل منفیِ جملهٔ 比 است.\nشکل مثبت با 有 بیشتر در پرسش به کار می‌رود: 你有他高吗؟\nمی‌توان پیش از صفت 这么 (برای چیز نزدیک) یا 那么 (برای چیز دور) آورد، به معنی «این‌قدر / آن‌قدر».",
+  "examples": [
+   {"zh": "我没有哥哥那么高。", "py": "Wǒ méiyǒu gēge nàme gāo.", "fa": "من به بلندی برادر بزرگم نیستم.", "en": "I'm not as tall as my older brother."},
+   {"zh": "今天没有昨天冷。", "py": "Jīntiān méiyǒu zuótiān lěng.", "fa": "امروز به سردی دیروز نیست.", "en": "Today isn't as cold as yesterday."},
+   {"zh": "你的房间有我的这么大吗？", "py": "Nǐ de fángjiān yǒu wǒ de zhème dà ma?", "fa": "اتاق تو به بزرگی اتاق من هست؟", "en": "Is your room as big as mine?"}
+  ]},
+ {"id": "hsk3-g0134", "std": "hsk3", "level": 2, "no": 134,
+  "pattern": "الف + 比 + ب + فعل + 得 + صفت / الف + فعل + 得 + 比 + ب + صفت",
+  "title": {"fa": "مقایسهٔ چگونگیِ انجام کار: 比 همراه با 得", "en": "Comparing how well an action is done: 比 with 得"},
+  "body": "وقتی نه خودِ دو نفر، بلکه شیوهٔ انجام کارشان را مقایسه می‌کنیم، 比 را با «فعل + 得 + صفت» ترکیب می‌کنیم.\n«比 + ب» می‌تواند پیش از فعل یا بعد از 得 بیاید و معنی یکی است: 他比我跑得快 = 他跑得比我快.\nاگر فعل مفعول دارد، مفعول را پیش از فعل می‌گوییم: 她汉字写得比我好.",
+  "examples": [
+   {"zh": "他比我跑得快。", "py": "Tā bǐ wǒ pǎo de kuài.", "fa": "او از من تندتر می‌دود.", "en": "He runs faster than me."},
+   {"zh": "妹妹起得比我早。", "py": "Mèimei qǐ de bǐ wǒ zǎo.", "fa": "خواهر کوچکم از من زودتر بیدار می‌شود.", "en": "My younger sister gets up earlier than me."},
+   {"zh": "她汉字写得比我好。", "py": "Tā Hànzì xiě de bǐ wǒ hǎo.", "fa": "او خط چینی را بهتر از من می‌نویسد.", "en": "She writes Chinese characters better than I do."}
+  ]},
+ {"id": "hsk3-g0135", "std": "hsk3", "level": 2, "no": 135,
+  "pattern": "فاعل + 是 + زمان / مکان / شیوه / انجام‌دهنده + فعل + 的",
+  "title": {"fa": "تأکید بر کِی، کجا، چطور یا چه کسی: 是……的", "en": "Emphasising when, where, how or who: 是……的"},
+  "body": "وقتی می‌دانیم کاری انجام شده و فقط می‌خواهیم بگوییم یا بپرسیم کِی، کجا، چطور یا به دست چه کسی، از 是……的 استفاده می‌کنیم.\nبخشی که بر آن تأکید داریم درست بعد از 是 می‌آید و 的 در پایان جمله می‌نشیند؛ در این جمله 了 نمی‌آید.\nمنفی با 不是 ساخته می‌شود: 我不是昨天来的.",
+  "examples": [
+   {"zh": "我是昨天来的。", "py": "Wǒ shì zuótiān lái de.", "fa": "من دیروز آمدم.", "en": "It was yesterday that I came."},
+   {"zh": "他是坐飞机去的。", "py": "Tā shì zuò fēijī qù de.", "fa": "او با هواپیما رفت.", "en": "He went by plane."},
+   {"zh": "这些饺子是妈妈做的。", "py": "Zhèxiē jiǎozi shì māma zuò de.", "fa": "این جیائوزی‌ها را مامان درست کرده است.", "en": "It was Mum who made these dumplings."}
+  ]},
+ {"id": "hsk3-g0136", "std": "hsk3", "level": 2, "no": 136,
+  "pattern": "فاعل + 请 / 叫 / 让 + شخص + فعل (+ مفعول)",
+  "title": {"fa": "کسی را به کاری واداشتن یا دعوت کردن: 请، 叫، 让", "en": "Getting someone to do something: 请, 叫, 让"},
+  "body": "در این جمله شخصِ وسط هم مفعولِ فعل اول است و هم انجام‌دهندهٔ فعل دوم.\n«请» مؤدبانه است (خواهش یا دعوت کردن)، «叫» یعنی به کسی گفتن که کاری بکند، و «让» یعنی گفتن یا اجازه دادن.\nدر فارسی «که» و فعل التزامی می‌آوریم («گفت که بروم»)، ولی در چینی فعل دوم بدون هیچ تغییری پشت سر شخص می‌آید. منفی پیش از فعل اول است: 不让.",
+  "examples": [
+   {"zh": "老师让我们写汉字。", "py": "Lǎoshī ràng wǒmen xiě Hànzì.", "fa": "معلم از ما خواست خط چینی بنویسیم.", "en": "The teacher had us write Chinese characters."},
+   {"zh": "妈妈叫我去买牛奶。", "py": "Māma jiào wǒ qù mǎi niúnǎi.", "fa": "مامان به من گفت بروم شیر بخرم.", "en": "Mum told me to go and buy milk."},
+   {"zh": "我想请你喝咖啡。", "py": "Wǒ xiǎng qǐng nǐ hē kāfēi.", "fa": "می‌خواهم تو را به قهوه دعوت کنم.", "en": "I'd like to treat you to a coffee."}
+  ]},
+ {"id": "hsk3-g0137", "std": "hsk3", "level": 2, "no": 137,
+  "pattern": "فاعل + فعل + 给 + گیرنده + چیز",
+  "title": {"fa": "دادن چیزی به کسی: فعل + 给 با دو مفعول", "en": "Giving something to someone: verb + 给 with two objects"},
+  "body": "وقتی 给 به فعل‌هایی مثل 送 و 卖 می‌چسبد، نشان می‌دهد چیز به دست چه کسی می‌رسد.\nترتیب ثابت است: اول گیرنده، بعد چیز. برای گیرنده حرف اضافه‌ای مثل «به» و برای چیز نشانه‌ای مثل «را» لازم نیست.\nچیزی که داده می‌شود معمولاً با عدد و واحد شمارش می‌آید: 一本书.",
+  "examples": [
+   {"zh": "我送给她一本书。", "py": "Wǒ sòng gěi tā yì běn shū.", "fa": "من یک کتاب به او هدیه دادم.", "en": "I gave her a book as a present."},
+   {"zh": "朋友送给我一只小狗。", "py": "Péngyou sòng gěi wǒ yì zhī xiǎo gǒu.", "fa": "دوستم یک توله‌سگ به من هدیه داد.", "en": "A friend gave me a puppy."},
+   {"zh": "他卖给我一个手机。", "py": "Tā mài gěi wǒ yí ge shǒujī.", "fa": "او یک گوشی به من فروخت.", "en": "He sold me a phone."}
+  ]},
+ {"id": "hsk3-g0138", "std": "hsk3", "level": 2, "no": 138,
+  "pattern": "(是) + جملهٔ اول，还是 + جملهٔ دوم？",
+  "title": {"fa": "انتخاب بین دو جمله: (是)……，还是……", "en": "Choosing between two clauses: (是)……，还是……"},
+  "body": "وقتی دو گزینه هر کدام یک جملهٔ کامل‌اند، آن‌ها را با 还是 به هم وصل می‌کنیم و می‌توان پیش از گزینهٔ اول 是 هم آورد.\nاین 是 اختیاری است و فقط دو گزینه را روشن‌تر از هم جدا می‌کند.\nدر پایان 吗 نمی‌آید. 还是 فقط برای پرسش است، نه برای «یا» در جملهٔ خبری.",
+  "examples": [
+   {"zh": "你是今天去，还是明天去？", "py": "Nǐ shì jīntiān qù, háishi míngtiān qù?", "fa": "امروز می‌روی یا فردا؟", "en": "Are you going today, or tomorrow?"},
+   {"zh": "我们是坐地铁，还是打车？", "py": "Wǒmen shì zuò dìtiě, háishi dǎchē?", "fa": "با مترو برویم یا تاکسی بگیریم؟", "en": "Shall we take the subway, or get a taxi?"},
+   {"zh": "是你来我家，还是我去你家？", "py": "Shì nǐ lái wǒ jiā, háishi wǒ qù nǐ jiā?", "fa": "تو می‌آیی خانهٔ من یا من بیایم خانهٔ تو؟", "en": "Will you come to my place, or shall I go to yours?"}
+  ]},
+ {"id": "hsk3-g0139", "std": "hsk3", "level": 2, "no": 139,
+  "pattern": "虽然 + جملهٔ اول，但是 + جملهٔ دوم",
+  "title": {"fa": "«با اینکه… ولی…»: 虽然……，但是……", "en": "\"Although … (but) …\": 虽然……，但是……"},
+  "body": "«虽然» چیزی را می‌پذیرد و «但是» نتیجه‌ای برخلاف انتظار می‌آورد.\nدر چینی هر دو با هم می‌آیند، مثل «اگرچه… اما…» در فارسی؛ 但是 را حذف نکنید.\n«虽然» می‌تواند پیش یا پس از فاعل بیاید، ولی 但是 همیشه در آغاز جملهٔ دوم است.",
+  "examples": [
+   {"zh": "虽然下雨，但是他还是来了。", "py": "Suīrán xiàyǔ, dànshì tā háishi lái le.", "fa": "با اینکه باران می‌آمد، او باز هم آمد.", "en": "Although it was raining, he still came."},
+   {"zh": "这件衣服虽然很贵，但是很好看。", "py": "Zhè jiàn yīfu suīrán hěn guì, dànshì hěn hǎokàn.", "fa": "این لباس با اینکه گران است، خیلی قشنگ است.", "en": "Although this piece of clothing is expensive, it looks great."}
+  ]},
+ {"id": "hsk3-g0140", "std": "hsk3", "level": 2, "no": 140,
+  "pattern": "因为 + علت，所以 + نتیجه",
+  "title": {"fa": "علت و نتیجه: 因为……，所以……", "en": "Cause and result: 因为……，所以……"},
+  "body": "«因为» علت را می‌آورد و «所以» نتیجه را.\nدر فارسی معمولاً فقط یکی را می‌گوییم («چون…» یا «برای همین…»)، ولی در چینی آمدن هر دو با هم کاملاً طبیعی است.\nترتیب معمول این است که اول علت بیاید و بعد نتیجه.",
+  "examples": [
+   {"zh": "因为下雨，所以我们没出去。", "py": "Yīnwèi xiàyǔ, suǒyǐ wǒmen méi chūqu.", "fa": "چون باران می‌آمد، بیرون نرفتیم.", "en": "Because it was raining, we didn't go out."},
+   {"zh": "因为他生病了，所以今天没来上课。", "py": "Yīnwèi tā shēngbìng le, suǒyǐ jīntiān méi lái shàngkè.", "fa": "چون مریض شده بود، امروز سر کلاس نیامد.", "en": "Because he was ill, he didn't come to class today."}
+  ]},
+ {"id": "hsk3-g0141", "std": "hsk3", "level": 2, "no": 141,
+  "pattern": "一 + فعل اول + 就 + فعل دوم",
+  "title": {"fa": "«همین که… فوراً…»: 一……就……", "en": "\"As soon as … then …\": 一……就……"},
+  "body": "این ساختار می‌گوید کار دوم بلافاصله بعد از کار اول انجام می‌شود، یا هر بار که اولی پیش بیاید دومی هم پیش می‌آید.\n«一» و «就» هر دو پیش از فعل و بعد از فاعل می‌آیند.\nاگر فاعل دو بخش فرق دارد، فاعل دوم پیش از 就 می‌آید: 我一叫，他就来了.",
+  "examples": [
+   {"zh": "我一下课就回家。", "py": "Wǒ yí xiàkè jiù huí jiā.", "fa": "همین که کلاس تمام شود به خانه برمی‌گردم.", "en": "I go home as soon as class is over."},
+   {"zh": "他一到家就睡觉了。", "py": "Tā yí dào jiā jiù shuìjiào le.", "fa": "او تا به خانه رسید خوابید.", "en": "He went to sleep as soon as he got home."},
+   {"zh": "我一喝咖啡就睡不好。", "py": "Wǒ yì hē kāfēi jiù shuì bu hǎo.", "fa": "من هر وقت قهوه می‌خورم بد می‌خوابم.", "en": "Whenever I drink coffee, I sleep badly."}
+  ]},
+ {"id": "hsk3-g0142", "std": "hsk3", "level": 2, "no": 142,
+  "pattern": "فعل + 着 (+ مفعول)",
+  "title": {"fa": "ادامه داشتنِ یک حالت: فعل + 着", "en": "A state that continues: verb + 着"},
+  "body": "«着» بعد از فعل نشان می‌دهد حالتی که از یک کار به وجود آمده هنوز برقرار است: در باز است، لباس بر تن است، کسی نشسته است.\nدر فارسی این را معمولاً با «ـه است» می‌گوییم (باز است، پوشیده است، نشسته است).\nمنفی با 没 ساخته می‌شود و 着 می‌ماند: 门没开着.",
+  "examples": [
+   {"zh": "门开着。", "py": "Mén kāizhe.", "fa": "در باز است.", "en": "The door is open."},
+   {"zh": "她穿着一件红色的衣服。", "py": "Tā chuānzhe yí jiàn hóngsè de yīfu.", "fa": "او یک لباس قرمز پوشیده است.", "en": "She is wearing a red top."},
+   {"zh": "爷爷在椅子上坐着。", "py": "Yéye zài yǐzi shang zuòzhe.", "fa": "پدربزرگ روی صندلی نشسته است.", "en": "Grandpa is sitting on the chair."}
+  ]},
+ {"id": "hsk3-g0143", "std": "hsk3", "level": 2, "no": 143,
+  "pattern": "(正) + فعل + 着 (+ مفعول) (+ 呢)",
+  "title": {"fa": "ادامه داشتنِ خودِ کار: فعل + 着", "en": "An action that is going on: verb + 着"},
+  "body": "«着» می‌تواند نشان دهد خودِ کار در جریان است و هنوز تمام نشده، مثل «دارد… می‌کند» در فارسی.\nاغلب با 正 یا 正在 پیش از فعل و 呢 در پایان جمله همراه می‌شود.\nفرقش با 在 این است که 着 بیشتر صحنه را توصیف می‌کند، نه اینکه فقط بگوید کسی مشغول چه کاری است.",
+  "examples": [
+   {"zh": "外面下着雨。", "py": "Wàimiàn xiàzhe yǔ.", "fa": "بیرون دارد باران می‌آید.", "en": "It is raining outside."},
+   {"zh": "他们正说着话呢。", "py": "Tāmen zhèng shuōzhe huà ne.", "fa": "آن‌ها دارند حرف می‌زنند.", "en": "They are talking right now."},
+   {"zh": "大家都等着你呢。", "py": "Dàjiā dōu děngzhe nǐ ne.", "fa": "همه منتظر تو هستند.", "en": "Everyone is waiting for you."}
+  ]},
+ {"id": "hsk3-g0144", "std": "hsk3", "level": 2, "no": 144,
+  "pattern": "فعل + 过 (+ مفعول) / 没(有) + فعل + 过",
+  "title": {"fa": "تجربهٔ گذشته: «تا حالا… کرده‌ام» با 过", "en": "Past experience: \"have (ever) done\" with 过"},
+  "body": "«过» بعد از فعل یعنی این کار دست‌کم یک بار در گذشته تجربه شده است، مثل «تا حالا رفته‌ام».\nفرقش با 了 این است که 了 می‌گوید کاری انجام شد، ولی 过 می‌گوید این تجربه را دارم.\nمنفی با 没(有) است و 过 می‌ماند: 没去过. پرسش با 吗 یا 没有 در پایان جمله ساخته می‌شود.",
+  "examples": [
+   {"zh": "我去过中国。", "py": "Wǒ qùguo Zhōngguó.", "fa": "من به چین رفته‌ام.", "en": "I have been to China."},
+   {"zh": "我没吃过饺子。", "py": "Wǒ méi chīguo jiǎozi.", "fa": "من تا حالا جیائوزی نخورده‌ام.", "en": "I have never eaten dumplings."},
+   {"zh": "你看过这个电影吗？", "py": "Nǐ kànguo zhège diànyǐng ma?", "fa": "این فیلم را دیده‌ای؟", "en": "Have you seen this film?"}
+  ]},
+ {"id": "hsk3-g0145", "std": "hsk3", "level": 2, "no": 145,
+  "pattern": "عدد + واحد شمارش (بدون 第)",
+  "title": {"fa": "شمارهٔ ترتیبی بدون 第: 三楼، 二班، 五号", "en": "Ordinal numbers without 第: 三楼, 二班, 五号"},
+  "body": "برای طبقه، کلاس، تاریخ و شماره‌ها، عدد به‌تنهایی معنی «چندم» می‌دهد و 第 لازم نیست: 三楼 یعنی «طبقهٔ سوم»، نه «سه طبقه».\nدر فارسی می‌گوییم «طبقهٔ سوم» و عدد بعد از اسم می‌آید؛ در چینی عدد اول می‌آید.\nدر این کاربرد «دو» همیشه 二 است، نه 两: 二楼، 二班.",
+  "examples": [
+   {"zh": "我家住三楼。", "py": "Wǒ jiā zhù sān lóu.", "fa": "خانهٔ ما در طبقهٔ سوم است.", "en": "My family lives on the third floor."},
+   {"zh": "弟弟在二班，我在五班。", "py": "Dìdi zài èr bān, wǒ zài wǔ bān.", "fa": "برادر کوچکم در کلاس دو است و من در کلاس پنج.", "en": "My younger brother is in Class Two, and I'm in Class Five."},
+   {"zh": "今天是六月八号。", "py": "Jīntiān shì liù yuè bā hào.", "fa": "امروز هشتم ژوئن است.", "en": "Today is the eighth of June."}
+  ]},
+ {"id": "hsk3-g0146", "std": "hsk3", "level": 2, "no": 146,
+  "pattern": "几 + واحد شمارش + اسم / 十几 / 几十",
+  "title": {"fa": "عدد تقریبی: «چند تا» با 几", "en": "Approximate numbers: \"a few, several\" with 几"},
+  "body": "«几» فقط کلمهٔ پرسشی نیست؛ در جملهٔ خبری یعنی «چند تا»، عددی نامشخص کمتر از ده.\nمثل هر عدد دیگری بعدش واحد شمارش می‌آید: 几本书، 几个人.\nبا 十 هم ترکیب می‌شود: 十几 یعنی «ده و خرده‌ای» (یازده تا نوزده) و 几十 یعنی «چند ده تا».",
+  "examples": [
+   {"zh": "我买了几本书。", "py": "Wǒ mǎi le jǐ běn shū.", "fa": "چند تا کتاب خریدم.", "en": "I bought a few books."},
+   {"zh": "教室里有十几个学生。", "py": "Jiàoshì li yǒu shí jǐ ge xuésheng.", "fa": "در کلاس ده‌دوازده تا دانش‌آموز هستند.", "en": "There are a dozen or so students in the classroom."},
+   {"zh": "这件衣服只要几十块钱。", "py": "Zhè jiàn yīfu zhǐ yào jǐ shí kuài qián.", "fa": "این لباس فقط چند ده یوان است.", "en": "This piece of clothing costs only a few dozen yuan."}
+  ]},
+ {"id": "hsk3-g0147", "std": "hsk3", "level": 2, "no": 147,
+  "pattern": "عدد (十، 百، 千…) + 多 + واحد شمارش + اسم",
+  "title": {"fa": "«بیست و چند تا»: عدد + 多 + واحد شمارش", "en": "\"Twenty-odd\": number + 多 + measure word"},
+  "body": "وقتی عدد به صفر ختم می‌شود (ده، بیست، صد، هزار…)، 多 بلافاصله بعد از عدد و پیش از واحد شمارش می‌آید.\nمعنی‌اش «و خرده‌ای» است: 二十多个 یعنی بیشتر از بیست و کمتر از سی تا.\nدر فارسی می‌گوییم «بیست و چند نفر»؛ جای 多 در چینی همان جای «و چند» است.",
+  "examples": [
+   {"zh": "我们班有二十多个学生。", "py": "Wǒmen bān yǒu èrshí duō ge xuésheng.", "fa": "کلاس ما بیست و چند دانش‌آموز دارد.", "en": "Our class has twenty-odd students."},
+   {"zh": "这个手机三千多块钱。", "py": "Zhège shǒujī sānqiān duō kuài qián.", "fa": "این گوشی سه هزار و خرده‌ای یوان است.", "en": "This phone costs over three thousand yuan."},
+   {"zh": "他在这儿住了十多年。", "py": "Tā zài zhèr zhù le shí duō nián.", "fa": "او ده و چند سال اینجا زندگی کرد.", "en": "He lived here for more than ten years."}
+  ]},
+ {"id": "hsk3-g0148", "std": "hsk3", "level": 2, "no": 148,
+  "pattern": "عدد (۱ تا ۹) + واحد شمارش + 多 (+ اسم)",
+  "title": {"fa": "«سه یوان و خرده‌ای»: عدد + واحد شمارش + 多", "en": "\"Three and a bit\": number + measure word + 多"},
+  "body": "وقتی عدد به یک تا نه ختم می‌شود، 多 بعد از واحد شمارش می‌آید و یعنی «و کمی بیشتر»، ولی نه به اندازهٔ یک واحد کامل.\n一个多小时 یعنی بیشتر از یک ساعت و کمتر از دو ساعت.\nجای 多 را با درس قبل اشتباه نکنید: 十多块 یعنی یازده تا نوزده یوان، ولی 三块多 یعنی سه یوان و چند دهم.",
+  "examples": [
+   {"zh": "我等了一个多小时。", "py": "Wǒ děng le yí ge duō xiǎoshí.", "fa": "من یک ساعت و خرده‌ای منتظر ماندم.", "en": "I waited for over an hour."},
+   {"zh": "这个面包三块多钱。", "py": "Zhège miànbāo sān kuài duō qián.", "fa": "این نان سه یوان و خرده‌ای است.", "en": "This bread costs a bit over three yuan."},
+   {"zh": "他学了两年多汉语。", "py": "Tā xué le liǎng nián duō Hànyǔ.", "fa": "او دو سال و خرده‌ای چینی خوانده است.", "en": "He has studied Chinese for over two years."}
+  ]}
+]
