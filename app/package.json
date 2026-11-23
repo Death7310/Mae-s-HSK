@@ -8,9 +8,12 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:native": "tsc --noEmit && NATIVE=1 vite build",
+    "e2e": "node tests/e2e/smoke.mjs"
   },
   "dependencies": {
+    "@capacitor/core": "^8.6.2",
     "@fontsource-variable/vazirmatn": "^5.3.0",
     "@preact/signals": "^2.11.4",
     "hanzi-writer": "^3.7.3",
@@ -19,6 +22,8 @@
     "ts-fsrs": "^5.4.2"
   },
   "devDependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/cli": "^8.6.2",
     "@preact/preset-vite": "^2.10.6",
     "fake-indexeddb": "^6.2.8",
     "hanzi-writer-data": "^2.0.1",

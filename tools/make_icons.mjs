@@ -40,5 +40,27 @@ await png('icon-192.png', 192, { pad: 150, radius: 224 });
 await png('icon-512.png', 512, { pad: 150, radius: 224 });
 // Maskable: full-bleed background, glyph inside the central safe zone (80%).
 await png('icon-512-maskable.png', 512, { pad: 230, radius: 0 });
+// Sources for @capacitor/assets (Android launcher icon and splash screen).
+const assets = join(root, 'app/assets');
+mkdirSync(assets, { recursive: true });
+async function raw(name, size, html) {
+  const page = await browser.newPage({ viewport: { width: size, height: size }, deviceScaleFactor: 1 });
+  await page.setContent(`<style>html,body{margin:0;background:transparent}svg{display:block;width:${size}px;height:${size}px}</style>${html}`);
+  await page.screenshot({ path: join(assets, name), omitBackground: true });
+  await page.close();
+}
+const glyph = (pad, fill) => {
+  const scale = (1024 - 2 * pad) / 1024;
+  return `<g transform="translate(${pad} ${pad}) scale(${scale}) scale(1 -1) translate(0 -900)" fill="${fill}">${strokes
+    .map((d) => `<path d="${d}"/>`)
+    .join('')}</g>`;
+};
+const wrap = (inner) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">${inner}</svg>`;
+const red = '<rect width="1024" height="1024" fill="#a4262c"/>';
+await raw('icon-only.png', 1024, wrap(red + glyph(170, '#fff7ec')));
+await raw('icon-foreground.png', 1024, wrap(glyph(280, '#fff7ec')));
+await raw('icon-background.png', 1024, wrap(red));
+await raw('splash.png', 2732, wrap(red + glyph(380, '#fff7ec')));
+await raw('splash-dark.png', 2732, wrap('<rect width="1024" height="1024" fill="#171310"/>' + glyph(380, '#e0655f')));
 await browser.close();
 console.log('icons written to', out);

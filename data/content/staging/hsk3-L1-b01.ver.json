@@ -1,0 +1,68 @@
+[
+ {
+  "id": "他们",
+  "fa": [
+   "آن‌ها"
+  ],
+  "en": [
+   "they",
+   "them"
+  ],
+  "ex": [
+   {
+    "zh": "他们在看电视。",
+    "py": "Tāmen zài kàn diànshì.",
+    "fa": "آن‌ها دارند تلویزیون تماشا می‌کنند.",
+    "en": "They are watching TV."
+   }
+  ],
+  "chg": "fa: removed «ایشان» (in modern Persian a polite singular 'he/she', misleading for plural 他们)"
+ },
+ {
+  "id": "只",
+  "fa": [
+   "واحد شمارش برای پرندگان و برخی حیوانات (تا)"
+  ],
+  "en": [
+   "measure word for animals"
+  ],
+  "note": "با خوانش zhǐ قید است: «فقط».",
+  "ex": [
+   {
+    "zh": "我家有一只猫。",
+    "py": "Wǒ jiā yǒu yì zhī māo.",
+    "fa": "ما در خانه یک گربه داریم.",
+    "en": "My family has a cat."
+   },
+   {
+    "zh": "那两只狗很大。",
+    "py": "Nà liǎng zhī gǒu hěn dà.",
+    "fa": "آن دو تا سگ خیلی بزرگ‌اند.",
+    "en": "Those two dogs are very big."
+   }
+  ],
+  "chg": "fa: removed «رأس» (used for livestock, not for cats/dogs/birds that 只 counts); wording aligned with actual scope"
+ },
+ {
+  "id": "小",
+  "fa": [
+   "کوچک",
+   "کم‌سن (خردسال)",
+   "پیشوند خودمانی پیش از نام (小王)"
+  ],
+  "en": [
+   "small",
+   "young",
+   "familiar prefix before names"
+  ],
+  "ex": [
+   {
+    "zh": "这个苹果很小。",
+    "py": "Zhège píngguǒ hěn xiǎo.",
+    "fa": "این سیب خیلی کوچک است.",
+    "en": "This apple is very small."
+   }
+  ],
+  "chg": "fa/en: official pos includes prefix (h); moved prefix sense from note into glosses so it is covered"
+ }
+]

@@ -11,3 +11,5 @@ data/raw/**/*.bz2
 data/cache/
 app/android/
 app/test-results/
+app/android/
+app/ios/

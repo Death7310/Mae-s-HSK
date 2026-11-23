@@ -1,0 +1,81 @@
+name: Build app
+
+# Builds the offline web app (PWA) and the Android APK.
+# Runs when app code changes, and on demand from the Actions tab
+# (use "Run workflow" after content-only updates).
+on:
+  push:
+    paths:
+      - 'app/src/**'
+      - 'app/package*.json'
+      - 'app/*.ts'
+      - 'app/*.json'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  web:
+    name: Web app (PWA)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mae-hsk-web
+          path: app/dist
+          retention-days: 30
+
+  android:
+    name: Android APK
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - run: npm ci
+      - name: Build web bundle for the app
+        run: npm run build:native
+      - name: Create Android project
+        run: |
+          npx cap add android
+          npx --yes @capacitor/assets generate --android
+          npx cap sync android
+      - name: Set version
+        run: |
+          sed -i "s/versionCode 1$/versionCode ${{ github.run_number }}/" android/app/build.gradle
+          sed -i "s/versionName \"1.0\"/versionName \"0.1.${{ github.run_number }}\"/" android/app/build.gradle
+      - name: Build APK
+        working-directory: app/android
+        run: ./gradlew --no-daemon assembleDebug
+      - name: Rename APK
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk mae-hsk-${{ github.run_number }}.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mae-hsk-android
+          path: app/mae-hsk-*.apk
+          retention-days: 30

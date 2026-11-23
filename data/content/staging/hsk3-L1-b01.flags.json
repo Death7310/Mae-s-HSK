@@ -1,0 +1,18 @@
+[
+ {
+  "id": "个",
+  "issue": "example 2: pinyin letters differ: expected ~zhegerenshishui, got zhegerenshishei"
+ },
+ {
+  "id": "可以",
+  "issue": "example 1: pinyin letters differ: expected ~wokeyizuozheerma, got wokeyizuozherma"
+ },
+ {
+  "id": "下",
+  "issue": "example 1: pinyin letters differ: expected ~womenzaizheerxiache, got womenzaizherxiache"
+ },
+ {
+  "id": "只",
+  "issue": "example 2: tone of 只: expected 3, got 1"
+ }
+]

@@ -1,0 +1,8 @@
+{
+  "appId": "io.github.maehsk",
+  "appName": "Mae's HSK",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false
+  }
+}

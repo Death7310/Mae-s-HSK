@@ -5,11 +5,16 @@ import { VitePWA } from 'vite-plugin-pwa';
 // base './' keeps every URL relative so the same build works on a web host
 // sub-path (GitHub Pages), inside a Capacitor Android APK, and from a USB stick
 // served by any static file server.
+// NATIVE=1 builds the bundle that ships inside the Android app: every asset is
+// already on the device there, so no service worker is generated.
+const native = process.env.NATIVE === '1';
+
 export default defineConfig({
   base: './',
   plugins: [
     preact(),
     VitePWA({
+      disable: native,
       registerType: 'autoUpdate',
       injectRegister: 'auto',
       includeAssets: ['icons/*.png', 'icons/*.svg'],
