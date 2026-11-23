@@ -1,8 +1,7 @@
 name: Build app
 
 # Builds the offline web app (PWA) and the Android APK.
-# Runs when app code changes, and on demand from the Actions tab
-# (use "Run workflow" after content-only updates).
+# Runs when app code or the built data changes, and on demand from the Actions tab.
 on:
   push:
     paths:
@@ -10,6 +9,7 @@ on:
       - 'app/package*.json'
       - 'app/*.ts'
       - 'app/*.json'
+      - 'app/public/data/manifest.json'
       - '.github/workflows/build.yml'
   workflow_dispatch:
 

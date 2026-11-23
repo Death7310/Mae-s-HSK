@@ -16,12 +16,12 @@ keyboard all ship with it.
 | Flashcards | Spaced repetition (FSRS). Chinese → Persian and Persian → Chinese are separate cards with separate schedules; English can be shown alongside. |
 | Word list | Every word of the level; search by characters, pinyin, Persian or English. |
 | Word page | Recording, pinyin, Persian and English meaning, part of speech, usage note, example sentence, stroke-order animation and tracing practice. |
-| Quiz | Meaning, word, listening and typing rounds. |
+| Quiz | Meaning, word, listening, typing and sentence-building rounds. |
 | Handwriting | The official per-level handwriting and recognition character lists with stroke-by-stroke practice. |
 | Dialogues | Scripted conversations with audio; in role-play the learner types the Chinese line and is checked against accepted answers. |
 | Pinyin keyboard | Built in: type `nihao`, pick 你好. No Chinese keyboard needed on the device. |
 | Dictionary / phrase finder | Persian ⇄ Chinese lookup, word-by-word breakdown of Chinese sentences, example-sentence search. |
-| Grammar | Per-level patterns with Persian explanations (content in progress). |
+| Grammar | The official grammar points of the level explained in Persian for Persian speakers, with examples. |
 | Backup | Export / import of all progress as a file. |
 
 ## Which HSK?
@@ -41,13 +41,24 @@ A word that is in both standards is one entry with one review history.
 
 Run `python3 tools/content_status.py` for the current numbers.
 
-- **Word lists, official pinyin, parts of speech**: complete for both standards.
-- **Audio**: human recordings for about 82% of the 7,220 entries; the rest use
-  the device's own Mandarin voice when one is installed.
-- **Persian glosses, notes and example sentences**: authored level by level and
-  independently reviewed (see *How the Persian content is made*). Words not yet
-  authored show their English gloss instead.
-- **Dialogues**: ten per level for levels 1–4.
+| | New HSK 1 | 2 | 3 | 4 | 5 | 6 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Words (official list, pinyin, part of speech) | 300 | 200 | 500 | 1,000 | 1,600 | 1,800 |
+| Persian meaning, note, example sentence | all, reviewed | all, reviewed | all, reviewed | all, reviewed | not yet | not yet |
+| Human recording | 278 | 175 | 455 | 836 | 1,355 | 1,374 |
+| Dialogues (reviewed) | 10 | 10 | 10 | 10 | – | – |
+| Grammar lessons (reviewed) | 70 | 78 | not yet | not yet | – | – |
+
+- Levels 1-2 were written by the stronger model (about 5% of entries corrected in
+  review); levels 3-4 by a cheaper model (about 22% corrected in review, some of
+  them real sense errors). The review pass fixed what it found, but levels 3-4
+  should get a second review pass and are where a native proofread matters most.
+- Words not yet authored (levels 5-6, and the 1,820 words that exist only in old
+  HSK 2.0) show their English gloss instead of Persian.
+- Old HSK levels 1-4 are almost fully covered by the work above, because nearly
+  all of their words are also in new HSK levels 1-4.
+- Words without a human recording use the device's own Mandarin voice when one
+  is installed.
 
 ### How the Persian content is made
 

@@ -143,8 +143,12 @@ try {
   await page.getByRole('button', { name: 'ارسال' }).click();
   await page.locator('.bubble.me').first().waitFor();
   await snap('dialogue-roleplay');
+  // --- grammar: open the first lesson and see its examples ---
   await page.goto(`${BASE}#/grammar`);
   await page.getByRole('heading', { name: /دستور زبان/ }).waitFor();
+  await page.locator('.gram-pattern').first().click();
+  await page.locator('.example').first().waitFor();
+  await snap('grammar');
 
   // --- settings: switch UI to English and back ---
   await page.goto(`${BASE}#/settings`);
