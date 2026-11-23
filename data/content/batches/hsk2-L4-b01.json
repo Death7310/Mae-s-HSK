@@ -1,0 +1,18 @@
+{"batch":"hsk2-L4-b01","std":"hsk2","level":4,"words":[
+{"id":"抽烟","s":"抽烟","p":"chōuyān","pos":["v"],"en2":"to smoke (a cigarette, pipe, etc.)","cedict":[{"p":"chōu yān","en":["to smoke (a cigarette, tobacco)"]}]},
+{"id":"高速公路","s":"高速公路","p":"gāosù gōnglù","pos":["n"],"en2":"highway","cedict":[{"p":"gāo sù gōng lù","en":["expressway; highway; freeway"]}]},
+{"id":"付款","s":"付款","p":"fù kuǎn","pos":["v"],"en2":"to pay","cedict":[{"p":"fù kuǎn","en":["to pay a sum of money","payment"]}]},
+{"id":"长城","s":"长城","p":"chángchéng","pos":[],"en2":"the Great Wall","cedict":[{"p":"Cháng chéng","en":["the Great Wall"]}]},
+{"id":"大使馆","s":"大使馆","p":"dàshǐguǎn","pos":["n"],"en2":"embassy","cedict":[{"p":"dà shǐ guǎn","en":["embassy"],"cl":["座","个"]}]},
+{"id":"垃圾桶","s":"垃圾桶","p":"lājītǒng","pos":["n"],"en2":"garbage can","cedict":[{"p":"lā jī tǒng","en":["rubbish bin","trash can","garbage can","Taiwan pr. [lè sè tǒng]"]}]},
+{"id":"塑料袋","s":"塑料袋","p":"sùliàodài","pos":["n"],"en2":"plastic bag","cedict":[{"p":"sù liào dài","en":["plastic bag"]}]},
+{"id":"售货员","s":"售货员","p":"shòuhuòyuán","pos":["n"],"en2":"salesclerk; shop assistant","cedict":[{"p":"shòu huò yuán","en":["salesperson"],"cl":["个"]}]},
+{"id":"长江","s":"长江","p":"Chángjiāng","pos":[],"en2":"the Yangtze River; the Changjiang River","cedict":[{"p":"Cháng Jiāng","en":["Yangtze River, or Chang Jiang"]}]},
+{"id":"登机牌","s":"登机牌","p":"dēngjīpái","pos":["n"],"en2":"boarding pass","cedict":[{"p":"dēng jī pái","en":["boarding pass"]}]},
+{"id":"烤鸭","s":"烤鸭","p":"kǎoyā","pos":["n"],"en2":"roast duck","cedict":[{"p":"kǎo yā","en":["roast duck"]}]},
+{"id":"礼拜天","s":"礼拜天","p":"lǐbàitiān","pos":[],"en2":"Sunday","cedict":[{"p":"Lǐ bài tiān","en":["Sunday"]}]},
+{"id":"填空","s":"填空","p":"tiánkòng","pos":["v"],"en2":"fill in the blanks; fill a vacancy","cedict":[{"p":"tián kòng","en":["to fill a job vacancy","to fill in a blank (e.g. on questionnaire or exam paper)"]}]},
+{"id":"放暑假","s":"放暑假","p":"fàng shǔjià","pos":[],"en2":"have summer vacation","cedict":[{"p":"fàng shǔ jià","en":["to be on summer vacation"]}]},
+{"id":"弹钢琴","s":"弹钢琴","p":"tán gāngqín","pos":[],"en2":"play the piano","cedict":[]},
+{"id":"百分之","s":"百分之","p":"bǎifēnzhī","pos":[],"en2":"percent","cedict":[]}
+]}

@@ -1,0 +1,16 @@
+{"batch":"hsk2-L3-b01","std":"hsk2","level":3,"words":[
+{"id":"绿","s":"绿","p":"lǜ","pos":["a"],"en2":"green","cedict":[{"p":"lǜ","en":["green","(slang) (derived from 绿帽子) to cheat on (one's spouse or boyfriend or girlfriend)"]}]},
+{"id":"聊天","s":"聊天","p":"liáotiān","pos":["v"],"en2":"to chat","cedict":[{"p":"liáo tiān","en":["to chat","to gossip"]}]},
+{"id":"夏","s":"夏","p":"xià","pos":[],"en2":"summer","cedict":[{"p":"Xià","en":["the Xia or Hsia dynasty c. 2000 BC","Xia of the Sixteen Kingdoms (407-432)","surname Xia"]},{"p":"xià","en":["summer"]}]},
+{"id":"春","s":"春","p":"chūn","pos":[],"en2":"spring (season); joyful","cedict":[{"p":"chūn","en":["old variant of 春"]},{"p":"Chūn","en":["surname Chun"]},{"p":"chūn","en":["spring (season)","gay","joyful","youthful","love","lust"]}]},
+{"id":"冬","s":"冬","p":"dōng","pos":[],"en2":"winter","cedict":[{"p":"dōng","en":["winter"]},{"p":"Dōng","en":["surname Dong"]},{"p":"dōng","en":["(onom.) beating a drum","rat-a-tat"]}]},
+{"id":"秋","s":"秋","p":"qiū","pos":[],"en2":"autumn; fall; harvest time","cedict":[{"p":"Qiū","en":["surname Qiu"]},{"p":"qiū","en":["autumn","fall","harvest time"]},{"p":"qiū","en":["old variant of 秋"]},{"p":"qiū","en":["see 秋千"]}]},
+{"id":"熊猫","s":"熊猫","p":"xióngmāo","pos":["n"],"en2":"panda","cedict":[{"p":"xióng māo","en":["panda"],"cl":["只"]}]},
+{"id":"电子邮件","s":"电子邮件","p":"diànzǐ yóujiàn","pos":[],"en2":"email","cedict":[{"p":"diàn zǐ yóu jiàn","en":["email"],"cl":["封","份"]}]},
+{"id":"刷牙","s":"刷牙","p":"shuāyá","pos":["v"],"en2":"brush one's teeth","cedict":[{"p":"shuā yá","en":["to brush one's teeth"]}]},
+{"id":"照相机","s":"照相机","p":"zhàoxiàngjī","pos":["n"],"en2":"camera","cedict":[{"p":"zhào xiàng jī","en":["camera"],"cl":["个","架","部","台","只"]}]},
+{"id":"爬山","s":"爬山","p":"páshān","pos":["v"],"en2":"mountain climbing","cedict":[{"p":"pá shān","en":["to climb a mountain","to mountaineer","hiking","mountaineering"]}]},
+{"id":"行李箱","s":"行李箱","p":"xínglǐxiāng","pos":["n"],"en2":"trunk; suitcase","cedict":[{"p":"xíng li xiāng","en":["suitcase","baggage compartment","overhead bin","(car) trunk","boot"]}]},
+{"id":"刮风","s":"刮风","p":"guāfēng","pos":["v"],"en2":"windy; to blow (wind)","cedict":[{"p":"guā fēng","en":["to be windy"]}]},
+{"id":"黄河","s":"黄河","p":"huánghé","pos":[],"en2":"Yellow River","cedict":[]}
+]}

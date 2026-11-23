@@ -1,9 +1,27 @@
 [
   {
+    "name": "HSK 3.0 syllabus lists (ofou/hsk)",
+    "what": "Word, character and handwriting lists of the 2025 HSK exam syllabus with official pinyin and parts of speech",
+    "license": "MIT © Shawky (data mirror); syllabus © Center for Language Education and Cooperation",
+    "url": "https://github.com/ofou/hsk"
+  },
+  {
+    "name": "HSK 2.0 lists (hskhsk.com)",
+    "what": "HSK 2.0 word lists, 2012 revision",
+    "license": "MIT © Alan Davies",
+    "url": "https://github.com/glxxyz/hskhsk.com"
+  },
+  {
     "name": "complete-hsk-vocabulary",
-    "what": "HSK word lists for the 2.0, 3.0 (2021) and 3.0 (2025 syllabus) standards, with frequency and part-of-speech tags",
+    "what": "Frequency ranks, classifiers and CC-CEDICT readings for HSK words",
     "license": "MIT © Yanis Zafirópulos",
     "url": "https://github.com/drkameleon/complete-hsk-vocabulary"
+  },
+  {
+    "name": "audio-cmn",
+    "what": "Human recordings of Mandarin words (Yue Tan, Shtooka project) and syllables (Chen Wang)",
+    "license": "CC BY-SA",
+    "url": "https://github.com/hugolpz/audio-cmn"
   },
   {
     "name": "CC-CEDICT",

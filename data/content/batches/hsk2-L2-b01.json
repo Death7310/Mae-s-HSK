@@ -1,0 +1,11 @@
+{"batch":"hsk2-L2-b01","std":"hsk2","level":2,"words":[
+{"id":"第一","s":"第一","p":"dìyī","pos":["m"],"en2":"first; number 1","cedict":[{"p":"dì yī","en":["first","number one","primary"]}]},
+{"id":"唱歌","s":"唱歌","p":"chànggē","pos":["v"],"en2":"sing (a song)","cedict":[{"p":"chàng gē","en":["to sing a song"]}]},
+{"id":"服务员","s":"服务员","p":"fúwùyuán","pos":["n"],"en2":"waiter/waitress; server; attendant","cedict":[{"p":"fú wù yuán","en":["waiter","waitress","attendant","customer service personnel"],"cl":["个","位"]}]},
+{"id":"火车站","s":"火车站","p":"huǒchēzhàn","pos":["n"],"en2":"train station","cedict":[{"p":"huǒ chē zhàn","en":["train station"]}]},
+{"id":"面条","s":"面条","p":"miàntiáo","pos":["n"],"en2":"noodles","cedict":[{"p":"miàn tiáo","en":["noodles"]}]},
+{"id":"羊肉","s":"羊肉","p":"yángròu","pos":["n"],"en2":"mutton; lamb","cedict":[{"p":"yáng ròu","en":["mutton","goat meat"]}]},
+{"id":"公共汽车","s":"公共汽车","p":"gōnggòng qìchē","pos":[],"en2":"(public) bus","cedict":[{"p":"gōng gòng qì chē","en":["bus"],"cl":["辆","班"]}]},
+{"id":"打篮球","s":"打篮球","p":"dǎ lánqiú","pos":[],"en2":"play basketball","cedict":[{"p":"dǎ lán qiú","en":["to play basketball"]}]},
+{"id":"踢足球","s":"踢足球","p":"tīzúqiú","pos":[],"en2":"to play football/soccer","cedict":[]}
+]}
