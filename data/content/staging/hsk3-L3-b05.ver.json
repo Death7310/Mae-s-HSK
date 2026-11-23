@@ -1,0 +1,300 @@
+[
+{
+"id": "司机",
+"fa": [
+"راننده"
+],
+"en": [
+"driver"
+],
+"ex": [
+{
+"zh": "出租车司机在门口等我们。",
+"py": "Chūzūchē sījī zài ménkǒu děng wǒmen.",
+"fa": "رانندهٔ تاکسی دم در منتظر ماست.",
+"en": "The taxi driver is waiting for us at the door."
+}
+],
+"chg": "ex.fa: missing ezafe on silent he (رانندهٔ تاکسی)"
+},
+{
+"id": "员",
+"fa": [
+"پسوند «عضو، کارمند، فرد»"
+],
+"en": [
+"person (suffix)",
+"member"
+],
+"note": "پسوندی برای نام شغل یا عضو گروه: 运动员 (ورزشکار)، 服务员 (پیشخدمت).",
+"ex": [
+{
+"zh": "那个运动员每天早上都跑步。",
+"py": "Nàge yùndòngyuán měitiān zǎoshang dōu pǎobù.",
+"fa": "آن ورزشکار هر روز صبح می‌دود.",
+"en": "That athlete runs every morning."
+}
+],
+"chg": "note: 服务员 is waiter/attendant (پیشخدمت), not servant (خدمتکار)"
+},
+{
+"id": "冰",
+"fa": [
+"یخ"
+],
+"en": [
+"ice"
+],
+"note": "در سطح ۵ فعل هم هست: «با یخ خنک کردن».",
+"ex": [
+{
+"zh": "冰箱里有很多冰。",
+"py": "Bīngxiāng lǐ yǒu hěn duō bīng.",
+"fa": "در یخچال خیلی یخ هست.",
+"en": "There is a lot of ice in the fridge."
+}
+],
+"chg": "note: later verb sense is transitive 'to chill sth' (خنک کردن با یخ); 'یخ کردن' means to get cold"
+},
+{
+"id": "以上",
+"fa": [
+"بالای (بیشتر از)",
+"مورد بالا"
+],
+"en": [
+"over (more than)",
+"the above"
+],
+"ex": [
+{
+"zh": "十八岁以上的人可以进去。",
+"py": "Shíbā suì yǐshàng de rén kěyǐ jìnqù.",
+"fa": "افراد بالای هجده سال می‌توانند وارد شوند.",
+"en": "People over eighteen can go in."
+}
+],
+"chg": "en: second gloss did not match fa (مورد بالا = the above)"
+},
+{
+"id": "名单",
+"fa": [
+"فهرست نام‌ها",
+"لیست اسامی"
+],
+"en": [
+"list of names"
+],
+"ex": [
+{
+"zh": "老师把名单放在桌子上了。",
+"py": "Lǎoshī bǎ míngdān fàng zài zhuōzi shàng le.",
+"fa": "معلم فهرست نام‌ها را روی میز گذاشته است.",
+"en": "The teacher put the name list on the table."
+}
+],
+"chg": "fa: bare 'لیست' is ambiguous (any list); specify list of names"
+},
+{
+"id": "热情",
+"fa": [
+"خون‌گرم (گرم و صمیمی)",
+"پرشور"
+],
+"en": [
+"warm (cordial)",
+"enthusiastic"
+],
+"ex": [
+{
+"zh": "这里的人对客人很热情。",
+"py": "Zhèlǐ de rén duì kèrén hěn rèqíng.",
+"fa": "مردم اینجا با مهمان‌ها بسیار گرم و صمیمی‌اند.",
+"en": "People here are very warm to guests."
+}
+],
+"chg": "fa: 'مهمان‌نواز' is 好客, not 热情; use warm-hearted"
+},
+{
+"id": "到处",
+"fa": [
+"همه‌جا"
+],
+"en": [
+"everywhere"
+],
+"ex": [
+{
+"zh": "春天公园里到处都是花。",
+"py": "Chūntiān gōngyuán lǐ dàochù dōu shì huā.",
+"fa": "در بهار همه‌جای پارک پر از گل است.",
+"en": "In spring there are flowers everywhere in the park."
+}
+],
+"chg": "fa: 'هر جا' means 'wherever', not 'everywhere'; removed; ZWNJ in همه‌جا"
+},
+{
+"id": "搬",
+"fa": [
+"جابه‌جا کردن (اشیای سنگین)",
+"اسباب‌کشی کردن"
+],
+"en": [
+"to move (something heavy)",
+"to move house"
+],
+"ex": [
+{
+"zh": "请帮我把这个箱子搬上去。",
+"py": "Qǐng bāng wǒ bǎ zhège xiāngzi bān shàngqù.",
+"fa": "لطفاً کمکم کنید این جعبه را بالا ببرم.",
+"en": "Please help me carry this box up."
+}
+],
+"chg": "fa: awkward 'نقل مکان دادن'; added core sense 'to move house'"
+},
+{
+"id": "练",
+"fa": [
+"تمرین کردن"
+],
+"en": [
+"to practice"
+],
+"ex": [
+{
+"zh": "我每天练半小时汉字。",
+"py": "Wǒ měitiān liàn bàn xiǎoshí Hànzì.",
+"fa": "من هر روز نیم ساعت نوشتن حروف چینی را تمرین می‌کنم.",
+"en": "I practice Chinese characters for half an hour every day."
+}
+],
+"chg": "fa: 'ورزیدگی پیدا کردن' is unnatural and not a sense of 练; single gloss"
+},
+{
+"id": "聊",
+"fa": [
+"گپ زدن",
+"صحبت دوستانه کردن"
+],
+"en": [
+"to chat"
+],
+"ex": [
+{
+"zh": "我和朋友在家里聊了很久。",
+"py": "Wǒ hé péngyou zài jiā lǐ liáo le hěn jiǔ.",
+"fa": "من و دوستم مدت زیادی در خانه گپ زدیم.",
+"en": "My friend and I chatted at home for a long time."
+}
+],
+"chg": "ex.fa: subject-verb agreement (من و دوستم ... گپ زدیم)"
+},
+{
+"id": "同事",
+"fa": [
+"همکار"
+],
+"en": [
+"colleague"
+],
+"ex": [
+{
+"zh": "我和同事一起去吃午饭。",
+"py": "Wǒ hé tóngshì yìqǐ qù chī wǔfàn.",
+"fa": "من و همکارم با هم برای ناهار می‌رویم.",
+"en": "I go to lunch with my colleague."
+}
+],
+"chg": "ex.fa: ungrammatical 'من با همکارم با هم ... می‌رویم'"
+},
+{
+"id": "角",
+"fa": [
+"واحد پول (یک‌دهم یوآن)"
+],
+"en": [
+"jiao (a tenth of a yuan)"
+],
+"note": "در گفتار معمولاً «毛» می‌گویند؛ ۱۰ جیائو = ۱ یوآن (元).",
+"ex": [
+{
+"zh": "这本书八元五角。",
+"py": "Zhè běn shū bā yuán wǔ jiǎo.",
+"fa": "این کتاب هشت یوآن و پنج جیائو است.",
+"en": "This book costs eight yuan five jiao."
+},
+{
+"zh": "一元钱就是十角。",
+"py": "Yì yuán qián jiù shì shí jiǎo.",
+"fa": "یک یوآن همان ده جیائو است.",
+"en": "One yuan is ten jiao."
+}
+],
+"chg": "ex: mixing colloquial 块 with formal 角 is unnatural; use 元 ... 角; note aligned"
+},
+{
+"id": "页",
+"fa": [
+"واحد شمارش برای صفحهٔ کتاب (صفحه)"
+],
+"en": [
+"page (measure word)"
+],
+"ex": [
+{
+"zh": "请大家打开书，看第十页。",
+"py": "Qǐng dàjiā dǎkāi shū, kàn dì shí yè.",
+"fa": "لطفاً همه کتاب را باز کنید و صفحهٔ ده را ببینید.",
+"en": "Everyone, please open your books and look at page ten."
+},
+{
+"zh": "这本书一共有两百页。",
+"py": "Zhè běn shū yígòng yǒu liǎng bǎi yè.",
+"fa": "این کتاب روی هم دویست صفحه دارد.",
+"en": "This book has two hundred pages in total."
+}
+],
+"chg": "ex1: '打开书的第十页' is unnatural Chinese; rewritten"
+},
+{
+"id": "不见",
+"fa": [
+"گم شدن (ناپدید شدن)",
+"ندیدن (ملاقات نکردن)"
+],
+"en": [
+"to be missing",
+"to not see (meet)"
+],
+"ex": [
+{
+"zh": "我的手机不见了，你看见了吗？",
+"py": "Wǒ de shǒujī bújiàn le, nǐ kànjiàn le ma?",
+"fa": "گوشی من گم شده است؛ تو آن را دیده‌ای؟",
+"en": "My phone is gone. Have you seen it?"
+}
+],
+"chg": "fa: order/sense aligned with en (missing first; 'not see/meet' second); ex.fa register"
+},
+{
+"id": "羊",
+"fa": [
+"گوسفند",
+"بز (در معنای عام)"
+],
+"en": [
+"sheep",
+"goat"
+],
+"ex": [
+{
+"zh": "山上有很多羊。",
+"py": "Shān shàng yǒu hěn duō yáng.",
+"fa": "در کوه گوسفند زیادی هست.",
+"en": "There are many sheep on the mountain."
+}
+],
+"chg": "fa: 'بز و میش' is wrong (میش = ewe); 羊 is the generic sheep/goat term"
+}
+]

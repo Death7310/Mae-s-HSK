@@ -1,0 +1,385 @@
+[
+ {
+  "id": "着急",
+  "fa": [
+   "نگران (بی‌تاب)",
+   "دستپاچه (عجول)"
+  ],
+  "en": [
+   "anxious",
+   "worried",
+   "in a hurry"
+  ],
+  "ex": [
+   {
+    "zh": "别着急，我们还有时间。",
+    "py": "Bié zháojí, wǒmen hái yǒu shíjiān.",
+    "fa": "نگران نباش، ما هنوز وقت داریم.",
+    "en": "Don't worry, we still have time."
+   }
+  ],
+  "chg": "fa/en: official pos is adjective; verb phrases replaced by bare adjectives"
+ },
+ {
+  "id": "扫",
+  "fa": [
+   "جارو کردن",
+   "روفتن"
+  ],
+  "en": [
+   "to sweep"
+  ],
+  "note": "خوانش دیگر: sào در 扫帚 (جارو).",
+  "ex": [
+   {
+    "zh": "请你把地扫一下。",
+    "py": "Qǐng nǐ bǎ dì sǎo yíxià.",
+    "fa": "لطفاً کف اتاق را جارو کن.",
+    "en": "Please sweep the floor."
+   }
+  ],
+  "chg": "fa: «رفتن (با جارو)» misspelled/ambiguous with 'to go' -> «روفتن»; note made precise (sào only in 扫帚)"
+ },
+ {
+  "id": "季节",
+  "fa": [
+   "فصل (سال)"
+  ],
+  "en": [
+   "season"
+  ],
+  "ex": [
+   {
+    "zh": "春天是我最喜欢的季节。",
+    "py": "Chūntiān shì wǒ zuì xǐhuan de jìjié.",
+    "fa": "بهار فصل مورد علاقهٔ من است.",
+    "en": "Spring is my favorite season."
+   }
+  ],
+  "chg": "fa: «فصل» ambiguous (also 'chapter'); disambiguated"
+ },
+ {
+  "id": "饱",
+  "fa": [
+   "سیر (مقابل گرسنه)"
+  ],
+  "en": [
+   "full (from eating)"
+  ],
+  "ex": [
+   {
+    "zh": "我已经吃饱了，谢谢。",
+    "py": "Wǒ yǐjīng chībǎo le, xièxie.",
+    "fa": "من سیر شده‌ام، ممنون.",
+    "en": "I'm already full, thank you."
+   }
+  ],
+  "chg": "fa: «سیر» ambiguous (garlic) -> disambiguated; removed verb gloss for an adjective; en aligned"
+ },
+ {
+  "id": "公斤",
+  "fa": [
+   "کیلوگرم (کیلو)"
+  ],
+  "en": [
+   "kilogram"
+  ],
+  "note": "واحد وزن؛ ۱ 公斤 برابر ۲ 斤 است.",
+  "ex": [
+   {
+    "zh": "我的行李有二十公斤。",
+    "py": "Wǒ de xíngli yǒu èrshí gōngjīn.",
+    "fa": "بار من بیست کیلو وزن دارد.",
+    "en": "My luggage weighs twenty kilograms."
+   },
+   {
+    "zh": "我买了两公斤苹果。",
+    "py": "Wǒ mǎi le liǎng gōngjīn píngguǒ.",
+    "fa": "من دو کیلو سیب خریدم.",
+    "en": "I bought two kilograms of apples."
+   }
+  ],
+  "chg": "ex2: 体重 is above level, replaced with in-list sentence; ex1 fa: 行李 is luggage, not one suitcase"
+ },
+ {
+  "id": "园",
+  "fa": [
+   "باغ",
+   "محوطهٔ تفریحی"
+  ],
+  "en": [
+   "garden",
+   "park (in compounds)"
+  ],
+  "note": "بیشتر در واژه‌های مرکب می‌آید: 公园، 花园، 动物园.",
+  "ex": [
+   {
+    "zh": "我们周末去公园玩吧。",
+    "py": "Wǒmen zhōumò qù gōngyuán wán ba.",
+    "fa": "آخر هفته برویم پارک تفریح کنیم.",
+    "en": "Let's go to the park this weekend."
+   }
+  ],
+  "chg": "ex fa: unnatural «برویم پارک بازی و گردش» rewritten"
+ },
+ {
+  "id": "东方",
+  "fa": [
+   "شرق",
+   "مشرق‌زمین (خاور)"
+  ],
+  "en": [
+   "east",
+   "the East"
+  ],
+  "ex": [
+   {
+    "zh": "太阳从东方出来。",
+    "py": "Tàiyáng cóng dōngfāng chūlái.",
+    "fa": "خورشید از شرق طلوع می‌کند.",
+    "en": "The sun rises in the east."
+   }
+  ],
+  "chg": "note deleted: 'with a capital letter' is meaningless for Chinese; the Orient sense moved into fa"
+ },
+ {
+  "id": "楼梯",
+  "fa": [
+   "پله",
+   "راه‌پله"
+  ],
+  "en": [
+   "stairs",
+   "staircase"
+  ],
+  "ex": [
+   {
+    "zh": "电梯坏了，我们走楼梯吧。",
+    "py": "Diàntī huài le, wǒmen zǒu lóutī ba.",
+    "fa": "آسانسور خراب شده، بیا از پله برویم.",
+    "en": "The elevator is broken, let's take the stairs."
+   }
+  ],
+  "chg": "ex: «走楼梯上班» unnatural (stairs to work); rewritten"
+ },
+ {
+  "id": "起飞",
+  "fa": [
+   "از زمین بلند شدن (هواپیما)",
+   "برخاستن (هواپیما)"
+  ],
+  "en": [
+   "to take off"
+  ],
+  "ex": [
+   {
+    "zh": "飞机十点起飞。",
+    "py": "Fēijī shí diǎn qǐfēi.",
+    "fa": "هواپیما ساعت ده پرواز می‌کند.",
+    "en": "The plane takes off at ten o'clock."
+   }
+  ],
+  "chg": "fa: «پرواز کردن» is 飞 (to fly), not take off; glosses made specific"
+ },
+ {
+  "id": "学期",
+  "fa": [
+   "ترم",
+   "نیم‌سال تحصیلی"
+  ],
+  "en": [
+   "term",
+   "semester"
+  ],
+  "ex": [
+   {
+    "zh": "新学期从九月开始。",
+    "py": "Xīn xuéqī cóng jiǔ yuè kāishǐ.",
+    "fa": "ترم جدید از سپتامبر شروع می‌شود.",
+    "en": "The new semester starts in September."
+   }
+  ],
+  "chg": "ex fa: «ماه نهم» unnatural -> «سپتامبر»"
+ },
+ {
+  "id": "难题",
+  "fa": [
+   "مسئلهٔ دشوار",
+   "مشکل سخت"
+  ],
+  "en": [
+   "difficult problem",
+   "tough question"
+  ],
+  "ex": [
+   {
+    "zh": "这个难题我想了很久。",
+    "py": "Zhège nántí wǒ xiǎng le hěn jiǔ.",
+    "fa": "دربارهٔ این مسئلهٔ دشوار خیلی فکر کردم.",
+    "en": "I thought about this difficult problem for a long time."
+   }
+  ],
+  "chg": "fa: «معما» (riddle) is a wrong sense -> «مشکل سخت»"
+ },
+ {
+  "id": "伞",
+  "fa": [
+   "چتر",
+   "چتر آفتابی"
+  ],
+  "en": [
+   "umbrella",
+   "parasol"
+  ],
+  "note": "واحد شمارش معمول: 把.",
+  "ex": [
+   {
+    "zh": "外面下雨了，你带伞了吗？",
+    "py": "Wàimiàn xiàyǔ le, nǐ dài sǎn le ma?",
+    "fa": "بیرون باران می‌آید، چتر آورده‌ای؟",
+    "en": "It's raining outside, did you bring an umbrella?"
+   }
+  ],
+  "chg": "fa: «سایبان» (awning) wrong -> «چتر آفتابی»; py: 下雨 joined as one word"
+ },
+ {
+  "id": "放假",
+  "fa": [
+   "تعطیل شدن (مدرسه یا کار)",
+   "به تعطیلات رفتن"
+  ],
+  "en": [
+   "to have a holiday",
+   "to be on vacation"
+  ],
+  "note": "فعل جداشدنی: 放假 ← 放了三天假",
+  "ex": [
+   {
+    "zh": "明天开始放假，我想回家。",
+    "py": "Míngtiān kāishǐ fàngjià, wǒ xiǎng huí jiā.",
+    "fa": "از فردا تعطیلات شروع می‌شود و می‌خواهم به خانه برگردم.",
+    "en": "The holiday starts tomorrow and I want to go home."
+   }
+  ],
+  "chg": "fa: «مرخصی گرفتن» is 请假, wrong sense; replaced"
+ },
+ {
+  "id": "路口",
+  "fa": [
+   "چهارراه",
+   "تقاطع"
+  ],
+  "en": [
+   "intersection",
+   "crossing"
+  ],
+  "ex": [
+   {
+    "zh": "在前面的路口往右走。",
+    "py": "Zài qiánmiàn de lùkǒu wǎng yòu zǒu.",
+    "fa": "سر چهارراه جلویی به راست برو.",
+    "en": "Turn right at the intersection ahead."
+   }
+  ],
+  "chg": "ex fa: unneeded diacritic removed, phrasing made natural"
+ },
+ {
+  "id": "瓶子",
+  "fa": [
+   "بطری",
+   "شیشه (ظرف)"
+  ],
+  "en": [
+   "bottle"
+  ],
+  "ex": [
+   {
+    "zh": "桌子上有两个瓶子。",
+    "py": "Zhuōzi shang yǒu liǎng ge píngzi.",
+    "fa": "روی میز دو بطری هست.",
+    "en": "There are two bottles on the table."
+   }
+  ],
+  "chg": "fa: «شیشه» ambiguous (glass) -> disambiguated"
+ },
+ {
+  "id": "放学",
+  "fa": [
+   "تعطیل شدن مدرسه (پایان کلاس‌های روز)",
+   "از مدرسه مرخص شدن"
+  ],
+  "en": [
+   "school is out",
+   "to finish school for the day"
+  ],
+  "ex": [
+   {
+    "zh": "小学生三点放学。",
+    "py": "Xiǎoxuéshēng sān diǎn fàngxué.",
+    "fa": "دانش‌آموزان دبستان ساعت سه تعطیل می‌شوند.",
+    "en": "Primary school students finish school at three."
+   }
+  ],
+  "chg": "fa: «از مدرسه برگشتن» (return from school) inaccurate; first gloss distinguished from 放假"
+ },
+ {
+  "id": "上衣",
+  "fa": [
+   "لباس بالاتنه",
+   "بالاپوش (کت، ژاکت)"
+  ],
+  "en": [
+   "upper garment (top)",
+   "jacket"
+  ],
+  "ex": [
+   {
+    "zh": "这件上衣的颜色很好看。",
+    "py": "Zhè jiàn shàngyī de yánsè hěn hǎokàn.",
+    "fa": "رنگ این بالاپوش خیلی قشنگ است.",
+    "en": "The color of this top is very nice."
+   }
+  ],
+  "chg": "fa: «بالاتنه (لباس)» / «کت و پیراهن (لباس رو)» unnatural and unclear; rewritten, ex fa aligned"
+ },
+ {
+  "id": "年级",
+  "fa": [
+   "پایهٔ تحصیلی",
+   "کلاس (مثلاً کلاس سوم)"
+  ],
+  "en": [
+   "grade",
+   "year (in school)"
+  ],
+  "ex": [
+   {
+    "zh": "我女儿上三年级。",
+    "py": "Wǒ nǚ'ér shàng sān niánjí.",
+    "fa": "دخترم کلاس سوم است.",
+    "en": "My daughter is in third grade."
+   }
+  ],
+  "chg": "fa: «سال تحصیلی» means academic year (学年), wrong sense -> «کلاس»"
+ },
+ {
+  "id": "笔记",
+  "fa": [
+   "یادداشت (درسی)",
+   "جزوه"
+  ],
+  "en": [
+   "notes",
+   "class notes"
+  ],
+  "ex": [
+   {
+    "zh": "上课时我记了很多笔记。",
+    "py": "Shàngkè shí wǒ jì le hěn duō bǐjì.",
+    "fa": "سر کلاس یادداشت‌های زیادی برداشتم.",
+    "en": "I took a lot of notes in class."
+   }
+  ],
+  "chg": "py: 上课 joined as one word"
+ }
+]

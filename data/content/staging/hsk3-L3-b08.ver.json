@@ -1,0 +1,418 @@
+[
+ {
+  "id": "斤",
+  "fa": [
+   "واحد وزن چینی (جین، نیم کیلو)"
+  ],
+  "en": [
+   "catty (500 g)"
+  ],
+  "note": "یک جین برابر ۵۰۰ گرم است؛ مثلاً 一斤苹果 (نیم کیلو سیب).",
+  "ex": [
+   {
+    "zh": "我想买两斤苹果。",
+    "py": "Wǒ xiǎng mǎi liǎng jīn píngguǒ.",
+    "fa": "من می‌خواهم یک کیلو سیب بخرم.",
+    "en": "I want to buy two jin of apples."
+   },
+   {
+    "zh": "这个西瓜有五斤重。",
+    "py": "Zhège xīguā yǒu wǔ jīn zhòng.",
+    "fa": "این هندوانه پنج جین (حدود دو و نیم کیلو) وزن دارد.",
+    "en": "This watermelon weighs five jin."
+   }
+  ],
+  "chg": "note: removed corrupted character; fa: clearer gloss naming the unit"
+ },
+ {
+  "id": "过节",
+  "fa": [
+   "جشن گرفتن",
+   "گذراندن جشن"
+  ],
+  "en": [
+   "to celebrate a festival",
+   "to spend a holiday"
+  ],
+  "ex": [
+   {
+    "zh": "今年我想回家过节。",
+    "py": "Jīnnián wǒ xiǎng huíjiā guòjié.",
+    "fa": "امسال می‌خواهم عید را در خانه بگذرانم.",
+    "en": "This year I want to go home for the holiday."
+   }
+  ],
+  "chg": "ex: rewritten, two out-of-list words (春节, 全家)"
+ },
+ {
+  "id": "草地",
+  "fa": [
+   "چمن (زمین چمن)",
+   "چمنزار"
+  ],
+  "en": [
+   "lawn",
+   "meadow"
+  ],
+  "ex": [
+   {
+    "zh": "孩子们在草地上玩儿。",
+    "py": "Háizimen zài cǎodì shang wánr.",
+    "fa": "بچه‌ها روی چمن بازی می‌کنند.",
+    "en": "The children are playing on the lawn."
+   }
+  ],
+  "chg": "fa: everyday word چمن first (matches example)"
+ },
+ {
+  "id": "铅笔",
+  "fa": [
+   "مداد"
+  ],
+  "en": [
+   "pencil"
+  ],
+  "ex": [
+   {
+    "zh": "请用铅笔写名字。",
+    "py": "Qǐng yòng qiānbǐ xiě míngzi.",
+    "fa": "لطفاً نامتان را با مداد بنویسید.",
+    "en": "Please write your name in pencil."
+   }
+  ],
+  "chg": "ex fa: \"your name\" was rendered as \"the name\""
+ },
+ {
+  "id": "认得",
+  "fa": [
+   "شناختن (از دیدن)",
+   "تشخیص دادن"
+  ],
+  "en": [
+   "to recognize",
+   "to know (by sight)"
+  ],
+  "ex": [
+   {
+    "zh": "这个字你认得吗？",
+    "py": "Zhège zì nǐ rènde ma?",
+    "fa": "این نویسه (کاراکتر) را می‌شناسی؟",
+    "en": "Do you recognize this character?"
+   }
+  ],
+  "chg": "note: deleted (inaccurate claim that it is mostly negated); ex fa: character = نویسه"
+ },
+ {
+  "id": "常用",
+  "fa": [
+   "پرکاربرد",
+   "رایج"
+  ],
+  "en": [
+   "commonly used",
+   "common"
+  ],
+  "ex": [
+   {
+    "zh": "这是一个很常用的词。",
+    "py": "Zhè shì yí ge hěn cháng yòng de cí.",
+    "fa": "این یک واژهٔ بسیار پرکاربرد است.",
+    "en": "This is a very commonly used word."
+   }
+  ],
+  "chg": "py: follow official spacing cháng yòng"
+ },
+ {
+  "id": "请客",
+  "fa": [
+   "مهمانی دادن",
+   "مهمان کردن (پول غذا را دادن)"
+  ],
+  "en": [
+   "to treat someone",
+   "to host a meal"
+  ],
+  "note": "فعل جداشدنی: 请客 ← 请了一次客.",
+  "ex": [
+   {
+    "zh": "今天我请客，你们想吃什么？",
+    "py": "Jīntiān wǒ qǐngkè, nǐmen xiǎng chī shénme?",
+    "fa": "امروز مهمان من هستید؛ چه می‌خواهید بخورید؟",
+    "en": "Today it's my treat. What would you like to eat?"
+   }
+  ],
+  "chg": "ex: rewritten, 随便 above level; note: illustration was not a split form of 请客"
+ },
+ {
+  "id": "班级",
+  "fa": [
+   "کلاس (گروه دانش‌آموزان)"
+  ],
+  "en": [
+   "class (group of students)"
+  ],
+  "ex": [
+   {
+    "zh": "我们班级有三十个学生。",
+    "py": "Wǒmen bānjí yǒu sānshí ge xuésheng.",
+    "fa": "کلاس ما سی دانش‌آموز دارد.",
+    "en": "Our class has thirty students."
+   }
+  ],
+  "chg": "fa/en: removed wrong sense \"grade\" (that is 年级)"
+ },
+ {
+  "id": "一块儿",
+  "fa": [
+   "با هم",
+   "یک جا (کنار هم)"
+  ],
+  "en": [
+   "together",
+   "the same place"
+  ],
+  "note": "قید: «با هم» (مانند 一起)؛ اسم: «یک جا»، مثلاً 我们住在一块儿.",
+  "ex": [
+   {
+    "zh": "我们一块儿去吃饭吧。",
+    "py": "Wǒmen yíkuàir qù chīfàn ba.",
+    "fa": "بیایید با هم برویم غذا بخوریم.",
+    "en": "Let's go eat together."
+   }
+  ],
+  "chg": "fa/en/note: noun sense is \"the same place\", not \"a piece\""
+ },
+ {
+  "id": "开机",
+  "fa": [
+   "روشن کردن (دستگاه)",
+   "روشن شدن (رایانه، گوشی)"
+  ],
+  "en": [
+   "to turn on a device",
+   "to start up"
+  ],
+  "ex": [
+   {
+    "zh": "我的电脑开机很慢。",
+    "py": "Wǒ de diànnǎo kāijī hěn màn.",
+    "fa": "روشن شدن رایانهٔ من خیلی کند است.",
+    "en": "My computer is slow to start up."
+   }
+  ],
+  "chg": "fa: slang \"بوت شدن\" replaced with standard Persian"
+ },
+ {
+  "id": "做客",
+  "fa": [
+   "مهمان بودن",
+   "به مهمانی رفتن"
+  ],
+  "en": [
+   "to be a guest",
+   "to visit as a guest"
+  ],
+  "ex": [
+   {
+    "zh": "周末我去朋友家做客。",
+    "py": "Zhōumò wǒ qù péngyou jiā zuòkè.",
+    "fa": "آخر هفته به مهمانی به خانهٔ دوستم می‌روم.",
+    "en": "On the weekend I'm visiting a friend's home as a guest."
+   }
+  ],
+  "chg": "fa: consistent مهمانی; ex fa: unnatural phrasing"
+ },
+ {
+  "id": "字典",
+  "fa": [
+   "فرهنگ نویسه‌های چینی",
+   "فرهنگ لغت (تک‌نویسه‌ای)"
+  ],
+  "en": [
+   "character dictionary",
+   "dictionary"
+  ],
+  "note": "字典 برای نویسه‌های منفرد است و 词典 برای واژه‌ها.",
+  "ex": [
+   {
+    "zh": "不认识的字可以查字典。",
+    "py": "Bú rènshi de zì kěyǐ chá zìdiǎn.",
+    "fa": "نویسه‌هایی را که نمی‌شناسی می‌توانی در فرهنگ لغت پیدا کنی.",
+    "en": "You can look up unknown characters in a dictionary."
+   }
+  ],
+  "chg": "fa: character = نویسه, and bare \"فرهنگ لغت\" removed (collides with 词典)"
+ },
+ {
+  "id": "黑板",
+  "fa": [
+   "تخته‌سیاه"
+  ],
+  "en": [
+   "blackboard"
+  ],
+  "ex": [
+   {
+    "zh": "老师在黑板上写字。",
+    "py": "Lǎoshī zài hēibǎn shang xiězì.",
+    "fa": "معلم روی تخته‌سیاه می‌نویسد.",
+    "en": "The teacher is writing on the blackboard."
+   }
+  ],
+  "chg": "fa: orthography تخته‌سیاه (ZWNJ)"
+ },
+ {
+  "id": "留学",
+  "fa": [
+   "در خارج از کشور تحصیل کردن"
+  ],
+  "en": [
+   "to study abroad"
+  ],
+  "ex": [
+   {
+    "zh": "他明年想去中国留学。",
+    "py": "Tā míngnián xiǎng qù Zhōngguó liúxué.",
+    "fa": "او سال آینده می‌خواهد برای تحصیل به چین برود.",
+    "en": "He wants to study in China next year."
+   }
+  ],
+  "chg": "fa: verb needs infinitive citation form"
+ },
+ {
+  "id": "勺子",
+  "fa": [
+   "قاشق",
+   "ملاقه"
+  ],
+  "en": [
+   "spoon",
+   "ladle"
+  ],
+  "note": "واحد شمارش معمول: 把.",
+  "ex": [
+   {
+    "zh": "请给我一把勺子。",
+    "py": "Qǐng gěi wǒ yì bǎ sháozi.",
+    "fa": "لطفاً یک قاشق به من بدهید.",
+    "en": "Please give me a spoon."
+   }
+  ],
+  "chg": "ex: measure word 把 to match the note"
+ },
+ {
+  "id": "前年",
+  "fa": [
+   "پیرارسال",
+   "دو سال پیش"
+  ],
+  "en": [
+   "the year before last"
+  ],
+  "ex": [
+   {
+    "zh": "我前年第一次去北京。",
+    "py": "Wǒ qiánnián dì yī cì qù Běijīng.",
+    "fa": "من پیرارسال برای اولین بار به پکن رفتم.",
+    "en": "I first went to Beijing the year before last."
+   }
+  ],
+  "chg": "fa: wrong word (پارسال = last year); correct is پیرارسال"
+ },
+ {
+  "id": "留学生",
+  "fa": [
+   "دانشجوی خارجی",
+   "دانشجوی بین‌المللی"
+  ],
+  "en": [
+   "international student",
+   "student abroad"
+  ],
+  "ex": [
+   {
+    "zh": "我们学校有很多留学生。",
+    "py": "Wǒmen xuéxiào yǒu hěn duō liúxuéshēng.",
+    "fa": "دانشگاه ما دانشجویان خارجی زیادی دارد.",
+    "en": "Our school has many international students."
+   }
+  ],
+  "chg": "ex fa: دانشجو goes with دانشگاه, not مدرسه"
+ },
+ {
+  "id": "课文",
+  "fa": [
+   "متن درس"
+  ],
+  "en": [
+   "lesson text"
+  ],
+  "ex": [
+   {
+    "zh": "请大家读一下今天的课文。",
+    "py": "Qǐng dàjiā dú yíxià jīntiān de kèwén.",
+    "fa": "لطفاً همه متن درس امروز را بخوانید.",
+    "en": "Everyone, please read today's lesson text."
+   }
+  ],
+  "chg": "ex: rewritten, 篇 above level"
+ },
+ {
+  "id": "后年",
+  "fa": [
+   "دو سال دیگر",
+   "سال پس از سال آینده"
+  ],
+  "en": [
+   "the year after next"
+  ],
+  "ex": [
+   {
+    "zh": "我打算后年去中国留学。",
+    "py": "Wǒ dǎsuàn hòunián qù Zhōngguó liúxué.",
+    "fa": "قصد دارم دو سال دیگر برای تحصیل به چین بروم.",
+    "en": "I plan to go study in China the year after next."
+   }
+  ],
+  "chg": "ex: rewritten, 毕业 above level; fa: natural gloss first"
+ },
+ {
+  "id": "聊天儿",
+  "fa": [
+   "گپ زدن"
+  ],
+  "en": [
+   "to chat"
+  ],
+  "note": "فعل جداشدنی: 聊天儿 ← 聊了一会儿天.",
+  "ex": [
+   {
+    "zh": "我们在咖啡店里聊天儿。",
+    "py": "Wǒmen zài kāfēidiàn lǐ liáotiānr.",
+    "fa": "ما در کافه گپ می‌زنیم.",
+    "en": "We are chatting in the cafe."
+   }
+  ],
+  "chg": "fa: dropped \"صحبت کردن\" (ambiguous with 说话)"
+ },
+ {
+  "id": "检票",
+  "fa": [
+   "کنترل کردن بلیت",
+   "بازرسی بلیت"
+  ],
+  "en": [
+   "to check tickets",
+   "to have tickets checked"
+  ],
+  "ex": [
+   {
+    "zh": "火车快开了，我们去检票吧。",
+    "py": "Huǒchē kuài kāi le, wǒmen qù jiǎnpiào ba.",
+    "fa": "چیزی به حرکت قطار نمانده، برویم برای کنترل بلیت.",
+    "en": "The train is about to leave, let's go through ticket check."
+   }
+  ],
+  "chg": "fa: unnatural compound; ex fa: passengers have tickets checked, and 快开了 = about to leave"
+ }
+]

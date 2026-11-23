@@ -1,0 +1,221 @@
+[
+{
+"id": "怀疑",
+"fa": [
+"شک کردن",
+"ظنین بودن (گمان بد بردن)"
+],
+"en": [
+"to doubt",
+"to suspect"
+],
+"ex": [
+{
+"zh": "我怀疑他今天不会来。",
+"py": "Wǒ huáiyí tā jīntiān bú huì lái.",
+"fa": "گمان می‌کنم او امروز نیاید.",
+"en": "I suspect he won't come today."
+}
+],
+"chg": "fa: «مظنون بودن» means 'to be the suspect' -> «ظنین بودن»; example translation aligned with 'suspect that ... not'"
+},
+{
+"id": "价格",
+"fa": [
+"قیمت"
+],
+"en": [
+"price"
+],
+"ex": [
+{
+"zh": "这家店的价格比较低。",
+"py": "Zhè jiā diàn de jiàgé bǐjiào dī.",
+"fa": "قیمت‌های این مغازه نسبتاً پایین است.",
+"en": "The prices at this shop are fairly low."
+}
+],
+"chg": "ex: 价格 collocates with 高/低, not 便宜"
+},
+{
+"id": "戴",
+"fa": [
+"به سر گذاشتن (کلاه)",
+"زدن (عینک)",
+"بستن (ساعت)، دست کردن (دستکش)"
+],
+"en": [
+"to wear (a hat)",
+"to wear (glasses)",
+"to wear (watch, gloves)"
+],
+"ex": [
+{
+"zh": "天气冷，你要戴帽子。",
+"py": "Tiānqì lěng, nǐ yào dài màozi.",
+"fa": "هوا سرد است، باید کلاه بگذاری.",
+"en": "It's cold; you should wear a hat."
+}
+],
+"chg": "fa: wrong Persian collocations (کلاه/ساعت زدن) and awkward second gloss; split by object"
+},
+{
+"id": "究竟",
+"fa": [
+"بالاخره، آخر (تأکید در پرسش)",
+"هرچه باشد"
+],
+"en": [
+"on earth, exactly (in questions)",
+"after all"
+],
+"ex": [
+{
+"zh": "你究竟想去哪儿？",
+"py": "Nǐ jiūjìng xiǎng qù nǎr?",
+"fa": "بالاخره می‌خواهی کجا بروی؟",
+"en": "Where on earth do you want to go?"
+}
+],
+"note": "در سطح ۵ اسم هم هست: نتیجه، ته و توی ماجرا.",
+"chg": "fa: bare «آخر» ambiguous (end); second gloss did not match en 'after all'"
+},
+{
+"id": "交流",
+"fa": [
+"تبادل کردن (نظر، تجربه)",
+"ارتباط و گفتگو داشتن"
+],
+"en": [
+"to exchange",
+"to communicate"
+],
+"ex": [
+{
+"zh": "我们常常用汉语交流。",
+"py": "Wǒmen chángcháng yòng Hànyǔ jiāoliú.",
+"fa": "ما اغلب به زبان چینی با هم ارتباط برقرار می‌کنیم.",
+"en": "We often communicate in Chinese."
+}
+],
+"chg": "fa: bare «تبادل کردن» incomplete/ambiguous; object added"
+},
+{
+"id": "发出",
+"fa": [
+"درآوردن، دادن (صدا)",
+"صادر کردن (دستور، اطلاعیه)"
+],
+"en": [
+"to emit, to give out (a sound)",
+"to issue"
+],
+"ex": [
+{
+"zh": "手机突然发出了很大的声音。",
+"py": "Shǒujī tūrán fāchū le hěn dà de shēngyīn.",
+"fa": "گوشی ناگهان صدای بلندی داد.",
+"en": "The phone suddenly made a loud noise."
+}
+],
+"chg": "fa: «منتشر کردن» wrong for sound -> «درآوردن/دادن (صدا)»; ex: place word as subject of 发出 unnatural, rewritten with an emitter subject"
+},
+{
+"id": "赶紧",
+"fa": [
+"فوراً",
+"با عجله، بی‌معطلی"
+],
+"en": [
+"right away",
+"hurriedly"
+],
+"ex": [
+{
+"zh": "快八点了，我们赶紧走吧。",
+"py": "Kuài bā diǎn le, wǒmen gǎnjǐn zǒu ba.",
+"fa": "نزدیک ساعت هشت است، سریع راه بیفتیم.",
+"en": "It's almost eight; let's hurry up and go."
+}
+],
+"chg": "fa: «زود» ambiguous (early) -> hurriedly/without delay"
+},
+{
+"id": "费",
+"fa": [
+"هزینه",
+"خرج کردن (وقت، پول)"
+],
+"en": [
+"fee, cost",
+"to spend"
+],
+"ex": [
+{
+"zh": "这件事很费时间。",
+"py": "Zhè jiàn shì hěn fèi shíjiān.",
+"fa": "این کار وقت زیادی می‌برد.",
+"en": "This matter takes a lot of time."
+}
+],
+"note": "به‌عنوان پسوند هم می‌آید: 学费 (شهریه)، 电话费 (هزینهٔ تلفن).",
+"chg": "note: 电话费 is the phone charge, not «قبض» (bill)"
+},
+{
+"id": "回忆",
+"fa": [
+"به یاد آوردن",
+"خاطرات را مرور کردن"
+],
+"en": [
+"to recall",
+"to reminisce"
+],
+"ex": [
+{
+"zh": "他常常回忆小时候的事。",
+"py": "Tā chángcháng huíyì xiǎoshíhou de shì.",
+"fa": "او اغلب خاطرات کودکی‌اش را مرور می‌کند.",
+"en": "He often recalls things from his childhood."
+}
+],
+"chg": "fa: second gloss not a verb citation form"
+},
+{
+"id": "空气",
+"fa": [
+"هوا (آنچه تنفس می‌کنیم)"
+],
+"en": [
+"air"
+],
+"ex": [
+{
+"zh": "这里的空气很新鲜。",
+"py": "Zhèlǐ de kōngqì hěn xīnxiān.",
+"fa": "هوای اینجا خیلی تازه است.",
+"en": "The air here is very fresh."
+}
+],
+"chg": "fa: «هوای تنفسی» unnatural; disambiguate from weather (天气) instead"
+},
+{
+"id": "印象",
+"fa": [
+"تأثیر (در ذهن)",
+"برداشت"
+],
+"en": [
+"impression"
+],
+"ex": [
+{
+"zh": "北京给我留下了很好的印象。",
+"py": "Běijīng gěi wǒ liúxià le hěn hǎo de yìnxiàng.",
+"fa": "پکن تأثیر بسیار خوبی بر من گذاشت.",
+"en": "Beijing left me with a very good impression."
+}
+],
+"chg": "fa: «تأثر ذهنی» wrong/unnatural -> «تأثیر (در ذهن)»; example Persian made idiomatic"
+}
+]

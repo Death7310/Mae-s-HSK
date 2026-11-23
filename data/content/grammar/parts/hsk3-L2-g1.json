@@ -1,0 +1,232 @@
+[
+{"id": "hsk3-g0071", "std": "hsk3", "level": 2, "no": 71,
+ "pattern": "上 / 下 / 前 / 后 / 里 / 外 + 面",
+ "title": {"fa": "ساختن واژه‌های جهت با پسوند 面", "en": "Building location words with the suffix 面"},
+ "body": "«面» به واژه‌های تک‌هجایی جهت می‌چسبد و یک اسم مکان می‌سازد: 上面 (بالا، رو)، 下面 (پایین، زیر)، 前面 (جلو)، 后面 (پشت)، 里面 (داخل)، 外面 (بیرون).\nاین واژه‌ها بعد از اسم می‌آیند، برعکس فارسی که می‌گوییم «روی میز»: 桌子上面.\nتنها هم می‌توانند فاعل یا مکان جمله باشند.",
+ "examples": [
+  {"zh": "书在桌子上面。", "py": "Shū zài zhuōzi shàngmiàn.", "fa": "کتاب روی میز است.", "en": "The book is on the table."},
+  {"zh": "学校前面有一个书店。", "py": "Xuéxiào qiánmiàn yǒu yí ge shūdiàn.", "fa": "جلوی مدرسه یک کتاب‌فروشی هست.", "en": "There is a bookshop in front of the school."},
+  {"zh": "外面很冷。", "py": "Wàimiàn hěn lěng.", "fa": "بیرون خیلی سرد است.", "en": "It's very cold outside."}
+ ]},
+{"id": "hsk3-g0072", "std": "hsk3", "level": 2, "no": 72,
+ "pattern": "左 / 右 (+ 边)",
+ "title": {"fa": "چپ و راست: 左 و 右", "en": "Left and right: 左 and 右"},
+ "body": "«左» یعنی چپ و «右» یعنی راست. برای گفتن جای چیزی معمولاً با 边 می‌آیند: 左边 (سمت چپ)، 右边 (سمت راست).\nاین واژه‌ها بعد از اسم قرار می‌گیرند: 我右边 یعنی «سمت راست من».\nبرای نشان دادن مسیر، بعد از 往 بدون 边 هم می‌آیند: 往左走.",
+ "examples": [
+  {"zh": "洗手间在左边。", "py": "Xǐshǒujiān zài zuǒbian.", "fa": "دستشویی سمت چپ است.", "en": "The restroom is on the left."},
+  {"zh": "他坐在我右边。", "py": "Tā zuò zài wǒ yòubian.", "fa": "او سمت راست من نشسته است.", "en": "He is sitting on my right."},
+  {"zh": "到了前面往右走。", "py": "Dàole qiánmiàn wǎng yòu zǒu.", "fa": "جلوتر که رسیدی به راست برو.", "en": "When you get up ahead, turn right."}
+ ]},
+{"id": "hsk3-g0073", "std": "hsk3", "level": 2, "no": 73,
+ "pattern": "AA / A一A / A了A / ABAB",
+ "title": {"fa": "تکرار فعل برای «یک کمی، یک لحظه»: 看看، 看一看", "en": "Repeating a verb for 'a little, briefly': 看看, 看一看"},
+ "body": "وقتی فعل را دو بار می‌گویی، یعنی کار کوتاه، سبک یا آزمایشی است؛ جمله هم مؤدبانه‌تر و نرم‌تر می‌شود، مثل «یک نگاهی بکن» در فارسی.\nفعل تک‌هجایی: 看看 یا 看一看. اگر کار انجام شده باشد، 了 وسط می‌آید: 看了看.\nفعل دوهجایی کامل تکرار می‌شود: 休息休息، 介绍介绍. هجای دوم در 看看 بدون آهنگ خوانده می‌شود.",
+ "examples": [
+  {"zh": "你看看这本书。", "py": "Nǐ kànkan zhè běn shū.", "fa": "یک نگاهی به این کتاب بینداز.", "en": "Have a look at this book."},
+  {"zh": "他看了看手机。", "py": "Tā kànle kàn shǒujī.", "fa": "او نگاهی به موبایلش انداخت.", "en": "He glanced at his phone."},
+  {"zh": "我们休息休息吧。", "py": "Wǒmen xiūxi xiūxi ba.", "fa": "بیایید کمی استراحت کنیم.", "en": "Let's rest a bit."}
+ ]},
+{"id": "hsk3-g0074", "std": "hsk3", "level": 2, "no": 74,
+ "pattern": "可能 + فعل / صفت",
+ "title": {"fa": "احتمال دادن: 可能", "en": "Saying something is possible: 可能"},
+ "body": "«可能» یعنی «شاید، احتمال دارد» و پیش از فعل یا صفت می‌آید؛ فعل هیچ تغییری نمی‌کند.\nاگر احتمال می‌دهی کاری نشود، منفی را بعد از آن بگذار: 可能不来 (شاید نیاید).\n不可能 یعنی «امکان ندارد».",
+ "examples": [
+  {"zh": "明天可能下雨。", "py": "Míngtiān kěnéng xiàyǔ.", "fa": "فردا شاید باران ببارد.", "en": "It may rain tomorrow."},
+  {"zh": "她今天可能不来了。", "py": "Tā jīntiān kěnéng bù lái le.", "fa": "او امروز احتمالاً دیگر نمی‌آید.", "en": "She probably isn't coming today."},
+  {"zh": "他不可能不知道。", "py": "Tā bù kěnéng bù zhīdào.", "fa": "امکان ندارد او نداند.", "en": "He can't possibly not know."}
+ ]},
+{"id": "hsk3-g0075", "std": "hsk3", "level": 2, "no": 75,
+ "pattern": "فعل + (了 / مدت / شخص) + مفعول",
+ "title": {"fa": "فعل‌هایی که از وسط باز می‌شوند: 帮忙، 游泳، 跳舞، 跑步", "en": "Verbs that split in the middle: 帮忙, 游泳, 跳舞, 跑步"},
+ "body": "این واژه‌ها در اصل «فعل + مفعول» هستند: 帮忙، 游泳، 跳舞، 跑步. برای همین 了، مدت زمان یا تعداد دفعات وسط آن‌ها می‌آید، نه بعدشان: 跳了一会儿舞.\nچون خودشان مفعول دارند، مفعول دیگری بعدشان نمی‌آید؛ نمی‌گوییم 帮忙我، می‌گوییم 帮我一个忙 یا فقط 帮我.",
+ "examples": [
+  {"zh": "你能帮我一个忙吗？", "py": "Nǐ néng bāng wǒ yí ge máng ma?", "fa": "می‌توانی یک کمکی به من بکنی؟", "en": "Can you do me a favor?"},
+  {"zh": "我们跳了一会儿舞。", "py": "Wǒmen tiàole yíhuìr wǔ.", "fa": "ما کمی رقصیدیم.", "en": "We danced for a while."},
+  {"zh": "我昨天游了一个小时泳。", "py": "Wǒ zuótiān yóule yí ge xiǎoshí yǒng.", "fa": "من دیروز یک ساعت شنا کردم.", "en": "I swam for an hour yesterday."}
+ ]},
+{"id": "hsk3-g0076", "std": "hsk3", "level": 2, "no": 76,
+ "pattern": "فاعل + 为什么 + فعل؟",
+ "title": {"fa": "پرسیدن دلیل: 为什么", "en": "Asking for a reason: 为什么"},
+ "body": "«为什么» یعنی «چرا» و معمولاً بعد از فاعل و پیش از فعل می‌آید.\nچون خودش واژهٔ پرسشی است، در پایان جمله 吗 نمی‌آید.\nجواب معمولاً با 因为 (چون) شروع می‌شود.",
+ "examples": [
+  {"zh": "你为什么不去？", "py": "Nǐ wèi shénme bú qù?", "fa": "تو چرا نمی‌روی؟", "en": "Why aren't you going?"},
+  {"zh": "他为什么学习汉语？", "py": "Tā wèi shénme xuéxí Hànyǔ?", "fa": "او چرا چینی یاد می‌گیرد؟", "en": "Why is he learning Chinese?"},
+  {"zh": "因为他想去中国工作。", "py": "Yīnwèi tā xiǎng qù Zhōngguó gōngzuò.", "fa": "چون می‌خواهد برود در چین کار کند.", "en": "Because he wants to go and work in China."}
+ ]},
+{"id": "hsk3-g0077", "std": "hsk3", "level": 2, "no": 77,
+ "pattern": "(ضمیر / اسم) + 自己",
+ "title": {"fa": "«خود»: 自己", "en": "'Oneself': 自己"},
+ "body": "«自己» یعنی «خود» و برای همهٔ شخص‌ها یک شکل دارد؛ مثل فارسی شناسه نمی‌گیرد (خودم، خودت، خودش).\nبعد از ضمیر یا اسم می‌آید: 我自己 (خودم)، 他自己 (خودش). پیش از فعل یعنی «خودش، تنهایی و بدون کمک».\nبا 的 مالکیت را نشان می‌دهد: 自己的房间 (اتاق خودش).",
+ "examples": [
+  {"zh": "我自己做饭。", "py": "Wǒ zìjǐ zuòfàn.", "fa": "من خودم غذا درست می‌کنم.", "en": "I cook for myself."},
+  {"zh": "孩子会自己穿衣服了。", "py": "Háizi huì zìjǐ chuān yīfu le.", "fa": "بچه دیگر بلد است خودش لباس بپوشد.", "en": "The child can get dressed by himself now."},
+  {"zh": "这是他自己的事。", "py": "Zhè shì tā zìjǐ de shì.", "fa": "این کار خودش است.", "en": "This is his own business."}
+ ]},
+{"id": "hsk3-g0078", "std": "hsk3", "level": 2, "no": 78,
+ "pattern": "这么 / 那么 + صفت؛ 这样 / 那样 + فعل؛ 每 + واحد شمارش + اسم",
+ "title": {"fa": "«این‌قدر، این‌طور» و «هر»: 这么، 那么، 这样، 那样، 每", "en": "'So, like this' and 'every': 这么, 那么, 这样, 那样, 每"},
+ "body": "«这么» و «那么» پیش از صفت یعنی «این‌قدر / آن‌قدر»؛ پیش از فعل یعنی «این‌طور / آن‌طور».\n«这样» و «那样» یعنی «این‌جور / آن‌جور» و می‌توانند تنها هم بیایند: 这样不好.\n«每» یعنی «هر» و بین آن و اسم واحد شمارش می‌آید: 每个人. واژه‌های 天 و 年 خودشان واحدند: 每天. در ادامهٔ جمله معمولاً 都 می‌آید.",
+ "examples": [
+  {"zh": "今天怎么这么冷？", "py": "Jīntiān zěnme zhème lěng?", "fa": "امروز چرا این‌قدر سرد است؟", "en": "Why is it so cold today?"},
+  {"zh": "这个字这样写。", "py": "Zhège zì zhèyàng xiě.", "fa": "این نویسه این‌طور نوشته می‌شود.", "en": "This character is written like this."},
+  {"zh": "我每天早上都喝牛奶。", "py": "Wǒ měi tiān zǎoshang dōu hē niúnǎi.", "fa": "من هر روز صبح شیر می‌خورم.", "en": "I drink milk every morning."}
+ ]},
+{"id": "hsk3-g0079", "std": "hsk3", "level": 2, "no": 79,
+ "pattern": "AA(的) / AABB(的)",
+ "title": {"fa": "تکرار صفت برای توصیف زنده‌تر: 大大的، 高高兴兴", "en": "Repeating an adjective for vivid description: 大大的, 高高兴兴"},
+ "body": "با تکرار صفت، توصیف زنده‌تر و پررنگ‌تر می‌شود. صفت تک‌هجایی دو بار می‌آید: 大大的، 高高的.\nدر صفت دوهجایی هر هجا جدا تکرار می‌شود: 高兴 می‌شود 高高兴兴، نه 高兴高兴.\nبعد از آن معمولاً 的 می‌آید و پیش از فعل 地. صفت تکرارشده دیگر 很 یا 不 نمی‌گیرد.",
+ "examples": [
+  {"zh": "她的眼睛大大的。", "py": "Tā de yǎnjing dàdà de.", "fa": "چشم‌هایش درشتِ درشت است.", "en": "Her eyes are nice and big."},
+  {"zh": "他个子高高的。", "py": "Tā gèzi gāogāo de.", "fa": "او قدبلند است.", "en": "He is quite tall."},
+  {"zh": "孩子们高高兴兴地去学校了。", "py": "Háizimen gāogāoxìngxìng de qù xuéxiào le.", "fa": "بچه‌ها با خوشحالی به مدرسه رفتند.", "en": "The children went off to school happily."}
+ ]},
+{"id": "hsk3-g0080", "std": "hsk3", "level": 2, "no": 80,
+ "pattern": "عدد + 万؛ 好多 + اسم؛ عدد + 多 + واحد شمارش",
+ "title": {"fa": "ده‌هزار، «خیلی» و «و خرده‌ای»: 万، 好多، 多", "en": "Ten thousand, 'lots of' and 'more than': 万, 好多, 多"},
+ "body": "چینی برای ده‌هزار واحد جدا دارد: 万. پس ۵۰٬۰۰۰ می‌شود 五万 (پنج تا ده‌هزار)، نه «پنجاه هزار».\n«好多» یعنی «خیلی، کلی» و مستقیم پیش از اسم می‌آید.\n«多» بعد از عدد رُند یعنی «و خرده‌ای، بیشتر از»: 二十多岁، 一百多个人.",
+ "examples": [
+  {"zh": "学校有一万多个学生。", "py": "Xuéxiào yǒu yí wàn duō ge xuésheng.", "fa": "مدرسه بیش از ده‌هزار دانش‌آموز دارد.", "en": "The school has more than ten thousand students."},
+  {"zh": "商场里有好多人。", "py": "Shāngchǎng li yǒu hǎoduō rén.", "fa": "توی مرکز خرید کلی آدم هست.", "en": "There are lots of people in the mall."},
+  {"zh": "他二十多岁。", "py": "Tā èrshí duō suì.", "fa": "او بیست‌وچند ساله است.", "en": "He is in his twenties."}
+ ]},
+{"id": "hsk3-g0081", "std": "hsk3", "level": 2, "no": 81,
+ "pattern": "عدد + 条 / 位 / 间 / 名 + اسم",
+ "title": {"fa": "واحدهای شمارش ویژه: 条، 位، 间، 名", "en": "Specific measure words: 条, 位, 间, 名"},
+ "body": "در چینی بین عدد و اسم باید واحد شمارش بیاید و هر گروه از اسم‌ها واحد خودش را دارد.\n«条» برای چیزهای دراز و باریک است: راه، ماهی، شلوار. «位» واحد محترمانهٔ آدم‌هاست. «间» برای اتاق است. «名» برای آدم‌ها با شغل یا جایگاهشان است و رسمی‌تر است: 一名医生.",
+ "examples": [
+  {"zh": "我买了一条裤子。", "py": "Wǒ mǎile yì tiáo kùzi.", "fa": "من یک شلوار خریدم.", "en": "I bought a pair of trousers."},
+  {"zh": "那位先生是我们的老师。", "py": "Nà wèi xiānsheng shì wǒmen de lǎoshī.", "fa": "آن آقا معلم ماست.", "en": "That gentleman is our teacher."},
+  {"zh": "他家有三间房间。", "py": "Tā jiā yǒu sān jiān fángjiān.", "fa": "خانهٔ او سه اتاق دارد.", "en": "His home has three rooms."}
+ ]},
+{"id": "hsk3-g0082", "std": "hsk3", "level": 2, "no": 82,
+ "pattern": "عدد + 包 + اسم",
+ "title": {"fa": "شمردن با «بسته»: 包", "en": "Counting by the pack: 包"},
+ "body": "«包» در اصل یعنی «کیف، بسته» و اینجا به‌عنوان واحد شمارش قرض گرفته شده است: هر چیزی که در بسته یا پاکت باشد با آن شمرده می‌شود.\nمثل «یک بسته چای» در فارسی است، ولی در چینی حذف‌شدنی نیست: 一包茶.",
+ "examples": [
+  {"zh": "我买了一包茶。", "py": "Wǒ mǎile yì bāo chá.", "fa": "من یک بسته چای خریدم.", "en": "I bought a pack of tea."},
+  {"zh": "桌子上有两包药。", "py": "Zhuōzi shang yǒu liǎng bāo yào.", "fa": "روی میز دو بسته دارو هست.", "en": "There are two packets of medicine on the table."}
+ ]},
+{"id": "hsk3-g0083", "std": "hsk3", "level": 2, "no": 83,
+ "pattern": "فعل + (了 / 过) + عدد + 次 (+ مفعول)",
+ "title": {"fa": "گفتن تعداد دفعات: 次", "en": "Saying how many times: 次"},
+ "body": "«次» یعنی «بار، دفعه». برخلاف فارسی که «دو بار» پیش از فعل می‌آید، در چینی عدد و 次 بعد از فعل قرار می‌گیرند: 看了两次.\nاگر مفعول اسم مکان باشد، می‌تواند پیش یا بعد از 次 بیاید. برای پرسیدن از 几次 استفاده کن.",
+ "examples": [
+  {"zh": "我去过一次中国。", "py": "Wǒ qùguo yí cì Zhōngguó.", "fa": "من یک بار به چین رفته‌ام.", "en": "I have been to China once."},
+  {"zh": "这个电影我看了两次。", "py": "Zhège diànyǐng wǒ kànle liǎng cì.", "fa": "این فیلم را دو بار دیده‌ام.", "en": "I have seen this film twice."},
+  {"zh": "请再说一次。", "py": "Qǐng zài shuō yí cì.", "fa": "لطفاً یک بار دیگر بگویید.", "en": "Please say it once more."}
+ ]},
+{"id": "hsk3-g0084", "std": "hsk3", "level": 2, "no": 84,
+ "pattern": "多 / 好 / 最 + صفت",
+ "title": {"fa": "«چقدر!»، «خیلی» و «ترین»: 多، 好، 最", "en": "'How...!', 'so' and 'most': 多, 好, 最"},
+ "body": "«多» پیش از صفت در جملهٔ تعجبی یعنی «چقدر!» و معمولاً با 啊 تمام می‌شود؛ در پرسش هم اندازه را می‌پرسد: 多大؟\n«好» پیش از صفت یعنی «خیلی، چه» با حس و حال گفتاری: 好冷.\n«最» یعنی «ترین» و پیش از صفت یا فعل‌هایی مثل 喜欢 می‌آید؛ چینی پسوندی مثل «ـ‌ترین» ندارد.",
+ "examples": [
+  {"zh": "这儿多漂亮啊！", "py": "Zhèr duō piàoliang a!", "fa": "اینجا چقدر قشنگ است!", "en": "How beautiful it is here!"},
+  {"zh": "今天好冷啊！", "py": "Jīntiān hǎo lěng a!", "fa": "امروز چه سرد است!", "en": "It's so cold today!"},
+  {"zh": "我最喜欢喝茶。", "py": "Wǒ zuì xǐhuan hē chá.", "fa": "من چای را از همه بیشتر دوست دارم.", "en": "I like tea the most."}
+ ]},
+{"id": "hsk3-g0085", "std": "hsk3", "level": 2, "no": 85,
+ "pattern": "فاعل (جمع) + 一起 + فعل",
+ "title": {"fa": "با هم انجام دادن: 一起", "en": "Doing something together: 一起"},
+ "body": "«一起» یعنی «با هم» و همیشه پیش از فعل می‌آید، نه آخر جمله.\nفاعل باید بیش از یک نفر باشد؛ اغلب با 跟 یا 和 همراه می‌شود: 我跟他一起去.",
+ "examples": [
+  {"zh": "我们一起去吃饭吧。", "py": "Wǒmen yìqǐ qù chī fàn ba.", "fa": "بیا با هم برویم غذا بخوریم.", "en": "Let's go and eat together."},
+  {"zh": "我跟朋友一起学习汉语。", "py": "Wǒ gēn péngyou yìqǐ xuéxí Hànyǔ.", "fa": "من با دوستم با هم چینی می‌خوانیم.", "en": "I study Chinese together with my friend."}
+ ]},
+{"id": "hsk3-g0086", "std": "hsk3", "level": 2, "no": 86,
+ "pattern": "还 / 已经 / 有时(候) / 快(要) / 正 + فعل",
+ "title": {"fa": "قیدهای زمان: 还، 已经، 有时候، 快要، 正", "en": "Time adverbs: 还, 已经, 有时候, 快要, 正"},
+ "body": "چینی زمان فعل ندارد و این قیدها پیش از فعل کار آن را می‌کنند.\n«还» یعنی «هنوز»: 他还在睡觉. «已经» یعنی «قبلاً، دیگر» و جمله با 了 تمام می‌شود. «有时» یا «有时候» یعنی «گاهی».\n«快…了» و «快要…了» یعنی «نزدیک است که، به‌زودی»: 快下雨了. «正» یعنی «همین الان در حال…» و اغلب با 呢 می‌آید.",
+ "examples": [
+  {"zh": "我已经吃晚饭了。", "py": "Wǒ yǐjīng chī wǎnfàn le.", "fa": "من شام خورده‌ام.", "en": "I have already had dinner."},
+  {"zh": "我们快要考试了。", "py": "Wǒmen kuàiyào kǎoshì le.", "fa": "ما به‌زودی امتحان داریم.", "en": "We are about to have an exam."},
+  {"zh": "他正打电话呢，有时候他还在公司。", "py": "Tā zhèng dǎ diànhuà ne, yǒu shíhou tā hái zài gōngsī.", "fa": "او همین الان دارد تلفن می‌زند؛ گاهی هنوز در شرکت است.", "en": "He is on the phone right now; sometimes he is still at the office."}
+ ]},
+{"id": "hsk3-g0087", "std": "hsk3", "level": 2, "no": 87,
+ "pattern": "فاعل + 常 / 经常 + فعل",
+ "title": {"fa": "«اغلب، زیاد»: 常 و 经常", "en": "'Often': 常 and 经常"},
+ "body": "«常» و «经常» هر دو یعنی «اغلب، زیاد» و پیش از فعل می‌آیند؛ 经常 کمی پرتکرارتر و رسمی‌تر است.\nمنفی معمولاً 不常 است: 不常去 (زیاد نمی‌روم).",
+ "examples": [
+  {"zh": "我常去那个饭馆。", "py": "Wǒ cháng qù nàge fànguǎn.", "fa": "من زیاد به آن رستوران می‌روم.", "en": "I often go to that restaurant."},
+  {"zh": "他经常运动。", "py": "Tā jīngcháng yùndòng.", "fa": "او مرتب ورزش می‌کند.", "en": "He exercises regularly."},
+  {"zh": "她不常看电视。", "py": "Tā bù cháng kàn diànshì.", "fa": "او زیاد تلویزیون نگاه نمی‌کند.", "en": "She doesn't watch TV often."}
+ ]},
+{"id": "hsk3-g0088", "std": "hsk3", "level": 2, "no": 88,
+ "pattern": "别 + فعل (+ 了)",
+ "title": {"fa": "نهی کردن، «نکن»: 别", "en": "Telling someone not to: 别"},
+ "body": "«别» پیش از فعل می‌آید و یعنی «نکن»؛ همان معنای 不要 را دارد ولی کوتاه‌تر و گفتاری‌تر است.\nفعل هیچ تغییری نمی‌کند و فاعل (你) معمولاً گفته نمی‌شود.\n«别…了» یعنی کاری را که در جریان است تمام کن: «دیگر نکن».",
+ "examples": [
+  {"zh": "别说话！", "py": "Bié shuōhuà!", "fa": "حرف نزن!", "en": "Don't talk!"},
+  {"zh": "别忘了给妈妈打电话。", "py": "Bié wàngle gěi māma dǎ diànhuà.", "fa": "یادت نرود به مامان زنگ بزنی.", "en": "Don't forget to call Mum."},
+  {"zh": "别玩手机了。", "py": "Bié wán shǒujī le.", "fa": "دیگر با موبایل بازی نکن.", "en": "Stop playing with your phone."}
+ ]},
+{"id": "hsk3-g0089", "std": "hsk3", "level": 2, "no": 89,
+ "pattern": "فعل ۱ + 再 + فعل ۲؛ فعل ۱ + 就 + فعل ۲",
+ "title": {"fa": "ترتیب دو کار، «بعد» و «بلافاصله»: 再 و 就", "en": "Ordering two actions, 'then' and 'right after': 再 and 就"},
+ "body": "«再» اینجا یعنی «بعد، آن‌وقت»: کار دوم تا تمام شدن کار اول عقب می‌افتد.\n«就» دو کار را پشت سر هم وصل می‌کند: کار دوم بلافاصله بعد از اولی می‌آید، یا نتیجهٔ یک شرط است («آن‌وقت، پس»).\nهر دو پیش از فعل دوم و بعد از فاعل می‌آیند.",
+ "examples": [
+  {"zh": "我们吃完饭再去吧。", "py": "Wǒmen chīwán fàn zài qù ba.", "fa": "بیا غذا را که خوردیم بعد برویم.", "en": "Let's go after we finish eating."},
+  {"zh": "他下了课就回家。", "py": "Tā xiàle kè jiù huí jiā.", "fa": "او کلاسش که تمام شود فوری به خانه برمی‌گردد.", "en": "He goes home as soon as class is over."},
+  {"zh": "你想去，我们就去。", "py": "Nǐ xiǎng qù, wǒmen jiù qù.", "fa": "اگر تو بخواهی بروی، می‌رویم.", "en": "If you want to go, then we'll go."}
+ ]},
+{"id": "hsk3-g0090", "std": "hsk3", "level": 2, "no": 90,
+ "pattern": "都 … 了؛ 就 + فعل؛ 还是 + فعل",
+ "title": {"fa": "تأکید و لحن گوینده: 都، 就، 还是", "en": "Emphasis and speaker's tone: 都, 就, 还是"},
+ "body": "«都…了» یعنی «دیگر، حالا دیگر» و نشان می‌دهد به نظر گوینده دیر یا زیاد شده است: 都十点了.\n«就» پیش از فعل تأکید می‌کند: «همین، دقیقاً»: 这就是… (این همان … است).\n«还是» یعنی «با این حال باز هم»: با وجود مانع، وضع عوض نشده است.",
+ "examples": [
+  {"zh": "都十点了，快起床吧。", "py": "Dōu shí diǎn le, kuài qǐchuáng ba.", "fa": "ساعت ده شده دیگر، زود بلند شو.", "en": "It's already ten o'clock, get up quickly."},
+  {"zh": "这就是我的学校。", "py": "Zhè jiù shì wǒ de xuéxiào.", "fa": "این همان مدرسهٔ من است.", "en": "This is my school."},
+  {"zh": "虽然很累，但是他还是去上班了。", "py": "Suīrán hěn lèi, dànshì tā háishi qù shàngbān le.", "fa": "با اینکه خیلی خسته بود، باز هم سر کار رفت.", "en": "Although he was very tired, he still went to work."}
+ ]},
+{"id": "hsk3-g0091", "std": "hsk3", "level": 2, "no": 91,
+ "pattern": "从 + زمان / مکان (+ 到 …) + فعل",
+ "title": {"fa": "نقطهٔ شروع، «از»: 从", "en": "Starting point, 'from': 从"},
+ "body": "«从» یعنی «از» و نقطهٔ شروع زمان یا مکان را نشان می‌دهد.\nمثل فارسی پیش از فعل می‌آید: 从中国来 (از چین آمدن).\nبا 到 بازه می‌سازد: 从…到… (از … تا …)؛ با 开始 شروع زمانی را می‌گوید.",
+ "examples": [
+  {"zh": "我们从八点开始上课。", "py": "Wǒmen cóng bā diǎn kāishǐ shàngkè.", "fa": "کلاس ما از ساعت هشت شروع می‌شود.", "en": "Our class starts at eight o'clock."},
+  {"zh": "他从中国来。", "py": "Tā cóng Zhōngguó lái.", "fa": "او از چین می‌آید.", "en": "He comes from China."},
+  {"zh": "从我家到学校很近。", "py": "Cóng wǒ jiā dào xuéxiào hěn jìn.", "fa": "از خانهٔ من تا مدرسه خیلی نزدیک است.", "en": "It's very close from my home to the school."}
+ ]},
+{"id": "hsk3-g0092", "std": "hsk3", "level": 2, "no": 92,
+ "pattern": "往 + جهت / مکان + فعل",
+ "title": {"fa": "جهت حرکت، «به سمتِ»: 往", "en": "Direction of movement, 'towards': 往"},
+ "body": "«往» یعنی «به سمتِ» و جهت حرکت را نشان می‌دهد، نه مقصد نهایی را.\nبعد از آن واژهٔ جهت یا مکان می‌آید و بعد فعل: 往前走، 往左看.\nدر آدرس دادن بسیار پرکاربرد است.",
+ "examples": [
+  {"zh": "往前走，就到车站了。", "py": "Wǎng qián zǒu, jiù dào chēzhàn le.", "fa": "مستقیم برو، به ایستگاه می‌رسی.", "en": "Go straight ahead and you'll reach the station."},
+  {"zh": "请往左边看。", "py": "Qǐng wǎng zuǒbian kàn.", "fa": "لطفاً به سمت چپ نگاه کنید.", "en": "Please look to the left."}
+ ]},
+{"id": "hsk3-g0093", "std": "hsk3", "level": 2, "no": 93,
+ "pattern": "从 + مکان (مسیر) + فعل حرکت",
+ "title": {"fa": "مسیر عبور، «از راهِ، از کنارِ»: 从", "en": "Route passed through, 'via, past': 从"},
+ "body": "«从» علاوه بر نقطهٔ شروع، جایی را هم نشان می‌دهد که حرکت از آن می‌گذرد: «از این راه، از کنارِ، از توی».\nبعد از آن فعل حرکت می‌آید، مثل 走، 过去، 进来. فارسی هم در هر دو معنا «از» می‌گوید.",
+ "examples": [
+  {"zh": "我们从这条路走吧。", "py": "Wǒmen cóng zhè tiáo lù zǒu ba.", "fa": "بیا از این راه برویم.", "en": "Let's go by this road."},
+  {"zh": "他从我旁边走过去了。", "py": "Tā cóng wǒ pángbiān zǒu guòqu le.", "fa": "او از کنار من رد شد.", "en": "He walked past me."},
+  {"zh": "请从前面的门进来。", "py": "Qǐng cóng qiánmiàn de mén jìnlai.", "fa": "لطفاً از درِ جلو وارد شوید.", "en": "Please come in through the front door."}
+ ]},
+{"id": "hsk3-g0094", "std": "hsk3", "level": 2, "no": 94,
+ "pattern": "فاعل + 给 + شخص + فعل",
+ "title": {"fa": "«به / برایِ» کسی: 给", "en": "'To / for' someone: 给"},
+ "body": "«给» علاوه بر فعل «دادن»، حرف اضافه هم هست و نشان می‌دهد کار به چه کسی می‌رسد یا برای چه کسی انجام می‌شود.\n«给 + شخص» پیش از فعل می‌آید: 给你打电话 (به تو زنگ می‌زنم).\nمنفی پیش از 给 می‌آید: 没给他买.",
+ "examples": [
+  {"zh": "我晚上给你打电话。", "py": "Wǒ wǎnshang gěi nǐ dǎ diànhuà.", "fa": "شب به تو زنگ می‌زنم.", "en": "I'll call you this evening."},
+  {"zh": "妈妈给我买了一件衣服。", "py": "Māma gěi wǒ mǎile yí jiàn yīfu.", "fa": "مامان برایم یک لباس خرید.", "en": "Mum bought me a piece of clothing."}
+ ]},
+{"id": "hsk3-g0095", "std": "hsk3", "level": 2, "no": 95,
+ "pattern": "A + 比 + B + صفت (+ 一点儿)",
+ "title": {"fa": "مقایسه، «از … ـ‌تر»: 比", "en": "Comparing, 'more … than': 比"},
+ "body": "برای مقایسه می‌گوییم: «الف 比 ب + صفت». صفت پسوندی مثل «ـ‌تر» نمی‌گیرد و پیش از آن 很 نمی‌آید.\nمقدار تفاوت بعد از صفت می‌آید: 贵一点儿 (کمی گران‌تر).\nمنفی معمولاً با 没有 ساخته می‌شود: 我没有他高 (من به بلندی او نیستم).",
+ "examples": [
+  {"zh": "我比他高。", "py": "Wǒ bǐ tā gāo.", "fa": "من از او بلندترم.", "en": "I am taller than him."},
+  {"zh": "今天比昨天冷。", "py": "Jīntiān bǐ zuótiān lěng.", "fa": "امروز از دیروز سردتر است.", "en": "Today is colder than yesterday."},
+  {"zh": "这个手机比那个贵一点儿。", "py": "Zhège shǒujī bǐ nàge guì yìdiǎnr.", "fa": "این موبایل از آن یکی کمی گران‌تر است.", "en": "This phone is a bit more expensive than that one."}
+ ]},
+{"id": "hsk3-g0096", "std": "hsk3", "level": 2, "no": 96,
+ "pattern": "فاعل + 跟 + شخص + (一起) + فعل",
+ "title": {"fa": "«با» کسی: 跟", "en": "'With' someone: 跟"},
+ "body": "«跟» یعنی «با» و همراه یا طرف مقابل کار را معرفی می‌کند.\n«跟 + شخص» پیش از فعل می‌آید و اغلب با 一起 همراه است. با فعل‌هایی مثل 说 یعنی «به کسی گفتن»: 跟他说.\nمنفی پیش از 跟 می‌آید: 我不跟他去.",
+ "examples": [
+  {"zh": "我跟朋友去看电影。", "py": "Wǒ gēn péngyou qù kàn diànyǐng.", "fa": "من با دوستم می‌روم فیلم ببینم.", "en": "I'm going to see a film with my friend."},
+  {"zh": "你跟我来。", "py": "Nǐ gēn wǒ lái.", "fa": "با من بیا.", "en": "Come with me."},
+  {"zh": "我想跟你说一件事。", "py": "Wǒ xiǎng gēn nǐ shuō yí jiàn shì.", "fa": "می‌خواهم چیزی به تو بگویم.", "en": "I want to tell you something."}
+ ]}
+]

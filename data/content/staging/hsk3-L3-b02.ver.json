@@ -1,0 +1,429 @@
+[
+{
+"id": "机会",
+"fa": [
+"فرصت",
+"موقعیت"
+],
+"en": [
+"opportunity",
+"chance"
+],
+"ex": [
+{
+"zh": "这是一个很好的机会。",
+"py": "Zhè shì yí ge hěn hǎo de jīhuì.",
+"fa": "این فرصت بسیار خوبی است.",
+"en": "This is a very good opportunity."
+}
+],
+"chg": "note: removed (Chinese term 量词 inside Persian note; adds little)"
+},
+{
+"id": "受",
+"fa": [
+"مورد ... قرار گرفتن",
+"دریافت کردن",
+"متحمل شدن (سختی)"
+],
+"en": [
+"to be subjected to",
+"to receive",
+"to suffer"
+],
+"ex": [
+{
+"zh": "他很受大家的欢迎。",
+"py": "Tā hěn shòu dàjiā de huānyíng.",
+"fa": "او مورد استقبال همه است.",
+"en": "He is very popular with everyone."
+}
+],
+"chg": "fa/en: added core passive sense used in the example (受欢迎); merged near-duplicate glosses"
+},
+{
+"id": "别人",
+"fa": [
+"دیگران",
+"افراد دیگر"
+],
+"en": [
+"other people",
+"others"
+],
+"ex": [
+{
+"zh": "不要总是看别人的东西。",
+"py": "Bú yào zǒngshì kàn biérén de dōngxi.",
+"fa": "همیشه به وسایل دیگران نگاه نکن.",
+"en": "Don't always look at other people's things."
+}
+],
+"chg": "py: biéren -> official biérén; fa: unnatural «دیگر مردم» -> «افراد دیگر»"
+},
+{
+"id": "男人",
+"fa": [
+"مرد"
+],
+"en": [
+"man"
+],
+"ex": [
+{
+"zh": "那个男人是我的邻居。",
+"py": "Nàge nánrén shì wǒ de línjū.",
+"fa": "آن مرد همسایهٔ من است.",
+"en": "That man is my neighbor."
+}
+],
+"chg": "note: removed (adds nothing, mixed Chinese term); py: 那个 joined as one word"
+},
+{
+"id": "信",
+"fa": [
+"نامه",
+"باور کردن",
+"اعتماد کردن"
+],
+"en": [
+"letter",
+"to believe",
+"to trust"
+],
+"note": "واحد شمارش نامه: 封",
+"ex": [
+{
+"zh": "他给我写了一封信。",
+"py": "Tā gěi wǒ xiě le yì fēng xìn.",
+"fa": "او برای من یک نامه نوشت.",
+"en": "He wrote me a letter."
+}
+],
+"chg": "note: rewritten in Persian (was mixed 量词)"
+},
+{
+"id": "刚",
+"fa": [
+"تازه",
+"همین چند لحظه پیش"
+],
+"en": [
+"just",
+"only just"
+],
+"ex": [
+{
+"zh": "我刚到家，你就打电话来了。",
+"py": "Wǒ gāng dào jiā, nǐ jiù dǎ diànhuà lái le.",
+"fa": "تازه به خانه رسیده بودم که تو زنگ زدی.",
+"en": "I had just got home when you called."
+}
+],
+"chg": "fa: «همین الان» ambiguous with \"right now\"; clarified as immediate past"
+},
+{
+"id": "只要",
+"fa": [
+"به شرط اینکه",
+"همین که (کافی است که)"
+],
+"en": [
+"as long as",
+"provided that"
+],
+"ex": [
+{
+"zh": "只要努力，你就能学好汉语。",
+"py": "Zhǐyào nǔlì, nǐ jiù néng xuéhǎo Hànyǔ.",
+"fa": "کافی است تلاش کنی تا چینی را خوب یاد بگیری.",
+"en": "As long as you work hard, you can learn Chinese well."
+},
+{
+"zh": "只要有时间，我就去看你。",
+"py": "Zhǐyào yǒu shíjiān, wǒ jiù qù kàn nǐ.",
+"fa": "همین که وقت داشته باشم، به دیدنت می‌آیم.",
+"en": "As long as I have time, I'll come see you."
+}
+],
+"chg": "ex1: translation said \"succeed\" for 进步 (also out-of-list) -> rewritten; ex2 fa: wrong «تا وقتی» -> conditional; fa gloss tightened"
+},
+{
+"id": "不同",
+"fa": [
+"متفاوت",
+"مختلف"
+],
+"en": [
+"different",
+"not the same"
+],
+"ex": [
+{
+"zh": "不同的国家有不同的文化。",
+"py": "Bù tóng de guójiā yǒu bù tóng de wénhuà.",
+"fa": "کشورهای مختلف فرهنگ‌های متفاوتی دارند.",
+"en": "Different countries have different cultures."
+}
+],
+"chg": "fa: verb gloss «فرق داشتن» for an adjective -> «مختلف»; ex: replaced out-of-list 看法 with in-list sentence"
+},
+{
+"id": "关于",
+"fa": [
+"دربارهٔ",
+"در موردِ"
+],
+"en": [
+"about",
+"regarding"
+],
+"ex": [
+{
+"zh": "这是一本关于历史的书。",
+"py": "Zhè shì yì běn guānyú lìshǐ de shū.",
+"fa": "این کتابی دربارهٔ تاریخ است.",
+"en": "This is a book about history."
+},
+{
+"zh": "关于这件事，我不太清楚。",
+"py": "Guānyú zhè jiàn shì, wǒ bú tài qīngchu.",
+"fa": "دربارهٔ این موضوع، من اطلاع دقیقی ندارم.",
+"en": "As for this matter, I don't know much about it."
+}
+],
+"chg": "fa: ezafe «دربارهٔ»; ex2 fa/en: 不太清楚 = not well informed, not \"unsure\""
+},
+{
+"id": "加",
+"fa": [
+"اضافه کردن",
+"جمع کردن (در ریاضی)"
+],
+"en": [
+"to add",
+"to add (in math)"
+],
+"ex": [
+{
+"zh": "茶里再加一点儿糖吧。",
+"py": "Chá lǐ zài jiā yìdiǎnr táng ba.",
+"fa": "کمی دیگر شکر به چای اضافه کن.",
+"en": "Add a little more sugar to the tea."
+}
+],
+"chg": "fa/en: «جمع کردن» ambiguous (collect) -> marked as arithmetic; ex fa more natural"
+},
+{
+"id": "特别",
+"fa": [
+"ویژه",
+"خیلی",
+"به‌خصوص"
+],
+"en": [
+"special",
+"very",
+"especially"
+],
+"ex": [
+{
+"zh": "今天特别冷，多穿点儿。",
+"py": "Jīntiān tèbié lěng, duō chuān diǎnr.",
+"fa": "امروز خیلی سرد است، بیشتر بپوش.",
+"en": "It's especially cold today, wear more."
+}
+],
+"chg": "en: order aligned with fa (special / very / especially)"
+},
+{
+"id": "声",
+"fa": [
+"صدا",
+"واحد شمارش برای صدا"
+],
+"en": [
+"sound",
+"measure word for sounds"
+],
+"ex": [
+{
+"zh": "我听见外面有人大叫了一声。",
+"py": "Wǒ tīngjiàn wàimian yǒu rén dà jiào le yì shēng.",
+"fa": "شنیدم بیرون کسی یک فریاد بلند زد.",
+"en": "I heard someone outside give a loud shout."
+},
+{
+"zh": "请小声一点儿，孩子在睡觉。",
+"py": "Qǐng xiǎo shēng yìdiǎnr, háizi zài shuìjiào.",
+"fa": "لطفاً کمی آهسته‌تر، بچه خوابیده است.",
+"en": "Please keep your voice down, the child is sleeping."
+}
+],
+"chg": "ex1: more natural measure-word use (叫了一声); ex2: 别忘了 did not match translation and was a non sequitur -> rewritten"
+},
+{
+"id": "城市",
+"fa": [
+"شهر"
+],
+"en": [
+"city"
+],
+"note": "واحد شمارش رسمی: 座؛ در گفتار 个 هم رایج است.",
+"ex": [
+{
+"zh": "上海是一个很大的城市。",
+"py": "Shànghǎi shì yí ge hěn dà de chéngshì.",
+"fa": "شانگهای شهری بسیار بزرگ است.",
+"en": "Shanghai is a very big city."
+}
+],
+"chg": "note: rewritten in Persian (was mixed 量词); 个 also common, as in the example"
+},
+{
+"id": "游戏",
+"fa": [
+"بازی"
+],
+"en": [
+"game"
+],
+"ex": [
+{
+"zh": "孩子们喜欢玩儿这个游戏。",
+"py": "Háizimen xǐhuan wánr zhège yóuxì.",
+"fa": "بچه‌ها از این بازی خوششان می‌آید.",
+"en": "The kids like playing this game."
+}
+],
+"chg": "note: removed (misleading: 比赛 means match/competition, not sport)"
+},
+{
+"id": "马",
+"fa": [
+"اسب"
+],
+"en": [
+"horse"
+],
+"note": "واحد شمارش: 匹 (一匹马).",
+"ex": [
+{
+"zh": "他从小就喜欢骑马。",
+"py": "Tā cóngxiǎo jiù xǐhuan qí mǎ.",
+"fa": "او از بچگی اسب‌سواری را دوست داشته است.",
+"en": "He has loved riding horses since childhood."
+}
+],
+"chg": "ex: wrong measure word 只 for horse (should be 匹, out of list) -> rewritten with in-list words; note in Persian"
+},
+{
+"id": "比较",
+"fa": [
+"نسبتاً",
+"مقایسه کردن"
+],
+"en": [
+"relatively",
+"to compare"
+],
+"ex": [
+{
+"zh": "这家店的东西比较便宜。",
+"py": "Zhè jiā diàn de dōngxi bǐjiào piányi.",
+"fa": "اجناس این مغازه نسبتاً ارزان است.",
+"en": "Things in this shop are relatively cheap."
+},
+{
+"zh": "请比较一下这两个句子。",
+"py": "Qǐng bǐjiào yíxià zhè liǎng ge jùzi.",
+"fa": "لطفاً این دو جمله را با هم مقایسه کنید.",
+"en": "Please compare these two sentences."
+}
+],
+"chg": "ex2: both examples were adverbial; replaced one to show the verb sense \"to compare\""
+},
+{
+"id": "换",
+"fa": [
+"عوض کردن",
+"تعویض کردن"
+],
+"en": [
+"to change",
+"to exchange"
+],
+"ex": [
+{
+"zh": "我想换一件大一点儿的衣服。",
+"py": "Wǒ xiǎng huàn yí jiàn dà yìdiǎnr de yīfu.",
+"fa": "می‌خواهم این لباس را با یکی بزرگ‌تر عوض کنم.",
+"en": "I'd like to exchange this for a bigger one."
+}
+],
+"chg": "ex fa: unnatural Persian -> natural"
+},
+{
+"id": "总是",
+"fa": [
+"همیشه"
+],
+"en": [
+"always"
+],
+"ex": [
+{
+"zh": "他总是早上六点起床。",
+"py": "Tā zǒngshì zǎoshang liù diǎn qǐchuáng.",
+"fa": "او همیشه ساعت شش صبح بیدار می‌شود.",
+"en": "He always gets up at six in the morning."
+}
+],
+"chg": "fa: removed inaccurate «هر بار» (each time ≠ always)"
+},
+{
+"id": "米",
+"fa": [
+"متر (واحد طول)"
+],
+"en": [
+"meter"
+],
+"note": "به معنای «برنج» هم هست (米饭).",
+"ex": [
+{
+"zh": "他的身高有一米八。",
+"py": "Tā de shēngāo yǒu yì mǐ bā.",
+"fa": "قد او یک متر و هشتاد است.",
+"en": "He is 1.8 meters tall."
+},
+{
+"zh": "学校离这里只有五百米。",
+"py": "Xuéxiào lí zhèli zhǐyǒu wǔbǎi mǐ.",
+"fa": "مدرسه فقط پانصد متر با اینجا فاصله دارد.",
+"en": "The school is only 500 meters from here."
+}
+],
+"chg": "py: numeral 五百 joined (wǔbǎi)"
+},
+{
+"id": "卡",
+"fa": [
+"کارت"
+],
+"en": [
+"card"
+],
+"note": "واحد شمارش: 张 (一张卡).",
+"ex": [
+{
+"zh": "我的银行卡丢了。",
+"py": "Wǒ de yínhángkǎ diū le.",
+"fa": "کارت بانکی‌ام گم شده است.",
+"en": "I lost my bank card."
+}
+],
+"chg": "note: rewritten in Persian (was mixed 量词)"
+}
+]

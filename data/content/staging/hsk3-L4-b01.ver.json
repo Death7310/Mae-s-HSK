@@ -1,0 +1,358 @@
+[
+ {
+  "id": "啊~2",
+  "fa": [
+   "وای! (حرف ندا برای تعجب یا تحسین)"
+  ],
+  "en": [
+   "Ah!",
+   "Oh! (surprise, admiration)"
+  ],
+  "ex": [
+   {
+    "zh": "啊，外面下雪了，真漂亮！",
+    "py": "Ā, wàimiàn xià xuě le, zhēn piàoliang!",
+    "fa": "وای، بیرون برف می‌آید، چه قشنگ!",
+    "en": "Oh, it's snowing outside, how pretty!"
+   }
+  ],
+  "chg": "fa: 'آه' reads as a sigh of sorrow; surprise/admiration is 'وای'; example was 4 characters (below level length), extended"
+ },
+ {
+  "id": "为~2",
+  "fa": [
+   "بودن (در مقامِ، به‌عنوانِ)",
+   "تبدیل شدن به"
+  ],
+  "en": [
+   "to be, to act as",
+   "to become"
+  ],
+  "ex": [
+   {
+    "zh": "我们选他为队长。",
+    "py": "Wǒmen xuǎn tā wéi duìzhǎng.",
+    "fa": "ما او را به عنوان سرپرست تیم انتخاب کردیم.",
+    "en": "We chose him as team captain."
+   }
+  ],
+  "chg": "fa: awkward/unclear gloss reworded to match en (to be/act as; to become); pinyin flag is a false alarm (wéi is correct)"
+ },
+ {
+  "id": "两~2",
+  "fa": [
+   "لیانگ (واحد وزن چینی، ۵۰ گرم)"
+  ],
+  "en": [
+   "liang (Chinese unit of weight, 50 g)"
+  ],
+  "note": "یک 斤 برابر ده 两 است. پیش از این واحد «二» می‌گویند نه «两»: 二两.",
+  "ex": [
+   {
+    "zh": "我要二两饺子。",
+    "py": "Wǒ yào èr liǎng jiǎozi.",
+    "fa": "من دو لیانگ (۱۰۰ گرم) جیائوزی می‌خواهم.",
+    "en": "I'd like two liang (100 g) of dumplings."
+   },
+   {
+    "zh": "一斤是十两，一两是五十克。",
+    "py": "Yì jīn shì shí liǎng, yì liǎng shì wǔshí kè.",
+    "fa": "یک جین ده لیانگ است و یک لیانگ پنجاه گرم.",
+    "en": "One jin is ten liang, and one liang is fifty grams."
+   }
+  ],
+  "chg": "wrong sense: official pos is q (liang, the 50 g unit of weight), author glossed the numeral 'two'; glosses, note and both examples rewritten"
+ },
+ {
+  "id": "将",
+  "fa": [
+   "خواهد (نشانهٔ آینده، رسمی)",
+   "نشانهٔ مفعول، «را» (رسمی، مانند 把)"
+  ],
+  "en": [
+   "will, be about to",
+   "object marker (formal 把)"
+  ],
+  "ex": [
+   {
+    "zh": "他明年将毕业。",
+    "py": "Tā míngnián jiāng bìyè.",
+    "fa": "او سال آینده فارغ‌التحصیل خواهد شد.",
+    "en": "He will graduate next year."
+   },
+   {
+    "zh": "请将这封信寄给他。",
+    "py": "Qǐng jiāng zhè fēng xìn jì gěi tā.",
+    "fa": "لطفاً این نامه را برای او بفرستید.",
+    "en": "Please send this letter to him."
+   }
+  ],
+  "chg": "fa/en: preposition sense is the formal object marker (= 把), not 'with'; glosses clarified"
+ },
+ {
+  "id": "并",
+  "fa": [
+   "و همچنین (حرف ربط)",
+   "اصلاً (با نفی)",
+   "ادغام کردن"
+  ],
+  "en": [
+   "and also",
+   "(not) at all",
+   "to combine"
+  ],
+  "note": "با نفی تأکید می‌دهد: 并不 (اصلاً نه)، 并没有.",
+  "ex": [
+   {
+    "zh": "他完成了作业，并检查了一遍。",
+    "py": "Tā wánchéng le zuòyè, bìng jiǎnchá le yí biàn.",
+    "fa": "او تکلیفش را تمام کرد و یک بار هم آن را مرور کرد.",
+    "en": "He finished his homework and checked it once."
+   },
+   {
+    "zh": "这个问题并不简单。",
+    "py": "Zhège wèntí bìng bù jiǎndān.",
+    "fa": "این مسئله اصلاً ساده نیست.",
+    "en": "This problem is not simple at all."
+   }
+  ],
+  "chg": "ex: first example unnatural (并回家了), second only 4 characters; both rewritten"
+ },
+ {
+  "id": "之",
+  "fa": [
+   "نشانهٔ اضافه (ادبی، مانند ‘的’)"
+  ],
+  "en": [
+   "of (literary 的)"
+  ],
+  "note": "در کسرها: 三分之一 (یک سوم)؛ در عبارت‌های ادبی به جای 的 می‌آید.",
+  "ex": [
+   {
+    "zh": "三分之一的学生没有来。",
+    "py": "Sān fēn zhī yī de xuésheng méiyǒu lái.",
+    "fa": "یک سوم دانش‌آموزان نیامدند.",
+    "en": "One third of the students didn't come."
+   },
+   {
+    "zh": "北京是我最喜欢的城市之一。",
+    "py": "Běijīng shì wǒ zuì xǐhuan de chéngshì zhī yī.",
+    "fa": "پکن یکی از شهرهای مورد علاقهٔ من است.",
+    "en": "Beijing is one of my favourite cities."
+   }
+  ],
+  "chg": "ex: particle needs two examples; added a second (…之一)"
+ },
+ {
+  "id": "场",
+  "fa": [
+   "واحد شمارش برای فیلم، مسابقه و نمایش (سانس، دور)"
+  ],
+  "en": [
+   "measure word for films, matches, shows"
+  ],
+  "note": "خوانش دیگر cháng: برای باران، برف، بیماری و مانند آن: 一场雨.",
+  "ex": [
+   {
+    "zh": "我们看了一场电影。",
+    "py": "Wǒmen kàn le yì chǎng diànyǐng.",
+    "fa": "ما یک فیلم تماشا کردیم.",
+    "en": "We watched a movie."
+   },
+   {
+    "zh": "明天有一场足球比赛。",
+    "py": "Míngtiān yǒu yì chǎng zúqiú bǐsài.",
+    "fa": "فردا یک مسابقهٔ فوتبال برگزار می‌شود.",
+    "en": "There is a football match tomorrow."
+   }
+  ],
+  "chg": "note: wrongly implied exams take cháng; cháng is the other reading used for rain, snow, illness (chǎng in examples is correct, flags are false alarms)"
+ },
+ {
+  "id": "进行",
+  "fa": [
+   "انجام دادن، برگزار کردن",
+   "در جریان بودن"
+  ],
+  "en": [
+   "to carry out",
+   "to be in progress"
+  ],
+  "ex": [
+   {
+    "zh": "会议正在进行。",
+    "py": "Huìyì zhèngzài jìnxíng.",
+    "fa": "جلسه در حال برگزاری است.",
+    "en": "The meeting is in progress."
+   }
+  ],
+  "chg": "fa: added intransitive sense 'to be in progress' to match en and the example"
+ },
+ {
+  "id": "通过",
+  "fa": [
+   "گذشتن، قبول شدن",
+   "از طریق (حرف اضافه)"
+  ],
+  "en": [
+   "to pass",
+   "through, by means of"
+  ],
+  "ex": [
+   {
+    "zh": "他通过了考试。",
+    "py": "Tā tōngguò le kǎoshì.",
+    "fa": "او در امتحان قبول شد.",
+    "en": "He passed the exam."
+   },
+   {
+    "zh": "我们通过电话联系。",
+    "py": "Wǒmen tōngguò diànhuà liánxì.",
+    "fa": "ما از طریق تلفن در تماس هستیم.",
+    "en": "We keep in touch by phone."
+   }
+  ],
+  "chg": "ex fa: ungrammatical Persian ('امتحان را قبول شد' -> 'در امتحان قبول شد')"
+ },
+ {
+  "id": "结果",
+  "fa": [
+   "نتیجه",
+   "در نتیجه، سرانجام"
+  ],
+  "en": [
+   "result",
+   "as a result"
+  ],
+  "ex": [
+   {
+    "zh": "比赛的结果是什么？",
+    "py": "Bǐsài de jiéguǒ shì shénme?",
+    "fa": "نتیجهٔ مسابقه چه بود؟",
+    "en": "What was the result of the match?"
+   },
+   {
+    "zh": "他没有复习，结果没有通过考试。",
+    "py": "Tā méiyǒu fùxí, jiéguǒ méiyǒu tōngguò kǎoshì.",
+    "fa": "او مرور نکرد و در نتیجه در امتحان قبول نشد.",
+    "en": "He didn't review, and as a result failed the exam."
+   }
+  ],
+  "chg": "ex fa: ungrammatical Persian ('امتحان را قبول نشد' -> 'در امتحان قبول نشد')"
+ },
+ {
+  "id": "作为",
+  "fa": [
+   "به‌عنوانِ، در مقامِ (حرف اضافه)",
+   "به شمار آوردن، قرار دادن (به‌عنوانِ)"
+  ],
+  "en": [
+   "as (in the role of)",
+   "to regard as, to take as"
+  ],
+  "ex": [
+   {
+    "zh": "作为学生，要认真学习。",
+    "py": "Zuòwéi xuésheng, yào rènzhēn xuéxí.",
+    "fa": "به عنوان دانش‌آموز باید جدی درس خواند.",
+    "en": "As a student, you should study seriously."
+   },
+   {
+    "zh": "他把读书作为一种爱好。",
+    "py": "Tā bǎ dúshū zuòwéi yì zhǒng àihào.",
+    "fa": "او کتاب خواندن را یک سرگرمی می‌داند.",
+    "en": "He regards reading as a hobby."
+   }
+  ],
+  "chg": "fa: verb sense wrong ('انجام دادن، رفتار' is the noun 'conduct'); verb is 'to regard as / take as'; second example now shows the verb"
+ },
+ {
+  "id": "表现",
+  "fa": [
+   "نشان دادن، بروز دادن",
+   "عمل کردن (خوب یا بد ظاهر شدن)"
+  ],
+  "en": [
+   "to show, to display",
+   "to perform, to behave"
+  ],
+  "ex": [
+   {
+    "zh": "他在比赛中表现得很好。",
+    "py": "Tā zài bǐsài zhōng biǎoxiàn de hěn hǎo.",
+    "fa": "او در مسابقه خیلی خوب عمل کرد.",
+    "en": "He performed very well in the match."
+   }
+  ],
+  "chg": "fa/en: official pos is verb only; noun gloss 'عملکرد/performance' replaced by verbal 'to perform, to behave'; example Persian made natural"
+ },
+ {
+  "id": "甚至",
+  "fa": [
+   "حتی"
+  ],
+  "en": [
+   "even"
+  ],
+  "ex": [
+   {
+    "zh": "他很忙，甚至没有时间吃饭。",
+    "py": "Tā hěn máng, shènzhì méiyǒu shíjiān chīfàn.",
+    "fa": "او خیلی مشغول است، حتی وقت غذا خوردن ندارد.",
+    "en": "He is so busy that he doesn't even have time to eat."
+   },
+   {
+    "zh": "孩子们甚至忘了回家。",
+    "py": "Háizimen shènzhì wàng le huí jiā.",
+    "fa": "بچه‌ها حتی فراموش کردند به خانه برگردند.",
+    "en": "The children even forgot to go home."
+   }
+  ],
+  "chg": "ex en: awkward English in first example"
+ },
+ {
+  "id": "拉",
+  "fa": [
+   "کشیدن",
+   "نواختن (ساز آرشه‌ای)"
+  ],
+  "en": [
+   "to pull",
+   "to play (bowed instrument)"
+  ],
+  "ex": [
+   {
+    "zh": "妈妈拉着孩子的手过马路。",
+    "py": "Māma lā zhe háizi de shǒu guò mǎlù.",
+    "fa": "مادر دست بچه را گرفته بود و او را از خیابان رد می‌کرد.",
+    "en": "The mother held the child's hand and led him across the road."
+   }
+  ],
+  "chg": "ex: 拉琴 is vague and illustrated only the secondary sense; new example shows the primary sense 'to pull'"
+ },
+ {
+  "id": "对于",
+  "fa": [
+   "دربارهٔ، نسبت به"
+  ],
+  "en": [
+   "regarding",
+   "as for"
+  ],
+  "ex": [
+   {
+    "zh": "对于这个问题，我没有意见。",
+    "py": "Duìyú zhège wèntí, wǒ méiyǒu yìjiàn.",
+    "fa": "دربارهٔ این مسئله من نظری ندارم.",
+    "en": "As for this issue, I have no opinion."
+   },
+   {
+    "zh": "对于这件事，大家的看法不同。",
+    "py": "Duìyú zhè jiàn shì, dàjiā de kànfǎ bù tóng.",
+    "fa": "دربارهٔ این موضوع، نظر همه یکسان نیست.",
+    "en": "People have different views on this matter."
+   }
+  ],
+  "chg": "ex: second example unnatural Chinese (对于我，… should be 对我来说); rewritten"
+ }
+]
