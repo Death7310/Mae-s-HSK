@@ -849,3 +849,166 @@ button {
     linear-gradient(var(--line), var(--line)) center / 1px 100% no-repeat,
     var(--surface);
 }
+
+/* ---------- Chinese composer (pinyin input) ---------- */
+
+.composer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.composer-text {
+  border-radius: var(--radius-s);
+  resize: none;
+  font-size: calc(1.35rem * var(--zh-scale));
+  text-align: left;
+  flex: 1;
+  min-width: 0;
+}
+
+.composer .input.py {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.cands {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 48px;
+  overflow-x: auto;
+  padding-block: 2px;
+  direction: ltr;
+  scrollbar-width: thin;
+}
+
+.cands button {
+  flex: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  min-height: 44px;
+  padding: 4px 12px;
+  border-radius: var(--radius-s);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  font-size: calc(1.25rem * var(--zh-scale));
+}
+
+.cands button:first-of-type {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.cands button small {
+  font-family: var(--font-py);
+  font-size: 0.7rem;
+  color: var(--ink-3);
+}
+
+.cands button.more {
+  font-family: var(--font-fa);
+  font-size: 0.875rem;
+  color: var(--ink-2);
+}
+
+/* ---------- quiz ---------- */
+
+.choices {
+  display: grid;
+  gap: 10px;
+}
+
+.choices.two {
+  grid-template-columns: 1fr 1fr;
+}
+
+.choice {
+  min-height: 56px;
+  padding: 10px 14px;
+  border-radius: var(--radius-s);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  text-align: center;
+  font-weight: 600;
+}
+
+.choice .zh {
+  font-size: calc(1.6rem * var(--zh-scale));
+  font-weight: 500;
+}
+
+.choice.right {
+  border-color: var(--jade);
+  background: var(--jade-soft);
+  color: var(--jade);
+}
+
+.choice.wrong {
+  border-color: var(--danger);
+  background: var(--accent-soft);
+  color: var(--danger);
+}
+
+.choice:disabled {
+  cursor: default;
+}
+
+.chargrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
+  gap: 8px;
+  direction: ltr;
+}
+
+.chargrid button {
+  aspect-ratio: 1;
+  border-radius: var(--radius-s);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  font-size: calc(1.6rem * var(--zh-scale));
+}
+
+.chargrid button.done {
+  background: var(--jade-soft);
+  border-color: var(--jade);
+}
+
+/* ---------- chat / dialogue ---------- */
+
+.bubble {
+  max-width: 86%;
+  padding: 10px 14px;
+  border-radius: 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  align-self: flex-start;
+}
+
+.bubble.me {
+  align-self: flex-end;
+  background: var(--accent-soft);
+  border-color: transparent;
+}
+
+.bubble .zh {
+  font-size: calc(1.2rem * var(--zh-scale));
+  display: block;
+  text-align: left;
+}
+
+.bubble .py {
+  display: block;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.gram-pattern {
+  font-size: calc(1.2rem * var(--zh-scale));
+  font-weight: 600;
+  color: var(--accent);
+  display: block;
+  text-align: start;
+}

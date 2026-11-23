@@ -94,6 +94,39 @@ try {
   await page.locator('.hw-box svg path').first().waitFor({ state: 'attached' });
   await snap('word-detail');
 
+  // --- quiz: answer a question in each choice mode ---
+  await page.goto(`${BASE}#/quiz`);
+  await page.locator('.choice').first().waitFor();
+  await page.locator('.choice').first().click();
+  await page.getByRole('button', { name: 'بعدی' }).click();
+  await page.goto(`${BASE}#/quiz?mode=fz`);
+  await page.locator('.choices.two .choice').first().waitFor();
+  await snap('quiz');
+
+  // --- pinyin keyboard: type "nihao", pick the first candidate, see the breakdown ---
+  await page.goto(`${BASE}#/translate`);
+  await page.getByRole('button', { name: 'چینی ← فارسی' }).click();
+  await page.getByPlaceholder('pinyin').fill('nihao');
+  await page.locator('.cands button', { hasText: '你好' }).first().click();
+  assert((await page.locator('.composer-text').inputValue()) === '你好', 'composer inserted 你好');
+  await page.locator('.wrow', { hasText: '你好' }).first().waitFor();
+  await snap('translator-zh');
+  await page.getByRole('button', { name: 'فارسی ← چینی' }).click();
+  await page.getByRole('searchbox').fill('xuexi');
+  await page.locator('.wrow', { hasText: '学习' }).first().waitFor();
+
+  // --- handwriting practice ---
+  await page.goto(`${BASE}#/writing`);
+  await page.locator('.chargrid button').first().click();
+  await page.locator('.hw-box svg path').first().waitFor({ state: 'attached' });
+  await snap('writing');
+
+  // --- dialogues and grammar render (content may be empty) ---
+  await page.goto(`${BASE}#/dialogues`);
+  await page.getByRole('link', { name: 'واژه‌نامه و عبارت‌یاب' }).waitFor();
+  await page.goto(`${BASE}#/grammar`);
+  await page.getByRole('heading', { name: /دستور زبان/ }).waitFor();
+
   // --- settings: switch UI to English and back ---
   await page.goto(`${BASE}#/settings`);
   await page.getByRole('button', { name: 'English' }).click();

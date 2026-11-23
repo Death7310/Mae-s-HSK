@@ -12,7 +12,7 @@ from __future__ import annotations
 import json
 import sys
 
-from check_content import BATCHES, STAGING, check_batch
+from check_content import BATCHES, STAGING, check_batch, load_rows
 from hsklib import ROOT, nfc
 
 OUT = ROOT / "data" / "content" / "words"
@@ -43,7 +43,7 @@ def main() -> None:
             pending.append(bid)
             continue
         stage, q = chosen
-        rows = json.loads((STAGING / f"{bid}.{stage}.json").read_text(encoding="utf-8"))
+        rows = load_rows(bid, stage)
         lines = []
         for r in rows:
             out: dict = {"id": r["id"], "fa": [fa_norm(x) for x in r["fa"]], "en": [x.strip() for x in r["en"]]}

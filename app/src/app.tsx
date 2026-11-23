@@ -4,7 +4,6 @@ import { About } from './pages/About';
 import { Dialogues } from './pages/Dialogues';
 import { Grammar } from './pages/Grammar';
 import { Home, Levels } from './pages/Home';
-import { Listening } from './pages/Listening';
 import { Onboarding } from './pages/Onboarding';
 import { Quiz } from './pages/Quiz';
 import { Settings } from './pages/Settings';
@@ -26,7 +25,7 @@ const ROUTES: Record<string, ComponentType> = {
   words: Words,
   word: WordDetail,
   quiz: Quiz,
-  listening: Listening,
+  listening: Quiz,
   writing: Writing,
   dialogues: Dialogues,
   talk: Dialogues,

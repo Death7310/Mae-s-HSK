@@ -1,0 +1,10 @@
+[
+{"id": "几", "fa": ["چند (پرسش از تعداد کم)", "چند (تعداد نامعین کم)"], "en": ["how many", "a few; several"],
+ "note": "معمولاً برای تعداد کمتر از ده؛ برای تعداد بیشتر 多少 می‌پرسند.",
+ "ex": [{"zh": "你家有几口人？", "py": "Nǐ jiā yǒu jǐ kǒu rén?", "fa": "خانوادهٔ شما چند نفر است؟", "en": "How many people are in your family?"}],
+ "chg": "fa: second gloss was identical to a gloss of 一些 (چندتا (تعدادی)); reworded so the two cards are distinguishable"},
+{"id": "一些", "fa": ["مقداری", "تعدادی (برخی از چیزی)"], "en": ["some", "a few"],
+ "ex": [{"zh": "我想买一些水果。", "py": "Wǒ xiǎng mǎi yìxiē shuǐguǒ.", "fa": "می‌خواهم مقداری میوه بخرم.", "en": "I want to buy some fruit."},
+        {"zh": "他有一些中国朋友。", "py": "Tā yǒu yìxiē Zhōngguó péngyou.", "fa": "او چند دوست چینی دارد.", "en": "He has some Chinese friends."}],
+ "chg": "fa: second gloss duplicated 几's gloss verbatim; changed to an unambiguous form"}
+]

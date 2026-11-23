@@ -106,6 +106,39 @@ def build_strokes(chars: set[str]) -> tuple[int, list[str]]:
     return total, missing
 
 
+def build_ime(entries: list[Entry]) -> list[list]:
+    """Pinyin input table: [letters, hanzi, rank] rows, most frequent first.
+
+    Words come from the HSK lists with their official reading; single characters
+    are added with every common reading (pypinyin) so any word can be spelled
+    character by character.
+    """
+    from hsklib import pinyin_key
+
+    rows: dict[tuple[str, str], int] = {}
+    char_rank: dict[str, int] = {}
+    for e in entries:
+        rank = e.freq or 60000
+        key = pinyin_key(e.p, tones=False)
+        if key:
+            rows[(key, e.s)] = min(rank, rows.get((key, e.s), 10**9))
+        for c in e.s:
+            if is_han(c):
+                char_rank[c] = min(rank, char_rank.get(c, 10**9))
+    try:
+        from pypinyin import Style, pinyin
+    except ImportError:
+        print("warning: pypinyin missing - IME table has words only", file=sys.stderr)
+    else:
+        for c, rank in char_rank.items():
+            for i, reading in enumerate(pinyin(c, style=Style.NORMAL, heteronym=True)[0][:3]):
+                key = reading.replace("ü", "v")
+                if key.isalpha() and (key, c) not in rows:
+                    # Characters rank after whole words; rarer readings after the main one.
+                    rows[(key, c)] = rank + 20000 * i + 500
+    return [[k, h, r] for (k, h), r in sorted(rows.items(), key=lambda x: (x[1], x[0]))]
+
+
 def char_lists() -> dict[int, dict[str, list[str]]]:
     """Official 2025-syllabus character lists per level: recognition and handwriting."""
     out: dict[int, dict[str, list[str]]] = {n: {"read": [], "write": []} for n in range(1, MAX_LEVEL + 1)}
@@ -181,6 +214,9 @@ def main() -> None:
         f"strokes: {len(chars) - len(missing)} characters, {stroke_bytes / 1024 / 1024:.1f} MB"
         + (f", missing: {''.join(missing)}" if missing else "")
     )
+
+    ime = build_ime(entries)
+    report.append(f"ime: {len(ime)} rows, {write_json(OUT / 'ime.json', ime) / 1024:.0f} KB")
 
     credits_src = ROOT / "tools" / "credits.json"
     if credits_src.is_file():

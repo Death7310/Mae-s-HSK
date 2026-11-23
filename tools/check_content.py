@@ -95,13 +95,35 @@ def contains_in_order(zh: str, word: str) -> bool:
     return i == len(word)
 
 
+def load_rows(bid: str, stage: str) -> list:
+    """Entries of a batch at a stage.
+
+    'gen' is the author's full array. 'ver' is the reviewer's file: normally a
+    patch holding only the corrected entries (applied over 'gen' by id), but a
+    complete array is accepted too.
+    """
+    gen_path = STAGING / f"{bid}.gen.json"
+    if stage == "gen":
+        return json.loads(gen_path.read_text(encoding="utf-8"))
+    ver = json.loads((STAGING / f"{bid}.ver.json").read_text(encoding="utf-8"))
+    if not isinstance(ver, list) or not all(isinstance(r, dict) and r.get("id") for r in ver):
+        raise ValueError("review file must be a JSON array of entry objects with ids")
+    gen = json.loads(gen_path.read_text(encoding="utf-8"))
+    known = {r["id"] for r in gen}
+    stray = [r["id"] for r in ver if r["id"] not in known]
+    if stray:
+        raise ValueError(f"review file has ids that are not in the batch: {stray[:8]}")
+    patch = {r["id"]: r for r in ver}
+    return [patch.get(r["id"], r) for r in gen]
+
+
 def check_batch(bid: str, stage: str) -> tuple[list[str], list[dict]]:
     """Returns (hard errors, flags)."""
     batch = json.loads((BATCHES / f"{bid}.json").read_text(encoding="utf-8"))
     path = STAGING / f"{bid}.{stage}.json"
     try:
-        rows = json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as e:
+        rows = load_rows(bid, stage)
+    except (OSError, json.JSONDecodeError, ValueError) as e:
         return [f"{path.name}: {e}"], []
     words = batch["words"]
     errors: list[str] = []

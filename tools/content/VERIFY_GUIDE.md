@@ -39,11 +39,13 @@ Do not rubber-stamp. Expect real errors in a minority of entries and find them.
 
 ## Output
 
-Write `data/content/staging/<batch>.ver.json`: the complete, corrected array —
-same order, same ids, every entry present, same shape as the author's file.
-Add to each entry you changed a field `"chg"`: a short English description of
-what you changed and why (e.g. `"fa: wrong sense (flower→to spend)"`). Entries
-you did not change must not have `chg`.
+Write `data/content/staging/<batch>.ver.json`: a JSON array containing **only the
+entries you corrected**, each as a complete entry object (same shape as the
+author's, all fields, with your corrections applied) plus a field `"chg"`: a
+short English description of what you changed and why
+(e.g. `"fa: wrong sense (flower -> to spend)"`). Entries that are already
+correct are left out; they are taken from the author's file unchanged. If
+nothing needs correcting, write `[]`.
 
-Then reply with a short summary only: number of entries, number changed, and
-the three most significant corrections.
+Then reply with a short summary only: number of entries reviewed, number
+corrected, and the three most significant corrections.
