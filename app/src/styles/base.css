@@ -1012,3 +1012,41 @@ button {
   display: block;
   text-align: start;
 }
+
+/* ---------- sentence builder ---------- */
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  direction: ltr;
+  justify-content: center;
+}
+
+.tiles.answer {
+  min-height: 56px;
+  justify-content: flex-start;
+  padding: 8px;
+  border-radius: var(--radius-s);
+  border: 1px dashed var(--line);
+  background: var(--surface-2);
+}
+
+.tiles button {
+  min-height: 44px;
+  padding: 4px 14px;
+  border-radius: var(--radius-s);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  font-size: calc(1.3rem * var(--zh-scale));
+  box-shadow: var(--shadow);
+}
+
+.tiles button:disabled {
+  opacity: 0.35;
+  box-shadow: none;
+}
+
+.tiles.answer button:disabled {
+  opacity: 1;
+}

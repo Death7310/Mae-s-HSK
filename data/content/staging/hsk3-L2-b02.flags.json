@@ -1,0 +1,10 @@
+[
+ {
+  "id": "离",
+  "issue": "example 1: pinyin letters differ: expected ~jichanglizheeryuanma, got jichanglizheryuanma"
+ },
+ {
+  "id": "教",
+  "issue": "example 1: tone of 教: expected 4, got 1"
+ }
+]

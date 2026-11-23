@@ -80,6 +80,34 @@ def build_word(e: Entry, authored: dict | None, audio: dict[str, str]) -> dict:
     return w
 
 
+FA_FOLD = str.maketrans({"\u064A": "\u06CC", "\u0649": "\u06CC", "\u0643": "\u06A9", "\u200C": None, " ": None})
+
+
+def mark_ambiguous(packs: dict[int, list[dict]]) -> int:
+    """Flag words whose Persian gloss is identical to that of another word.
+
+    A Persian -> Chinese card for such a word has two right answers. Each word
+    gets `amb`: the other words (same level or lower, i.e. ones the learner has
+    met) with exactly the same gloss, so the card can say which one is not meant
+    and typed answers can accept either.
+    """
+    by_gloss: dict[str, list[tuple[int, dict]]] = defaultdict(list)
+    for level, words in packs.items():
+        for w in words:
+            if w["fa"]:
+                by_gloss["|".join(w["fa"]).translate(FA_FOLD)].append((level, w))
+    n = 0
+    for group in by_gloss.values():
+        if len(group) < 2:
+            continue
+        for level, w in group:
+            others = [o["s"] for lv, o in group if o is not w and lv <= level and o["s"] != w["s"]]
+            if others:
+                w["amb"] = list(dict.fromkeys(others))[:4]
+                n += 1
+    return n
+
+
 def write_json(path: Path, obj) -> int:
     path.parent.mkdir(parents=True, exist_ok=True)
     data = json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
@@ -176,9 +204,18 @@ def main() -> None:
 
     for std in STANDARDS:
         levels_info = []
+        packs = {
+            level: [
+                build_word(e, authored.get(e.id), audio)
+                for e in sorted((e for e in entries if std_level(e, std) == level), key=freq_order)
+            ]
+            for level in range(1, MAX_LEVEL + 1)
+        }
+        ambiguous = mark_ambiguous(packs)
+        if ambiguous:
+            report.append(f"{std}: {ambiguous} words share an identical Persian gloss with another word")
         for level in range(1, MAX_LEVEL + 1):
-            group = sorted((e for e in entries if std_level(e, std) == level), key=freq_order)
-            words = [build_word(e, authored.get(e.id), audio) for e in group]
+            words = packs[level]
             for w in words:
                 chars.update(c for c in w["s"] if is_han(c))
             rel = f"{std}/words-{level}.json"
@@ -200,8 +237,12 @@ def main() -> None:
                 info["write"] = len(cl["write"])
             for kind in ("dialogues", "grammar"):
                 src = CONTENT / kind / f"{std}-{level}.json"
+                if not src.is_file():
+                    # Dialogues and grammar are written for the 2025 syllabus; the same level
+                    # number of HSK 2.0 reuses them (its word lists are close at levels 1-4).
+                    src = CONTENT / kind / f"hsk3-{level}.json"
                 if src.is_file():
-                    items = json.loads(src.read_text(encoding="utf-8"))
+                    items = [{**it, "std": std} for it in json.loads(src.read_text(encoding="utf-8"))]
                     write_json(OUT / std / f"{kind}-{level}.json", items)
                     digest.update(src.read_bytes())
                     info[kind] = len(items)

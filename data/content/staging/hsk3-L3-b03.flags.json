@@ -1,0 +1,10 @@
+[
+ {
+  "id": "服务",
+  "issue": "example 1: tone of 为: expected 2, got 4"
+ },
+ {
+  "id": "照片",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ }
+]

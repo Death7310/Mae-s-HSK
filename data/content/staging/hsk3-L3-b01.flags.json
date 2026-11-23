@@ -1,0 +1,10 @@
+[
+ {
+  "id": "还~2",
+  "issue": "example 1: pinyin letters differ: expected ~womingtianhainiqian, got womingtianhuanniqian"
+ },
+ {
+  "id": "得~3",
+  "issue": "example 1: pinyin letters differ: expected ~yijinghenwanlewodezoule, got yijinghenwanlewodeizoule"
+ }
+]

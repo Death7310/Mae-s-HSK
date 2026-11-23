@@ -1,0 +1,22 @@
+[
+ {
+  "id": "适应",
+  "issue": "example 1: tone of 应: expected 1, got 4"
+ },
+ {
+  "id": "大约",
+  "issue": "example 1: pinyin letters differ: expected ~congzheerdaoxuexiaodayueershifenzhong, got congzherdaoxuexiaodayueershifenzhong"
+ },
+ {
+  "id": "有着",
+  "issue": "example 1: pinyin letters differ: expected ~zhezuochengshiyouzhehenzhangdelishi, got zhezuochengshiyouzhehenchangdelishi"
+ },
+ {
+  "id": "吸",
+  "issue": "example 1: pinyin letters differ: expected ~qingshenshendixiyikouqi, got qingshenshendexiyikouqi"
+ },
+ {
+  "id": "土",
+  "issue": "example 1: tone of 种: expected 3, got 4"
+ }
+]

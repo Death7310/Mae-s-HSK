@@ -1,0 +1,10 @@
+[
+ {
+  "id": "负责人",
+  "issue": "example 1: pinyin letters differ: expected ~qingwenzhelidefuzerenshishui, got qingwenzhelidefuzerenshishei"
+ },
+ {
+  "id": "详细",
+  "issue": "example 1: pinyin letters differ: expected ~qingnixiangxidishuoyishuo, got qingnixiangxideshuoyishuo"
+ }
+]

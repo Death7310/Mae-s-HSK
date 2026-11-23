@@ -264,9 +264,21 @@ def std_level(e: Entry, std: str) -> int | None:
     return lvl if lvl is not None and lvl <= MAX_LEVEL else None
 
 
+GRAMMATICAL = {"u", "h", "k", "e", "o"}  # particles, affixes, interjections, onomatopoeia
+
+
 def freq_order(e: Entry) -> tuple:
-    """Most frequent first; words without a frequency rank keep syllabus order at the end."""
-    return (e.freq or 10**9, e.no3 or 10**9, e.s)
+    """Order in which a level introduces its words: most frequent first.
+
+    Purely grammatical words (的, 了, 吗 ...) are the most frequent of all but mean
+    little without sentences around them, so they are held back until the learner
+    has a few dozen content words. Words without a frequency rank keep syllabus
+    order at the end.
+    """
+    rank = e.freq or 10**9
+    if e.pos and set(e.pos) <= GRAMMATICAL and rank < 10**9:
+        rank += 250
+    return (rank, e.no3 or 10**9, e.s)
 
 
 if __name__ == "__main__":

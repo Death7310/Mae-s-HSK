@@ -94,6 +94,7 @@ export const en: Record<Key, string> = {
   'study.classifier': 'Measure word',
   'study.note': 'Note',
   'study.traditional': 'Traditional',
+  'study.amb': 'Another word with this meaning (not the answer here):',
   'study.unverified': 'The Persian translation has not been reviewed by a human yet',
 
   'time.now': 'now',

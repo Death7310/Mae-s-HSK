@@ -1,0 +1,14 @@
+[
+ {
+  "id": "猫",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "贵",
+  "issue": "example 1: pinyin letters differ: expected ~zheerdeshuiguohengui, got zherdeshuiguohengui"
+ },
+ {
+  "id": "这儿",
+  "issue": "example 1: pinyin letters differ: expected ~womenzaizheerxiuxiba, got womenzaizherxiuxiba"
+ }
+]

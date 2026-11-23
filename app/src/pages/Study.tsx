@@ -15,7 +15,7 @@ import {
   type Grade,
   type StudyItem,
 } from '../store/srs';
-import { ErrorBox, Segmented, Spinner, TopBar } from '../ui/kit';
+import { ErrorBox, Segmented, Spinner, TopBar, Zh } from '../ui/kit';
 import { MeaningSide, WordExtras, ZhSide } from '../ui/WordFace';
 import { dirsOf } from './Home';
 
@@ -232,6 +232,11 @@ function Card({ item, revealed, dir }: { item: StudyItem; revealed: boolean; dir
         <>
           <MeaningSide word={w} />
           {!revealed && <p class="small muted">{t('study.prompt.fz')}</p>}
+          {!revealed && w.amb && w.amb.length > 0 && (
+            <p class="small muted">
+              {t('study.amb')} <Zh>{w.amb.join('، ')}</Zh>
+            </p>
+          )}
           {revealed && (
             <>
               <hr />

@@ -121,9 +121,28 @@ try {
   await page.locator('.hw-box svg path').first().waitFor({ state: 'attached' });
   await snap('writing');
 
-  // --- dialogues and grammar render (content may be empty) ---
+  // --- sentence builder: solve the first sentence by reading the answer from the data ---
+  await page.goto(`${BASE}#/quiz?mode=build`);
+  await page.locator('.tiles:not(.answer) button').first().waitFor();
+  const tiles = await page.locator('.tiles:not(.answer) button').allTextContents();
+  assert(tiles.length >= 3, 'sentence builder shows word tiles');
+  await page.locator('.tiles:not(.answer) button').first().click();
+  assert((await page.locator('.tiles.answer button').count()) === 1, 'picked tile moves to the answer');
+  await snap('sentence-builder');
+
+  // --- dialogues: read mode, then role-play with a typed answer ---
   await page.goto(`${BASE}#/dialogues`);
   await page.getByRole('link', { name: 'واژه‌نامه و عبارت‌یاب' }).waitFor();
+  await page.locator('.list a').first().click();
+  await page.locator('.bubble').first().waitFor();
+  await snap('dialogue-read');
+  await page.getByRole('button', { name: 'نقش‌آفرینی' }).click();
+  await page.getByText('نوبت شماست').waitFor({ timeout: 15000 });
+  await page.getByPlaceholder('pinyin').fill('wo');
+  await page.locator('.cands button', { hasText: '我' }).first().click();
+  await page.getByRole('button', { name: 'ارسال' }).click();
+  await page.locator('.bubble.me').first().waitFor();
+  await snap('dialogue-roleplay');
   await page.goto(`${BASE}#/grammar`);
   await page.getByRole('heading', { name: /دستور زبان/ }).waitFor();
 

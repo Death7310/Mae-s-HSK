@@ -1,0 +1,14 @@
+[
+ {
+  "id": "地",
+  "issue": "example 1: pinyin letters differ: expected ~tagaoxingdixiaole, got tagaoxingdexiaole"
+ },
+ {
+  "id": "地",
+  "issue": "example 2: pinyin letters differ: expected ~nainaimanmandizouguolai, got nainaimanmandezouguolai"
+ },
+ {
+  "id": "长",
+  "issue": "example 1: pinyin letters differ: expected ~zhetiaoluhenzhang, got zhetiaoluhenchang"
+ }
+]

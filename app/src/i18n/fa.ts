@@ -97,6 +97,7 @@ export const fa = {
   'study.classifier': 'واحد شمارش',
   'study.note': 'نکته',
   'study.traditional': 'سنتی',
+  'study.amb': 'هم‌معنیِ دیگر (پاسخ این کارت نیست):',
   'study.unverified': 'ترجمهٔ فارسی هنوز بازبینی انسانی نشده است',
 
   'time.now': 'اکنون',

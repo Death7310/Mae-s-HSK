@@ -57,6 +57,11 @@ export interface Word {
   note?: string;
   /** Quality of the Persian gloss. */
   q?: FaQuality;
+  /**
+   * Other words (already met by the learner) whose Persian gloss is identical,
+   * so a Persian -> Chinese prompt alone cannot tell them apart.
+   */
+  amb?: string[];
   /** Levels of this word in each standard (for cross-reference badges). */
   lv?: Partial<Record<Std, number>>;
 }

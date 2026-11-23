@@ -11,6 +11,7 @@ const native = process.env.NATIVE === '1';
 
 export default defineConfig({
   base: './',
+  define: { __NATIVE__: JSON.stringify(native) },
   plugins: [
     preact(),
     VitePWA({

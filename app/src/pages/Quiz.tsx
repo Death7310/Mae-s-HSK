@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
-import { loadLevel } from '../data/loader';
+import { loadLevel, loadUpTo } from '../data/loader';
 import type { Word } from '../data/types';
 import { defineStrings, digits, t } from '../i18n';
 import { playZh, stopAudio } from '../lib/audio';
+import { indexBySimplified } from '../lib/lookup';
 import { go, href, route } from '../lib/router';
 import { normZh, shuffled } from '../lib/text';
 import { settings } from '../store/settings';
@@ -10,6 +11,7 @@ import { Icon } from '../ui/Icon';
 import { AudioButton, BottomNav, En, ErrorBox, Fa, Py, Segmented, Spinner, TopBar, useAsync, Zh } from '../ui/kit';
 import { enGloss, faGloss } from '../ui/WordFace';
 import { ZhComposer } from '../ui/ZhComposer';
+import { buildItems, BuildRound } from './SentenceBuild';
 
 const tr = defineStrings({
   fa: {
@@ -17,6 +19,8 @@ const tr = defineStrings({
     fz: 'واژه',
     listen: 'شنیداری',
     type: 'تایپ',
+    build: 'جمله‌سازی',
+    noSentences: 'برای این سطح هنوز نمونه‌جمله‌ای آماده نشده است.',
     'q.zf': 'معنی این واژه کدام است؟',
     'q.fz': 'کدام واژه این معنی را دارد؟',
     'q.listen': 'گوش کنید. کدام واژه را شنیدید؟',
@@ -37,6 +41,8 @@ const tr = defineStrings({
     fz: 'Word',
     listen: 'Listening',
     type: 'Typing',
+    build: 'Sentences',
+    noSentences: 'No example sentences are available for this level yet.',
     'q.zf': 'What does this word mean?',
     'q.fz': 'Which word has this meaning?',
     'q.listen': 'Listen. Which word did you hear?',
@@ -54,8 +60,8 @@ const tr = defineStrings({
   },
 });
 
-type Mode = 'zf' | 'fz' | 'listen' | 'type';
-const MODES: Mode[] = ['zf', 'fz', 'listen', 'type'];
+type Mode = 'zf' | 'fz' | 'listen' | 'type' | 'build';
+const MODES: Mode[] = ['zf', 'fz', 'listen', 'type', 'build'];
 const ROUND = 10;
 
 /** Meaning shown to the learner: Persian when available, English otherwise. */
@@ -107,12 +113,20 @@ export function Quiz() {
   const mode: Mode = requested && MODES.includes(requested) ? requested : first === 'listening' ? 'listen' : 'zf';
   const [round, setRound] = useState(1);
   const state = useAsync(() => loadLevel(s.std, s.level), [s.std, s.level]);
+  // Sentence tiles are cut with every word the learner knows up to this level.
+  const known = useAsync(() => (mode === 'build' ? loadUpTo(s.std, s.level) : Promise.resolve([])), [s.std, s.level, mode]);
 
   const questions = useMemo(() => {
     const words = state.data?.words ?? [];
+    if (mode === 'build') return [];
     const pool = mode === 'listen' ? words.filter((w) => w.a) : words;
     return pool.length >= 4 ? makeQuestions(pool, ROUND, round * 7919 + s.level) : [];
   }, [state.data, mode, round]);
+
+  const sentences = useMemo(() => {
+    if (mode !== 'build' || !state.data || !known.data?.length) return [];
+    return buildItems(state.data.words, indexBySimplified(known.data), 8, round * 104729 + s.level);
+  }, [state.data, known.data, mode, round]);
 
   return (
     <div class="shell">
@@ -127,8 +141,15 @@ export function Quiz() {
         </div>
         {state.loading && !state.data && <Spinner />}
         {state.error !== undefined && <ErrorBox error={state.error} retry={state.reload} />}
-        {state.data && questions.length === 0 && <p class="card center muted">{tr('few')}</p>}
-        {questions.length > 0 && (
+        {mode === 'build' && known.loading && <Spinner />}
+        {mode === 'build' && state.data && !known.loading && sentences.length === 0 && (
+          <p class="card center muted">{tr('noSentences')}</p>
+        )}
+        {mode === 'build' && sentences.length > 0 && (
+          <BuildRound key={`build/${round}/${s.std}/${s.level}`} items={sentences} onAgain={() => setRound((r) => r + 1)} />
+        )}
+        {mode !== 'build' && state.data && questions.length === 0 && <p class="card center muted">{tr('few')}</p>}
+        {mode !== 'build' && questions.length > 0 && (
           <Round key={`${mode}/${round}/${s.std}/${s.level}`} mode={mode} questions={questions} onAgain={() => setRound((r) => r + 1)} />
         )}
       </main>
@@ -137,7 +158,15 @@ export function Quiz() {
   );
 }
 
-function Round({ mode, questions, onAgain }: { mode: Mode; questions: Question[]; onAgain: () => void }) {
+function Round({
+  mode,
+  questions,
+  onAgain,
+}: {
+  mode: Exclude<Mode, 'build'>;
+  questions: Question[];
+  onAgain: () => void;
+}) {
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<Word | 'typed'>();
   const [typed, setTyped] = useState('');
@@ -166,12 +195,14 @@ function Round({ mode, questions, onAgain }: { mode: Mode; questions: Question[]
   }
 
   const answered = picked !== undefined;
-  const correct = picked === 'typed' ? normZh(typed) === normZh(q.word.s) : picked === q.word;
+  // A typed answer is right if it is the word or another word with the very same Persian gloss.
+  const typedOk = () => [q.word.s, ...(q.word.amb ?? [])].some((s) => normZh(typed) === normZh(s));
+  const correct = picked === 'typed' ? typedOk() : picked === q.word;
 
   function answer(choice: Word | 'typed') {
     if (answered) return;
     setPicked(choice);
-    const ok = choice === 'typed' ? normZh(typed) === normZh(q.word.s) : choice === q.word;
+    const ok = choice === 'typed' ? typedOk() : choice === q.word;
     if (ok) setScore((n) => n + 1);
     if (mode !== 'listen' && settings.value.autoAudio) void playZh(q.word.s, q.word.a);
   }

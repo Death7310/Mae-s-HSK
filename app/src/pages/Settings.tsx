@@ -1,5 +1,6 @@
-import { useRef } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { digits, t } from '../i18n';
+import { audioCached, cacheLevelAudio, canCacheAudio } from '../lib/offline';
 import { href } from '../lib/router';
 import { exportBackup, importBackup, isBackup } from '../store/db';
 import { loadSettings, setSettings, settings, type DirMode, type Theme, type UiLang } from '../store/settings';
@@ -15,6 +16,59 @@ function saveFile(name: string, text: string) {
   a.click();
   a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+/** Per-level audio download for the installed web app (hidden in the Android build). */
+function OfflineAudio() {
+  const s = settings.value;
+  const [state, setState] = useState<{ done: number; total: number }>();
+  const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    let live = true;
+    audioCached(s.std, s.level).then((r) => live && setState(r), () => undefined);
+    return () => {
+      live = false;
+    };
+  }, [s.std, s.level]);
+
+  if (!canCacheAudio()) return null;
+  const ready = state && state.total > 0 && state.done >= state.total;
+  return (
+    <>
+      <h2>{t('set.offline')}</h2>
+      <section class="card">
+        <Field
+          label={t('set.offline.audio', { n: s.level })}
+          desc={
+            ready
+              ? t('set.offline.ready')
+              : state
+                ? t('set.offline.progress', { done: digits(state.done), total: digits(state.total) })
+                : undefined
+          }
+        >
+          <button
+            type="button"
+            class="iconbtn accent"
+            aria-label={t('set.offline.audio', { n: s.level })}
+            disabled={busy || ready}
+            onClick={async () => {
+              setBusy(true);
+              try {
+                await cacheLevelAudio(s.std, s.level, (done, total) => setState({ done, total }));
+                setState(await audioCached(s.std, s.level));
+              } finally {
+                setBusy(false);
+              }
+            }}
+          >
+            <Icon name={ready ? 'check' : 'download'} />
+          </button>
+        </Field>
+      </section>
+    </>
+  );
 }
 
 export function Settings() {
@@ -153,6 +207,8 @@ export function Settings() {
             <Switch checked={s.showTrad} onChange={(showTrad) => setSettings({ showTrad })} label={t('set.showTrad')} />
           </Field>
         </section>
+
+        <OfflineAudio />
 
         <h2>{t('set.data')}</h2>
         <section class="card">
