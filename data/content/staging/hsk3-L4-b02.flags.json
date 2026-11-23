@@ -1,0 +1,18 @@
+[
+ {
+  "id": "拍",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "重",
+  "issue": "example 1: pinyin letters differ: expected ~qingnizhongxieyibian, got qingnichongxieyibian"
+ },
+ {
+  "id": "留",
+  "issue": "example 1: pinyin letters differ: expected ~nixianliuzaizheerba, got nixianliuzaizherba"
+ },
+ {
+  "id": "克",
+  "issue": "example 1: pinyin letters differ: expected ~qinggeiwoerbaiketang, got qinggeiwoliangbaiketang"
+ }
+]

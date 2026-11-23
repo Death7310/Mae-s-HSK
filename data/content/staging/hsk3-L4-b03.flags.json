@@ -1,0 +1,14 @@
+[
+ {
+  "id": "停",
+  "issue": "example 1: pinyin letters differ: expected ~chekeyitingzaizheerma, got chekeyitingzaizherma"
+ },
+ {
+  "id": "原来",
+  "issue": "example 1: pinyin letters differ: expected ~yuanlainizaizheerwozhaolenihenjiu, got yuanlainizaizherwozhaolenihenjiu"
+ },
+ {
+  "id": "面对",
+  "issue": "example 1: pinyin letters differ: expected ~womenyaoyonggandimianduikunnan, got womenyaoyonggandemianduikunnan"
+ }
+]
