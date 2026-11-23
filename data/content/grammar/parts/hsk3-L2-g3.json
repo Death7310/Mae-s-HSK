@@ -24,7 +24,7 @@
   "examples": [
    {"zh": "他个子很高。", "py": "Tā gèzi hěn gāo.", "fa": "قد او بلند است.", "en": "He is tall."},
    {"zh": "奶奶身体很好。", "py": "Nǎinai shēntǐ hěn hǎo.", "fa": "حال مادربزرگ خوب است.", "en": "Grandma is in good health."},
-   {"zh": "今天天气不错。", "py": "Jīntiān tiānqì búcuò.", "fa": "امروز هوا خوب است.", "en": "The weather is nice today."}
+   {"zh": "我头有点儿疼。", "py": "Wǒ tóu yǒudiǎnr téng.", "fa": "سرم کمی درد می‌کند.", "en": "I have a bit of a headache."}
   ]},
  {"id": "hsk3-g0126", "std": "hsk3", "level": 2, "no": 126,
   "pattern": "الف + 还是 + ب？",
@@ -57,7 +57,7 @@
   "title": {"fa": "رسیدن به یک اندازه یا مقدار با 有", "en": "Reaching an amount or degree with 有"},
   "body": "«有» در اینجا به معنی «داشتن» نیست؛ یعنی چیزی به مقدار یا اندازه‌ای رسیده است.\nبعد از 有 یا یک مقدار می‌آید (二十岁، 十分钟) یا چیزی که با آن مقایسه می‌کنیم، همراه با 这么/那么 و صفت.\nمعمولاً حالت تخمین دارد: «حدوداً، به اندازهٔ…».",
   "examples": [
-   {"zh": "他有二十岁了吧？", "py": "Tā yǒu èrshí suì le ba?", "fa": "او حتماً بیست سالش شده، نه؟", "en": "He must be about twenty by now, right?"},
+   {"zh": "他有二十岁了吧？", "py": "Tā yǒu èrshí suì le ba?", "fa": "او لابد بیست سالش شده، نه؟", "en": "He must be about twenty by now, right?"},
    {"zh": "从这儿到车站有十分钟的路。", "py": "Cóng zhèr dào chēzhàn yǒu shí fēnzhōng de lù.", "fa": "از اینجا تا ایستگاه ده دقیقه راه است.", "en": "It's a ten-minute walk from here to the station."},
    {"zh": "他儿子有桌子这么高了。", "py": "Tā érzi yǒu zhuōzi zhème gāo le.", "fa": "قد پسرش به اندازهٔ میز شده است.", "en": "His son is already as tall as the table."}
   ]},
@@ -104,7 +104,7 @@
   "examples": [
    {"zh": "他比我跑得快。", "py": "Tā bǐ wǒ pǎo de kuài.", "fa": "او از من تندتر می‌دود.", "en": "He runs faster than me."},
    {"zh": "妹妹起得比我早。", "py": "Mèimei qǐ de bǐ wǒ zǎo.", "fa": "خواهر کوچکم از من زودتر بیدار می‌شود.", "en": "My younger sister gets up earlier than me."},
-   {"zh": "她汉字写得比我好。", "py": "Tā Hànzì xiě de bǐ wǒ hǎo.", "fa": "او خط چینی را بهتر از من می‌نویسد.", "en": "She writes Chinese characters better than I do."}
+   {"zh": "她汉字写得比我好。", "py": "Tā Hànzì xiě de bǐ wǒ hǎo.", "fa": "او نویسه‌های چینی را بهتر از من می‌نویسد.", "en": "She writes Chinese characters better than I do."}
   ]},
  {"id": "hsk3-g0135", "std": "hsk3", "level": 2, "no": 135,
   "pattern": "فاعل + 是 + زمان / مکان / شیوه / انجام‌دهنده + فعل + 的",
@@ -120,7 +120,7 @@
   "title": {"fa": "کسی را به کاری واداشتن یا دعوت کردن: 请، 叫، 让", "en": "Getting someone to do something: 请, 叫, 让"},
   "body": "در این جمله شخصِ وسط هم مفعولِ فعل اول است و هم انجام‌دهندهٔ فعل دوم.\n«请» مؤدبانه است (خواهش یا دعوت کردن)، «叫» یعنی به کسی گفتن که کاری بکند، و «让» یعنی گفتن یا اجازه دادن.\nدر فارسی «که» و فعل التزامی می‌آوریم («گفت که بروم»)، ولی در چینی فعل دوم بدون هیچ تغییری پشت سر شخص می‌آید. منفی پیش از فعل اول است: 不让.",
   "examples": [
-   {"zh": "老师让我们写汉字。", "py": "Lǎoshī ràng wǒmen xiě Hànzì.", "fa": "معلم از ما خواست خط چینی بنویسیم.", "en": "The teacher had us write Chinese characters."},
+   {"zh": "老师让我们写汉字。", "py": "Lǎoshī ràng wǒmen xiě Hànzì.", "fa": "معلم از ما خواست نویسه‌های چینی بنویسیم.", "en": "The teacher had us write Chinese characters."},
    {"zh": "妈妈叫我去买牛奶。", "py": "Māma jiào wǒ qù mǎi niúnǎi.", "fa": "مامان به من گفت بروم شیر بخرم.", "en": "Mum told me to go and buy milk."},
    {"zh": "我想请你喝咖啡。", "py": "Wǒ xiǎng qǐng nǐ hē kāfēi.", "fa": "می‌خواهم تو را به قهوه دعوت کنم.", "en": "I'd like to treat you to a coffee."}
   ]},
@@ -209,7 +209,7 @@
   "body": "«几» فقط کلمهٔ پرسشی نیست؛ در جملهٔ خبری یعنی «چند تا»، عددی نامشخص کمتر از ده.\nمثل هر عدد دیگری بعدش واحد شمارش می‌آید: 几本书، 几个人.\nبا 十 هم ترکیب می‌شود: 十几 یعنی «ده و خرده‌ای» (یازده تا نوزده) و 几十 یعنی «چند ده تا».",
   "examples": [
    {"zh": "我买了几本书。", "py": "Wǒ mǎi le jǐ běn shū.", "fa": "چند تا کتاب خریدم.", "en": "I bought a few books."},
-   {"zh": "教室里有十几个学生。", "py": "Jiàoshì li yǒu shí jǐ ge xuésheng.", "fa": "در کلاس ده‌دوازده تا دانش‌آموز هستند.", "en": "There are a dozen or so students in the classroom."},
+   {"zh": "教室里有十几个学生。", "py": "Jiàoshì li yǒu shí jǐ ge xuésheng.", "fa": "در کلاس ده و چند دانش‌آموز هست.", "en": "There are ten-odd students in the classroom."},
    {"zh": "这件衣服只要几十块钱。", "py": "Zhè jiàn yīfu zhǐ yào jǐ shí kuài qián.", "fa": "این لباس فقط چند ده یوان است.", "en": "This piece of clothing costs only a few dozen yuan."}
   ]},
  {"id": "hsk3-g0147", "std": "hsk3", "level": 2, "no": 147,
