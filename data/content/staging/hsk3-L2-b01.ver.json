@@ -1,0 +1,16 @@
+[
+{"id": "快", "fa": ["سریع، تند", "به‌سرعت، زود (قید)", "به‌زودی، نزدیک است که"], "en": ["fast, quick", "quickly", "soon, almost"],
+ "ex": [{"zh": "坐地铁去很快。", "py": "Zuò dìtiě qù hěn kuài.", "fa": "با مترو رفتن خیلی سریع است.", "en": "Going by subway is fast."}],
+ "chg": "fa: second gloss was an imperative phrase (زود باش), not a citation form; replaced with adverbial gloss"},
+{"id": "那么", "fa": ["آن‌قدر، آن‌طور", "پس، در این صورت"], "en": ["so, like that", "then, in that case"],
+ "ex": [{"zh": "他没有你那么高。", "py": "Tā méiyǒu nǐ nàme gāo.", "fa": "او به اندازهٔ تو قدبلند نیست.", "en": "He isn't as tall as you."},
+        {"zh": "那么，我们明天见吧。", "py": "Nàme, wǒmen míngtiān jiàn ba.", "fa": "پس فردا همدیگر را ببینیم.", "en": "Then let's meet tomorrow."}],
+ "chg": "ex1: rewritten; 那么 for the listener's present state is where 这么 is natural (and the Persian 'آن‌قدر خوشحالی' was odd); now a typical 没有…那么 comparison"},
+{"id": "起来", "fa": ["بلند شدن، برخاستن", "از رختخواب بلند شدن"], "en": ["to stand up, to rise", "to get up (from bed)"],
+ "note": "بعد از فعل‌های دیگر جهت «به بالا» یا شروع عمل را نشان می‌دهد: 站起来.",
+ "ex": [{"zh": "快起来，已经八点了。", "py": "Kuài qǐlái, yǐjīng bā diǎn le.", "fa": "زود بلند شو، ساعت هشت شده است.", "en": "Get up quickly, it's already eight."}],
+ "chg": "fa: 'از خواب بیدار شدن' means to wake up (醒), not to get out of bed; en reordered to match fa senses"},
+{"id": "别", "fa": ["نشانهٔ نهی (… نکن)"], "en": ["don't"],
+ "ex": [{"zh": "别说话，正在上课呢。", "py": "Bié shuōhuà, zhèngzài shàngkè ne.", "fa": "حرف نزن، الان سر کلاس هستیم.", "en": "Don't talk, we are in class."}],
+ "chg": "fa: removed 'نباید' (= 不应该/不能, misleading for reverse recall); en had only one sense anyway"}
+]

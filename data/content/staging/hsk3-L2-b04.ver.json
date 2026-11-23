@@ -1,0 +1,4 @@
+[
+{"id": "姓", "fa": ["نام خانوادگی", "نام خانوادگی (کسی) … بودن"], "en": ["surname", "to be surnamed"], "ex": [{"zh": "请问，您姓什么？", "py": "Qǐngwèn, nín xìng shénme?", "fa": "ببخشید، نام خانوادگی شما چیست؟", "en": "Excuse me, what is your surname?"}], "chg": "fa: verb gloss 'to have a surname' was inaccurate; 姓 (v) means 'to be surnamed X'"},
+{"id": "奶茶", "fa": ["چای شیر"], "en": ["milk tea"], "ex": [{"zh": "妹妹很喜欢喝奶茶。", "py": "Mèimei hěn xǐhuan hē nǎichá.", "fa": "خواهر کوچکم چای شیر خیلی دوست دارد.", "en": "My younger sister loves milk tea."}], "chg": "fa: 'شیرچای' is not the usual Iranian Persian form; standard is 'چای شیر'"}
+]

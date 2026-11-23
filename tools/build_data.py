@@ -241,7 +241,17 @@ def main() -> None:
                     # Dialogues and grammar are written for the 2025 syllabus; the same level
                     # number of HSK 2.0 reuses them (its word lists are close at levels 1-4).
                     src = CONTENT / kind / f"hsk3-{level}.json"
-                if src.is_file():
+                parts = sorted((CONTENT / kind / "parts").glob(f"hsk3-L{level}-g*.json")) if kind == "grammar" else []
+                if parts:
+                    # Grammar is authored in parts; a level is complete only when all are there.
+                    items = [{**it, "std": std} for part in parts for it in json.loads(part.read_text(encoding="utf-8"))]
+                    items.sort(key=lambda it: it.get("no", 0))
+                    write_json(OUT / std / f"{kind}-{level}.json", items)
+                    for part in parts:
+                        digest.update(part.read_bytes())
+                    info[kind] = len(items)
+                    report.append(f"{std} L{level}: {len(items)} {kind} points")
+                elif src.is_file():
                     items = [{**it, "std": std} for it in json.loads(src.read_text(encoding="utf-8"))]
                     write_json(OUT / std / f"{kind}-{level}.json", items)
                     digest.update(src.read_bytes())

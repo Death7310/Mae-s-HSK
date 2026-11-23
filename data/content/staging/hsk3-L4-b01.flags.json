@@ -1,0 +1,34 @@
+[
+ {
+  "id": "为~2",
+  "issue": "example 1: tone of 为: expected 4, got 2"
+ },
+ {
+  "id": "之",
+  "issue": "function word with a single example (guide asks for two)"
+ },
+ {
+  "id": "死",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "种~2",
+  "issue": "example 1: tone of 种: expected 3, got 4"
+ },
+ {
+  "id": "场",
+  "issue": "example 1: tone of 场: expected 2, got 3"
+ },
+ {
+  "id": "场",
+  "issue": "example 2: tone of 场: expected 2, got 3"
+ },
+ {
+  "id": "一切",
+  "issue": "example 1: pinyin letters differ: expected ~yiqieduhuihaode, got yiqiedouhuihaode"
+ },
+ {
+  "id": "干~2",
+  "issue": "example 1: tone of 干: expected 4, got 1"
+ }
+]

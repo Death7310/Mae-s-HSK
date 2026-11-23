@@ -1,0 +1,11 @@
+[
+{"id": "送", "fa": ["هدیه دادن", "رساندن (بردن و تحویل دادن)", "بدرقه کردن"], "en": ["to give as a gift", "to deliver", "to see off"],
+ "ex": [{"zh": "朋友送了我一本书。", "py": "Péngyou sòng le wǒ yì běn shū.", "fa": "دوستم یک کتاب به من هدیه داد.", "en": "My friend gave me a book."}],
+ "chg": "ex: added 了 — a completed past event (as translated) is unnatural without it"},
+{"id": "不错", "fa": ["نسبتاً خوب", "بد نیست"], "en": ["pretty good", "not bad"],
+ "ex": [{"zh": "这家饭馆的菜不错。", "py": "Zhè jiā fànguǎn de cài búcuò.", "fa": "غذای این رستوران بد نیست، نسبتاً خوب است.", "en": "The food at this restaurant is pretty good."}],
+ "chg": "ex fa: 'خوب است' lost the 不错 nuance; aligned with the gloss"},
+{"id": "介绍", "fa": ["معرفی کردن"], "en": ["to introduce"],
+ "ex": [{"zh": "我来介绍一下，这是小王。", "py": "Wǒ lái jièshào yíxià, zhè shì Xiǎo Wáng.", "fa": "اجازه بدهید معرفی کنم، ایشان شیائو وانگ هستند.", "en": "Let me introduce you: this is Xiao Wang."}],
+ "chg": "ex fa: polite pronoun ایشان takes plural verb (هستند); en made natural"}
+]

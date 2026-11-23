@@ -66,9 +66,49 @@ TOPICS = {
 LINES = {1: (6, 8), 2: (6, 9), 3: (8, 10), 4: (8, 12)}
 
 
+GRAMMAR_PART = 33  # grammar points per authoring part
+
+
+def grammar_briefs(entries) -> None:
+    """Split each level's official grammar points into parts for authoring.
+
+    Only the factual structure is passed on (number, category, the structure
+    itself); the syllabus's own example sentences are left out, so the app's
+    explanations and examples are written from scratch.
+    """
+    import csv
+
+    from hsklib import RAW, ZH_NUM
+
+    with open(RAW / "ofou-hsk" / "grammar.csv", encoding="utf-8-sig", newline="") as fh:
+        rows = list(csv.DictReader(fh))
+    for level in range(1, 5):
+        allowed = sorted({e.s for e in entries if (std_level(e, "hsk3") or 99) <= level})
+        points = [
+            {
+                "no": int(r["No."]),
+                "category": " > ".join(x for x in (r["类别"], r["类别名称"], r["细目"]) if x.strip()),
+                "content": r["语法内容"].strip(),
+            }
+            for r in rows
+            if ZH_NUM.get(r["级别"][0]) == level and not r["级别"].startswith("七")
+        ]
+        n = -(-len(points) // GRAMMAR_PART)
+        size = -(-len(points) // n)
+        for k in range(n):
+            part = points[k * size : (k + 1) * size]
+            path = OUT / f"grammar-hsk3-L{level}-g{k + 1}.json"
+            path.write_text(
+                json.dumps({"std": "hsk3", "level": level, "points": part, "allowed": allowed}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            print(f"{path.relative_to(ROOT)}: {len(part)} grammar points")
+
+
 def main() -> None:
     entries = load_entries()
     OUT.mkdir(parents=True, exist_ok=True)
+    grammar_briefs(entries)
     for level, topics in TOPICS.items():
         allowed = sorted({e.s for e in entries if (std_level(e, "hsk3") or 99) <= level})
         brief = {

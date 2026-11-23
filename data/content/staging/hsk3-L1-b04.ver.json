@@ -1,0 +1,6 @@
+[
+{"id": "睡觉", "fa": ["خوابیدن"], "en": ["to sleep", "to go to bed"], "note": "فعل جداشدنی: 睡觉 ← 睡了一觉", "ex": [{"zh": "孩子们正在睡觉。", "py": "Háizimen zhèngzài shuìjiào.", "fa": "بچه‌ها الان خواب هستند.", "en": "The children are sleeping."}], "chg": "ex.fa: «دارند می‌خوابند» means 'are about to fall asleep'; 正在睡觉 = are asleep right now"},
+{"id": "早上", "fa": ["صبح", "صبح زود"], "en": ["morning", "early morning"], "ex": [{"zh": "我早上喝牛奶，吃面包。", "py": "Wǒ zǎoshang hē niúnǎi, chī miànbāo.", "fa": "من صبح شیر و نان می‌خورم.", "en": "In the morning I drink milk and eat bread."}], "chg": "ex.fa: unnatural repeated verb (word-for-word) -> natural Persian"},
+{"id": "好看", "fa": ["خوش‌ظاهر (قشنگ)", "جذاب (فیلم، کتاب)"], "en": ["good-looking", "good (film, book)"], "ex": [{"zh": "这个电影很好看。", "py": "Zhège diànyǐng hěn hǎokàn.", "fa": "این فیلم خیلی جذاب است.", "en": "This movie is very good."}], "chg": "fa: «خوش‌قیافه» applies only to people's faces, 好看 also covers clothes/things; «دیدنی» does not fit books -> «جذاب»; ex.fa aligned"},
+{"id": "中午", "fa": ["ظهر"], "en": ["noon", "midday"], "ex": [{"zh": "我们中午吃面条儿。", "py": "Wǒmen zhōngwǔ chī miàntiáor.", "fa": "ما ظهر نودل می‌خوریم.", "en": "We eat noodles at noon."}], "chg": "ex.fa: «رشته‌فرنگی» (vermicelli, dated) -> «نودل», the usual word for Chinese noodles"}
+]

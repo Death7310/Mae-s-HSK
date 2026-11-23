@@ -1,0 +1,22 @@
+[
+ {
+  "id": "巧",
+  "issue": "example 1: pinyin letters differ: expected ~zhenqiaowomenzaizheeryudaole, got zhenqiaowomenzaizheryudaole"
+ },
+ {
+  "id": "江",
+  "issue": "example 1: pinyin letters differ: expected ~zhetiaojianghenzhangyehenshen, got zhetiaojianghenchangyehenshen"
+ },
+ {
+  "id": "做梦",
+  "issue": "example 1: tone of 好: expected 4, got 3"
+ },
+ {
+  "id": "镜子",
+  "issue": "example 1: above level: 梳"
+ },
+ {
+  "id": "客气",
+  "issue": "example 1: tone of 当: expected 1, got 4"
+ }
+]

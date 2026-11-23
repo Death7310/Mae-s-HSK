@@ -1,0 +1,4 @@
+[
+{"id":"下班","fa":["از کار تعطیل شدن","تمام شدن ساعت کاری"],"en":["to get off work","to finish work"],"ex":[{"zh":"爸爸今天六点下班。","py":"Bàba jīntiān liù diǎn xiàbān.","fa":"پدر امروز ساعت شش کارش تمام می‌شود.","en":"Dad gets off work at six today."}],"chg":"fa: 'از سر کار برگشتن' means returning (home) from work, not finishing work; replaced with accurate glosses"},
+{"id":"米饭","fa":["برنج پخته","کته (برنج سادهٔ پخته)"],"en":["cooked rice"],"ex":[{"zh":"中午我吃了米饭和菜。","py":"Zhōngwǔ wǒ chī le mǐfàn hé cài.","fa":"ظهر برنج و خوراک خوردم.","en":"At noon I ate rice and some dishes."}],"chg":"fa: پلو (usually mixed/seasoned rice) -> کته (plain rice); ex: 菜 rendered inconsistently (fa 'stew' vs en 'vegetables') -> dishes in both"}
+]

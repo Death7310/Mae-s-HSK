@@ -118,6 +118,8 @@ export interface GrammarPoint {
   id: string;
   std: Std;
   level: number;
+  /** Number of the point in the official syllabus. */
+  no?: number;
   /** Pattern, e.g. "A 比 B + adj". */
   pattern: string;
   title: { fa: string; en?: string };
