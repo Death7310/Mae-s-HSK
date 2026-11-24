@@ -1,0 +1,268 @@
+[
+ {
+  "id": "促销",
+  "fa": [
+   "فروش ویژه برگزار کردن",
+   "ترویج فروش کردن"
+  ],
+  "en": [
+   "to run a sales promotion",
+   "to promote sales"
+  ],
+  "ex": [
+   {
+    "zh": "这家商店今天在促销。",
+    "py": "Zhè jiā shāngdiàn jīntiān zài cùxiāo.",
+    "fa": "این فروشگاه امروز فروش ویژه دارد.",
+    "en": "This store is running a promotion today."
+   }
+  ],
+  "chg": "fa: first gloss was a noun phrase, not an infinitive; reordered to natural verb forms"
+ },
+ {
+  "id": "光临",
+  "fa": [
+   "تشریف آوردن",
+   "قدم رنجه کردن"
+  ],
+  "en": [
+   "to visit (polite)",
+   "to honor with one's presence"
+  ],
+  "note": "عبارت مؤدبانه؛ در فروشگاه‌ها می‌گویند: 欢迎光临 ← خوش آمدید.",
+  "ex": [
+   {
+    "zh": "欢迎光临，请问几位？",
+    "py": "Huānyíng guānglín, qǐngwèn jǐ wèi?",
+    "fa": "خوش آمدید، چند نفرید؟",
+    "en": "Welcome! How many of you are there?"
+   }
+  ],
+  "chg": "fa: most common/natural gloss first"
+ },
+ {
+  "id": "无奈",
+  "fa": [
+   "چاره‌ای نداشتن",
+   "اما متأسفانه (از سر ناچاری)"
+  ],
+  "en": [
+   "to have no choice",
+   "but unfortunately"
+  ],
+  "ex": [
+   {
+    "zh": "他想帮忙，无奈自己也很忙。",
+    "py": "Tā xiǎng bāngmáng, wúnài zìjǐ yě hěn máng.",
+    "fa": "او می‌خواست کمک کند، اما متأسفانه خودش هم سرش شلوغ بود.",
+    "en": "He wanted to help, but unfortunately he was busy too."
+   },
+   {
+    "zh": "我无奈地笑了笑。",
+    "py": "Wǒ wúnài de xiào le xiào.",
+    "fa": "من ناچار لبخندی زدم.",
+    "en": "I smiled helplessly."
+   }
+  ],
+  "chg": "fa: second gloss unclear for the conjunction sense"
+ },
+ {
+  "id": "成年",
+  "fa": [
+   "به سن قانونی رسیدن",
+   "بزرگسال شدن"
+  ],
+  "en": [
+   "to reach adulthood",
+   "to come of age"
+  ],
+  "ex": [
+   {
+    "zh": "孩子成年以后就可以自己做决定了。",
+    "py": "Háizi chéngnián yǐhòu jiù kěyǐ zìjǐ zuò juédìng le.",
+    "fa": "فرزند وقتی به سن قانونی برسد، می‌تواند خودش تصمیم بگیرد.",
+    "en": "Once a child reaches adulthood, he can make his own decisions."
+   }
+  ],
+  "chg": "fa: بلوغ means puberty, wrong sense -> reaching legal adulthood"
+ },
+ {
+  "id": "讲座",
+  "fa": [
+   "سخنرانی (علمی و آموزشی)",
+   "درس‌گفتار"
+  ],
+  "en": [
+   "lecture",
+   "lecture series"
+  ],
+  "ex": [
+   {
+    "zh": "明天下午有一个关于历史的讲座。",
+    "py": "Míngtiān xiàwǔ yǒu yí ge guānyú lìshǐ de jiǎngzuò.",
+    "fa": "فردا بعدازظهر یک سخنرانی دربارهٔ تاریخ برگزار می‌شود.",
+    "en": "There is a lecture on history tomorrow afternoon."
+   }
+  ],
+  "chg": "fa: unnatural glosses (کلاس سخنرانی) -> standard terms"
+ },
+ {
+  "id": "长远",
+  "fa": [
+   "بلندمدت",
+   "درازمدت"
+  ],
+  "en": [
+   "long-term",
+   "long-range"
+  ],
+  "ex": [
+   {
+    "zh": "做事情要考虑长远的利益。",
+    "py": "Zuò shìqing yào kǎolǜ chángyuǎn de lìyì.",
+    "fa": "در کارها باید منافع بلندمدت را در نظر گرفت.",
+    "en": "You should consider long-term interests when doing things."
+   }
+  ],
+  "chg": "fa: دوربرد is for missiles/range, not time -> درازمدت"
+ },
+ {
+  "id": "舍不得",
+  "fa": [
+   "نتوانستن دل کندن از",
+   "دل نیامدن (برای خرج یا استفاده)"
+  ],
+  "en": [
+   "to be reluctant to part with",
+   "to begrudge"
+  ],
+  "ex": [
+   {
+    "zh": "我舍不得离开这里的朋友。",
+    "py": "Wǒ shěbude líkāi zhèlǐ de péngyou.",
+    "fa": "دلم نمی‌آید از دوستانم در اینجا جدا شوم.",
+    "en": "I'm reluctant to leave my friends here."
+   }
+  ],
+  "chg": "fa: ungrammatical gloss (دل کندن نداشتن) -> natural Persian"
+ },
+ {
+  "id": "大爷",
+  "fa": [
+   "پدرجان (خطاب محترمانه به مرد مسن)",
+   "عموی بزرگ‌تر (برادر بزرگ پدر)"
+  ],
+  "en": [
+   "uncle (older man)",
+   "father's older brother"
+  ],
+  "note": "در گفتار محاوره‌ای؛ برای خطاب محترمانه به مرد مسن غریبه هم به کار می‌رود.",
+  "ex": [
+   {
+    "zh": "大爷，请问去火车站怎么走？",
+    "py": "Dàye, qǐngwèn qù huǒchēzhàn zěnme zǒu?",
+    "fa": "پدرجان، ببخشید، راه ایستگاه قطار از کدام طرف است؟",
+    "en": "Excuse me, sir, how do I get to the train station?"
+   }
+  ],
+  "chg": "fa: clarified senses (father's OLDER brother; respectful address)"
+ },
+ {
+  "id": "报到",
+  "fa": [
+   "اعلام حضور کردن",
+   "خود را معرفی کردن (در محل کار یا تحصیل)"
+  ],
+  "en": [
+   "to report for duty",
+   "to check in"
+  ],
+  "ex": [
+   {
+    "zh": "新同学明天上午来学校报到。",
+    "py": "Xīn tóngxué míngtiān shàngwǔ lái xuéxiào bàodào.",
+    "fa": "دانش‌آموزان جدید فردا صبح برای اعلام حضور و ثبت‌نام به مدرسه می‌آیند.",
+    "en": "New students come to school to register tomorrow morning."
+   }
+  ],
+  "chg": "fa: glosses vague/unnatural -> report one's arrival"
+ },
+ {
+  "id": "河流",
+  "fa": [
+   "رودخانه"
+  ],
+  "en": [
+   "river"
+  ],
+  "note": "واحد شمارش معمول: 条.",
+  "ex": [
+   {
+    "zh": "这条河流很长，流过好几个城市。",
+    "py": "Zhè tiáo héliú hěn cháng, liúguò hǎo jǐ ge chéngshì.",
+    "fa": "این رودخانه بسیار طولانی است و از چند شهر می‌گذرد.",
+    "en": "This river is very long and flows through several cities."
+   }
+  ],
+  "chg": "ex fa: بلند is wrong for a river -> طولانی"
+ },
+ {
+  "id": "一代",
+  "fa": [
+   "یک نسل",
+   "نسل"
+  ],
+  "en": [
+   "a generation"
+  ],
+  "ex": [
+   {
+    "zh": "年轻的一代更喜欢上网。",
+    "py": "Niánqīng de yídài gèng xǐhuan shàngwǎng.",
+    "fa": "نسل جوان بیشتر دوست دارد اینترنت بگردد.",
+    "en": "The younger generation likes going online more."
+   }
+  ],
+  "chg": "fa/en: \"یک دوره / an era\" is not a sense of 一代 as taught"
+ },
+ {
+  "id": "故乡",
+  "fa": [
+   "زادگاه",
+   "دیار (زادبوم)"
+  ],
+  "en": [
+   "hometown",
+   "native place"
+  ],
+  "ex": [
+   {
+    "zh": "春节我要回故乡看爸爸妈妈。",
+    "py": "Chūnjié wǒ yào huí gùxiāng kàn bàba māma.",
+    "fa": "در جشن بهار می‌خواهم به زادگاهم بروم و پدر و مادرم را ببینم.",
+    "en": "At Spring Festival I'll go back to my hometown to see my parents."
+   }
+  ],
+  "chg": "fa: میهن (country) is misleading -> native place"
+ },
+ {
+  "id": "武术",
+  "fa": [
+   "هنرهای رزمی",
+   "ووشو (کونگ‌فو)"
+  ],
+  "en": [
+   "martial arts",
+   "wushu"
+  ],
+  "ex": [
+   {
+    "zh": "他从小学习中国武术。",
+    "py": "Tā cóng xiǎo xuéxí Zhōngguó wǔshù.",
+    "fa": "او از کودکی هنرهای رزمی چینی یاد می‌گیرد.",
+    "en": "He has studied Chinese martial arts since childhood."
+   }
+  ],
+  "chg": "fa: stray ZWNJ inside ووشو"
+ }
+]

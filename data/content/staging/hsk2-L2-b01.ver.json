@@ -1,0 +1,10 @@
+[
+{"id": "唱歌", "fa": ["آواز خواندن", "ترانه خواندن"], "en": ["to sing", "to sing a song"],
+ "note": "فعل جداشدنی: 唱歌 ← 唱一首歌",
+ "ex": [{"zh": "我妹妹很喜欢唱歌。", "py": "Wǒ mèimei hěn xǐhuan chànggē.", "fa": "خواهر کوچکم آواز خواندن را خیلی دوست دارد.", "en": "My younger sister really likes singing."}],
+ "chg": "note: unnatural split form 唱一个歌 -> 唱一首歌 (correct measure word for songs); ex fa: more natural word order"},
+{"id": "踢足球", "pos": ["v"], "fa": ["فوتبال بازی کردن"], "en": ["to play football (soccer)"],
+ "note": "踢 یعنی «با پا زدن»؛ برای فوتبال 踢 می‌گویند، نه 打.",
+ "ex": [{"zh": "我们明天一起踢足球吧。", "py": "Wǒmen míngtiān yìqǐ tī zúqiú ba.", "fa": "فردا با هم فوتبال بازی کنیم.", "en": "Let's play soccer together tomorrow."}],
+ "chg": "en: disambiguate football as soccer (not American football)"}
+]

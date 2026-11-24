@@ -1,0 +1,1237 @@
+[
+ {
+  "id": "彼此",
+  "fa": [
+   "یکدیگر",
+   "همدیگر"
+  ],
+  "en": [
+   "each other",
+   "one another"
+  ],
+  "note": "اغلب در «彼此彼此» (تعارف: «من هم همین‌طور») یا «我们彼此…» می‌آید.",
+  "ex": [
+   {
+    "zh": "我们彼此都很了解对方的想法。",
+    "py": "Wǒmen bǐcǐ dōu hěn liǎojiě duìfāng de xiǎngfǎ.",
+    "fa": "ما هر دو افکار یکدیگر را خوب می‌شناسیم.",
+    "en": "We both understand each other's thinking well."
+   }
+  ]
+ },
+ {
+  "id": "推荐",
+  "fa": [
+   "توصیه کردن",
+   "معرفی کردن"
+  ],
+  "en": [
+   "to recommend",
+   "to suggest"
+  ],
+  "ex": [
+   {
+    "zh": "朋友向我推荐了一家很好吃的餐厅。",
+    "py": "Péngyou xiàng wǒ tuījiàn le yì jiā hěn hǎochī de cāntīng.",
+    "fa": "دوستم یک رستوران بسیار خوشمزه را به من معرفی کرد.",
+    "en": "A friend recommended a delicious restaurant to me."
+   }
+  ]
+ },
+ {
+  "id": "指导",
+  "fa": [
+   "راهنمایی کردن",
+   "هدایت کردن"
+  ],
+  "en": [
+   "to guide",
+   "to coach"
+  ],
+  "ex": [
+   {
+    "zh": "老师耐心地指导我们写论文。",
+    "py": "Lǎoshī nàixīn de zhǐdǎo wǒmen xiě lùnwén.",
+    "fa": "استاد با صبر و حوصله ما را در نوشتن پایان‌نامه راهنمایی می‌کند.",
+    "en": "The teacher patiently guides us in writing our papers."
+   }
+  ]
+ },
+ {
+  "id": "品牌",
+  "fa": [
+   "برند",
+   "مارک تجاری"
+  ],
+  "en": [
+   "brand",
+   "trademark"
+  ],
+  "ex": [
+   {
+    "zh": "这个品牌的衣服在年轻人中很受欢迎。",
+    "py": "Zhège pǐnpái de yīfu zài niánqīngrén zhōng hěn shòu huānyíng.",
+    "fa": "لباس‌های این برند میان جوانان بسیار محبوب است.",
+    "en": "This brand's clothes are popular among young people."
+   }
+  ]
+ },
+ {
+  "id": "盖",
+  "fa": [
+   "پوشاندن",
+   "ساختن (بنا)",
+   "درپوش"
+  ],
+  "en": [
+   "to cover",
+   "to build",
+   "lid"
+  ],
+  "note": "اسم: «درپوش، سرپوش»؛ فعل: «پوشاندن» و «ساختن (ساختمان)». مثال: 盖房子.",
+  "ex": [
+   {
+    "zh": "天气冷了，晚上要盖厚一点的被子。",
+    "py": "Tiānqì lěng le, wǎnshang yào gài hòu yìdiǎn de bèizi.",
+    "fa": "هوا سرد شده است؛ شب‌ها باید پتوی ضخیم‌تری روی خود بکشی.",
+    "en": "It's getting cold; at night you should cover yourself with a thicker quilt."
+   }
+  ]
+ },
+ {
+  "id": "原则",
+  "fa": [
+   "اصل",
+   "قاعده (اصل اخلاقی)"
+  ],
+  "en": [
+   "principle"
+  ],
+  "ex": [
+   {
+    "zh": "做人要有原则，不能随便改变想法。",
+    "py": "Zuòrén yào yǒu yuánzé, bù néng suíbiàn gǎibiàn xiǎngfǎ.",
+    "fa": "آدم باید اصول داشته باشد و نباید بی‌دلیل نظرش را عوض کند.",
+    "en": "One should have principles and not change one's mind casually."
+   }
+  ]
+ },
+ {
+  "id": "联合",
+  "fa": [
+   "متحد کردن",
+   "متحد شدن",
+   "متحد (صفت)"
+  ],
+  "en": [
+   "to unite",
+   "to combine",
+   "joint"
+  ],
+  "ex": [
+   {
+    "zh": "两个公司联合举办了这次活动。",
+    "py": "Liǎng ge gōngsī liánhé jǔbàn le zhè cì huódòng.",
+    "fa": "دو شرکت این برنامه را به‌طور مشترک برگزار کردند.",
+    "en": "The two companies jointly organized this event."
+   }
+  ]
+ },
+ {
+  "id": "炒",
+  "fa": [
+   "سرخ کردن (با هم‌زدن)",
+   "تفت دادن"
+  ],
+  "en": [
+   "to stir-fry",
+   "to sauté"
+  ],
+  "ex": [
+   {
+    "zh": "妈妈正在厨房里炒菜。",
+    "py": "Māma zhèngzài chúfáng lǐ chǎo cài.",
+    "fa": "مادر در آشپزخانه مشغول تفت دادن سبزیجات است.",
+    "en": "Mom is stir-frying vegetables in the kitchen."
+   }
+  ]
+ },
+ {
+  "id": "录",
+  "fa": [
+   "ضبط کردن",
+   "ثبت کردن"
+  ],
+  "en": [
+   "to record",
+   "to copy down"
+  ],
+  "ex": [
+   {
+    "zh": "我用手机把他的讲话录下来了。",
+    "py": "Wǒ yòng shǒujī bǎ tā de jiǎnghuà lù xiàlai le.",
+    "fa": "من سخنرانی او را با موبایل ضبط کردم.",
+    "en": "I recorded his speech with my phone."
+   }
+  ]
+ },
+ {
+  "id": "微笑",
+  "fa": [
+   "لبخند زدن",
+   "لبخند"
+  ],
+  "en": [
+   "to smile",
+   "smile"
+  ],
+  "ex": [
+   {
+    "zh": "她微笑着向大家点了点头。",
+    "py": "Tā wēixiào zhe xiàng dàjiā diǎn le diǎn tóu.",
+    "fa": "او لبخندزنان برای همه سر تکان داد.",
+    "en": "She nodded to everyone with a smile."
+   }
+  ]
+ },
+ {
+  "id": "组合",
+  "fa": [
+   "ترکیب کردن",
+   "ترکیب"
+  ],
+  "en": [
+   "to combine",
+   "combination"
+  ],
+  "ex": [
+   {
+    "zh": "这几种颜色组合在一起很好看。",
+    "py": "Zhè jǐ zhǒng yánsè zǔhé zài yìqǐ hěn hǎokàn.",
+    "fa": "ترکیب این چند رنگ با هم بسیار زیبا است.",
+    "en": "These colors look great combined together."
+   }
+  ]
+ },
+ {
+  "id": "观点",
+  "fa": [
+   "دیدگاه",
+   "نظر"
+  ],
+  "en": [
+   "viewpoint",
+   "opinion"
+  ],
+  "note": "量词: 个.",
+  "ex": [
+   {
+    "zh": "我不同意你的观点。",
+    "py": "Wǒ bù tóngyì nǐ de guāndiǎn.",
+    "fa": "من با دیدگاه تو موافق نیستم.",
+    "en": "I don't agree with your point of view."
+   }
+  ]
+ },
+ {
+  "id": "惊喜",
+  "fa": [
+   "شگفت‌زده و خوشحال",
+   "شگفتی خوشایند"
+  ],
+  "en": [
+   "pleasantly surprised",
+   "nice surprise"
+  ],
+  "ex": [
+   {
+    "zh": "收到朋友寄来的礼物，我又惊喜又感动。",
+    "py": "Shōudào péngyou jìlái de lǐwù, wǒ yòu jīngxǐ yòu gǎndòng.",
+    "fa": "از دریافت هدیه‌ای که دوستم فرستاده بود هم شگفت‌زده و خوشحال شدم و هم تحت تأثیر قرار گرفتم.",
+    "en": "Receiving the gift my friend sent, I was both pleasantly surprised and moved."
+   }
+  ]
+ },
+ {
+  "id": "强烈",
+  "fa": [
+   "شدید",
+   "قوی"
+  ],
+  "en": [
+   "intense",
+   "strong"
+  ],
+  "ex": [
+   {
+    "zh": "他对这件事有强烈的兴趣。",
+    "py": "Tā duì zhè jiàn shì yǒu qiángliè de xìngqù.",
+    "fa": "او به این موضوع علاقهٔ شدیدی دارد.",
+    "en": "He has a strong interest in this matter."
+   }
+  ]
+ },
+ {
+  "id": "争取",
+  "fa": [
+   "تلاش کردن برای به دست آوردن",
+   "کوشیدن"
+  ],
+  "en": [
+   "to strive for",
+   "to fight for"
+  ],
+  "ex": [
+   {
+    "zh": "我们要争取早日完成这个任务。",
+    "py": "Wǒmen yào zhēngqǔ zǎorì wánchéng zhège rènwu.",
+    "fa": "ما باید تلاش کنیم این کار را هرچه زودتر به پایان برسانیم.",
+    "en": "We must strive to complete this task as soon as possible."
+   }
+  ]
+ },
+ {
+  "id": "公平",
+  "fa": [
+   "عادلانه",
+   "منصفانه"
+  ],
+  "en": [
+   "fair",
+   "impartial"
+  ],
+  "ex": [
+   {
+    "zh": "老师对每个学生都很公平。",
+    "py": "Lǎoshī duì měi ge xuésheng dōu hěn gōngpíng.",
+    "fa": "معلم با همهٔ دانش‌آموزان منصفانه رفتار می‌کند.",
+    "en": "The teacher is fair to every student."
+   }
+  ]
+ },
+ {
+  "id": "高级",
+  "fa": [
+   "عالی‌رتبه",
+   "پیشرفته",
+   "مرغوب"
+  ],
+  "en": [
+   "high-level",
+   "advanced",
+   "high-grade"
+  ],
+  "ex": [
+   {
+    "zh": "这家酒店的服务非常高级。",
+    "py": "Zhè jiā jiǔdiàn de fúwù fēicháng gāojí.",
+    "fa": "خدمات این هتل بسیار در سطح بالا است.",
+    "en": "The service at this hotel is very high-class."
+   }
+  ]
+ },
+ {
+  "id": "洞",
+  "fa": [
+   "سوراخ",
+   "غار",
+   "حفره"
+  ],
+  "en": [
+   "hole",
+   "cave"
+  ],
+  "note": "量词: 个.",
+  "ex": [
+   {
+    "zh": "墙上有一个小洞，老鼠从那里跑进来了。",
+    "py": "Qiáng shang yǒu yí ge xiǎo dòng, lǎoshǔ cóng nàlǐ pǎo jìnlai le.",
+    "fa": "روی دیوار یک سوراخ کوچک هست و موش از آنجا آمده تو.",
+    "en": "There's a small hole in the wall, and the mouse came in through it."
+   }
+  ]
+ },
+ {
+  "id": "良好",
+  "fa": [
+   "خوب",
+   "مطلوب"
+  ],
+  "en": [
+   "good",
+   "favorable"
+  ],
+  "ex": [
+   {
+    "zh": "他从小养成了良好的学习习惯。",
+    "py": "Tā cóngxiǎo yǎngchéng le liánghǎo de xuéxí xíguàn.",
+    "fa": "او از کودکی عادت‌های خوب درس خواندن را در خود پرورش داده است.",
+    "en": "He developed good study habits from childhood."
+   }
+  ]
+ },
+ {
+  "id": "思考",
+  "fa": [
+   "اندیشیدن",
+   "فکر کردن"
+  ],
+  "en": [
+   "to ponder",
+   "to think deeply"
+  ],
+  "ex": [
+   {
+    "zh": "遇到问题时，要先冷静思考。",
+    "py": "Yùdào wèntí shí, yào xiān lěngjìng sīkǎo.",
+    "fa": "وقتی به مشکلی برمی‌خوری، اول باید آرام فکر کنی.",
+    "en": "When you meet a problem, first think calmly."
+   }
+  ]
+ },
+ {
+  "id": "签",
+  "fa": [
+   "امضا کردن",
+   "نشان‌دار کردن (با نوشتن)"
+  ],
+  "en": [
+   "to sign",
+   "to write one's name"
+  ],
+  "note": "اسم‌های دیگر با همین تلفظ: «برچسب»، «چوب‌خط قرعه» (签子).",
+  "ex": [
+   {
+    "zh": "请在这里签你的名字。",
+    "py": "Qǐng zài zhèlǐ qiān nǐ de míngzi.",
+    "fa": "لطفاً اینجا نام خود را امضا کنید.",
+    "en": "Please sign your name here."
+   }
+  ]
+ },
+ {
+  "id": "自从",
+  "fa": [
+   "از ... به این‌سو",
+   "از زمانی که"
+  ],
+  "en": [
+   "since",
+   "ever since"
+  ],
+  "ex": [
+   {
+    "zh": "自从搬到北京，我就很少回家了。",
+    "py": "Zìcóng bāndào Běijīng, wǒ jiù hěn shǎo huí jiā le.",
+    "fa": "از وقتی به پکن نقل مکان کرده‌ام، کم به خانه برمی‌گردم.",
+    "en": "Since moving to Beijing, I rarely go home."
+   },
+   {
+    "zh": "自从学了汉语，他交了很多朋友。",
+    "py": "Zìcóng xué le Hànyǔ, tā jiāo le hěn duō péngyou.",
+    "fa": "از وقتی چینی یاد گرفته، دوستان زیادی پیدا کرده است.",
+    "en": "Since learning Chinese, he has made many friends."
+   }
+  ]
+ },
+ {
+  "id": "尝试",
+  "fa": [
+   "امتحان کردن",
+   "تلاش کردن"
+  ],
+  "en": [
+   "to try",
+   "to attempt"
+  ],
+  "ex": [
+   {
+    "zh": "他想尝试一种新的学习方法。",
+    "py": "Tā xiǎng chángshì yì zhǒng xīn de xuéxí fāngfǎ.",
+    "fa": "او می‌خواهد یک روش جدید یادگیری را امتحان کند.",
+    "en": "He wants to try a new way of studying."
+   }
+  ]
+ },
+ {
+  "id": "命运",
+  "fa": [
+   "سرنوشت",
+   "تقدیر"
+  ],
+  "en": [
+   "fate",
+   "destiny"
+  ],
+  "ex": [
+   {
+    "zh": "他相信努力可以改变命运。",
+    "py": "Tā xiāngxìn nǔlì kěyǐ gǎibiàn mìngyùn.",
+    "fa": "او باور دارد که تلاش می‌تواند سرنوشت را تغییر دهد.",
+    "en": "He believes effort can change one's fate."
+   }
+  ]
+ },
+ {
+  "id": "疾病",
+  "fa": [
+   "بیماری"
+  ],
+  "en": [
+   "disease",
+   "illness"
+  ],
+  "ex": [
+   {
+    "zh": "多运动可以预防很多疾病。",
+    "py": "Duō yùndòng kěyǐ yùfáng hěn duō jíbìng.",
+    "fa": "ورزش زیاد می‌تواند از بسیاری بیماری‌ها پیشگیری کند.",
+    "en": "Exercising more can prevent many diseases."
+   }
+  ]
+ },
+ {
+  "id": "女子",
+  "fa": [
+   "زن",
+   "بانو"
+  ],
+  "en": [
+   "woman",
+   "female"
+  ],
+  "note": "بیشتر در زبان نوشتاری و ترکیب‌ها: 女子足球 (فوتبال زنان).",
+  "ex": [
+   {
+    "zh": "那位女子是我们学校的新老师。",
+    "py": "Nà wèi nǚzǐ shì wǒmen xuéxiào de xīn lǎoshī.",
+    "fa": "آن خانم معلم جدید مدرسهٔ ماست.",
+    "en": "That woman is the new teacher at our school."
+   }
+  ]
+ },
+ {
+  "id": "类似",
+  "fa": [
+   "مشابه بودن",
+   "شبیه بودن"
+  ],
+  "en": [
+   "to be similar",
+   "to resemble"
+  ],
+  "ex": [
+   {
+    "zh": "这两本书的内容很类似。",
+    "py": "Zhè liǎng běn shū de nèiróng hěn lèisì.",
+    "fa": "محتوای این دو کتاب بسیار شبیه هم است.",
+    "en": "The contents of these two books are very similar."
+   }
+  ]
+ },
+ {
+  "id": "凭",
+  "fa": [
+   "تکیه کردن",
+   "با اتکا به",
+   "به استناد"
+  ],
+  "en": [
+   "to rely on",
+   "on the basis of"
+  ],
+  "note": "اغلب در «凭什么» (به چه حقی؟) و «凭…» (بر اساس…).",
+  "ex": [
+   {
+    "zh": "他凭自己的努力考上了大学。",
+    "py": "Tā píng zìjǐ de nǔlì kǎoshàng le dàxué.",
+    "fa": "او با تلاش خودش در دانشگاه پذیرفته شد.",
+    "en": "He got into university through his own effort."
+   },
+   {
+    "zh": "凭这张票，你可以免费进去。",
+    "py": "Píng zhè zhāng piào, nǐ kěyǐ miǎnfèi jìnqu.",
+    "fa": "با این بلیت می‌توانی رایگان وارد شوی.",
+    "en": "With this ticket, you can go in for free."
+   }
+  ]
+ },
+ {
+  "id": "尽量",
+  "fa": [
+   "تا حد امکان",
+   "تا می‌توان"
+  ],
+  "en": [
+   "as much as possible",
+   "to the best of one's ability"
+  ],
+  "note": "تلفظ دیگر jìnliàng (خوردن یا نوشیدن تا سیر شدن) هم هست.",
+  "ex": [
+   {
+    "zh": "明天请你尽量早点儿来。",
+    "py": "Míngtiān qǐng nǐ jǐnliàng zǎo diǎnr lái.",
+    "fa": "فردا لطفاً تا حد امکان زودتر بیا.",
+    "en": "Please come as early as you can tomorrow."
+   }
+  ]
+ },
+ {
+  "id": "娱乐",
+  "fa": [
+   "سرگرمی",
+   "تفریح",
+   "سرگرم کردن"
+  ],
+  "en": [
+   "entertainment",
+   "recreation",
+   "to amuse"
+  ],
+  "ex": [
+   {
+    "zh": "周末我们常去看电影，做点娱乐活动。",
+    "py": "Zhōumò wǒmen cháng qù kàn diànyǐng, zuò diǎn yúlè huódòng.",
+    "fa": "آخر هفته‌ها اغلب به سینما می‌رویم و کمی تفریح می‌کنیم.",
+    "en": "On weekends we often go to the movies for some entertainment."
+   }
+  ]
+ },
+ {
+  "id": "不然",
+  "fa": [
+   "وگرنه",
+   "در غیر این صورت"
+  ],
+  "en": [
+   "otherwise",
+   "or else"
+  ],
+  "note": "صفت هم هست («این‌طور نیست»)، مثل «其实不然».",
+  "ex": [
+   {
+    "zh": "快点儿走，不然要迟到了。",
+    "py": "Kuài diǎnr zǒu, bùrán yào chídào le.",
+    "fa": "زودتر برو، وگرنه دیر می‌شود.",
+    "en": "Hurry up, otherwise we'll be late."
+   },
+   {
+    "zh": "带上伞吧，不然会被雨淋湿的。",
+    "py": "Dài shang sǎn ba, bùrán huì bèi yǔ línshī de.",
+    "fa": "چتر ببر، وگرنه باران خیست می‌کند.",
+    "en": "Take an umbrella, or you'll get soaked."
+   }
+  ]
+ },
+ {
+  "id": "资格",
+  "fa": [
+   "صلاحیت",
+   "شرایط لازم",
+   "سابقه"
+  ],
+  "en": [
+   "qualification",
+   "eligibility"
+  ],
+  "ex": [
+   {
+    "zh": "你有资格参加这次比赛。",
+    "py": "Nǐ yǒu zīgé cānjiā zhè cì bǐsài.",
+    "fa": "تو صلاحیت شرکت در این مسابقه را داری.",
+    "en": "You are qualified to take part in this competition."
+   }
+  ]
+ },
+ {
+  "id": "企业",
+  "fa": [
+   "بنگاه",
+   "شرکت",
+   "مؤسسهٔ اقتصادی"
+  ],
+  "en": [
+   "enterprise",
+   "company"
+  ],
+  "note": "量词: 家.",
+  "ex": [
+   {
+    "zh": "这家企业已经有五十年的历史了。",
+    "py": "Zhè jiā qǐyè yǐjīng yǒu wǔshí nián de lìshǐ le.",
+    "fa": "این شرکت پنجاه سال سابقه دارد.",
+    "en": "This enterprise has a fifty-year history."
+   }
+  ]
+ },
+ {
+  "id": "工具",
+  "fa": [
+   "ابزار",
+   "وسیله"
+  ],
+  "en": [
+   "tool",
+   "instrument"
+  ],
+  "ex": [
+   {
+    "zh": "手机已经成为我们生活中重要的工具。",
+    "py": "Shǒujī yǐjīng chéngwéi wǒmen shēnghuó zhōng zhòngyào de gōngjù.",
+    "fa": "موبایل به ابزار مهمی در زندگی ما تبدیل شده است.",
+    "en": "The mobile phone has become an important tool in our lives."
+   }
+  ]
+ },
+ {
+  "id": "追求",
+  "fa": [
+   "دنبال کردن",
+   "در پی چیزی بودن"
+  ],
+  "en": [
+   "to pursue",
+   "to seek"
+  ],
+  "ex": [
+   {
+    "zh": "每个人都在追求自己的梦想。",
+    "py": "Měi ge rén dōu zài zhuīqiú zìjǐ de mèngxiǎng.",
+    "fa": "هر کسی دنبال رویای خودش است.",
+    "en": "Everyone is pursuing their own dream."
+   }
+  ]
+ },
+ {
+  "id": "欣赏",
+  "fa": [
+   "قدردانی کردن",
+   "تحسین کردن",
+   "لذت بردن از"
+  ],
+  "en": [
+   "to appreciate",
+   "to admire",
+   "to enjoy"
+  ],
+  "ex": [
+   {
+    "zh": "我很欣赏他认真工作的态度。",
+    "py": "Wǒ hěn xīnshǎng tā rènzhēn gōngzuò de tàidù.",
+    "fa": "من نگرش جدی او نسبت به کار را بسیار تحسین می‌کنم.",
+    "en": "I really admire his serious attitude toward work."
+   }
+  ]
+ },
+ {
+  "id": "高度",
+  "fa": [
+   "ارتفاع",
+   "بسیار (زیاد)",
+   "در سطح بالا"
+  ],
+  "en": [
+   "height",
+   "highly"
+  ],
+  "note": "به‌صورت قید/صفت: 高度重视 (اهمیت بسیار دادن).",
+  "ex": [
+   {
+    "zh": "公司高度重视客户的意见。",
+    "py": "Gōngsī gāodù zhòngshì kèhù de yìjiàn.",
+    "fa": "شرکت اهمیت بسیار زیادی به نظر مشتریان می‌دهد.",
+    "en": "The company attaches great importance to customers' opinions."
+   }
+  ]
+ },
+ {
+  "id": "挑",
+  "fa": [
+   "انتخاب کردن",
+   "برگزیدن",
+   "حمل کردن (با چوب دوش)"
+  ],
+  "en": [
+   "to choose",
+   "to pick",
+   "to carry on a pole"
+  ],
+  "note": "با تلفظ tiǎo: «بلند کردن، برانگیختن» (挑战: چالش).",
+  "ex": [
+   {
+    "zh": "你帮我挑一件合适的礼物吧。",
+    "py": "Nǐ bāng wǒ tiāo yí jiàn héshì de lǐwù ba.",
+    "fa": "تو برای من یک هدیهٔ مناسب انتخاب کن.",
+    "en": "Help me pick out a suitable gift."
+   }
+  ]
+ },
+ {
+  "id": "碎",
+  "fa": [
+   "شکستن",
+   "خرد شدن",
+   "خرد"
+  ],
+  "en": [
+   "to break into pieces",
+   "broken",
+   "fragmentary"
+  ],
+  "ex": [
+   {
+    "zh": "杯子掉在地上，碎了。",
+    "py": "Bēizi diào zài dì shang, suì le.",
+    "fa": "لیوان روی زمین افتاد و شکست.",
+    "en": "The glass fell on the floor and shattered."
+   }
+  ]
+ },
+ {
+  "id": "连续",
+  "fa": [
+   "پیاپی بودن",
+   "پی‌درپی ادامه یافتن"
+  ],
+  "en": [
+   "to continue in a row",
+   "consecutive"
+  ],
+  "ex": [
+   {
+    "zh": "这个星期连续下了三天雨。",
+    "py": "Zhège xīngqī liánxù xià le sān tiān yǔ.",
+    "fa": "این هفته سه روز پشت سر هم باران بارید.",
+    "en": "It rained for three days in a row this week."
+   }
+  ]
+ },
+ {
+  "id": "阻止",
+  "fa": [
+   "جلوگیری کردن",
+   "مانع شدن"
+  ],
+  "en": [
+   "to prevent",
+   "to stop"
+  ],
+  "ex": [
+   {
+    "zh": "他想去，可是家人阻止了他。",
+    "py": "Tā xiǎng qù, kěshì jiārén zǔzhǐ le tā.",
+    "fa": "او می‌خواست برود اما خانواده‌اش جلوی او را گرفتند.",
+    "en": "He wanted to go, but his family stopped him."
+   }
+  ]
+ },
+ {
+  "id": "老公",
+  "fa": [
+   "شوهر"
+  ],
+  "en": [
+   "husband"
+  ],
+  "note": "محاوره‌ای؛ گاهی لفظ برای همسر مرد. خطاب: «عزیزم».",
+  "ex": [
+   {
+    "zh": "我老公每天都会做饭。",
+    "py": "Wǒ lǎogōng měi tiān dōu huì zuò fàn.",
+    "fa": "شوهرم هر روز آشپزی می‌کند.",
+    "en": "My husband cooks every day."
+   }
+  ]
+ },
+ {
+  "id": "资源",
+  "fa": [
+   "منبع",
+   "منابع طبیعی"
+  ],
+  "en": [
+   "resource",
+   "natural resources"
+  ],
+  "ex": [
+   {
+    "zh": "我们应该节约水资源。",
+    "py": "Wǒmen yīnggāi jiéyuē shuǐ zīyuán.",
+    "fa": "ما باید در مصرف منابع آب صرفه‌جویی کنیم.",
+    "en": "We should conserve water resources."
+   }
+  ]
+ },
+ {
+  "id": "决赛",
+  "fa": [
+   "فینال",
+   "مسابقهٔ نهایی"
+  ],
+  "en": [
+   "finals",
+   "final match"
+  ],
+  "ex": [
+   {
+    "zh": "我们的球队进入了决赛。",
+    "py": "Wǒmen de qiúduì jìnrù le juésài.",
+    "fa": "تیم ما به فینال راه یافت.",
+    "en": "Our team has reached the finals."
+   }
+  ]
+ },
+ {
+  "id": "主席",
+  "fa": [
+   "رئیس (مجمع یا سازمان)",
+   "رئیس جمهور"
+  ],
+  "en": [
+   "chairperson",
+   "chairman"
+  ],
+  "note": "量词: 位/个.",
+  "ex": [
+   {
+    "zh": "主席在会上发表了重要讲话。",
+    "py": "Zhǔxí zài huì shang fābiǎo le zhòngyào jiǎnghuà.",
+    "fa": "رئیس در جلسه سخنرانی مهمی ایراد کرد.",
+    "en": "The chairman gave an important speech at the meeting."
+   }
+  ]
+ },
+ {
+  "id": "形成",
+  "fa": [
+   "شکل گرفتن",
+   "به وجود آمدن"
+  ],
+  "en": [
+   "to form",
+   "to take shape"
+  ],
+  "ex": [
+   {
+    "zh": "好习惯是慢慢形成的。",
+    "py": "Hǎo xíguàn shì mànmàn xíngchéng de.",
+    "fa": "عادت‌های خوب کم‌کم شکل می‌گیرند.",
+    "en": "Good habits form gradually."
+   }
+  ]
+ },
+ {
+  "id": "行业",
+  "fa": [
+   "صنف",
+   "حرفه",
+   "صنعت (رشتهٔ کاری)"
+  ],
+  "en": [
+   "industry",
+   "profession"
+  ],
+  "ex": [
+   {
+    "zh": "互联网是现在最热门的行业之一。",
+    "py": "Hùliánwǎng shì xiànzài zuì rèmén de hángyè zhī yī.",
+    "fa": "اینترنت یکی از پرطرفدارترین صنایع امروز است.",
+    "en": "The internet is one of the hottest industries now."
+   }
+  ]
+ },
+ {
+  "id": "背后",
+  "fa": [
+   "پشت سر",
+   "پشت (پرده)"
+  ],
+  "en": [
+   "behind",
+   "at the back"
+  ],
+  "ex": [
+   {
+    "zh": "不要在别人背后说坏话。",
+    "py": "Bú yào zài biérén bèihòu shuō huàihuà.",
+    "fa": "پشت سر دیگران بدگویی نکن.",
+    "en": "Don't speak ill of others behind their backs."
+   }
+  ]
+ },
+ {
+  "id": "配合",
+  "fa": [
+   "همکاری کردن",
+   "هماهنگ شدن",
+   "جور بودن"
+  ],
+  "en": [
+   "to cooperate",
+   "to coordinate",
+   "to match"
+  ],
+  "ex": [
+   {
+    "zh": "请大家配合工作人员的安排。",
+    "py": "Qǐng dàjiā pèihé gōngzuò rényuán de ānpái.",
+    "fa": "از همه خواهشمندیم با ترتیبات کارکنان همکاری کنند.",
+    "en": "Please everyone cooperate with the staff's arrangements."
+   }
+  ]
+ },
+ {
+  "id": "显得",
+  "fa": [
+   "به نظر رسیدن",
+   "جلوه کردن"
+  ],
+  "en": [
+   "to appear",
+   "to seem"
+  ],
+  "ex": [
+   {
+    "zh": "她穿上这件衣服显得很年轻。",
+    "py": "Tā chuān shang zhè jiàn yīfu xiǎnde hěn niánqīng.",
+    "fa": "با این لباس او جوان به نظر می‌رسد.",
+    "en": "She looks very young in this outfit."
+   }
+  ]
+ },
+ {
+  "id": "亲自",
+  "fa": [
+   "شخصاً",
+   "خودش"
+  ],
+  "en": [
+   "personally",
+   "in person"
+  ],
+  "ex": [
+   {
+    "zh": "经理亲自来机场接我们。",
+    "py": "Jīnglǐ qīnzì lái jīchǎng jiē wǒmen.",
+    "fa": "مدیر شخصاً به فرودگاه آمد تا از ما استقبال کند.",
+    "en": "The manager came to the airport in person to pick us up."
+   }
+  ]
+ },
+ {
+  "id": "物质",
+  "fa": [
+   "ماده",
+   "مادی"
+  ],
+  "en": [
+   "matter",
+   "substance",
+   "material"
+  ],
+  "note": "در برابر «精神» (معنوی) به‌کار می‌رود: 物质生活.",
+  "ex": [
+   {
+    "zh": "他不太在意物质生活。",
+    "py": "Tā bú tài zàiyì wùzhì shēnghuó.",
+    "fa": "او زیاد به زندگی مادی اهمیت نمی‌دهد.",
+    "en": "He doesn't care much about material life."
+   }
+  ]
+ },
+ {
+  "id": "承担",
+  "fa": [
+   "بر عهده گرفتن",
+   "تقبل کردن"
+  ],
+  "en": [
+   "to undertake",
+   "to bear (responsibility)"
+  ],
+  "ex": [
+   {
+    "zh": "出了问题，我愿意承担责任。",
+    "py": "Chū le wèntí, wǒ yuànyì chéngdān zérèn.",
+    "fa": "اگر مشکلی پیش بیاید، حاضرم مسئولیتش را بپذیرم.",
+    "en": "If problems arise, I'm willing to take responsibility."
+   }
+  ]
+ },
+ {
+  "id": "面临",
+  "fa": [
+   "روبه‌رو بودن با",
+   "با چیزی مواجه شدن"
+  ],
+  "en": [
+   "to face",
+   "to be confronted with"
+  ],
+  "ex": [
+   {
+    "zh": "公司现在面临很大的困难。",
+    "py": "Gōngsī xiànzài miànlín hěn dà de kùnnan.",
+    "fa": "شرکت اکنون با مشکلات بزرگی روبه‌رو است.",
+    "en": "The company is now facing great difficulties."
+   }
+  ]
+ },
+ {
+  "id": "神秘",
+  "fa": [
+   "اسرارآمیز",
+   "مرموز"
+  ],
+  "en": [
+   "mysterious",
+   "mystical"
+  ],
+  "ex": [
+   {
+    "zh": "这座古老的城市给人一种神秘的感觉。",
+    "py": "Zhè zuò gǔlǎo de chéngshì gěi rén yì zhǒng shénmì de gǎnjué.",
+    "fa": "این شهر کهن حس اسرارآمیزی به آدم می‌دهد.",
+    "en": "This ancient city gives people a mysterious feeling."
+   }
+  ]
+ },
+ {
+  "id": "自动",
+  "fa": [
+   "خودکار",
+   "خودبه‌خود"
+  ],
+  "en": [
+   "automatic",
+   "automatically"
+  ],
+  "ex": [
+   {
+    "zh": "这扇门会自动打开。",
+    "py": "Zhè shàn mén huì zìdòng dǎkāi.",
+    "fa": "این در به‌طور خودکار باز می‌شود.",
+    "en": "This door opens automatically."
+   }
+  ]
+ },
+ {
+  "id": "明确",
+  "fa": [
+   "روشن",
+   "مشخص",
+   "روشن کردن"
+  ],
+  "en": [
+   "clear",
+   "definite",
+   "to clarify"
+  ],
+  "ex": [
+   {
+    "zh": "老板明确地告诉我们下周开始上班。",
+    "py": "Lǎobǎn míngquè de gàosu wǒmen xià zhōu kāishǐ shàngbān.",
+    "fa": "رئیس به‌روشنی به ما گفت که هفتهٔ آینده کار را شروع کنیم.",
+    "en": "The boss clearly told us to start work next week."
+   }
+  ]
+ },
+ {
+  "id": "结合",
+  "fa": [
+   "ترکیب کردن",
+   "پیوند دادن",
+   "ادغام کردن"
+  ],
+  "en": [
+   "to combine",
+   "to integrate"
+  ],
+  "ex": [
+   {
+    "zh": "学习要和实际结合起来。",
+    "py": "Xuéxí yào hé shíjì jiéhé qǐlai.",
+    "fa": "یادگیری باید با عمل ترکیب شود.",
+    "en": "Study should be combined with practice."
+   }
+  ]
+ },
+ {
+  "id": "当中",
+  "fa": [
+   "در میان",
+   "وسط"
+  ],
+  "en": [
+   "among",
+   "in the middle"
+  ],
+  "ex": [
+   {
+    "zh": "在我们当中，他的汉语最好。",
+    "py": "Zài wǒmen dāngzhōng, tā de Hànyǔ zuì hǎo.",
+    "fa": "در میان ما، چینی او از همه بهتر است.",
+    "en": "Among us, his Chinese is the best."
+   }
+  ]
+ },
+ {
+  "id": "登记",
+  "fa": [
+   "ثبت‌نام کردن",
+   "ثبت کردن"
+  ],
+  "en": [
+   "to register",
+   "to check in"
+  ],
+  "ex": [
+   {
+    "zh": "你先去前台登记一下吧。",
+    "py": "Nǐ xiān qù qiántái dēngjì yíxià ba.",
+    "fa": "اول برو پیش میز پذیرش ثبت‌نام کن.",
+    "en": "Go register at the front desk first."
+   }
+  ]
+ },
+ {
+  "id": "男子",
+  "fa": [
+   "مرد"
+  ],
+  "en": [
+   "man",
+   "male"
+  ],
+  "note": "بیشتر در زبان نوشتاری و ترکیب‌ها: 男子足球 (فوتبال مردان).",
+  "ex": [
+   {
+    "zh": "一位年轻男子在门口等你。",
+    "py": "Yí wèi niánqīng nánzǐ zài ménkǒu děng nǐ.",
+    "fa": "یک مرد جوان دم در منتظر توست.",
+    "en": "A young man is waiting for you at the door."
+   }
+  ]
+ },
+ {
+  "id": "躲",
+  "fa": [
+   "پنهان شدن",
+   "طفره رفتن",
+   "جاخالی دادن"
+  ],
+  "en": [
+   "to hide",
+   "to dodge",
+   "to avoid"
+  ],
+  "ex": [
+   {
+    "zh": "下雨了，我们先躲在树下吧。",
+    "py": "Xià yǔ le, wǒmen xiān duǒ zài shù xià ba.",
+    "fa": "باران گرفت؛ بیایید اول زیر درخت پناه بگیریم.",
+    "en": "It's raining; let's shelter under the tree first."
+   }
+  ]
+ }
+]

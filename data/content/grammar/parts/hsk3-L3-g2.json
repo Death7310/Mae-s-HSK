@@ -1,0 +1,277 @@
+[
+{"id": "hsk3-g0181", "std": "hsk3", "level": 3, "no": 181,
+ "pattern": "فعل + متمم (نتیجه / جهت / 得 + حالت)",
+ "title": {"fa": "فعل همراه با متمم: 听懂، 洗干净", "en": "Verb + complement phrases: 听懂, 洗干净"},
+ "body": "در چینی بعد از فعل واژه‌ای می‌آید که نتیجه، جهت یا چگونگی کار را می‌گوید؛ به این واژه «متمم» می‌گوییم.\n听懂 یعنی «شنیدن و فهمیدن»، 洗干净 یعنی «شستن تا تمیز شدن». این دو جزء مثل یک واژه کنار هم می‌مانند و 了 یا مفعول بعد از هر دو می‌آید.\nدر فارسی معمولاً فقط نتیجه را می‌گوییم («فهمیدم»)، ولی در چینی هم کار و هم نتیجه گفته می‌شود.",
+ "examples": [
+  {"zh": "我听懂了这个句子。", "py": "Wǒ tīngdǒng le zhège jùzi.", "fa": "این جمله را (شنیدم و) فهمیدم.", "en": "I understood this sentence."},
+  {"zh": "你把衣服洗干净了吗？", "py": "Nǐ bǎ yīfu xǐ gānjìng le ma?", "fa": "لباس‌ها را تمیز شستی؟", "en": "Did you wash the clothes clean?"},
+  {"zh": "他跑得很快。", "py": "Tā pǎo de hěn kuài.", "fa": "او خیلی تند می‌دود.", "en": "He runs very fast."}
+ ]},
+{"id": "hsk3-g0182", "std": "hsk3", "level": 3, "no": 182,
+ "pattern": "一 + واحد شمارش + 一 + واحد شمارش (+ 地 + فعل)",
+ "title": {"fa": "یکی‌یکی، روزبه‌روز: 一个一个", "en": "One by one, day by day: 一个一个"},
+ "body": "با تکرار «عدد + واحد شمارش» می‌گوییم کاری به‌ترتیب و یکی پس از دیگری انجام می‌شود؛ مثل «یکی‌یکی» و «روزبه‌روز» در فارسی.\nاین گروه پیش از فعل می‌آید و معمولاً 地 بعدش قرار می‌گیرد. عدد تقریباً همیشه 一 است.",
+ "examples": [
+  {"zh": "请大家一个一个地进来。", "py": "Qǐng dàjiā yí gè yí gè de jìnlái.", "fa": "لطفاً همه یکی‌یکی بیایید تو.", "en": "Everyone, please come in one by one."},
+  {"zh": "天气一天一天热起来了。", "py": "Tiānqì yì tiān yì tiān rè qǐlái le.", "fa": "هوا روزبه‌روز گرم‌تر می‌شود.", "en": "The weather is getting warmer day by day."},
+  {"zh": "他把书一本一本地放在桌子上。", "py": "Tā bǎ shū yì běn yì běn de fàng zài zhuōzi shàng.", "fa": "او کتاب‌ها را یکی‌یکی روی میز گذاشت.", "en": "He put the books on the table one by one."}
+ ]},
+{"id": "hsk3-g0183", "std": "hsk3", "level": 3, "no": 183,
+ "pattern": "不 + صفت + 不 + صفتِ متضاد",
+ "title": {"fa": "نه این نه آن، درست به‌اندازه: 不大不小", "en": "Neither … nor …, just right: 不A不B"},
+ "body": "دو صفت متضاد را با دو 不 کنار هم می‌گذاریم تا بگوییم چیزی نه این‌طرفی است نه آن‌طرفی و معمولاً «درست به‌اندازه» است.\n不大不小 یعنی نه بزرگ نه کوچک، 不多不少 یعنی نه زیاد نه کم، 不冷不热 یعنی نه سرد نه گرم. این عبارت‌ها چهارهجایی و ثابت‌اند و 很 نمی‌گیرند.",
+ "examples": [
+  {"zh": "这件衣服不大不小，很合适。", "py": "Zhè jiàn yīfu bú dà bù xiǎo, hěn héshì.", "fa": "این لباس نه بزرگ است نه کوچک، کاملاً اندازه است.", "en": "This piece of clothing is neither too big nor too small; it fits well."},
+  {"zh": "今天不冷不热，我们去公园吧。", "py": "Jīntiān bù lěng bú rè, wǒmen qù gōngyuán ba.", "fa": "امروز هوا نه سرد است نه گرم، برویم پارک.", "en": "Today is neither cold nor hot; let's go to the park."}
+ ]},
+{"id": "hsk3-g0184", "std": "hsk3", "level": 3, "no": 184,
+ "pattern": "不一会儿 (+ فاعل) + 就 + فعل",
+ "title": {"fa": "چیزی نگذشت که…: 不一会儿", "en": "Before long, in no time: 不一会儿"},
+ "body": "不一会儿 یعنی «خیلی زود، چیزی نگذشت که». با اینکه 不 دارد، معنایش منفی نیست و فقط کوتاهی زمان را نشان می‌دهد.\nدر آغاز جمله یا پیش از فعل می‌آید و بیشتر وقت‌ها 就 همراهش است. برای کاری است که انجام شده، نه برای آینده.",
+ "examples": [
+  {"zh": "不一会儿，雨就不下了。", "py": "Bù yíhuìr, yǔ jiù bú xià le.", "fa": "چیزی نگذشت که باران بند آمد.", "en": "Before long, the rain stopped."},
+  {"zh": "他不一会儿就做完了作业。", "py": "Tā bù yíhuìr jiù zuòwán le zuòyè.", "fa": "او خیلی زود تکلیفش را تمام کرد.", "en": "He finished his homework in no time."}
+ ]},
+{"id": "hsk3-g0185", "std": "hsk3", "level": 3, "no": 185,
+ "pattern": "看来 + جمله",
+ "title": {"fa": "این‌طور که پیداست: 看来", "en": "It seems, apparently: 看来"},
+ "body": "看来 یعنی «این‌طور که پیداست، انگار». گوینده از روی چیزی که دیده یا شنیده نتیجه می‌گیرد.\nدر آغاز جمله یا بعد از فاعل می‌آید و جمله هیچ تغییر دیگری نمی‌کند.",
+ "examples": [
+  {"zh": "天阴了，看来要下雨了。", "py": "Tiān yīn le, kànlái yào xià yǔ le.", "fa": "هوا ابری شد، انگار می‌خواهد باران بیاید.", "en": "It's clouded over; it looks like it's going to rain."},
+  {"zh": "看来他今天不会来了。", "py": "Kànlái tā jīntiān bú huì lái le.", "fa": "این‌طور که پیداست او امروز دیگر نمی‌آید.", "en": "It seems he won't come today."}
+ ]},
+{"id": "hsk3-g0186", "std": "hsk3", "level": 3, "no": 186,
+ "pattern": "在 + شخص + 看来，جمله",
+ "title": {"fa": "به نظرِ…: 在……看来", "en": "In someone's view: 在……看来"},
+ "body": "با 在……看来 می‌گوییم نظر مالِ چه کسی است: 在我看来 یعنی «به نظر من».\nاین عبارت در آغاز جمله می‌آید و بعدش ویرگول می‌گذاریم. فرقش با 看来 تنها این است که 看来 حدس از روی نشانه‌هاست، ولی این‌جا دیدگاه یک شخص گفته می‌شود.",
+ "examples": [
+  {"zh": "在我看来，这个办法很好。", "py": "Zài wǒ kànlái, zhège bànfǎ hěn hǎo.", "fa": "به نظر من این راه خیلی خوب است.", "en": "In my view, this method is very good."},
+  {"zh": "在老师看来，这个问题不难。", "py": "Zài lǎoshī kànlái, zhège wèntí bù nán.", "fa": "از نگاه معلم این مسئله سخت نیست.", "en": "In the teacher's view, this question isn't hard."}
+ ]},
+{"id": "hsk3-g0187", "std": "hsk3", "level": 3, "no": 187,
+ "pattern": "فاعل + 越来越 + صفت / فعل احساسی (+ 了)",
+ "title": {"fa": "روزبه‌روز بیشتر: 越来越", "en": "More and more: 越来越"},
+ "body": "越来越 یعنی «هرچه می‌گذرد بیشتر، روزبه‌روز …تر». پیش از صفت یا فعل‌هایی مثل 喜欢 می‌آید و تغییر تدریجی را نشان می‌دهد.\nبعد از 越来越 دیگر 很 یا 非常 نمی‌آوریم. در پایان جمله اغلب 了 می‌آید تا تغییر را نشان دهد.",
+ "examples": [
+  {"zh": "天气越来越冷了。", "py": "Tiānqì yuè lái yuè lěng le.", "fa": "هوا روزبه‌روز سردتر می‌شود.", "en": "The weather is getting colder and colder."},
+  {"zh": "我越来越喜欢这个城市了。", "py": "Wǒ yuè lái yuè xǐhuan zhège chéngshì le.", "fa": "من هر روز بیشتر از این شهر خوشم می‌آید.", "en": "I like this city more and more."}
+ ]},
+{"id": "hsk3-g0188", "std": "hsk3", "level": 3, "no": 188,
+ "pattern": "فاعل + 看起来 + صفت / جمله",
+ "title": {"fa": "به نظر می‌رسد (از ظاهر): 看起来", "en": "Looks, seems: 看起来"},
+ "body": "看起来 یعنی «به نظر می‌رسد، ظاهرش این‌طور است». گوینده از روی ظاهر یا وضعیت قضاوت می‌کند.\nبعد از فاعل می‌آید و پس از آن صفت (معمولاً با 很) یا یک جمله قرار می‌گیرد. منفی را روی صفت می‌گذاریم: 看起来不太高兴.",
+ "examples": [
+  {"zh": "他看起来很年轻。", "py": "Tā kàn qǐlái hěn niánqīng.", "fa": "او جوان به نظر می‌رسد.", "en": "He looks very young."},
+  {"zh": "这个蛋糕看起来很好吃。", "py": "Zhège dàngāo kàn qǐlái hěn hǎochī.", "fa": "این کیک خوشمزه به نظر می‌آید.", "en": "This cake looks delicious."}
+ ]},
+{"id": "hsk3-g0189", "std": "hsk3", "level": 3, "no": 189,
+ "pattern": "فاعل + 看上去 + صفت / جمله",
+ "title": {"fa": "از ظاهرش پیداست: 看上去", "en": "Looks (from appearance): 看上去"},
+ "body": "看上去 تقریباً هم‌معنای 看起来 است: «از ظاهرش این‌طور پیداست». بیشتر برای چیزی است که واقعاً با چشم دیده می‌شود، مثل سن، حال یا شکل.\nجایش بعد از فاعل است و صفت بعد از آن می‌آید.",
+ "examples": [
+  {"zh": "她看上去很高兴。", "py": "Tā kàn shàngqù hěn gāoxìng.", "fa": "او خوشحال به نظر می‌رسد.", "en": "She looks very happy."},
+  {"zh": "这位老人看上去很健康。", "py": "Zhè wèi lǎorén kàn shàngqù hěn jiànkāng.", "fa": "این سالمند سالم و سرحال به نظر می‌آید.", "en": "This elderly person looks very healthy."}
+ ]},
+{"id": "hsk3-g0190", "std": "hsk3", "level": 3, "no": 190,
+ "pattern": "一般来说，جمله",
+ "title": {"fa": "به‌طور کلی، معمولاً: 一般来说", "en": "Generally speaking: 一般来说"},
+ "body": "一般来说 یعنی «به‌طور کلی، معمولاً». با آن یک قاعدهٔ کلی را می‌گوییم که ممکن است استثنا هم داشته باشد.\nدر آغاز جمله می‌آید و بعدش ویرگول می‌گذاریم.",
+ "examples": [
+  {"zh": "一般来说，南方的冬天不太冷。", "py": "Yìbān lái shuō, nánfāng de dōngtiān bú tài lěng.", "fa": "به‌طور کلی زمستانِ جنوب خیلی سرد نیست.", "en": "Generally speaking, winters in the south aren't very cold."},
+  {"zh": "一般来说，孩子都喜欢动物。", "py": "Yìbān lái shuō, háizi dōu xǐhuan dòngwù.", "fa": "معمولاً بچه‌ها حیوانات را دوست دارند.", "en": "Generally speaking, children like animals."}
+ ]},
+{"id": "hsk3-g0191", "std": "hsk3", "level": 3, "no": 191,
+ "pattern": "فاعل + 不怎么样",
+ "title": {"fa": "تعریفی ندارد: 不怎么样", "en": "Not so good: 不怎么样"},
+ "body": "不怎么样 یعنی «چنگی به دل نمی‌زند، تعریفی ندارد». راهی غیرمستقیم ولی نه چندان مؤدبانه برای گفتنِ «خوب نیست» است.\nخودش جای صفت را در پایان جمله می‌گیرد و 很 یا 是 نمی‌خواهد. با پرسش 怎么样 (چطور است؟) اشتباه نشود؛ این‌جا پرسشی در کار نیست.",
+ "examples": [
+  {"zh": "这家饭馆的菜不怎么样。", "py": "Zhè jiā fànguǎn de cài bù zěnmeyàng.", "fa": "غذای این رستوران تعریفی ندارد.", "en": "The food at this restaurant isn't that great."},
+  {"zh": "我的汉语不怎么样。", "py": "Wǒ de Hànyǔ bù zěnmeyàng.", "fa": "چینیِ من چندان خوب نیست.", "en": "My Chinese isn't very good."}
+ ]},
+{"id": "hsk3-g0192", "std": "hsk3", "level": 3, "no": 192,
+ "pattern": "除了 … (以外)，… 还 / 也 / 都 …",
+ "title": {"fa": "علاوه بر / به‌جز: 除了……以外", "en": "Besides / except: 除了……(以外)"},
+ "body": "除了 دو معنا دارد و واژهٔ بعدی آن را روشن می‌کند. با 还 یا 也 یعنی «علاوه بر»: آن چیز هم حساب می‌شود.\nبا 都 یعنی «به‌جز»: آن چیز کنار گذاشته می‌شود. 以外 را می‌توان انداخت.",
+ "examples": [
+  {"zh": "除了汉语以外，他还会说两种外语。", "py": "Chúle Hànyǔ yǐwài, tā hái huì shuō liǎng zhǒng wàiyǔ.", "fa": "او علاوه بر چینی، دو زبان خارجی دیگر هم بلد است.", "en": "Besides Chinese, he can also speak two foreign languages."},
+  {"zh": "除了小王，大家都来了。", "py": "Chúle Xiǎo Wáng, dàjiā dōu lái le.", "fa": "به‌جز شیائو وانگ همه آمده‌اند.", "en": "Everyone has come except Xiao Wang."},
+  {"zh": "除了游泳，我也喜欢打篮球。", "py": "Chúle yóuyǒng, wǒ yě xǐhuan dǎ lánqiú.", "fa": "من غیر از شنا، بسکتبال را هم دوست دارم.", "en": "Besides swimming, I also like playing basketball."}
+ ]},
+{"id": "hsk3-g0193", "std": "hsk3", "level": 3, "no": 193,
+ "pattern": "从 + زمان + 起，جمله",
+ "title": {"fa": "از … به بعد: 从……起", "en": "Starting from: 从……起"},
+ "body": "从……起 نقطهٔ شروع را می‌گوید: «از … به بعد». بین 从 و 起 بیشتر یک زمان می‌آید.\nاین عبارت پیش از فعل یا در آغاز جمله قرار می‌گیرد. 从 به‌تنهایی فقط «از» است؛ 起 تأکید می‌کند که کار از همان لحظه آغاز می‌شود و ادامه دارد.",
+ "examples": [
+  {"zh": "从明天起，我每天早上跑步。", "py": "Cóng míngtiān qǐ, wǒ měi tiān zǎoshang pǎobù.", "fa": "از فردا هر روز صبح می‌دوم.", "en": "Starting tomorrow, I'll go running every morning."},
+  {"zh": "从今年起，他在北京工作。", "py": "Cóng jīnnián qǐ, tā zài Běijīng gōngzuò.", "fa": "او از امسال در پکن کار می‌کند.", "en": "Starting this year, he works in Beijing."}
+ ]},
+{"id": "hsk3-g0194", "std": "hsk3", "level": 3, "no": 194,
+ "pattern": "对 + شخص + 来说，جمله",
+ "title": {"fa": "برای …، از دیدِ …: 对……来说", "en": "For someone, as far as … is concerned: 对……来说"},
+ "body": "对……来说 می‌گوید حرفِ ما دربارهٔ چه کسی درست است: 对我来说 یعنی «برای من».\nدر آغاز جمله یا بعد از فاعل می‌آید. با 在……看来 فرق دارد: آن «نظرِ کسی» است، این «وضعِ کسی».",
+ "examples": [
+  {"zh": "对我来说，汉字很难。", "py": "Duì wǒ lái shuō, Hànzì hěn nán.", "fa": "برای من نویسه‌های چینی سخت است.", "en": "For me, Chinese characters are hard."},
+  {"zh": "对孩子来说，健康最重要。", "py": "Duì háizi lái shuō, jiànkāng zuì zhòngyào.", "fa": "برای بچه‌ها سلامتی از همه مهم‌تر است.", "en": "For children, health is the most important thing."}
+ ]},
+{"id": "hsk3-g0195", "std": "hsk3", "level": 3, "no": 195,
+ "pattern": "一 + واحد شمارش (+ اسم) + 也 / 都 + 不 / 没 + فعل",
+ "title": {"fa": "حتی یکی هم نه: 一……也/都不/没", "en": "Not even one: 一……也/都 + 不/没"},
+ "body": "برای نفیِ کامل می‌گوییم «حتی یک … هم نه». گروهِ «一 + واحد شمارش + اسم» پیش از فعل می‌آید، بعد 也 یا 都 و سپس 不 یا 没.\nدقت کنید: برخلاف جملهٔ معمولی، مفعول این‌جا جلوتر از فعل قرار می‌گیرد.",
+ "examples": [
+  {"zh": "教室里一个人也没有。", "py": "Jiàoshì lǐ yí gè rén yě méiyǒu.", "fa": "در کلاس حتی یک نفر هم نیست.", "en": "There isn't a single person in the classroom."},
+  {"zh": "他一句汉语都不会说。", "py": "Tā yí jù Hànyǔ dōu bú huì shuō.", "fa": "او حتی یک جملهٔ چینی هم بلد نیست بگوید.", "en": "He can't speak even one sentence of Chinese."},
+  {"zh": "我今天一分钱也没带。", "py": "Wǒ jīntiān yì fēn qián yě méi dài.", "fa": "امروز حتی یک قِران هم با خودم نیاورده‌ام.", "en": "I didn't bring a single cent today."}
+ ]},
+{"id": "hsk3-g0196", "std": "hsk3", "level": 3, "no": 196,
+ "pattern": "فاعل + 一点儿也不 + صفت / فعل",
+ "title": {"fa": "اصلاً … نیست: 一点儿也不", "en": "Not at all: 一点儿也不"},
+ "body": "一点儿也不 یعنی «اصلاً، ذره‌ای هم نه». پیش از صفت یا فعل می‌آید و نفی را قوی می‌کند.\nبه‌جای 也 می‌توان 都 گفت. برای گذشته 没 می‌آید: 一点儿也没吃 (هیچ نخورد).",
+ "examples": [
+  {"zh": "我一点儿也不累。", "py": "Wǒ yìdiǎnr yě bú lèi.", "fa": "من اصلاً خسته نیستم.", "en": "I'm not tired at all."},
+  {"zh": "这个菜一点儿也不好吃。", "py": "Zhège cài yìdiǎnr yě bù hǎochī.", "fa": "این غذا اصلاً خوشمزه نیست.", "en": "This dish isn't tasty at all."}
+ ]},
+{"id": "hsk3-g0197", "std": "hsk3", "level": 3, "no": 197,
+ "pattern": "越 + فعل / صفت + 越 + صفت / فعل",
+ "title": {"fa": "هرچه …‌تر، …‌تر: 越……越……", "en": "The more … the more …: 越……越……"},
+ "body": "با 越……越…… می‌گوییم وقتی یک چیز بیشتر می‌شود، چیز دیگری هم با آن تغییر می‌کند؛ مثل «هرچه بیشتر …، …‌تر» در فارسی.\nدو بخش می‌توانند یک فاعل یا دو فاعلِ جدا داشته باشند. بعد از 越 دوم 很 نمی‌آید.",
+ "examples": [
+  {"zh": "雨越下越大。", "py": "Yǔ yuè xià yuè dà.", "fa": "باران هر لحظه تندتر می‌شود.", "en": "The rain is getting heavier and heavier."},
+  {"zh": "汉语越学越有意思。", "py": "Hànyǔ yuè xué yuè yǒu yìsi.", "fa": "چینی را هرچه بیشتر بخوانی جالب‌تر می‌شود.", "en": "The more you study Chinese, the more interesting it gets."},
+  {"zh": "你越着急，他越慢。", "py": "Nǐ yuè zháojí, tā yuè màn.", "fa": "هرچه تو بیشتر عجله کنی، او کندتر می‌شود.", "en": "The more anxious you get, the slower he is."}
+ ]},
+{"id": "hsk3-g0198", "std": "hsk3", "level": 3, "no": 198,
+ "pattern": "(在) + فعل / زمان + 以前 / 以后 / 前 / 后",
+ "title": {"fa": "پیش از … / پس از …: 以前، 以后، 前، 后", "en": "Before / after: 以前, 以后, 前, 后"},
+ "body": "以前 (پیش از) و 以后 (پس از) بعد از فعل، جمله، زمان یا مدت‌زمان می‌آیند؛ برعکسِ فارسی که «قبل از» و «بعد از» را اول می‌گوییم.\n前 و 后 شکل کوتاه همان‌ها هستند. 在 در آغاز اختیاری است. بعد از مدت‌زمان معنا «… پیش» و «… بعد» می‌شود: 三年前 یعنی سه سال پیش.",
+ "examples": [
+  {"zh": "吃饭以前要洗手。", "py": "Chīfàn yǐqián yào xǐ shǒu.", "fa": "پیش از غذا خوردن باید دست‌ها را شست.", "en": "You should wash your hands before eating."},
+  {"zh": "下课以后，我们去打球吧。", "py": "Xiàkè yǐhòu, wǒmen qù dǎ qiú ba.", "fa": "بعد از کلاس برویم توپ‌بازی.", "en": "After class, let's go play ball."},
+  {"zh": "在来中国以前，他学过一年汉语。", "py": "Zài lái Zhōngguó yǐqián, tā xuéguo yì nián Hànyǔ.", "fa": "او پیش از آمدن به چین، یک سال چینی خوانده بود.", "en": "Before coming to China, he had studied Chinese for a year."}
+ ]},
+{"id": "hsk3-g0199", "std": "hsk3", "level": 3, "no": 199,
+ "pattern": "فعل / صفت + 什么 (啊)",
+ "title": {"fa": "… برای چه؟ کجایش …؟: X什么(啊)", "en": "Dismissing or objecting: X什么(啊)"},
+ "body": "این‌جا 什么 پرسشِ واقعی نیست؛ گوینده مخالفت یا نارضایتی‌اش را نشان می‌دهد: «لازم نیست …» یا «اصلاً هم … نیست».\n急什么 یعنی «عجله برای چه؟» و 好什么啊 یعنی «کجایش خوب است؟». لحن خودمانی و کمی تند است؛ با بزرگ‌ترها به کار نبرید.",
+ "examples": [
+  {"zh": "急什么，时间还早呢。", "py": "Jí shénme, shíjiān hái zǎo ne.", "fa": "عجله برای چه؟ هنوز زود است.", "en": "What's the rush? It's still early."},
+  {"zh": "哭什么啊，没事了。", "py": "Kū shénme a, méishì le.", "fa": "گریه برای چه؟ دیگر چیزی نیست.", "en": "What are you crying for? It's all right now."},
+  {"zh": "好看什么啊，我觉得很难看。", "py": "Hǎokàn shénme a, wǒ juéde hěn nánkàn.", "fa": "کجایش قشنگ است؟ به نظر من که خیلی زشت است.", "en": "What do you mean, good-looking? I think it's ugly."}
+ ]},
+{"id": "hsk3-g0200", "std": "hsk3", "level": 3, "no": 200,
+ "pattern": "(فاعل) + 该 + فعل + 了",
+ "title": {"fa": "وقتش است که…: 该……了", "en": "It's time to: 该……了"},
+ "body": "该……了 یعنی «دیگر وقتش رسیده که …». 该 پیش از فعل و 了 در پایان جمله می‌آید.\nاگر بین این دو یک شخص بیاید، یعنی «نوبتِ … است»: 该你了 (نوبت توست).",
+ "examples": [
+  {"zh": "十点了，该睡觉了。", "py": "Shí diǎn le, gāi shuìjiào le.", "fa": "ساعت ده شد، وقت خواب است.", "en": "It's ten o'clock; time to go to bed."},
+  {"zh": "时间不早了，我该走了。", "py": "Shíjiān bù zǎo le, wǒ gāi zǒu le.", "fa": "دیر شده، دیگر باید بروم.", "en": "It's getting late; I should go."},
+  {"zh": "该你了。", "py": "Gāi nǐ le.", "fa": "نوبت توست.", "en": "It's your turn."}
+ ]},
+{"id": "hsk3-g0201", "std": "hsk3", "level": 3, "no": 201,
+ "pattern": "在 + اسم + 上 / 下 / 中",
+ "title": {"fa": "از نظرِ / با / در جریانِ: 在……上/下/中", "en": "In terms of / under / in the course of: 在……上/下/中"},
+ "body": "این سه قالب فقط برای مکان نیستند. 在……上 یعنی «از نظرِ، در زمینهٔ»: 在学习上 (در درس).\n在……下 شرط یا کمک را می‌گوید: 在老师的帮助下 (با کمک معلم). 在……中 یعنی «در جریانِ، در میانِ»: 在生活中 (در زندگی).\nاین گروه معمولاً در آغاز جمله یا پیش از فعل می‌آید.",
+ "examples": [
+  {"zh": "在学习上，他很努力。", "py": "Zài xuéxí shàng, tā hěn nǔlì.", "fa": "او در درس خواندن خیلی کوشاست.", "en": "When it comes to studying, he works very hard."},
+  {"zh": "在老师的帮助下，我的汉语提高了。", "py": "Zài lǎoshī de bāngzhù xià, wǒ de Hànyǔ tígāo le.", "fa": "با کمک معلم، چینیِ من بهتر شد.", "en": "With the teacher's help, my Chinese improved."},
+  {"zh": "在生活中，我们会遇到很多问题。", "py": "Zài shēnghuó zhōng, wǒmen huì yùdào hěn duō wèntí.", "fa": "در زندگی با مشکلات زیادی روبه‌رو می‌شویم.", "en": "In life, we run into many problems."}
+ ]},
+{"id": "hsk3-g0202", "std": "hsk3", "level": 3, "no": 202,
+ "pattern": "فعل (+ مفعول) / صفت + گزاره",
+ "title": {"fa": "فعل یا صفت در جای نهاد: 学汉语很有意思", "en": "Verbs and adjectives as the subject"},
+ "body": "در چینی فعل یا صفت بدون هیچ تغییری می‌تواند نهادِ جمله باشد.\nدر فارسی فعل را به مصدر تبدیل می‌کنیم («یاد گرفتنِ چینی»)، ولی در چینی همان 学汉语 را اول جمله می‌گذاریم و چیزی به آن اضافه نمی‌کنیم.",
+ "examples": [
+  {"zh": "学汉语很有意思。", "py": "Xué Hànyǔ hěn yǒu yìsi.", "fa": "یاد گرفتن چینی خیلی جالب است.", "en": "Learning Chinese is very interesting."},
+  {"zh": "骑自行车对身体好。", "py": "Qí zìxíngchē duì shēntǐ hǎo.", "fa": "دوچرخه‌سواری برای بدن خوب است.", "en": "Riding a bike is good for your health."},
+  {"zh": "着急没有用。", "py": "Zháojí méiyǒu yòng.", "fa": "دستپاچه شدن فایده‌ای ندارد.", "en": "Getting anxious is no use."}
+ ]},
+{"id": "hsk3-g0203", "std": "hsk3", "level": 3, "no": 203,
+ "pattern": "(فاعل + فعل / صفت) + گزاره",
+ "title": {"fa": "یک جملهٔ کوچک در جای نهاد: 他不来没关系", "en": "A clause as the subject"},
+ "body": "یک جملهٔ کوچک (فاعل + فعل یا صفت) می‌تواند کلاً نهادِ جملهٔ بزرگ‌تر باشد.\nدر فارسی «اینکه» یا «اگر» می‌آوریم («اینکه او نیاید مهم نیست»)، ولی در چینی هیچ واژهٔ ربطی لازم نیست و دو بخش مستقیم پشت هم می‌آیند.",
+ "examples": [
+  {"zh": "他不来没关系。", "py": "Tā bù lái méi guānxi.", "fa": "اینکه او نیاید اشکالی ندارد.", "en": "It doesn't matter if he doesn't come."},
+  {"zh": "你去最合适。", "py": "Nǐ qù zuì héshì.", "fa": "اینکه تو بروی از همه مناسب‌تر است.", "en": "It's most suitable for you to go."},
+  {"zh": "身体健康最重要。", "py": "Shēntǐ jiànkāng zuì zhòngyào.", "fa": "سالم بودنِ بدن از همه مهم‌تر است.", "en": "Being in good health is the most important thing."}
+ ]},
+{"id": "hsk3-g0204", "std": "hsk3", "level": 3, "no": 204,
+ "pattern": "مالک + 这/那 + عدد + واحد شمارش + صفت (的) + جنس / نوع + اسم",
+ "title": {"fa": "ترتیب چند وصف پیش از اسم", "en": "Order of several modifiers before a noun"},
+ "body": "در چینی همهٔ وصف‌ها پیش از اسم می‌آیند. در فارسی «آن» و عدد پیش از اسم‌اند، ولی صفت و مالک با کسرهٔ اضافه بعد از اسم می‌آیند («آن دو کتابِ نوِ من»)؛ در چینی این دو هم جلو می‌آیند.\nترتیب معمول این است: مالک، بعد 这/那، بعد عدد و واحد شمارش، بعد صفتِ توصیفی با 的، و در آخر واژه‌ای که جنس یا نوع را می‌گوید و بدون 的 به اسم می‌چسبد.",
+ "examples": [
+  {"zh": "我的那两本新词典在桌子上。", "py": "Wǒ de nà liǎng běn xīn cídiǎn zài zhuōzi shàng.", "fa": "آن دو فرهنگ لغتِ نوِ من روی میز است.", "en": "Those two new dictionaries of mine are on the table."},
+  {"zh": "她买了一件很漂亮的红色衬衫。", "py": "Tā mǎi le yí jiàn hěn piàoliang de hóngsè chènshān.", "fa": "او یک پیراهن قرمزِ خیلی قشنگ خرید.", "en": "She bought a very pretty red shirt."},
+  {"zh": "他是我们学校的一位年轻的汉语老师。", "py": "Tā shì wǒmen xuéxiào de yí wèi niánqīng de Hànyǔ lǎoshī.", "fa": "او یک معلمِ جوانِ زبان چینی در مدرسهٔ ماست.", "en": "He is a young Chinese teacher at our school."}
+ ]},
+{"id": "hsk3-g0205", "std": "hsk3", "level": 3, "no": 205,
+ "pattern": "فعل + 到 / 住 / 走 / 上",
+ "title": {"fa": "نتیجهٔ کار: 到، 住، 走، 上 بعد از فعل", "en": "Result complements: verb + 到/住/走/上"},
+ "body": "این چهار واژه بعد از فعل نتیجهٔ کار را می‌گویند. 到 یعنی به هدف رسیدن: 找到 (پیدا کردن). 住 یعنی محکم و ثابت شدن: 记住 (به خاطر سپردن).\n走 یعنی دور شدن از جا: 拿走 (برداشتن و بردن). 上 یعنی بسته شدن یا چسبیدن: 关上 (بستن)، 穿上 (پوشیدن).\nمنفی با 没 ساخته می‌شود: 没找到 (پیدا نکردم).",
+ "examples": [
+  {"zh": "我找到手机了。", "py": "Wǒ zhǎodào shǒujī le.", "fa": "گوشی‌ام را پیدا کردم.", "en": "I found my phone."},
+  {"zh": "请记住我的电话号码。", "py": "Qǐng jìzhù wǒ de diànhuà hàomǎ.", "fa": "لطفاً شماره‌تلفن مرا به خاطر بسپار.", "en": "Please remember my phone number."},
+  {"zh": "他把我的伞拿走了，没关上门。", "py": "Tā bǎ wǒ de sǎn názǒu le, méi guānshàng mén.", "fa": "او چتر مرا برداشت و برد و در را هم نبست.", "en": "He took my umbrella away and didn't close the door."}
+ ]},
+{"id": "hsk3-g0206", "std": "hsk3", "level": 3, "no": 206,
+ "pattern": "فعل + 出 / 起 / 下",
+ "title": {"fa": "واژه‌های جهت در معنای نتیجه: 想出، 想起، 写下", "en": "Direction words showing a result: verb + 出/起/下"},
+ "body": "این واژه‌ها این‌جا دیگر جهتِ حرکت نیستند و نتیجه را نشان می‌دهند. 出 یعنی چیزی از هیچ پدید آمد: 想出 (به فکرِ کسی رسیدن).\n起 با 想 یعنی چیزی دوباره به یاد آمد: 想起 (یاد افتادن). 下 یعنی چیزی ثبت شد و ماند: 写下 (نوشتن و ثبت کردن).",
+ "examples": [
+  {"zh": "他想出了一个好办法。", "py": "Tā xiǎngchū le yí gè hǎo bànfǎ.", "fa": "یک راهِ خوب به فکرش رسید.", "en": "He came up with a good solution."},
+  {"zh": "我想起他的名字了。", "py": "Wǒ xiǎngqǐ tā de míngzi le.", "fa": "اسمش یادم آمد.", "en": "I've remembered his name."},
+  {"zh": "请写下你的电话号码。", "py": "Qǐng xiěxià nǐ de diànhuà hàomǎ.", "fa": "لطفاً شماره‌تلفنت را بنویس.", "en": "Please write down your phone number."}
+ ]},
+{"id": "hsk3-g0207", "std": "hsk3", "level": 3, "no": 207,
+ "pattern": "فعل + 上 / فعل + 起 (+ مفعول) + 来",
+ "title": {"fa": "شروع شدنِ کار: فعل + 上 / 起来", "en": "An action beginning: verb + 上 / 起来"},
+ "body": "上 و 起来 بعد از فعل می‌گویند کاری شروع شده و ادامه دارد. 上 بیشتر با 爱 و 喜欢 می‌آید: 喜欢上 (علاقه‌مند شدن).\n起来 یعنی «شروع کرد به …»: 笑起来 (زد زیر خنده). اگر فعل مفعول داشته باشد، مفعول بین 起 و 来 می‌نشیند: 下起雨来.",
+ "examples": [
+  {"zh": "他喜欢上了这个城市。", "py": "Tā xǐhuan shàng le zhège chéngshì.", "fa": "او به این شهر علاقه‌مند شده است.", "en": "He has come to like this city."},
+  {"zh": "听了这个故事，大家都笑起来了。", "py": "Tīng le zhège gùshi, dàjiā dōu xiào qǐlái le.", "fa": "همه با شنیدن این داستان زدند زیر خنده.", "en": "After hearing this story, everyone started laughing."},
+  {"zh": "外面下起雨来了。", "py": "Wàimiàn xià qǐ yǔ lái le.", "fa": "بیرون باران شروع شد.", "en": "It has started raining outside."}
+ ]},
+{"id": "hsk3-g0208", "std": "hsk3", "level": 3, "no": 208,
+ "pattern": "فعل + 下去 / فعل یا صفت + 下来",
+ "title": {"fa": "ادامه یافتنِ کار: 下去 و 下来", "en": "An action continuing: verb + 下去 / 下来"},
+ "body": "下去 یعنی کار از حالا به بعد ادامه پیدا کند: 说下去 (ادامه بده، بگو).\n下来 یعنی کاری از گذشته تا حالا ادامه یافته است: 坚持下来 (تا امروز دوام آورده). بعد از بعضی صفت‌ها مثل 安静 و 慢 یعنی کم‌کم آن حالت پیدا شد: 安静下来 (آرام شد).",
+ "examples": [
+  {"zh": "请你说下去。", "py": "Qǐng nǐ shuō xiàqù.", "fa": "لطفاً ادامه بده.", "en": "Please go on."},
+  {"zh": "这么难的工作，他坚持下来了。", "py": "Zhème nán de gōngzuò, tā jiānchí xiàlái le.", "fa": "کاری به این سختی را تا آخر تاب آورد.", "en": "He stuck with such a hard job to the end."},
+  {"zh": "老师来了，教室里安静下来了。", "py": "Lǎoshī lái le, jiàoshì lǐ ānjìng xiàlái le.", "fa": "معلم که آمد، کلاس آرام شد.", "en": "When the teacher came, the classroom quieted down."}
+ ]},
+{"id": "hsk3-g0209", "std": "hsk3", "level": 3, "no": 209,
+ "pattern": "فعل + 得 / 不 + متمم (فعل / صفت)",
+ "title": {"fa": "می‌شود / نمی‌شود به نتیجه رسید: 听得懂، 听不懂", "en": "Able / unable to reach a result: verb + 得/不 + complement"},
+ "body": "اگر بین فعل و متممش 得 بگذاریم یعنی «می‌شود به آن نتیجه رسید» و اگر 不 بگذاریم یعنی «نمی‌شود»: 听得懂 (می‌فهمم)، 听不懂 (نمی‌فهمم).\nشکل منفی خیلی رایج‌تر است و در این معنا به‌جای 不能 به کار می‌رود. پرسش با 吗 یا با کنار هم گذاشتن دو شکل ساخته می‌شود: 听得懂听不懂؟",
+ "examples": [
+  {"zh": "你听得懂他说的汉语吗？", "py": "Nǐ tīng de dǒng tā shuō de Hànyǔ ma?", "fa": "چینی‌ای را که او حرف می‌زند می‌فهمی؟", "en": "Can you understand the Chinese he speaks?"},
+  {"zh": "黑板上的字我看不清楚。", "py": "Hēibǎn shàng de zì wǒ kàn bu qīngchu.", "fa": "نوشته‌های روی تخته را واضح نمی‌بینم.", "en": "I can't see the characters on the blackboard clearly."},
+  {"zh": "作业太多，我今天做不完。", "py": "Zuòyè tài duō, wǒ jīntiān zuò bu wán.", "fa": "تکلیف خیلی زیاد است، امروز نمی‌توانم تمامش کنم.", "en": "There's too much homework; I can't finish it today."}
+ ]},
+{"id": "hsk3-g0210", "std": "hsk3", "level": 3, "no": 210,
+ "pattern": "صفت + 得很",
+ "title": {"fa": "خیلی …: صفت + 得很", "en": "Very, really: adjective + 得很"},
+ "body": "得很 بعد از صفت می‌آید و شدت را نشان می‌دهد: 好得很 یعنی «خیلی خوب». از 很 پیش از صفت قوی‌تر و خودمانی‌تر است.\nوقتی 得很 می‌آید، دیگر پیش از صفت 很 یا 非常 نمی‌گذاریم. شکل منفی هم ندارد.",
+ "examples": [
+  {"zh": "他最近忙得很。", "py": "Tā zuìjìn máng de hěn.", "fa": "او این روزها خیلی گرفتار است.", "en": "He's been really busy lately."},
+  {"zh": "这儿的水果新鲜得很。", "py": "Zhèr de shuǐguǒ xīnxiān de hěn.", "fa": "میوه‌های این‌جا خیلی تازه است.", "en": "The fruit here is really fresh."}
+ ]},
+{"id": "hsk3-g0211", "std": "hsk3", "level": 3, "no": 211,
+ "pattern": "صفت / فعل + 极了 / 坏了",
+ "title": {"fa": "بی‌نهایت …: 极了 و 坏了", "en": "Extremely: adjective/verb + 极了 / 坏了"},
+ "body": "极了 بعد از صفت یا فعلِ احساسی یعنی «بی‌اندازه، فوق‌العاده»: 好极了 (عالی است).\n坏了 هم شدتِ زیاد را می‌گوید و بیشتر با حالت‌های ناخوشایند می‌آید: 累坏了 (از خستگی هلاک شدم)، 饿坏了؛ ولی 高兴坏了 هم گفته می‌شود. با این دو، پیش از صفت 很 نمی‌آید.",
+ "examples": [
+  {"zh": "这个菜好吃极了。", "py": "Zhège cài hǎochī jí le.", "fa": "این غذا فوق‌العاده خوشمزه است.", "en": "This dish is extremely delicious."},
+  {"zh": "我今天累坏了。", "py": "Wǒ jīntiān lèi huài le.", "fa": "امروز از خستگی هلاک شدم.", "en": "I'm completely worn out today."},
+  {"zh": "收到礼物，孩子高兴坏了。", "py": "Shōudào lǐwù, háizi gāoxìng huài le.", "fa": "بچه با گرفتن هدیه از خوشحالی بال درآورد.", "en": "The child was overjoyed to get the present."}
+ ]},
+{"id": "hsk3-g0212", "std": "hsk3", "level": 3, "no": 212,
+ "pattern": "فعل (+ مفعول) + مدت‌زمان + 了",
+ "title": {"fa": "چه مدت از کاری گذشته است: 他来中国三年了", "en": "Time elapsed since an action: 他来中国三年了"},
+ "body": "با فعل‌هایی که در یک لحظه تمام می‌شوند (来، 去، 离开، 结婚، 下课) مدت‌زمانِ بعد از فعل می‌گوید از آن کار تا حالا چقدر گذشته است، نه اینکه کار چقدر طول کشیده.\nمفعول درست بعد از فعل و پیش از مدت‌زمان می‌آید و 了 در پایان جمله است. در فارسی می‌گوییم «سه سال است که …».",
+ "examples": [
+  {"zh": "他来中国三年了。", "py": "Tā lái Zhōngguó sān nián le.", "fa": "سه سال است که او به چین آمده.", "en": "It's been three years since he came to China."},
+  {"zh": "他们结婚十年了。", "py": "Tāmen jiéhūn shí nián le.", "fa": "ده سال است که آن‌ها ازدواج کرده‌اند.", "en": "They've been married for ten years."},
+  {"zh": "我们下课十分钟了。", "py": "Wǒmen xiàkè shí fēnzhōng le.", "fa": "ده دقیقه است که کلاسمان تمام شده.", "en": "It's been ten minutes since our class ended."}
+ ]}
+]

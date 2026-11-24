@@ -1,0 +1,14 @@
+[
+ {
+  "id": "热烈",
+  "issue": "example 1: pinyin letters differ: expected ~dajiareliedihuanyingxintongxue, got dajiareliedehuanyingxintongxue"
+ },
+ {
+  "id": "生长",
+  "issue": "example 1: tone of 种: expected 4, got 3"
+ },
+ {
+  "id": "半夜",
+  "issue": "function word with a single example (guide asks for two)"
+ }
+]

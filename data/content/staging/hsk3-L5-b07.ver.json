@@ -1,0 +1,379 @@
+[
+ {
+  "id": "彼此",
+  "fa": [
+   "یکدیگر",
+   "همدیگر"
+  ],
+  "en": [
+   "each other",
+   "one another"
+  ],
+  "note": "«彼此彼此» پاسخی فروتنانه به تعریف یا تشکر است: «شما هم همین‌طور».",
+  "ex": [
+   {
+    "zh": "我们是多年的老朋友，彼此都很了解。",
+    "py": "Wǒmen shì duō nián de lǎo péngyou, bǐcǐ dōu hěn liǎojiě.",
+    "fa": "ما دوستان قدیمی چندین‌ساله‌ایم و یکدیگر را خوب می‌شناسیم.",
+    "en": "We've been friends for years and know each other well."
+   }
+  ],
+  "chg": "ex: 彼此 + 对方 redundant, rewritten; note clarified"
+ },
+ {
+  "id": "推荐",
+  "fa": [
+   "توصیه کردن",
+   "پیشنهاد کردن (معرفی برای انتخاب)"
+  ],
+  "en": [
+   "to recommend",
+   "to suggest"
+  ],
+  "ex": [
+   {
+    "zh": "朋友向我推荐了一家很好吃的餐厅。",
+    "py": "Péngyou xiàng wǒ tuījiàn le yì jiā hěn hǎochī de cāntīng.",
+    "fa": "دوستم رستورانی با غذاهای خیلی خوشمزه به من پیشنهاد کرد.",
+    "en": "A friend recommended a restaurant with delicious food to me."
+   }
+  ],
+  "chg": "fa: معرفی کردن ambiguous with 介绍 -> پیشنهاد کردن; ex fa unnatural (delicious restaurant)"
+ },
+ {
+  "id": "指导",
+  "fa": [
+   "راهنمایی کردن",
+   "هدایت کردن"
+  ],
+  "en": [
+   "to guide",
+   "to coach"
+  ],
+  "ex": [
+   {
+    "zh": "老师耐心地指导我们写论文。",
+    "py": "Lǎoshī nàixīn de zhǐdǎo wǒmen xiě lùnwén.",
+    "fa": "استاد با صبر و حوصله ما را در نوشتن مقاله راهنمایی می‌کند.",
+    "en": "The teacher patiently guides us in writing our papers."
+   }
+  ],
+  "chg": "ex fa: 论文 rendered as thesis -> paper (flag on de/地 is a false alarm)"
+ },
+ {
+  "id": "联合",
+  "fa": [
+   "متحد شدن",
+   "متحد کردن",
+   "مشترک (متحد)"
+  ],
+  "en": [
+   "to unite",
+   "to join forces",
+   "joint"
+  ],
+  "ex": [
+   {
+    "zh": "两个公司联合举办了这次活动。",
+    "py": "Liǎng ge gōngsī liánhé jǔbàn le zhè cì huódòng.",
+    "fa": "دو شرکت این برنامه را به‌طور مشترک برگزار کردند.",
+    "en": "The two companies jointly organized this event."
+   }
+  ],
+  "chg": "fa/en: adjective sense is \"joint\", not \"united (adj)\"; intransitive first"
+ },
+ {
+  "id": "炒",
+  "fa": [
+   "سرخ کردن (با هم‌زدن)",
+   "تفت دادن"
+  ],
+  "en": [
+   "to stir-fry",
+   "to sauté"
+  ],
+  "ex": [
+   {
+    "zh": "妈妈正在厨房里炒菜。",
+    "py": "Māma zhèngzài chúfáng lǐ chǎo cài.",
+    "fa": "مادر در آشپزخانه مشغول تفت دادن غذا است.",
+    "en": "Mom is stir-frying a dish in the kitchen."
+   }
+  ],
+  "chg": "ex fa/en: 炒菜 is cooking (stir-frying) dishes, not specifically vegetables"
+ },
+ {
+  "id": "观点",
+  "fa": [
+   "دیدگاه",
+   "نظر"
+  ],
+  "en": [
+   "viewpoint",
+   "opinion"
+  ],
+  "ex": [
+   {
+    "zh": "我不同意你的观点。",
+    "py": "Wǒ bù tóngyì nǐ de guāndiǎn.",
+    "fa": "من با دیدگاه تو موافق نیستم.",
+    "en": "I don't agree with your point of view."
+   }
+  ],
+  "chg": "note: Chinese-language note on default measure word adds nothing, removed"
+ },
+ {
+  "id": "高级",
+  "fa": [
+   "عالی‌رتبه",
+   "پیشرفته",
+   "مرغوب"
+  ],
+  "en": [
+   "high-level",
+   "advanced",
+   "high-grade"
+  ],
+  "ex": [
+   {
+    "zh": "这家酒店很高级，价格也很贵。",
+    "py": "Zhè jiā jiǔdiàn hěn gāojí, jiàgé yě hěn guì.",
+    "fa": "این هتل خیلی لوکس است و قیمتش هم بالاست.",
+    "en": "This hotel is very high-class, and expensive too."
+   }
+  ],
+  "chg": "ex: 服务非常高级 unnatural and fa awkward; rewritten"
+ },
+ {
+  "id": "洞",
+  "fa": [
+   "سوراخ",
+   "غار",
+   "حفره"
+  ],
+  "en": [
+   "hole",
+   "cave"
+  ],
+  "ex": [
+   {
+    "zh": "墙上有一个小洞，老鼠从那里跑进来了。",
+    "py": "Qiáng shang yǒu yí ge xiǎo dòng, lǎoshǔ cóng nàlǐ pǎo jìnlai le.",
+    "fa": "روی دیوار سوراخ کوچکی هست و موش از آنجا وارد شده است.",
+    "en": "There's a small hole in the wall, and the mouse came in through it."
+   }
+  ],
+  "chg": "note removed (non-Persian, default measure word); ex fa colloquial آمده تو fixed"
+ },
+ {
+  "id": "签",
+  "fa": [
+   "امضا کردن"
+  ],
+  "en": [
+   "to sign"
+  ],
+  "note": "در 签名 (امضا کردن) و 签证 (ویزا) هم می‌آید.",
+  "ex": [
+   {
+    "zh": "请在这里签你的名字。",
+    "py": "Qǐng zài zhèlǐ qiān nǐ de míngzi.",
+    "fa": "لطفاً اسمتان را اینجا امضا کنید.",
+    "en": "Please sign your name here."
+   }
+  ],
+  "chg": "fa: second gloss wrong/opaque, removed; en aligned; note corrected; ex fa naturalized"
+ },
+ {
+  "id": "娱乐",
+  "fa": [
+   "سرگرمی",
+   "تفریح",
+   "سرگرم کردن"
+  ],
+  "en": [
+   "entertainment",
+   "recreation",
+   "to amuse"
+  ],
+  "ex": [
+   {
+    "zh": "看电影是我最喜欢的娱乐活动。",
+    "py": "Kàn diànyǐng shì wǒ zuì xǐhuan de yúlè huódòng.",
+    "fa": "فیلم دیدن سرگرمی مورد علاقهٔ من است.",
+    "en": "Watching movies is my favorite form of entertainment."
+   }
+  ],
+  "chg": "ex: 做点娱乐活动 unnatural; rewritten"
+ },
+ {
+  "id": "不然",
+  "fa": [
+   "وگرنه",
+   "در غیر این صورت"
+  ],
+  "en": [
+   "otherwise",
+   "or else"
+  ],
+  "note": "صفت هم هست («این‌طور نیست»)، مثل «其实不然».",
+  "ex": [
+   {
+    "zh": "快点儿走，不然要迟到了。",
+    "py": "Kuài diǎnr zǒu, bùrán yào chídào le.",
+    "fa": "زود باش برویم، وگرنه دیرمان می‌شود.",
+    "en": "Let's hurry, otherwise we'll be late."
+   },
+   {
+    "zh": "带上伞吧，不然会被雨淋湿的。",
+    "py": "Dài shang sǎn ba, bùrán huì bèi yǔ línshī de.",
+    "fa": "چتر ببر، وگرنه باران خیست می‌کند.",
+    "en": "Take an umbrella, or you'll get soaked."
+   }
+  ],
+  "chg": "ex1 fa: subject mismatch with en (we) and \"دیر می‌شود\" imprecise"
+ },
+ {
+  "id": "资格",
+  "fa": [
+   "صلاحیت",
+   "شرایط لازم",
+   "سابقه (ارشدیت)"
+  ],
+  "en": [
+   "qualification",
+   "eligibility",
+   "seniority"
+  ],
+  "ex": [
+   {
+    "zh": "你有资格参加这次比赛。",
+    "py": "Nǐ yǒu zīgé cānjiā zhè cì bǐsài.",
+    "fa": "تو صلاحیت شرکت در این مسابقه را داری.",
+    "en": "You are qualified to take part in this competition."
+   }
+  ],
+  "chg": "en: seniority sense missing (fa has سابقه)"
+ },
+ {
+  "id": "企业",
+  "fa": [
+   "بنگاه",
+   "شرکت",
+   "مؤسسهٔ اقتصادی"
+  ],
+  "en": [
+   "enterprise",
+   "company"
+  ],
+  "note": "واحد شمارش: 家.",
+  "ex": [
+   {
+    "zh": "这家企业已经有五十年的历史了。",
+    "py": "Zhè jiā qǐyè yǐjīng yǒu wǔshí nián de lìshǐ le.",
+    "fa": "این شرکت پنجاه سال سابقه دارد.",
+    "en": "This enterprise has a fifty-year history."
+   }
+  ],
+  "chg": "note: was in Chinese; rewritten in Persian"
+ },
+ {
+  "id": "追求",
+  "fa": [
+   "دنبال کردن",
+   "در پی چیزی بودن"
+  ],
+  "en": [
+   "to pursue",
+   "to seek"
+  ],
+  "ex": [
+   {
+    "zh": "每个人都在追求自己的梦想。",
+    "py": "Měi ge rén dōu zài zhuīqiú zìjǐ de mèngxiǎng.",
+    "fa": "هر کسی دنبال رؤیای خودش است.",
+    "en": "Everyone is pursuing their own dream."
+   }
+  ],
+  "chg": "ex fa orthography: رویا -> رؤیا"
+ },
+ {
+  "id": "欣赏",
+  "fa": [
+   "تحسین کردن",
+   "لذت بردن از (هنر، منظره)"
+  ],
+  "en": [
+   "to admire",
+   "to enjoy (art, scenery)"
+  ],
+  "ex": [
+   {
+    "zh": "我很欣赏他认真工作的态度。",
+    "py": "Wǒ hěn xīnshǎng tā rènzhēn gōngzuò de tàidù.",
+    "fa": "من نگرش جدی او نسبت به کار را بسیار تحسین می‌کنم.",
+    "en": "I really admire his serious attitude toward work."
+   }
+  ],
+  "chg": "fa: قدردانی کردن is the wrong sense (gratitude); 欣赏 = admire / enjoy aesthetically"
+ },
+ {
+  "id": "老公",
+  "fa": [
+   "شوهر"
+  ],
+  "en": [
+   "husband"
+  ],
+  "note": "محاوره‌ای و صمیمی؛ برای خطاب به شوهر هم به کار می‌رود. جفت آن: 老婆 (زن، همسر).",
+  "ex": [
+   {
+    "zh": "我老公每天都会做饭。",
+    "py": "Wǒ lǎogōng měi tiān dōu huì zuò fàn.",
+    "fa": "شوهرم هر روز آشپزی می‌کند.",
+    "en": "My husband cooks every day."
+   }
+  ],
+  "chg": "note: garbled Persian, rewritten"
+ },
+ {
+  "id": "主席",
+  "fa": [
+   "رئیس (حزب، سازمان یا کشور)",
+   "رئیس جلسه"
+  ],
+  "en": [
+   "chairperson",
+   "chair (of a meeting)"
+  ],
+  "ex": [
+   {
+    "zh": "主席在会上发表了重要讲话。",
+    "py": "Zhǔxí zài huì shang fābiǎo le zhòngyào jiǎnghuà.",
+    "fa": "رئیس در جلسه سخنرانی مهمی ایراد کرد.",
+    "en": "The chairman gave an important speech at the meeting."
+   }
+  ],
+  "chg": "fa: رئیس جمهور is 总统, replaced; note (Chinese-language) removed"
+ },
+ {
+  "id": "登记",
+  "fa": [
+   "ثبت کردن (مشخصات در دفتر)",
+   "نام‌نویسی کردن"
+  ],
+  "en": [
+   "to register",
+   "to check in"
+  ],
+  "ex": [
+   {
+    "zh": "你先去前台登记一下吧。",
+    "py": "Nǐ xiān qù qiántái dēngjì yíxià ba.",
+    "fa": "اول برو در پذیرش مشخصاتت را ثبت کن.",
+    "en": "Go and check in at the front desk first."
+   }
+  ],
+  "chg": "fa: ثبت‌نام کردن confusable with 报名, reordered/disambiguated; ex fa: hotel check-in is not ثبت‌نام"
+ }
+]

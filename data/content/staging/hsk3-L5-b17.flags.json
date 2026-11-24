@@ -1,0 +1,18 @@
+[
+ {
+  "id": "兔子",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "珍贵",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "缩小",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "模糊",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ }
+]

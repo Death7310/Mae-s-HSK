@@ -1,0 +1,10 @@
+[
+ {
+  "id": "展览",
+  "issue": "example 1: tone of 场: expected 2, got 3"
+ },
+ {
+  "id": "删",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ }
+]

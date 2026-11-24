@@ -1,0 +1,18 @@
+[
+ {
+  "id": "拥抱",
+  "issue": "example 1: pinyin letters differ: expected ~tamenjianmianshijinjindiyongbao, got tamenjianmianshijinjindeyongbao"
+ },
+ {
+  "id": "晒",
+  "issue": "example 1: tone of 干: expected 4, got 1"
+ },
+ {
+  "id": "丑",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "当成",
+  "issue": "example 1: pinyin letters differ: expected ~tabawodangchenglezijidigege, got tabawodangchenglezijidegege"
+ }
+]

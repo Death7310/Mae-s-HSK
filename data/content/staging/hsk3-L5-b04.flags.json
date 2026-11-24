@@ -1,0 +1,22 @@
+[
+ {
+  "id": "调~2",
+  "issue": "example 1: pinyin letters differ: expected ~qingbakongtiaodewendudiaogaoyidian, got qingbakongtiaodewendutiaogaoyidian"
+ },
+ {
+  "id": "队伍",
+  "issue": "example 1: pinyin letters differ: expected ~maipiaodeduiwupaidehenzhang, got maipiaodeduiwupaidehenchang"
+ },
+ {
+  "id": "烧",
+  "issue": "example 1: pinyin letters differ: expected ~haizifashaolewomendequyiyuan, got haizifashaolewomendeiquyiyuan"
+ },
+ {
+  "id": "土地",
+  "issue": "example 1: tone of 种: expected 3, got 4"
+ },
+ {
+  "id": "疯狂",
+  "issue": "example 1: pinyin letters differ: expected ~qiumimenfengkuangdihanzheqiuxingdemingzi, got qiumimenfengkuangdehanzheqiuxingdemingzi"
+ }
+]

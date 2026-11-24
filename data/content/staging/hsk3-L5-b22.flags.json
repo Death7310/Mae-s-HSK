@@ -1,0 +1,14 @@
+[
+ {
+  "id": "不得了",
+  "issue": "example 1: pinyin letters differ: expected ~jintianredebudele, got jintianredebudeliao"
+ },
+ {
+  "id": "无奈",
+  "issue": "example 2: pinyin letters differ: expected ~wowunaidixiaolexiao, got wowunaidexiaolexiao"
+ },
+ {
+  "id": "初期",
+  "issue": "example 1: pinyin letters differ: expected ~zaixuexidechuqidajiaduhuijuedehennan, got zaixuexidechuqidajiadouhuijuedehennan"
+ }
+]

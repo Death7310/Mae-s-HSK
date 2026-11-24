@@ -1,0 +1,11 @@
+[
+{"id": "长城", "pos": ["n"], "fa": ["دیوار بزرگ چین"], "en": ["the Great Wall"],
+ "ex": [{"zh": "我们打算明天去爬长城。", "py": "Wǒmen dǎsuàn míngtiān qù pá Chángchéng.", "fa": "قصد داریم فردا به دیوار بزرگ چین برویم و از آن بالا برویم.", "en": "We plan to go climb the Great Wall tomorrow."}],
+ "chg": "ex.fa: clumsy doubled verb (برویم ... بالا برویم) rephrased into natural Persian"},
+{"id": "垃圾桶", "fa": ["سطل زباله", "سطل آشغال"], "en": ["trash can", "rubbish bin"],
+ "ex": [{"zh": "请把这些东西扔进垃圾桶。", "py": "Qǐng bǎ zhèxiē dōngxi rēngjìn lājītǒng.", "fa": "لطفاً این چیزها را در سطل زباله بیندازید.", "en": "Please throw these things into the trash can."}],
+ "chg": "ex.fa: polite plural imperative (بیندازید) to match 请 and the register used in the other entries"},
+{"id": "长江", "pos": ["n"], "fa": ["رود یانگ‌تسه (چانگ‌جیانگ)"], "en": ["the Yangtze River"],
+ "ex": [{"zh": "长江是中国最长的河。", "py": "Chángjiāng shì Zhōngguó zuì cháng de hé.", "fa": "یانگ‌تسه طولانی‌ترین رود چین است.", "en": "The Yangtze is the longest river in China."}],
+ "chg": "ex.fa: درازترین -> طولانی‌ترین (standard collocation for rivers); pinyin flag is a false alarm (长 = cháng is correct)"}
+]

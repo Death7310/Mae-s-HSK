@@ -1,0 +1,14 @@
+[
+ {
+  "id": "点赞",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "上传",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "相册",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ }
+]

@@ -1,0 +1,255 @@
+[
+{"id": "hsk3-g0309", "std": "hsk3", "level": 4, "no": 309,
+ "pattern": "不得不 + فعل / 没有…不… / 不能不 + فعل",
+ "title": {"fa": "تأکید با دو منفی: 不得不، 没有…不…", "en": "Emphasis with a double negative: 不得不, 没有…不…"},
+ "body": "در چینی دو منفی در یک جمله یک جملهٔ مثبتِ محکم می‌سازند، مثل «نمی‌شود که نه» در فارسی.\n«不得不» و «不能不» یعنی «ناچار بودن، حتماً باید»؛ «没有人不…» یعنی «همه…».\nاین ساخت از جملهٔ مثبتِ ساده قوی‌تر است و برای تأکید به کار می‌رود.",
+ "examples": [
+  {"zh": "明天有考试，我不得不复习。", "py": "Míngtiān yǒu kǎoshì, wǒ bùdébù fùxí.", "fa": "فردا امتحان دارم، ناچارم مرور کنم.", "en": "There's an exam tomorrow, so I have no choice but to review."},
+  {"zh": "我们班没有人不喜欢他。", "py": "Wǒmen bān méiyǒu rén bù xǐhuan tā.", "fa": "در کلاس ما کسی نیست که او را دوست نداشته باشد.", "en": "There is nobody in our class who doesn't like him."},
+  {"zh": "这件事你不能不告诉他。", "py": "Zhè jiàn shì nǐ bù néng bú gàosu tā.", "fa": "این موضوع را نمی‌شود به او نگویی.", "en": "You can't not tell him about this."}
+ ]},
+{"id": "hsk3-g0310", "std": "hsk3", "level": 4, "no": 310,
+ "pattern": "不是 A，而是 B",
+ "title": {"fa": "نه این، بلکه آن: 不是…而是…", "en": "Not A but B: 不是…而是…"},
+ "body": "با این ساخت اولی را رد می‌کنی و درستش را می‌گویی: «A نیست، بلکه B است».\n«而是» همان «بلکه» در فارسی است و همیشه در آغاز بخش دوم می‌آید.\nA و B باید از یک جنس باشند: دو اسم، دو فعل یا دو جمله.",
+ "examples": [
+  {"zh": "他不是不想来，而是没有时间。", "py": "Tā bú shì bù xiǎng lái, ér shì méiyǒu shíjiān.", "fa": "این‌طور نیست که نخواهد بیاید، بلکه وقت ندارد.", "en": "It's not that he doesn't want to come; he just has no time."},
+  {"zh": "我买的不是红茶，而是绿茶。", "py": "Wǒ mǎi de bú shì hóngchá, ér shì lǜchá.", "fa": "چیزی که خریدم چای سیاه نیست، بلکه چای سبز است.", "en": "What I bought isn't black tea but green tea."}
+ ]},
+{"id": "hsk3-g0311", "std": "hsk3", "level": 4, "no": 311,
+ "pattern": "既 A，又 / 也 B",
+ "title": {"fa": "هم این، هم آن: 既…又/也…", "en": "Both A and B: 既…又/也…"},
+ "body": "دو ویژگی یا دو کار را که هم‌زمان درست‌اند کنار هم می‌گذارد: «هم… هم…».\n«既» و «又/也» بعد از فاعل و پیش از صفت یا فعل می‌آیند، نه پیش از فاعل.\nبا «又» معمولاً دو صفت یا دو فعل کوتاه می‌آید؛ با «也» بخش دوم می‌تواند جملهٔ بلندتری باشد.",
+ "examples": [
+  {"zh": "这家饭馆的菜既好吃又便宜。", "py": "Zhè jiā fànguǎn de cài jì hǎochī yòu piányi.", "fa": "غذای این رستوران هم خوشمزه است هم ارزان.", "en": "The food at this restaurant is both tasty and cheap."},
+  {"zh": "他既是我的老师，也是我的朋友。", "py": "Tā jì shì wǒ de lǎoshī, yě shì wǒ de péngyou.", "fa": "او هم معلم من است و هم دوست من.", "en": "He is both my teacher and my friend."}
+ ]},
+{"id": "hsk3-g0312", "std": "hsk3", "level": 4, "no": 312,
+ "pattern": "一方面…，另一方面…",
+ "title": {"fa": "از یک طرف… از طرف دیگر: 一方面…另一方面…", "en": "On the one hand… on the other hand: 一方面…另一方面…"},
+ "body": "دو جنبهٔ یک موضوع را کنار هم می‌گذارد: دو دلیل، یا دو روی خوب و بدِ یک چیز.\nدرست مثل «از یک طرف… از طرف دیگر…» در فارسی است و هر بخش یک جملهٔ کامل است.\nدر بخش دوم اغلب «也» یا «还» هم می‌آید.",
+ "examples": [
+  {"zh": "我学汉语，一方面是因为工作需要，另一方面是因为我喜欢中国文化。", "py": "Wǒ xué Hànyǔ, yì fāngmiàn shì yīnwèi gōngzuò xūyào, lìng yì fāngmiàn shì yīnwèi wǒ xǐhuan Zhōngguó wénhuà.", "fa": "چینی یاد می‌گیرم، از یک طرف چون کارم لازم دارد و از طرف دیگر چون فرهنگ چین را دوست دارم.", "en": "I study Chinese partly because my job needs it and partly because I like Chinese culture."},
+  {"zh": "住在城市，一方面很方便，另一方面压力也很大。", "py": "Zhù zài chéngshì, yì fāngmiàn hěn fāngbiàn, lìng yì fāngmiàn yālì yě hěn dà.", "fa": "زندگی در شهر از یک طرف خیلی راحت است و از طرف دیگر فشارش هم زیاد است.", "en": "Living in the city is convenient on the one hand, but on the other hand the pressure is high."}
+ ]},
+{"id": "hsk3-g0313", "std": "hsk3", "level": 4, "no": 313,
+ "pattern": "首先…，其次…",
+ "title": {"fa": "اول… دوم…: 首先…其次…", "en": "Firstly… secondly…: 首先…其次…"},
+ "body": "برای شمردنِ نکته‌ها یا دلیل‌ها به ترتیب اهمیت است: «اولاً… ثانیاً…».\nبیشتر در سخنرانی، نوشته و توضیحِ رسمی شنیده می‌شود.\nاین ساخت ترتیبِ نکته‌ها را می‌گوید، نه ترتیبِ زمانیِ کارها را.",
+ "examples": [
+  {"zh": "首先，我要感谢大家；其次，我想介绍一下我们的计划。", "py": "Shǒuxiān, wǒ yào gǎnxiè dàjiā; qícì, wǒ xiǎng jièshào yíxià wǒmen de jìhuà.", "fa": "اول می‌خواهم از همه تشکر کنم؛ دوم می‌خواهم برنامه‌مان را معرفی کنم.", "en": "First, I want to thank everyone; second, I'd like to introduce our plan."},
+  {"zh": "选择工作，首先要考虑兴趣，其次要考虑收入。", "py": "Xuǎnzé gōngzuò, shǒuxiān yào kǎolǜ xìngqù, qícì yào kǎolǜ shōurù.", "fa": "در انتخاب کار، اول باید به علاقه فکر کرد و بعد به درآمد.", "en": "When choosing a job, consider your interests first and income second."}
+ ]},
+{"id": "hsk3-g0314", "std": "hsk3", "level": 4, "no": 314,
+ "pattern": "首先 + فعل…，然后 + فعل…",
+ "title": {"fa": "اول این کار، بعد آن کار: 首先…然后…", "en": "First do this, then that: 首先…然后…"},
+ "body": "ترتیبِ زمانیِ دو کار را نشان می‌دهد: «اول… بعد…».\nاز «先…然后…» کمی رسمی‌تر است و برای توضیحِ مراحلِ یک کار خوب است.\n«首先» می‌تواند پیش یا پس از فاعل بیاید، ولی «然后» همیشه در آغاز بخش دوم است.",
+ "examples": [
+  {"zh": "首先把水果洗干净，然后放进冰箱。", "py": "Shǒuxiān bǎ shuǐguǒ xǐ gānjìng, ránhòu fàng jìn bīngxiāng.", "fa": "اول میوه‌ها را خوب بشوی، بعد در یخچال بگذار.", "en": "First wash the fruit clean, then put it in the fridge."},
+  {"zh": "我们首先去银行，然后去超市。", "py": "Wǒmen shǒuxiān qù yínháng, ránhòu qù chāoshì.", "fa": "ما اول به بانک می‌رویم، بعد به سوپرمارکت.", "en": "We'll go to the bank first, then to the supermarket."}
+ ]},
+{"id": "hsk3-g0315", "std": "hsk3", "level": 4, "no": 315,
+ "pattern": "…，于是…",
+ "title": {"fa": "و در نتیجه، این شد که: 于是", "en": "And so, thereupon: 于是"},
+ "body": "«于是» می‌گوید کار دوم به دنبالِ اتفاق اول و به خاطرِ آن پیش آمد: «این شد که…، پس…».\nبیشتر برای تعریف‌کردنِ اتفاق‌های گذشته به کار می‌رود.\nبا «所以» فرق دارد: «所以» فقط نتیجهٔ منطقی را می‌گوید، ولی «于是» قدمِ بعدیِ داستان را.",
+ "examples": [
+  {"zh": "外面下雨了，于是我们决定在家看电影。", "py": "Wàimiàn xià yǔ le, yúshì wǒmen juédìng zài jiā kàn diànyǐng.", "fa": "بیرون باران گرفت، این شد که تصمیم گرفتیم در خانه فیلم ببینیم.", "en": "It started raining outside, so we decided to watch a film at home."},
+  {"zh": "他没有赶上公交车，于是打车去了公司。", "py": "Tā méiyǒu gǎnshàng gōngjiāochē, yúshì dǎchē qù le gōngsī.", "fa": "او به اتوبوس نرسید، پس با تاکسی به شرکت رفت.", "en": "He missed the bus, so he took a taxi to the office."}
+ ]},
+{"id": "hsk3-g0316", "std": "hsk3", "level": 4, "no": 316,
+ "pattern": "…，甚至…",
+ "title": {"fa": "حتی، تا جایی که: 甚至", "en": "Even, so much so that: 甚至"},
+ "body": "«甚至» یک قدم جلوتر می‌رود و موردِ شدیدتر یا دور از انتظار را اضافه می‌کند: «حتی».\nدر آغاز بخش دوم یا پیش از کلمه‌ای که می‌خواهی برجسته کنی می‌آید.\nاغلب با «也» یا «都» همراه می‌شود.",
+ "examples": [
+  {"zh": "他很忙，甚至没有时间吃饭。", "py": "Tā hěn máng, shènzhì méiyǒu shíjiān chī fàn.", "fa": "او خیلی سرش شلوغ است، حتی وقت غذا خوردن ندارد.", "en": "He is very busy; he doesn't even have time to eat."},
+  {"zh": "这个问题很难，甚至老师也不会回答。", "py": "Zhège wèntí hěn nán, shènzhì lǎoshī yě bú huì huídá.", "fa": "این سؤال خیلی سخت است، حتی معلم هم نمی‌تواند جواب بدهد.", "en": "This question is so hard that even the teacher can't answer it."}
+ ]},
+{"id": "hsk3-g0317", "std": "hsk3", "level": 4, "no": 317,
+ "pattern": "不仅 / 不光…，还 / 而且…",
+ "title": {"fa": "نه‌تنها… بلکه…: 不仅/不光…还/而且…", "en": "Not only… but also…: 不仅/不光…还/而且…"},
+ "body": "می‌گوید علاوه بر مورد اول، مورد دوم هم هست: «نه‌تنها… بلکه… هم».\n«不仅» رسمی‌تر و «不光» گفتاری‌تر است؛ معنایشان با «不但» یکی است.\n«还» بعد از فاعل و پیش از فعل می‌آید، ولی «而且» در آغاز بخش دوم و پیش از فاعل.",
+ "examples": [
+  {"zh": "她不仅会说汉语，还会写汉字。", "py": "Tā bùjǐn huì shuō Hànyǔ, hái huì xiě Hànzì.", "fa": "او نه‌تنها چینی حرف می‌زند، بلکه نویسه‌های چینی را هم می‌نویسد.", "en": "She can not only speak Chinese but also write characters."},
+  {"zh": "这里不光风景美，而且空气也很好。", "py": "Zhèlǐ bùguāng fēngjǐng měi, érqiě kōngqì yě hěn hǎo.", "fa": "این‌جا نه‌تنها منظره‌اش زیباست، بلکه هوایش هم خیلی خوب است.", "en": "Not only is the scenery beautiful here, the air is good too."}
+ ]},
+{"id": "hsk3-g0318", "std": "hsk3", "level": 4, "no": 318,
+ "pattern": "…，并且…",
+ "title": {"fa": "و علاوه بر آن: 并且", "en": "And moreover: 并且"},
+ "body": "«并且» دو فعل یا دو جمله را به هم وصل می‌کند و نشان می‌دهد دومی چیزی به اولی اضافه می‌کند: «و همچنین، و تازه».\nبرخلاف «和» که بیشتر اسم‌ها را به هم وصل می‌کند، «并且» برای وصل‌کردنِ فعل و جمله است.\nکمی رسمی است و بیشتر در نوشته دیده می‌شود.",
+ "examples": [
+  {"zh": "他完成了任务，并且完成得很好。", "py": "Tā wánchéng le rènwu, bìngqiě wánchéng de hěn hǎo.", "fa": "او کار را تمام کرد و تازه خیلی هم خوب تمام کرد.", "en": "He finished the task, and finished it very well."},
+  {"zh": "我们讨论了这个问题，并且找到了解决的办法。", "py": "Wǒmen tǎolùn le zhège wèntí, bìngqiě zhǎodào le jiějué de bànfǎ.", "fa": "ما دربارهٔ این مسئله بحث کردیم و راه‌حلش را هم پیدا کردیم.", "en": "We discussed the problem and also found a way to solve it."}
+ ]},
+{"id": "hsk3-g0319", "std": "hsk3", "level": 4, "no": 319,
+ "pattern": "连 A 也 / 都…，B 更…",
+ "title": {"fa": "حتی A…، چه برسد به B: 连…也/都…，…更…", "en": "Even A…, let alone B: 连…也/都…，…更…"},
+ "body": "بخش اول یک موردِ دور از انتظار را می‌آورد (حتی A هم…) و بخش دوم نتیجه می‌گیرد که برای B این حرف درست‌تر است.\nدر فارسی می‌گوییم «حتی… هم…، چه برسد به…».\nبعد از «连» اسم یا فعل می‌آید و «也/都» پیش از فعل اصلی؛ «更» هم پیش از فعل یا صفتِ بخش دوم.",
+ "examples": [
+  {"zh": "这个字连老师都不认识，我们更不认识了。", "py": "Zhège zì lián lǎoshī dōu bú rènshi, wǒmen gèng bú rènshi le.", "fa": "این نویسه را حتی معلم هم نمی‌شناسد، چه برسد به ما.", "en": "Even the teacher doesn't know this character, let alone us."},
+  {"zh": "他连早饭也没有吃，更没有时间喝咖啡了。", "py": "Tā lián zǎofàn yě méiyǒu chī, gèng méiyǒu shíjiān hē kāfēi le.", "fa": "او حتی صبحانه هم نخورد، چه برسد به این‌که وقت قهوه خوردن داشته باشد.", "en": "He didn't even eat breakfast, much less have time for coffee."}
+ ]},
+{"id": "hsk3-g0320", "std": "hsk3", "level": 4, "no": 320,
+ "pattern": "不是 A，就是 B",
+ "title": {"fa": "یا این است یا آن: 不是…就是…", "en": "Either A or B: 不是…就是…"},
+ "body": "می‌گوید فقط دو حالت هست و یکی از آن دو حتماً درست است: «یا… یا…»، «اگر این نباشد، آن است».\nمراقب باش با «不是…而是…» اشتباه نشود: آن‌جا A رد می‌شود، این‌جا A و B هر دو ممکن‌اند.",
+ "examples": [
+  {"zh": "周末他不是打篮球，就是踢足球。", "py": "Zhōumò tā bú shì dǎ lánqiú, jiù shì tī zúqiú.", "fa": "آخر هفته‌ها او یا بسکتبال بازی می‌کند یا فوتبال.", "en": "At weekends he's either playing basketball or playing football."},
+  {"zh": "这几天不是刮风，就是下雨。", "py": "Zhè jǐ tiān bú shì guā fēng, jiù shì xià yǔ.", "fa": "این چند روز یا باد می‌آید یا باران.", "en": "These past few days it's been either windy or rainy."}
+ ]},
+{"id": "hsk3-g0321", "std": "hsk3", "level": 4, "no": 321,
+ "pattern": "尽管…，但是 / 可是…",
+ "title": {"fa": "با این‌که… ولی…: 尽管…但是/可是…", "en": "Even though… still…: 尽管…但是/可是…"},
+ "body": "«尽管» واقعیتی را قبول می‌کند و بخش دوم می‌گوید با وجودِ آن، نتیجه چیز دیگری است: «با این‌که…، ولی…».\nمعنایش به «虽然» نزدیک است ولی کمی محکم‌تر.\nدر فارسی «با این‌که» و «ولی» معمولاً با هم نمی‌آیند، اما در چینی آوردنِ «但是/可是» در بخش دوم عادی است.",
+ "examples": [
+  {"zh": "尽管天气很冷，但是他仍然坚持跑步。", "py": "Jǐnguǎn tiānqì hěn lěng, dànshì tā réngrán jiānchí pǎobù.", "fa": "با این‌که هوا خیلی سرد است، او همچنان به دویدن ادامه می‌دهد.", "en": "Even though it's very cold, he still keeps running."},
+  {"zh": "尽管我很累，可是心里很高兴。", "py": "Jǐnguǎn wǒ hěn lèi, kěshì xīnli hěn gāoxìng.", "fa": "با این‌که خیلی خسته‌ام، در دلم خیلی خوشحالم.", "en": "Although I'm very tired, I'm happy inside."}
+ ]},
+{"id": "hsk3-g0322", "std": "hsk3", "level": 4, "no": 322,
+ "pattern": "…，然而…",
+ "title": {"fa": "با این حال، اما (رسمی): 然而", "en": "However (formal): 然而"},
+ "body": "«然而» مثل «但是» بخش دوم را در برابرِ بخش اول می‌گذارد، ولی رسمی و نوشتاری است؛ چیزی مثل «با این حال» یا «لیکن».\nدر آغاز بخش دوم و پیش از فاعل می‌آید.\nدر گفت‌وگوی روزمره همان «但是» یا «可是» را بگو.",
+ "examples": [
+  {"zh": "他努力了很久，然而成绩不太理想。", "py": "Tā nǔlì le hěn jiǔ, rán'ér chéngjì bú tài lǐxiǎng.", "fa": "او مدت زیادی تلاش کرد، با این حال نمره‌اش چندان خوب نشد.", "en": "He worked hard for a long time; however, his results were not very good."},
+  {"zh": "大家都以为他会赢，然而他输了。", "py": "Dàjiā dōu yǐwéi tā huì yíng, rán'ér tā shū le.", "fa": "همه فکر می‌کردند او می‌برد، اما باخت.", "en": "Everyone thought he would win; however, he lost."}
+ ]},
+{"id": "hsk3-g0323", "std": "hsk3", "level": 4, "no": 323,
+ "pattern": "…，不过…",
+ "title": {"fa": "ولی، فقط این‌که (ملایم): 不过", "en": "But, though (mild): 不过"},
+ "body": "«不过» هم «ولی» است، اما ملایم‌تر از «但是»: حرفِ قبلی را رد نمی‌کند، فقط یک نکته یا ایرادِ کوچک به آن اضافه می‌کند.\nدر گفت‌وگوی روزمره خیلی رایج است و در آغاز بخش دوم می‌آید.",
+ "examples": [
+  {"zh": "这件衣服很漂亮，不过有点儿贵。", "py": "Zhè jiàn yīfu hěn piàoliang, búguò yǒudiǎnr guì.", "fa": "این لباس خیلی قشنگ است، فقط کمی گران است.", "en": "This piece of clothing is lovely, but it's a bit expensive."},
+  {"zh": "我想去，不过明天没有时间。", "py": "Wǒ xiǎng qù, búguò míngtiān méiyǒu shíjiān.", "fa": "دلم می‌خواهد بروم، ولی فردا وقت ندارم.", "en": "I'd like to go, but I have no time tomorrow."}
+ ]},
+{"id": "hsk3-g0324", "std": "hsk3", "level": 4, "no": 324,
+ "pattern": "X 是 X，就是 / 不过…",
+ "title": {"fa": "خوب که هست، ولی…: X是X，就是/不过…", "en": "It is X all right, but…: X是X，就是/不过…"},
+ "body": "یک صفت یا فعل را دو بار با «是» در میان تکرار می‌کنی تا آن را قبول کنی، بعد ایراد را می‌گویی: «خوب که هست، ولی…».\nدر فارسی هم می‌گوییم «ارزان که هست، اما…».\n«就是» یعنی «فقط یک عیب دارد» و «不过» یک «ولیِ» ملایم است.",
+ "examples": [
+  {"zh": "这个房子好是好，就是离公司太远。", "py": "Zhège fángzi hǎo shì hǎo, jiùshì lí gōngsī tài yuǎn.", "fa": "این خانه خوب که هست، فقط از شرکت خیلی دور است.", "en": "This flat is good all right, it's just too far from the office."},
+  {"zh": "东西便宜是便宜，不过质量一般。", "py": "Dōngxi piányi shì piányi, búguò zhìliàng yìbān.", "fa": "جنس‌ها ارزان که هستند، ولی کیفیتشان معمولی است.", "en": "The things are cheap, true, but the quality is so-so."}
+ ]},
+{"id": "hsk3-g0325", "std": "hsk3", "level": 4, "no": 325,
+ "pattern": "…，否则…",
+ "title": {"fa": "وگرنه: 否则", "en": "Otherwise: 否则"},
+ "body": "«否则» یعنی «وگرنه، در غیر این صورت»: اگر کاری که در بخش اول گفته شد نشود، نتیجهٔ بخش دوم پیش می‌آید.\nدر آغاز بخش دوم می‌آید و بخش اول معمولاً یک توصیه یا شرط است.\nدر گفتار به جای آن «要不然» هم می‌گویند.",
+ "examples": [
+  {"zh": "我们得马上出发，否则会迟到。", "py": "Wǒmen děi mǎshàng chūfā, fǒuzé huì chídào.", "fa": "باید همین الان راه بیفتیم، وگرنه دیر می‌رسیم.", "en": "We have to leave right now, otherwise we'll be late."},
+  {"zh": "你要多穿衣服，否则会感冒。", "py": "Nǐ yào duō chuān yīfu, fǒuzé huì gǎnmào.", "fa": "باید لباس بیشتری بپوشی، وگرنه سرما می‌خوری.", "en": "You should wear more clothes, otherwise you'll catch a cold."}
+ ]},
+{"id": "hsk3-g0326", "std": "hsk3", "level": 4, "no": 326,
+ "pattern": "要是…，就…",
+ "title": {"fa": "اگر… (گفتاری): 要是…就…", "en": "If… then… (spoken): 要是…就…"},
+ "body": "«要是» همان «如果» است ولی گفتاری‌تر: «اگر».\n«就» در بخش دوم نتیجه را نشان می‌دهد و بعد از فاعل و پیش از فعل می‌آید.\nفعل هیچ تغییری نمی‌کند؛ برخلاف فارسی («بیاید»، «داشتی»)، چینی شکلِ جداگانه‌ای از فعل برای شرط ندارد. در پایانِ بخش اول می‌شود «的话» هم آورد.",
+ "examples": [
+  {"zh": "要是明天下雨，我们就不去公园了。", "py": "Yàoshi míngtiān xià yǔ, wǒmen jiù bú qù gōngyuán le.", "fa": "اگر فردا باران بیاید، دیگر به پارک نمی‌رویم.", "en": "If it rains tomorrow, we won't go to the park."},
+  {"zh": "要是你有问题，就给我打电话。", "py": "Yàoshi nǐ yǒu wèntí, jiù gěi wǒ dǎ diànhuà.", "fa": "اگر سؤالی داشتی، به من زنگ بزن.", "en": "If you have any questions, give me a call."}
+ ]},
+{"id": "hsk3-g0327", "std": "hsk3", "level": 4, "no": 327,
+ "pattern": "要是…，(就)…，否则…",
+ "title": {"fa": "اگر… پس…، وگرنه…: 要是…(就)…否则…", "en": "If… then…, otherwise…: 要是…(就)…否则…"},
+ "body": "این جمله سه بخش دارد: شرط (要是)، کاری که باید بشود (就) و نتیجهٔ بدِ انجام‌ندادنش (否则).\nدر فارسی می‌شود «اگر…، …؛ وگرنه…».\n«就» را می‌شود انداخت، ولی «否则» باید در آغاز بخش سوم بماند.",
+ "examples": [
+  {"zh": "要是你想参加，就马上报名，否则就没有机会了。", "py": "Yàoshi nǐ xiǎng cānjiā, jiù mǎshàng bàomíng, fǒuzé jiù méiyǒu jīhuì le.", "fa": "اگر می‌خواهی شرکت کنی، همین الان ثبت‌نام کن، وگرنه دیگر فرصتی نیست.", "en": "If you want to take part, sign up right away, otherwise there'll be no chance."},
+  {"zh": "要是有时间，你就多练习口语，否则很难提高。", "py": "Yàoshi yǒu shíjiān, nǐ jiù duō liànxí kǒuyǔ, fǒuzé hěn nán tígāo.", "fa": "اگر وقت داری، بیشتر گفت‌وگو تمرین کن، وگرنه پیشرفت سخت است.", "en": "If you have time, practise speaking more, otherwise it's hard to improve."}
+ ]},
+{"id": "hsk3-g0328", "std": "hsk3", "level": 4, "no": 328,
+ "pattern": "不管 + پرسش / دو حالت，都 / 也…",
+ "title": {"fa": "فرقی نمی‌کند که…، در هر حال…: 不管…都/也…", "en": "No matter…, still…: 不管…都/也…"},
+ "body": "می‌گوید شرایط هر چه باشد نتیجه عوض نمی‌شود: «هر چه…، باز هم…».\nبعد از «不管» باید یک کلمهٔ پرسشی (谁، 什么، 怎么، 多) یا دو حالتِ روبه‌رو (去不去، 大小) بیاید، نه یک جملهٔ خبریِ ساده.\n«都/也» در بخش دوم لازم است و پیش از فعل می‌آید.",
+ "examples": [
+  {"zh": "不管天气怎么样，他都去跑步。", "py": "Bùguǎn tiānqì zěnmeyàng, tā dōu qù pǎobù.", "fa": "هوا هر طور که باشد، او می‌رود بدود.", "en": "No matter what the weather is like, he goes running."},
+  {"zh": "不管你去不去，我也要去。", "py": "Bùguǎn nǐ qù bú qù, wǒ yě yào qù.", "fa": "چه تو بروی چه نروی، من می‌روم.", "en": "Whether you go or not, I'm going."}
+ ]},
+{"id": "hsk3-g0329", "std": "hsk3", "level": 4, "no": 329,
+ "pattern": "无论 + پرسش / دو حالت，都 / 也…",
+ "title": {"fa": "هر… که باشد (رسمی‌تر): 无论…都/也…", "en": "Regardless of… (more formal): 无论…都/也…"},
+ "body": "«无论» همان معنای «不管» را دارد ولی رسمی‌تر است و در نوشته بیشتر می‌آید.\nساختش هم همان است: بعدش کلمهٔ پرسشی یا دو حالتِ روبه‌رو، و در بخش دوم «都» یا «也».\nدر فارسی: «هر قدر…، هر کس…، در هر صورت…».",
+ "examples": [
+  {"zh": "无论多忙，她都每天给妈妈打电话。", "py": "Wúlùn duō máng, tā dōu měi tiān gěi māma dǎ diànhuà.", "fa": "هر قدر هم سرش شلوغ باشد، هر روز به مادرش زنگ می‌زند.", "en": "However busy she is, she calls her mum every day."},
+  {"zh": "无论谁问他，他也不回答。", "py": "Wúlùn shéi wèn tā, tā yě bù huídá.", "fa": "هر کس از او بپرسد، جواب نمی‌دهد.", "en": "No matter who asks him, he doesn't answer."}
+ ]},
+{"id": "hsk3-g0330", "std": "hsk3", "level": 4, "no": 330,
+ "pattern": "既然…，就…",
+ "title": {"fa": "حالا که…، پس…: 既然…就…", "en": "Since (now that)…, then…: 既然…就…"},
+ "body": "«既然» چیزی را که هر دو طرف می‌دانند یا قبول دارند پایهٔ حرف می‌گذارد و «就» نتیجه یا پیشنهاد را می‌آورد: «حالا که…، پس…».\nبا «因为» فرق دارد: «因为» دلیلِ تازه‌ای را توضیح می‌دهد، ولی «既然» از واقعیتِ معلوم نتیجه می‌گیرد.\n«就» بعد از فاعلِ بخش دوم می‌آید.",
+ "examples": [
+  {"zh": "既然你已经决定了，就努力去做吧。", "py": "Jìrán nǐ yǐjīng juédìng le, jiù nǔlì qù zuò ba.", "fa": "حالا که تصمیمت را گرفته‌ای، پس با تلاش انجامش بده.", "en": "Since you've already decided, go and do your best."},
+  {"zh": "既然大家都同意，我们就这样安排。", "py": "Jìrán dàjiā dōu tóngyì, wǒmen jiù zhèyàng ānpái.", "fa": "حالا که همه موافق‌اند، همین‌طور برنامه‌ریزی می‌کنیم.", "en": "Since everyone agrees, we'll arrange it this way."}
+ ]},
+{"id": "hsk3-g0331", "std": "hsk3", "level": 4, "no": 331,
+ "pattern": "(由于)…，因此…",
+ "title": {"fa": "به دلیلِ…، از این رو…: 由于…因此…", "en": "Owing to…, therefore…: (由于)…因此…"},
+ "body": "شکلِ رسمی‌ترِ «因为…所以…» است: «由于» دلیل را می‌آورد و «因此» نتیجه را؛ «به دلیلِ…، از این رو…».\n«由于» را می‌شود انداخت و فقط «因此» را در آغاز بخش دوم گفت.\nبخشِ «由于» همیشه اول می‌آید، نه بعد از نتیجه.",
+ "examples": [
+  {"zh": "由于天气不好，因此航班晚点了。", "py": "Yóuyú tiānqì bù hǎo, yīncǐ hángbān wǎndiǎn le.", "fa": "به دلیل بدیِ هوا، پرواز تأخیر داشت.", "en": "Owing to the bad weather, the flight was delayed."},
+  {"zh": "他每天锻炼，因此身体很健康。", "py": "Tā měi tiān duànliàn, yīncǐ shēntǐ hěn jiànkāng.", "fa": "او هر روز ورزش می‌کند، از این رو بدنش خیلی سالم است.", "en": "He exercises every day, so he is very healthy."}
+ ]},
+{"id": "hsk3-g0332", "std": "hsk3", "level": 4, "no": 332,
+ "pattern": "…，(فاعل) + 好 + فعل",
+ "title": {"fa": "تا بشود، برای این‌که: 好 در بخش دوم", "en": "So that, in order to: 好 in the second clause"},
+ "body": "این‌جا «好» به معنای «خوب» نیست؛ پیش از فعلِ بخش دوم می‌آید و هدف را می‌گوید: «تا بتوانم…، که راحت‌تر…».\nبخش اول کاری است که باید بشود و بخش دوم چیزی که با آن ممکن می‌شود.\nگفتاری است؛ شکل رسمی‌ترش «以便» است؛ با «为了» هدف در بخش اول می‌آید.",
+ "examples": [
+  {"zh": "你把地址发给我，我好去找你。", "py": "Nǐ bǎ dìzhǐ fā gěi wǒ, wǒ hǎo qù zhǎo nǐ.", "fa": "نشانی را برایم بفرست تا بتوانم بیایم پیشت.", "en": "Send me the address so that I can come and find you."},
+  {"zh": "请你说慢一点儿，我好记下来。", "py": "Qǐng nǐ shuō màn yìdiǎnr, wǒ hǎo jì xiàlái.", "fa": "لطفاً کمی آهسته‌تر بگو تا بتوانم یادداشت کنم.", "en": "Please speak a little slower so I can write it down."}
+ ]},
+{"id": "hsk3-g0333", "std": "hsk3", "level": 4, "no": 333,
+ "pattern": "即使…，也…",
+ "title": {"fa": "حتی اگر…، باز هم…: 即使…也…", "en": "Even if…, still…: 即使…也…"},
+ "body": "«即使» یک فرض را می‌آورد (چیزی که شاید اصلاً پیش نیاید) و «也» می‌گوید نتیجه در آن حالت هم عوض نمی‌شود: «حتی اگر…، باز هم…».\nبا «虽然/尽管» فرق دارد: آن‌ها دربارهٔ واقعیت‌اند، «即使» دربارهٔ فرض.\n«也» بعد از فاعل و پیش از فعل می‌آید و نباید بیفتد.",
+ "examples": [
+  {"zh": "即使明天下雨，比赛也要进行。", "py": "Jíshǐ míngtiān xià yǔ, bǐsài yě yào jìnxíng.", "fa": "حتی اگر فردا باران بیاید، مسابقه برگزار می‌شود.", "en": "Even if it rains tomorrow, the match will go ahead."},
+  {"zh": "即使你不说，我也知道。", "py": "Jíshǐ nǐ bù shuō, wǒ yě zhīdào.", "fa": "حتی اگر نگویی، من می‌دانم.", "en": "Even if you don't say it, I know."}
+ ]},
+{"id": "hsk3-g0334", "std": "hsk3", "level": 4, "no": 334,
+ "pattern": "就是…，也…",
+ "title": {"fa": "حتی اگر… هم (گفتاری): 就是…也…", "en": "Even if… (spoken): 就是…也…"},
+ "body": "این «就是» شکلِ گفتاریِ «即使» است: «حتی اگر…، باز هم…».\nنشانه‌اش «也» در بخش دوم است؛ اگر «也» نباشد، «就是» معنای دیگری دارد (مثل «فقط» یا «دقیقاً همین»).\nاغلب با «再 + صفت» می‌آید: 就是再忙 یعنی «هر قدر هم که سرت شلوغ باشد».",
+ "examples": [
+  {"zh": "就是再忙，你也要按时吃饭。", "py": "Jiùshì zài máng, nǐ yě yào ànshí chī fàn.", "fa": "هر قدر هم که سرت شلوغ باشد، باید سر وقت غذا بخوری.", "en": "Even if you're extremely busy, you must eat on time."},
+  {"zh": "就是他不来，我们也能完成任务。", "py": "Jiùshì tā bù lái, wǒmen yě néng wánchéng rènwu.", "fa": "حتی اگر او نیاید، ما می‌توانیم کار را تمام کنیم.", "en": "Even if he doesn't come, we can finish the task."}
+ ]},
+{"id": "hsk3-g0335", "std": "hsk3", "level": 4, "no": 335,
+ "pattern": "شرط + نتیجه (بدون کلمهٔ ربط و بدون مکث)",
+ "title": {"fa": "جملهٔ فشرده بدون کلمهٔ ربط: 有事打电话", "en": "Compressed sentences with no connective: 有事打电话"},
+ "body": "در گفتار، دو بخشِ جمله را بدون «如果…就…» و بدون مکث پشت هم می‌گویند؛ رابطه (بیشتر «اگر… پس…») از معنا فهمیده می‌شود.\nمثلاً «有事打电话» یعنی «اگر کاری داشتی، زنگ بزن».\nدر فارسی «اگر» معمولاً گفته می‌شود، پس هنگام شنیدنِ چینی باید خودت شرط را حدس بزنی.",
+ "examples": [
+  {"zh": "有事给我打电话。", "py": "Yǒu shì gěi wǒ dǎ diànhuà.", "fa": "اگر کاری داشتی به من زنگ بزن.", "en": "Call me if anything comes up."},
+  {"zh": "有问题找老师。", "py": "Yǒu wèntí zhǎo lǎoshī.", "fa": "اگر سؤالی داری برو پیش معلم.", "en": "If you have a question, go to the teacher."},
+  {"zh": "明天下雨不去了。", "py": "Míngtiān xià yǔ bú qù le.", "fa": "اگر فردا باران بیاید، دیگر نمی‌رویم.", "en": "If it rains tomorrow, we won't go."}
+ ]},
+{"id": "hsk3-g0336", "std": "hsk3", "level": 4, "no": 336,
+ "pattern": "不 + فعل + 也 + فعل",
+ "title": {"fa": "حتی اگر نه… هم…: 不…也…", "en": "Even without…, still…: 不…也…"},
+ "body": "شکلِ فشردهٔ «即使不…，也…» است که بدون مکث گفته می‌شود: «حتی اگر… نشود، باز هم…».\nبخشِ «不…» شرط است و بخشِ «也…» نتیجه‌ای که در هر حال برقرار است.\nفاعلِ دو بخش می‌تواند یکی باشد یا فرق کند.",
+ "examples": [
+  {"zh": "你不说我也知道。", "py": "Nǐ bù shuō wǒ yě zhīdào.", "fa": "نگویی هم من می‌دانم.", "en": "I know even if you don't tell me."},
+  {"zh": "你不请我也会来。", "py": "Nǐ bù qǐng wǒ yě huì lái.", "fa": "دعوتم نکنی هم می‌آیم.", "en": "I'll come even if you don't invite me."}
+ ]},
+{"id": "hsk3-g0337", "std": "hsk3", "level": 4, "no": 337,
+ "pattern": "عدد + 来 + واحد شمارش (+ اسم)",
+ "title": {"fa": "عدد تقریبی با 来: ده‌تایی، بیست و خرده‌ای", "en": "Approximate numbers with 来: ten or so"},
+ "body": "«来» بعد از عددِ رُند (ده، بیست، صد…) و پیش از واحد شمارش می‌آید و یعنی «حدودِ این عدد»: 十来个 یعنی «ده‌تایی، حدود ده تا».\nاین «来» ربطی به فعلِ «آمدن» ندارد.\nترتیب مهم است: عدد، بعد «来»، بعد واحد شمارش.",
+ "examples": [
+  {"zh": "今天来了十来个学生。", "py": "Jīntiān lái le shí lái gè xuésheng.", "fa": "امروز حدود ده تا دانش‌آموز آمدند.", "en": "Ten or so students came today."},
+  {"zh": "他看起来二十来岁。", "py": "Tā kàn qǐlái èrshí lái suì.", "fa": "به نظر می‌رسد بیست و خرده‌ای سال دارد.", "en": "He looks twenty-something."},
+  {"zh": "这里离车站有三十来公里。", "py": "Zhèlǐ lí chēzhàn yǒu sānshí lái gōnglǐ.", "fa": "از این‌جا تا ایستگاه حدود سی کیلومتر راه است.", "en": "It's about thirty kilometres from here to the station."}
+ ]},
+{"id": "hsk3-g0338", "std": "hsk3", "level": 4, "no": 338,
+ "pattern": "大约 + عدد / عدد + واحد شمارش + 左右 / زمان + 前后",
+ "title": {"fa": "حدوداً، تقریباً: 大约، 左右، 前后", "en": "About, around: 大约, 左右, 前后"},
+ "body": "هر سه یعنی «حدوداً»، ولی جایشان فرق دارد: «大约» مثل فارسی پیش از عدد می‌آید؛ «左右» و «前后» بعد از آن.\n«左右» برای هر مقدار است (پول، سن، ساعت، مدت) و بعد از عدد و واحدش می‌آید: 八千元左右.\n«前后» فقط برای یک زمانِ مشخص است (تاریخ، عید، ساعت)، نه برای مدت: 新年前后 یعنی «حوالیِ سال نو».",
+ "examples": [
+  {"zh": "从这儿到机场大约要一个小时。", "py": "Cóng zhèr dào jīchǎng dàyuē yào yí gè xiǎoshí.", "fa": "از این‌جا تا فرودگاه حدوداً یک ساعت طول می‌کشد.", "en": "It takes about an hour from here to the airport."},
+  {"zh": "他每个月的工资是八千元左右。", "py": "Tā měi gè yuè de gōngzī shì bāqiān yuán zuǒyòu.", "fa": "حقوق ماهانه‌اش حدود هشت هزار یوان است.", "en": "His monthly salary is around eight thousand yuan."},
+  {"zh": "我打算新年前后回老家。", "py": "Wǒ dǎsuàn xīnnián qiánhòu huí lǎojiā.", "fa": "قصد دارم حوالی سال نو به زادگاهم برگردم.", "en": "I plan to go back to my hometown around New Year."}
+ ]},
+{"id": "hsk3-g0339", "std": "hsk3", "level": 4, "no": 339,
+ "pattern": "عدد + 点 + رقم‌ها / مخرج + 分之 + صورت / 百分之 + عدد / عدد + 倍",
+ "title": {"fa": "اعشار، کسر، درصد و چند برابر: 点، 分之، 百分之، 倍", "en": "Decimals, fractions, percentages and multiples: 点, 分之, 百分之, 倍"},
+ "body": "اعشار: ممیز را «点» می‌خوانی و رقم‌های بعدش را یکی‌یکی: 三点五 یعنی «سه ممیز پنج (۳٫۵)».\nکسر برعکسِ فارسی است: اول مخرج، بعد «分之»، بعد صورت؛ 三分之一 یعنی «یک‌سوم».\nدرصد هم همین‌طور ساخته می‌شود: 百分之二十 یعنی «بیست درصد»، و «درصد» پیش از عدد می‌آید.\nچند برابر: عدد + 倍؛ 两倍 یعنی «دو برابر».",
+ "examples": [
+  {"zh": "他的体温是三十七点五摄氏度。", "py": "Tā de tǐwēn shì sānshíqī diǎn wǔ shèshìdù.", "fa": "دمای بدنش سی و هفت و نیم درجهٔ سانتی‌گراد است.", "en": "His temperature is 37.5 degrees Celsius."},
+  {"zh": "我们班三分之一的学生是留学生。", "py": "Wǒmen bān sān fēn zhī yī de xuésheng shì liúxuéshēng.", "fa": "یک‌سومِ دانشجویان کلاس ما دانشجوی خارجی‌اند.", "en": "A third of the students in our class are international students."},
+  {"zh": "今年的游客人数是去年的两倍，门票价格降低了百分之二十。", "py": "Jīnnián de yóukè rénshù shì qùnián de liǎng bèi, ménpiào jiàgé jiàngdī le bǎi fēn zhī èrshí.", "fa": "تعداد گردشگران امسال دو برابر پارسال است و قیمت بلیت بیست درصد پایین آمده است.", "en": "This year's visitor numbers are double last year's, and ticket prices have dropped by twenty percent."}
+ ]}
+]

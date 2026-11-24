@@ -1,0 +1,18 @@
+[
+ {
+  "id": "摸",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "吵",
+  "issue": "example 1: pinyin letters differ: expected ~waimiantaichaolewoshuibuzhe, got waimiantaichaolewoshuibuzhao"
+ },
+ {
+  "id": "不幸",
+  "issue": "example 1: pinyin letters differ: expected ~buxingdeshitazailushangchuliaoshigu, got buxingdeshitazailushangchuleshigu"
+ },
+ {
+  "id": "纪念",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ }
+]

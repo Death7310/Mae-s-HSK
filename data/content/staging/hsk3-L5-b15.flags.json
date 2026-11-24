@@ -1,0 +1,26 @@
+[
+ {
+  "id": "漏",
+  "issue": "example 1: pinyin letters differ: expected ~wudinglouyuliaodegankuaixiu, got wudinglouyuledeigankuaixiu"
+ },
+ {
+  "id": "握",
+  "issue": "example 1: pinyin letters differ: expected ~tajinjindiwozhuwodeshou, got tajinjindewozhuwodeshou"
+ },
+ {
+  "id": "车祸",
+  "issue": "example 1: tone of 场: expected 2, got 3"
+ },
+ {
+  "id": "扶",
+  "issue": "example 1: pinyin letters differ: expected ~tafuzhelaorenmanmandiguomalu, got tafuzhelaorenmanmandeguomalu"
+ },
+ {
+  "id": "挣",
+  "issue": "example 1: tone of 挣: expected 1, got 4"
+ },
+ {
+  "id": "大胆",
+  "issue": "example 1: pinyin letters differ: expected ~nikeyidadandishuochuzijidexiangfa, got nikeyidadandeshuochuzijidexiangfa"
+ }
+]

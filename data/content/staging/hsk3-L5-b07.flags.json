@@ -1,0 +1,14 @@
+[
+ {
+  "id": "指导",
+  "issue": "example 1: pinyin letters differ: expected ~laoshinaixindizhidaowomenxielunwen, got laoshinaixindezhidaowomenxielunwen"
+ },
+ {
+  "id": "老公",
+  "issue": "example 1: pinyin letters differ: expected ~wolaogongmeitianduhuizuofan, got wolaogongmeitiandouhuizuofan"
+ },
+ {
+  "id": "明确",
+  "issue": "example 1: pinyin letters differ: expected ~laobanmingquedigaosuwomenxiazhoukaishishangban, got laobanmingquedegaosuwomenxiazhoukaishishangban"
+ }
+]

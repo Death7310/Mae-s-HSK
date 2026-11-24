@@ -1,0 +1,18 @@
+[
+ {
+  "id": "批~2",
+  "issue": "example 1: tone of 假: expected 3, got 4"
+ },
+ {
+  "id": "背景",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "唉",
+  "issue": "example 1: tone of 唉: expected 1, got 4"
+ },
+ {
+  "id": "咬",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ }
+]

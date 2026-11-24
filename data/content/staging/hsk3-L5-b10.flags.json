@@ -1,0 +1,14 @@
+[
+ {
+  "id": "移",
+  "issue": "example 1: pinyin letters differ: expected ~qingbazhezhangzhuoziwangzuobianyiyiyi, got qingbazhezhangzhuoziwangzuobianyiyi"
+ },
+ {
+  "id": "炸",
+  "issue": "example 1: tone of 炸: expected 4, got 2"
+ },
+ {
+  "id": "把握",
+  "issue": "example 1: tone of 好: expected 3, got 1"
+ }
+]

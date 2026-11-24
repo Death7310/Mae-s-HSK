@@ -1,0 +1,14 @@
+[
+ {
+  "id": "宠物",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "挑选",
+  "issue": "example 1: pinyin letters differ: expected ~tazaishangdianlirenzhenditiaoxuanyifu, got tazaishangdianlirenzhendetiaoxuanyifu"
+ },
+ {
+  "id": "亲人",
+  "issue": "example 1: pinyin letters differ: expected ~guoniandeshihouqinrenduhuihuijia, got guoniandeshihouqinrendouhuihuijia"
+ }
+]

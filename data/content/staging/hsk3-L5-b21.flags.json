@@ -1,0 +1,10 @@
+[
+ {
+  "id": "急需",
+  "issue": "example 1: pinyin letters differ: expected ~zaiqujixushiwuhuoyaopin, got zaiqujixushiwuheyaopin"
+ },
+ {
+  "id": "剧场",
+  "issue": "example 1: tone of 场: expected 2, got 3"
+ }
+]

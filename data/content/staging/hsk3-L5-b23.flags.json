@@ -1,0 +1,14 @@
+[
+ {
+  "id": "优质",
+  "issue": "example 1: pinyin letters differ: expected ~zhejiagongsizhimaiyouzhidichanpin, got zhejiagongsizhimaiyouzhidechanpin"
+ },
+ {
+  "id": "山区",
+  "issue": "example 1: pinyin letters differ: expected ~shanqudedongtianyouzhangyouleng, got shanqudedongtianyouchangyouleng"
+ },
+ {
+  "id": "暴雨",
+  "issue": "example 1: tone of 场: expected 2, got 3"
+ }
+]

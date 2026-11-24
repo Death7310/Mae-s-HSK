@@ -1,0 +1,270 @@
+[
+ {"id": "hsk3-g0277", "std": "hsk3", "level": 4, "no": 277,
+  "pattern": "一 + واحد شمارش + 比 + 一 + واحد شمارش + صفت",
+  "title": {"fa": "روزبه‌روز، یکی از یکی …تر: 一…比一…", "en": "More and more with each one: 一 + measure + 比 + 一 + measure"},
+  "body": "وقتی یک واحد شمارش دو بار با «一» و در دو طرف «比» بیاید، یعنی هر مورد از مورد قبلی بیشتر آن ویژگی را دارد.\nبا واحدهای زمان (天، 年) تغییر تدریجی را نشان می‌دهد، مثل «روزبه‌روز» و «سال‌به‌سال» در فارسی. با واحدهای دیگر (个، 件) یعنی «یکی از یکی …تر».\nپس از آن صفت یا فعل بدون «很» می‌آید؛ مثل جملهٔ «比»، «很» و «非常» در اینجا به کار نمی‌روند.",
+  "examples": [
+   {"zh": "天气一天比一天冷。", "py": "Tiānqì yì tiān bǐ yì tiān lěng.", "fa": "هوا روزبه‌روز سردتر می‌شود.", "en": "The weather is getting colder day by day."},
+   {"zh": "他的汉语一年比一年好。", "py": "Tā de Hànyǔ yì nián bǐ yì nián hǎo.", "fa": "چینیِ او سال‌به‌سال بهتر می‌شود.", "en": "His Chinese gets better year after year."},
+   {"zh": "这些孩子一个比一个聪明。", "py": "Zhèxiē háizi yí gè bǐ yí gè cōngming.", "fa": "این بچه‌ها یکی از یکی باهوش‌ترند.", "en": "These children are each smarter than the last."}
+  ]},
+ {"id": "hsk3-g0278", "std": "hsk3", "level": 4, "no": 278,
+  "pattern": "在 + اسم + 方面",
+  "title": {"fa": "از نظرِ…، در زمینهٔ…: 在……方面", "en": "In terms of, in the area of: 在……方面"},
+  "body": "«在……方面» زمینه‌ای را که دربارهٔ آن حرف می‌زنیم مشخص می‌کند: «در زمینهٔ…»، «از نظرِ…».\nمعمولاً در آغاز جمله یا پس از فاعل می‌آید و بعد از آن نظر یا توضیح گفته می‌شود. برخلاف فارسی، واژهٔ «方面» پس از اسم می‌آید، نه پیش از آن.",
+  "examples": [
+   {"zh": "在学习方面，他非常努力。", "py": "Zài xuéxí fāngmiàn, tā fēicháng nǔlì.", "fa": "در زمینهٔ درس، او خیلی تلاش می‌کند.", "en": "When it comes to studying, he works very hard."},
+   {"zh": "她在教学方面的经验很丰富。", "py": "Tā zài jiàoxué fāngmiàn de jīngyàn hěn fēngfù.", "fa": "تجربهٔ او در زمینهٔ تدریس خیلی زیاد است.", "en": "She has rich experience in teaching."}
+  ]},
+ {"id": "hsk3-g0279", "std": "hsk3", "level": 4, "no": 279,
+  "pattern": "够 + صفت + 的",
+  "title": {"fa": "واقعاً، به‌قدر کافی (با تأکید): 够……的", "en": "Really, quite (emphatic): 够……的"},
+  "body": "«够 + صفت + 的» می‌گوید آن ویژگی به اندازهٔ زیادی رسیده است؛ چیزی مثل «حسابی»، «واقعاً» در فارسیِ گفتاری.\nبیشتر در گفتار و اغلب دربارهٔ چیزهای ناخوشایند (سرد، خسته، گران) به کار می‌رود. گاهی «了» هم در پایان می‌آید: 够累的了.",
+  "examples": [
+   {"zh": "今天够冷的，多穿点儿衣服吧。", "py": "Jīntiān gòu lěng de, duō chuān diǎnr yīfu ba.", "fa": "امروز حسابی سرد است، بیشتر لباس بپوش.", "en": "It's really cold today; put on more clothes."},
+   {"zh": "你已经够忙的了，我自己去吧。", "py": "Nǐ yǐjīng gòu máng de le, wǒ zìjǐ qù ba.", "fa": "تو همین حالا هم به اندازهٔ کافی گرفتاری، خودم می‌روم.", "en": "You're busy enough already; I'll go myself."}
+  ]},
+ {"id": "hsk3-g0280", "std": "hsk3", "level": 4, "no": 280,
+  "pattern": "拿 + اسم / ضمیر + 来说",
+  "title": {"fa": "مثال‌زدن با یک مورد مشخص: 拿……来说", "en": "Taking … as an example: 拿……来说"},
+  "body": "«拿……来说» یعنی «مثلاً … را در نظر بگیر» یا «در موردِ …». با آن یک نمونهٔ مشخص را برای روشن‌کردن حرف کلی خود می‌آوریم.\nاین عبارت در آغاز جمله می‌آید و پس از آن دربارهٔ همان نمونه توضیح می‌دهیم.",
+  "examples": [
+   {"zh": "拿我来说，我每天都坐地铁上班。", "py": "Ná wǒ lái shuō, wǒ měi tiān dōu zuò dìtiě shàngbān.", "fa": "مثلاً خودِ من، هر روز با مترو سر کار می‌روم.", "en": "Take me, for example: I take the subway to work every day."},
+   {"zh": "拿汉字来说，写比读难多了。", "py": "Ná Hànzì lái shuō, xiě bǐ dú nán duō le.", "fa": "مثلاً خط چینی را در نظر بگیر؛ نوشتنش خیلی سخت‌تر از خواندنش است.", "en": "Take Chinese characters: writing them is much harder than reading them."}
+  ]},
+ {"id": "hsk3-g0281", "std": "hsk3", "level": 4, "no": 281,
+  "pattern": "再也 + 不 / 没 + فعل",
+  "title": {"fa": "دیگر هرگز: 再也不 / 再也没", "en": "Never again: 再也不 / 再也没"},
+  "body": "«再也不…» یعنی از این به بعد دیگر هرگز آن کار را نمی‌کنم؛ معمولاً «了» در پایان جمله می‌آید.\n«再也没…» دربارهٔ گذشته است: از آن زمان تا حالا دیگر آن کار تکرار نشده؛ اغلب با «过» پس از فعل.",
+  "examples": [
+   {"zh": "我再也不喝酒了。", "py": "Wǒ zài yě bù hē jiǔ le.", "fa": "دیگر هرگز مشروب نمی‌خورم.", "en": "I'll never drink again."},
+   {"zh": "毕业以后，我再也没见过他。", "py": "Bìyè yǐhòu, wǒ zài yě méi jiànguo tā.", "fa": "بعد از فارغ‌التحصیلی دیگر هیچ‌وقت او را ندیدم.", "en": "After graduation I never saw him again."}
+  ]},
+ {"id": "hsk3-g0282", "std": "hsk3", "level": 4, "no": 282,
+  "pattern": "怎么 + 都 / 也 + 不 / 没 + فعل",
+  "title": {"fa": "هر کاری می‌کنم نمی‌شود: 怎么都 / 怎么也 + 不 / 没", "en": "No matter what, it just won't: 怎么都/也 + 不/没"},
+  "body": "در این ساختار «怎么» پرسشی نیست؛ یعنی «هر طور که باشد»، «هر چه تلاش کنم». پس از «都» یا «也» جملهٔ منفی می‌آید و نشان می‌دهد نتیجه به دست نمی‌آید.\nبا «不» بیشتر شکلِ «فعل + 不 + نتیجه» می‌آید (记不住، 打不开)؛ با «没» از کاری می‌گوییم که در گذشته نشد.",
+  "examples": [
+   {"zh": "这个字我怎么也记不住。", "py": "Zhège zì wǒ zěnme yě jì bu zhù.", "fa": "این نویسه را هر کاری می‌کنم یادم نمی‌ماند.", "en": "No matter what I do, I can't remember this character."},
+   {"zh": "门怎么都打不开。", "py": "Mén zěnme dōu dǎ bu kāi.", "fa": "در هر کاری می‌کنم باز نمی‌شود.", "en": "The door just won't open, whatever I do."},
+   {"zh": "我找了半天，怎么也没找到钥匙。", "py": "Wǒ zhǎole bàntiān, zěnme yě méi zhǎodào yàoshi.", "fa": "مدت‌ها گشتم، ولی هر چه کردم کلید را پیدا نکردم.", "en": "I looked for ages but just couldn't find the key."}
+  ]},
+ {"id": "hsk3-g0283", "std": "hsk3", "level": 4, "no": 283,
+  "pattern": "为了 + هدف + 而 + فعل",
+  "title": {"fa": "برای رسیدن به هدفی کاری کردن: 为了……而……", "en": "Doing something for the sake of a goal: 为了……而……"},
+  "body": "پس از «为了» هدف یا دلیل می‌آید و پس از «而» کاری که برای آن انجام می‌شود. «而» این دو بخش را به هم وصل می‌کند و ترجمهٔ جداگانه‌ای ندارد.\nاین ساختار رسمی‌تر و نوشتاری است؛ در گفتار معمولاً «而» را نمی‌گویند.",
+  "examples": [
+   {"zh": "他为了学习汉语而来到中国。", "py": "Tā wèile xuéxí Hànyǔ ér láidào Zhōngguó.", "fa": "او برای یادگرفتن چینی به چین آمده است.", "en": "He came to China in order to learn Chinese."},
+   {"zh": "我们都在为了自己的梦想而努力。", "py": "Wǒmen dōu zài wèile zìjǐ de mèngxiǎng ér nǔlì.", "fa": "همهٔ ما داریم برای رؤیای خودمان تلاش می‌کنیم.", "en": "We are all working hard for our own dreams."}
+  ]},
+ {"id": "hsk3-g0284", "std": "hsk3", "level": 4, "no": 284,
+  "pattern": "فعل + 一 + واحد شمارش + 是 + 一 + واحد شمارش",
+  "title": {"fa": "هر قدر شد، همان هم غنیمت است: فعل + 一X是一X", "en": "Every bit counts: verb + 一X是一X"},
+  "body": "این ساختار می‌گوید کار را ذره‌ذره انجام می‌دهیم و هر مقدارِ انجام‌شده برای خودش ارزش دارد؛ مثل «یکی هم یکی است» در فارسی.\nپس از فعل، «一 + واحد شمارش» دو بار و با «是» در میان تکرار می‌شود. بیشتر وقتی به کار می‌رود که کار زیاد یا شرایط سخت است.",
+  "examples": [
+   {"zh": "汉字太多了，我学一个是一个。", "py": "Hànzì tài duō le, wǒ xué yí gè shì yí gè.", "fa": "نویسه‌های چینی خیلی زیادند؛ هر کدام را که یاد بگیرم، همان هم غنیمت است.", "en": "There are so many characters; each one I learn is one more learned."},
+   {"zh": "钱不多，能省一块是一块。", "py": "Qián bù duō, néng shěng yí kuài shì yí kuài.", "fa": "پول زیاد نیست؛ یک یوآن هم که صرفه‌جویی شود، یک یوآن است.", "en": "Money is tight; every yuan saved is a yuan saved."}
+  ]},
+ {"id": "hsk3-g0285", "std": "hsk3", "level": 4, "no": 285,
+  "pattern": "(没)有什么 (好) + فعل / صفت + 的",
+  "title": {"fa": "چیزی ندارد که…، چه جای…: (没)有什么(好)X的", "en": "There's nothing worth …-ing: (没)有什么(好)X的"},
+  "body": "«没(有)什么(好)X的» یعنی دلیلی برای آن کار یا حس وجود ندارد: «چیزی ندارد که…».\nشکلِ «有什么(好)X的？» در ظاهر پرسش است، ولی همان معنای منفی را با لحن تندتر می‌رساند: «این کجایش … دارد؟». «好» را می‌توان نگفت.",
+  "examples": [
+   {"zh": "这件事没什么好担心的。", "py": "Zhè jiàn shì méi shénme hǎo dānxīn de.", "fa": "این موضوع چیزی ندارد که نگرانش باشی.", "en": "There's nothing to worry about in this matter."},
+   {"zh": "这有什么好笑的？", "py": "Zhè yǒu shénme hǎo xiào de?", "fa": "این کجایش خنده دارد؟", "en": "What's so funny about this?"},
+   {"zh": "我跟他没有什么好说的。", "py": "Wǒ gēn tā méiyǒu shénme hǎo shuō de.", "fa": "من با او حرفی برای گفتن ندارم.", "en": "I have nothing to say to him."}
+  ]},
+ {"id": "hsk3-g0286", "std": "hsk3", "level": 4, "no": 286,
+  "pattern": "X + 是 + X，Y + 是 + Y",
+  "title": {"fa": "این دو را با هم قاطی نکن: X是X，Y是Y", "en": "Keeping two things apart: X是X，Y是Y"},
+  "body": "وقتی دو چیز هر کدام با «是» تکرار شوند، یعنی این دو از هم جدا هستند و نباید یکی را به حساب دیگری گذاشت؛ مثل «حساب حساب است، کاکا برادر» در فارسی.\nX و Y معمولاً اسم یا فعل‌اند و دو نیمهٔ جمله با ویرگول از هم جدا می‌شوند.",
+  "examples": [
+   {"zh": "朋友是朋友，生意是生意。", "py": "Péngyou shì péngyou, shēngyi shì shēngyi.", "fa": "دوستی جای خود، کاسبی جای خود.", "en": "Friends are friends, and business is business."},
+   {"zh": "工作是工作，休息是休息，别在家里加班。", "py": "Gōngzuò shì gōngzuò, xiūxi shì xiūxi, bié zài jiā li jiābān.", "fa": "کار کار است و استراحت استراحت؛ در خانه اضافه‌کاری نکن.", "en": "Work is work and rest is rest; don't work overtime at home."}
+  ]},
+ {"id": "hsk3-g0287", "std": "hsk3", "level": 4, "no": 287,
+  "pattern": "فعل + 也得 + فعل，不 + فعل + 也得 + فعل",
+  "title": {"fa": "بخواهی نخواهی باید…: X也得X，不X也得X", "en": "Like it or not, you have to: X也得X，不X也得X"},
+  "body": "این ساختار می‌گوید چاره‌ای نیست و کار باید انجام شود، چه بخواهی چه نخواهی.\nدر اینجا «得» به معنای «باید» است و با تلفظ děi خوانده می‌شود، نه de. همان فعل چهار بار تکرار می‌شود؛ گاهی پیش از فعلِ اول و سوم «想» یا «愿意» هم می‌آید.",
+  "examples": [
+   {"zh": "明天的会议，你去也得去，不去也得去。", "py": "Míngtiān de huìyì, nǐ qù yě děi qù, bú qù yě děi qù.", "fa": "جلسهٔ فردا را بخواهی نخواهی باید بروی.", "en": "Like it or not, you have to go to tomorrow's meeting."},
+   {"zh": "这个药你吃也得吃，不吃也得吃。", "py": "Zhège yào nǐ chī yě děi chī, bù chī yě děi chī.", "fa": "این دارو را چه بخواهی چه نخواهی باید بخوری.", "en": "You have to take this medicine whether you want to or not."}
+  ]},
+ {"id": "hsk3-g0288", "std": "hsk3", "level": 4, "no": 288,
+  "pattern": "جمله + 就是了",
+  "title": {"fa": "فقط همین کار را بکن، تمام: X就是了", "en": "Just do that and that's it: X就是了"},
+  "body": "«就是了» در پایان جمله می‌آید و می‌گوید کار ساده است و همین کافی است؛ جای نگرانی یا تردید نیست. در فارسی چیزی مثل «… دیگر» یا «فقط … کافی است».\nبیشتر برای آرام‌کردن طرف مقابل یا قول‌دادن به کار می‌رود.",
+  "examples": [
+   {"zh": "你放心，我明天准时到就是了。", "py": "Nǐ fàngxīn, wǒ míngtiān zhǔnshí dào jiùshì le.", "fa": "خیالت راحت، فردا سر وقت می‌رسم دیگر.", "en": "Don't worry, I'll simply be there on time tomorrow."},
+   {"zh": "有不懂的地方，问老师就是了。", "py": "Yǒu bù dǒng de dìfang, wèn lǎoshī jiùshì le.", "fa": "اگر جایی را نفهمیدی، فقط از معلم بپرس.", "en": "If there's something you don't understand, just ask the teacher."}
+  ]},
+ {"id": "hsk3-g0289", "std": "hsk3", "level": 4, "no": 289,
+  "pattern": "还 + اسم / صفت + 呢",
+  "title": {"fa": "مثلاً …ی! (طعنه): 还X呢", "en": "And you call yourself …! (sarcasm): 还X呢"},
+  "body": "«还X呢» با طعنه می‌گوید کسی یا چیزی شایستهٔ نامِ X نیست؛ مثل «مثلاً دانشجویی!» یا «این هم شد دوست؟» در فارسی.\nمعمولاً بلافاصله دلیلِ این گلایه هم گفته می‌شود. لحن آن سرزنش یا شوخی است و در موقعیت رسمی به کار نمی‌رود.",
+  "examples": [
+   {"zh": "还大学生呢，这么简单的字都不认识。", "py": "Hái dàxuéshēng ne, zhème jiǎndān de zì dōu bú rènshi.", "fa": "مثلاً دانشجویی! نویسه‌ای به این سادگی را هم بلد نیستی.", "en": "And you call yourself a university student! You can't even read such a simple character."},
+   {"zh": "还好朋友呢，我搬家他都不来帮忙。", "py": "Hái hǎo péngyou ne, wǒ bānjiā tā dōu bù lái bāngmáng.", "fa": "این هم شد دوست صمیمی؟ اسباب‌کشی کردم و حتی نیامد کمک کند.", "en": "Some good friend he is! He didn't even come to help when I moved."}
+  ]},
+ {"id": "hsk3-g0290", "std": "hsk3", "level": 4, "no": 290,
+  "pattern": "你 + فعل + 你的 + 吧",
+  "title": {"fa": "تو به کار خودت برس: 你X你的吧", "en": "You just carry on: 你X你的吧"},
+  "body": "«你X你的吧» یعنی «تو کار خودت را بکن و به من (یا دیگران) کاری نداشته باش».\nدر اینجا «你的» به معنای «مالِ تو» نیست و چیزی را نشان نمی‌دهد؛ فقط می‌گوید آن کار به خودِ تو مربوط است. با ضمیرهای دیگر هم ساخته می‌شود: 我吃我的، 他玩他的.",
+  "examples": [
+   {"zh": "你忙你的吧，不用管我。", "py": "Nǐ máng nǐ de ba, búyòng guǎn wǒ.", "fa": "تو به کارت برس، لازم نیست به من برسی.", "en": "You carry on with your work; don't mind me."},
+   {"zh": "你吃你的吧，我等一会儿再吃。", "py": "Nǐ chī nǐ de ba, wǒ děng yíhuìr zài chī.", "fa": "تو غذایت را بخور، من کمی بعد می‌خورم.", "en": "You go ahead and eat; I'll eat a bit later."}
+  ]},
+ {"id": "hsk3-g0291", "std": "hsk3", "level": 4, "no": 291,
+  "pattern": "让 / 叫 + 你 + فعل + 你就 + فعل",
+  "title": {"fa": "وقتی می‌گویند بکن، بکن: 让/叫你X你就X", "en": "When you're told to, just do it: 让/叫你X你就X"},
+  "body": "این ساختار به شنونده می‌گوید بدون چون‌وچرا همان کاری را که از او خواسته‌اند انجام دهد: «گفتند برو، برو دیگر».\nفعل دو بار تکرار می‌شود و «就» پیش از فعل دوم می‌آید. لحن آن می‌تواند دستوری یا، مثل تعارف، دوستانه باشد.",
+  "examples": [
+   {"zh": "让你去你就去，别问那么多。", "py": "Ràng nǐ qù nǐ jiù qù, bié wèn nàme duō.", "fa": "وقتی می‌گویند برو، برو؛ این‌قدر سؤال نکن.", "en": "If you're told to go, just go; don't ask so many questions."},
+   {"zh": "叫你吃你就吃，别客气。", "py": "Jiào nǐ chī nǐ jiù chī, bié kèqi.", "fa": "وقتی می‌گویم بخور، بخور؛ تعارف نکن.", "en": "When I tell you to eat, eat; don't stand on ceremony."}
+  ]},
+ {"id": "hsk3-g0292", "std": "hsk3", "level": 4, "no": 292,
+  "pattern": "说什么 / 怎么(着) + 也得 + فعل",
+  "title": {"fa": "هر طور شده باید…: 说什么/怎么(着)也得X", "en": "No matter what, one must: 说什么/怎么(着)也得X"},
+  "body": "«说什么也得…» و «怎么(着)也得…» هر دو یعنی «هر طور شده باید…»، «به هیچ وجه نمی‌شود این کار را نکرد».\n«说什么» و «怎么着» در اینجا معنای پرسشی ندارند. «得» باز به معنای «باید» است و děi خوانده می‌شود.",
+  "examples": [
+   {"zh": "今天说什么也得把作业写完。", "py": "Jīntiān shuō shénme yě děi bǎ zuòyè xiěwán.", "fa": "امروز هر طور شده باید تکلیف را تمام کنم.", "en": "Today I have to finish the homework no matter what."},
+   {"zh": "你来北京了，我怎么着也得请你吃顿饭。", "py": "Nǐ lái Běijīng le, wǒ zěnmezhe yě děi qǐng nǐ chī dùn fàn.", "fa": "حالا که به پکن آمده‌ای، هر طور شده باید یک وعده مهمانت کنم.", "en": "Now that you're in Beijing, I absolutely have to treat you to a meal."}
+  ]},
+ {"id": "hsk3-g0293", "std": "hsk3", "level": 4, "no": 293,
+  "pattern": "صفت / فعل + 就 + صفت / فعل + (点儿) + 吧",
+  "title": {"fa": "باشد، عیبی ندارد: X就X(点儿)吧", "en": "So be it, never mind: X就X(点儿)吧"},
+  "body": "با تکرار یک واژه در دو طرف «就» می‌گوییم آن وضع را، هرچند دلخواه نیست، می‌پذیریم: «گران است؟ خب باشد».\nبا صفت‌ها معمولاً «点儿» می‌آید (贵就贵点儿吧). پس از آن اغلب دلیلِ کنارآمدن را هم می‌گوییم.",
+  "examples": [
+   {"zh": "贵就贵点儿吧，质量好就行。", "py": "Guì jiù guì diǎnr ba, zhìliàng hǎo jiù xíng.", "fa": "کمی گران است، باشد؛ همین که کیفیتش خوب باشد کافی است.", "en": "So it's a bit expensive, fine; as long as the quality is good."},
+   {"zh": "他不想来就不来吧，我们自己去。", "py": "Tā bù xiǎng lái jiù bù lái ba, wǒmen zìjǐ qù.", "fa": "نمی‌خواهد بیاید، خب نیاید؛ خودمان می‌رویم.", "en": "If he doesn't want to come, so be it; we'll go by ourselves."}
+  ]},
+ {"id": "hsk3-g0294", "std": "hsk3", "level": 4, "no": 294,
+  "pattern": "صفت / فعل + 是 + صفت / فعل，可是 / 但是 / 不过……",
+  "title": {"fa": "درست است که…، ولی…: X是X", "en": "It is … all right, but …: X是X"},
+  "body": "تکرار یک صفت یا فعل در دو طرف «是» یعنی «قبول دارم که چنین است»، ولی حرف اصلی در نیمهٔ دوم جمله و پس از «可是»، «但是» یا «不过» می‌آید.\nدر فارسی می‌گوییم «قشنگ که هست، ولی…».",
+  "examples": [
+   {"zh": "这件衣服好看是好看，可是太贵了。", "py": "Zhè jiàn yīfu hǎokàn shì hǎokàn, kěshì tài guì le.", "fa": "این لباس قشنگ که هست، ولی خیلی گران است.", "en": "This piece of clothing is pretty all right, but it's too expensive."},
+   {"zh": "这个工作累是累，不过我很喜欢。", "py": "Zhège gōngzuò lèi shì lèi, búguò wǒ hěn xǐhuan.", "fa": "این کار خسته‌کننده که هست، ولی خیلی دوستش دارم.", "en": "This job is tiring, true, but I like it a lot."}
+  ]},
+ {"id": "hsk3-g0295", "std": "hsk3", "level": 4, "no": 295,
+  "pattern": "صفت / فعل احساسی + 死了 ؛ صفت / فعل احساسی + 得 + 厉害",
+  "title": {"fa": "بیان شدت زیاد: 死了 و 得厉害", "en": "Extreme degree: 死了 and 得厉害"},
+  "body": "«死了» پس از صفت یا فعلِ احساسی یعنی «بی‌نهایت»؛ درست مثل «مُردم از گرسنگی» در فارسی، و ربطی به مرگ واقعی ندارد. مستقیم به واژه می‌چسبد و «得» نمی‌خواهد.\n«厉害» هم شدت را نشان می‌دهد، ولی با «得» می‌آید: 疼得厉害.\nبا این دو، دیگر «很» یا «非常» پیش از صفت نمی‌آید.",
+  "examples": [
+   {"zh": "我饿死了，我们快去吃饭吧。", "py": "Wǒ è sǐ le, wǒmen kuài qù chīfàn ba.", "fa": "مُردم از گرسنگی، زود برویم غذا بخوریم.", "en": "I'm starving; let's go eat right away."},
+   {"zh": "听到这个消息，她高兴死了。", "py": "Tīngdào zhège xiāoxi, tā gāoxìng sǐ le.", "fa": "وقتی این خبر را شنید، از خوشحالی بال درآورد.", "en": "She was thrilled to death when she heard the news."},
+   {"zh": "他今天头疼得厉害。", "py": "Tā jīntiān tóu téng de lìhai.", "fa": "او امروز سرش به‌شدت درد می‌کند.", "en": "He has a terrible headache today."}
+  ]},
+ {"id": "hsk3-g0296", "std": "hsk3", "level": 4, "no": 296,
+  "pattern": "فعل + 得 / 不 + 了",
+  "title": {"fa": "می‌شود یا نمی‌شود انجام داد: فعل + 得了 / 不了", "en": "Able or unable to do: verb + 得了 / 不了"},
+  "body": "«فعل + 得了» یعنی انجام آن کار ممکن است و «فعل + 不了» یعنی ممکن نیست. در اینجا «了» با تلفظ liǎo خوانده می‌شود، نه le.\nدو معنا دارد: شرایط اجازهٔ آن کار را می‌دهد یا نمی‌دهد (去不了)، یا می‌شود همهٔ آن را تمام کرد یا نه (吃不了).\nپرسش: 去得了吗؟ یا 去得了去不了؟",
+  "examples": [
+   {"zh": "我明天有事，去不了了。", "py": "Wǒ míngtiān yǒu shì, qù bu liǎo le.", "fa": "فردا کار دارم، دیگر نمی‌توانم بروم.", "en": "I have something on tomorrow, so I can't go after all."},
+   {"zh": "这么多菜，我们两个人吃不了。", "py": "Zhème duō cài, wǒmen liǎng gè rén chī bu liǎo.", "fa": "این‌همه غذا را ما دو نفر نمی‌توانیم تمام کنیم.", "en": "The two of us can't finish this much food."},
+   {"zh": "这些东西你一个人拿得了吗？", "py": "Zhèxiē dōngxi nǐ yí gè rén ná de liǎo ma?", "fa": "این وسایل را تنهایی می‌توانی ببری؟", "en": "Can you carry these things by yourself?"}
+  ]},
+ {"id": "hsk3-g0297", "std": "hsk3", "level": 4, "no": 297,
+  "pattern": "难道 + جمله + 吗？",
+  "title": {"fa": "مگر…؟ (پرسشِ بی‌نیاز از پاسخ): 难道……吗？", "en": "Surely … not? (rhetorical question): 难道……吗？"},
+  "body": "«难道……吗؟» همان «مگر…؟» فارسی است: گوینده پاسخ نمی‌خواهد، بلکه با تعجب یا گلایه بر عکسِ آنچه می‌پرسد تأکید می‌کند.\n«难道» پیش یا پس از فاعل می‌آید و «吗» در پایان جمله. جملهٔ منفی معنای مثبت می‌دهد و برعکس: 难道你不知道吗؟ یعنی «حتماً می‌دانی».",
+  "examples": [
+   {"zh": "难道你不知道今天有考试吗？", "py": "Nándào nǐ bù zhīdào jīntiān yǒu kǎoshì ma?", "fa": "مگر نمی‌دانی امروز امتحان داریم؟", "en": "Don't you know there's an exam today?"},
+   {"zh": "这么重要的事，难道你忘了吗？", "py": "Zhème zhòngyào de shì, nándào nǐ wàng le ma?", "fa": "کاری به این مهمی را مگر فراموش کرده‌ای؟", "en": "Surely you haven't forgotten something this important?"}
+  ]},
+ {"id": "hsk3-g0298", "std": "hsk3", "level": 4, "no": 298,
+  "pattern": "谁 / 哪儿 / 怎么 / 什么 … (呢)？",
+  "title": {"fa": "پرسشِ تأکیدی با واژه‌های پرسشی: 谁، 哪儿، 怎么، 什么", "en": "Rhetorical questions with question words: 谁, 哪儿, 怎么, 什么"},
+  "body": "واژه‌های پرسشی می‌توانند جمله‌ای بسازند که پاسخ نمی‌خواهد و فقط تأکید می‌کند؛ مثل «کی نمی‌داند؟» در فارسی که یعنی «همه می‌دانند».\n«谁不…» یعنی همه؛ «哪儿…» و «怎么…» یعنی «اصلاً چنین نیست»؛ «有什么…的» یعنی «هیچ … ندارد».\nجملهٔ مثبت معنای منفی می‌دهد و جملهٔ منفی معنای مثبت.",
+  "examples": [
+   {"zh": "谁不想去旅游呢？", "py": "Shéi bù xiǎng qù lǚyóu ne?", "fa": "کیست که نخواهد به سفر برود؟", "en": "Who wouldn't want to go travelling?"},
+   {"zh": "我哪儿知道他去哪儿了？", "py": "Wǒ nǎr zhīdào tā qù nǎr le?", "fa": "من از کجا بدانم او کجا رفته است؟", "en": "How would I know where he went?"},
+   {"zh": "我怎么会忘记你的生日呢？", "py": "Wǒ zěnme huì wàngjì nǐ de shēngrì ne?", "fa": "مگر می‌شود تولد تو را فراموش کنم؟", "en": "How could I forget your birthday?"}
+  ]},
+ {"id": "hsk3-g0299", "std": "hsk3", "level": 4, "no": 299,
+  "pattern": "فاعل + 把 + مفعول + فعل (+ 一 / 了) + فعل",
+  "title": {"fa": "«把» با فعلِ تکرارشده: 把 + مفعول + 看(一/了)看", "en": "把 with a repeated verb: 把 + object + V(一/了)V"},
+  "body": "در جملهٔ «把» فعل هیچ‌وقت تنها نمی‌ماند؛ یکی از راه‌ها تکرار خودِ فعل است. تکرار فعل یعنی کار کوتاه یا سبک انجام شود و درخواست را نرم‌تر می‌کند.\nفعل‌های یک‌هجایی: 擦擦 یا 擦一擦؛ برای کار انجام‌شده: 擦了擦. فعل‌های دوهجایی فقط تکرار می‌شوند: 打扫打扫.\nمثل «را» در فارسی، مفعولِ «把» باید چیز مشخصی باشد.",
+  "examples": [
+   {"zh": "你把房间打扫打扫吧。", "py": "Nǐ bǎ fángjiān dǎsǎo dǎsǎo ba.", "fa": "اتاق را یک کم تمیز کن.", "en": "Give the room a bit of a clean."},
+   {"zh": "请把桌子擦一擦。", "py": "Qǐng bǎ zhuōzi cā yi cā.", "fa": "لطفاً میز را یک دستمال بکش.", "en": "Please give the table a wipe."},
+   {"zh": "他把那封信看了看，没说话。", "py": "Tā bǎ nà fēng xìn kànle kàn, méi shuōhuà.", "fa": "او نگاهی به آن نامه انداخت و چیزی نگفت.", "en": "He glanced over the letter and said nothing."}
+  ]},
+ {"id": "hsk3-g0300", "std": "hsk3", "level": 4, "no": 300,
+  "pattern": "فاعل + 把 + مفعول + فعل + 了",
+  "title": {"fa": "«把» با فعل و 了: کار تمام شد و چیزی نماند", "en": "把 with verb + 了: done and gone"},
+  "body": "گاهی پس از فعلِ جملهٔ «把» فقط «了» می‌آید. این بیشتر با فعل‌هایی است که خودشان معنای ازبین‌رفتن یا تمام‌شدن دارند: 吃، 喝، 忘، 丢، 卖، 扔، 脱.\nجمله می‌گوید با آن چیزِ مشخص چه شد. واژهٔ منفی («没»، «别») پیش از «把» می‌آید، نه پیش از فعل: 别把这件事忘了. با «没» معمولاً نتیجهٔ کار را هم می‌گوییم: 我没把药吃完.",
+  "examples": [
+   {"zh": "弟弟把牛奶喝了。", "py": "Dìdi bǎ niúnǎi hē le.", "fa": "برادر کوچکم شیر را خورد.", "en": "My little brother drank the milk."},
+   {"zh": "我把这件事忘了。", "py": "Wǒ bǎ zhè jiàn shì wàng le.", "fa": "این موضوع را فراموش کردم.", "en": "I forgot about this matter."},
+   {"zh": "你快把药吃了吧。", "py": "Nǐ kuài bǎ yào chī le ba.", "fa": "زود دارویت را بخور.", "en": "Hurry up and take your medicine."}
+  ]},
+ {"id": "hsk3-g0301", "std": "hsk3", "level": 4, "no": 301,
+  "pattern": "فاعل + 把 + مفعول + فعل + 了 + تعداد دفعات / مدت زمان",
+  "title": {"fa": "«把» با تعداد دفعات یا مدت: 把 + مفعول + فعل + 三遍 / 一个小时", "en": "把 with a count or a duration after the verb"},
+  "body": "پس از فعلِ جملهٔ «把» می‌توان گفت کار چند بار انجام شد (三遍، 两次) یا چه مدت طول کشید یا جابه‌جا شد (一个小时، 两天).\nترتیب ثابت است: اول مفعول با «把»، بعد فعل، و عدد در پایان. در فارسی این عدد پیش از فعل می‌آید («سه بار خواندم»)، ولی در چینی پس از فعل.",
+  "examples": [
+   {"zh": "我把课文读了三遍。", "py": "Wǒ bǎ kèwén dúle sān biàn.", "fa": "متن درس را سه بار خواندم.", "en": "I read the text three times."},
+   {"zh": "经理把会议推迟了一个小时。", "py": "Jīnglǐ bǎ huìyì tuīchíle yí gè xiǎoshí.", "fa": "مدیر جلسه را یک ساعت عقب انداخت.", "en": "The manager postponed the meeting by an hour."}
+  ]},
+ {"id": "hsk3-g0302", "std": "hsk3", "level": 4, "no": 302,
+  "pattern": "فاعل + 把 + مفعول + قید + فعل",
+  "title": {"fa": "«把» با قیدی پیش از فعل: 把 + مفعول + 乱 / 往…一 + فعل", "en": "把 with an adverbial before the verb"},
+  "body": "واژه‌ای که چگونگی یا جهتِ کار را می‌گوید (مثل 乱 «بی‌نظم»، 到处 «همه‌جا»، 往…) می‌تواند میان مفعولِ «把» و فعل بیاید؛ در این حالت همین قید جمله را کامل می‌کند.\nدر شکلِ «往 + مکان + 一 + فعل» کاری تند و ناگهانی انجام می‌شود و جملهٔ بعدی ادامهٔ آن را می‌گوید.\nولی «不»، «没»، «别» و فعل‌هایی مثل «能» و «要» همیشه پیش از «把» می‌آیند.",
+  "examples": [
+   {"zh": "别把东西到处乱放。", "py": "Bié bǎ dōngxi dàochù luàn fàng.", "fa": "وسایل را همه‌جا پخش‌وپلا نگذار.", "en": "Don't leave your things lying around everywhere."},
+   {"zh": "他把书包往床上一扔，就出去玩了。", "py": "Tā bǎ shūbāo wǎng chuáng shang yì rēng, jiù chūqù wán le.", "fa": "کیفش را روی تخت پرت کرد و رفت بیرون بازی کند.", "en": "He tossed his schoolbag onto the bed and went out to play."}
+  ]},
+ {"id": "hsk3-g0303", "std": "hsk3", "level": 4, "no": 303,
+  "pattern": "فاعل + 叫 / 让 + کننده + فعل + ادامه",
+  "title": {"fa": "مجهول گفتاری با 叫 و 让", "en": "Spoken passive with 叫 and 让"},
+  "body": "در گفتار به‌جای «被» می‌توان «叫» یا «让» گفت: چیزی که کار بر آن واقع شده اول می‌آید و کنندهٔ کار پس از «叫/让».\nبرخلاف «被»، در اینجا کننده را نمی‌شود حذف کرد؛ اگر معلوم نیست، «人» می‌گوییم. فعل هم تنها نمی‌ماند و نتیجه یا «了» می‌گیرد.\nچون «让» و «叫» به معنای «گذاشتن / گفتن که…» هم هستند، معنا را از بافت جمله می‌فهمیم.",
+  "examples": [
+   {"zh": "我的自行车让人借走了。", "py": "Wǒ de zìxíngchē ràng rén jièzǒu le.", "fa": "دوچرخه‌ام را کسی قرض گرفته و برده است.", "en": "My bicycle has been borrowed by someone."},
+   {"zh": "杯子叫弟弟打破了。", "py": "Bēizi jiào dìdi dǎpò le.", "fa": "لیوان به دست برادر کوچکم شکست.", "en": "The cup was broken by my little brother."},
+   {"zh": "蛋糕都让孩子们吃完了。", "py": "Dàngāo dōu ràng háizimen chīwán le.", "fa": "کیک را بچه‌ها تا آخر خوردند.", "en": "The cake was all eaten up by the children."}
+  ]},
+ {"id": "hsk3-g0304", "std": "hsk3", "level": 4, "no": 304,
+  "pattern": "فاعل + 表扬 / 批评 + شخص + فعل + مفعول",
+  "title": {"fa": "تعریف یا سرزنش کسی به خاطر کاری: 表扬 / 批评", "en": "Praising or criticising someone for doing something: 表扬 / 批评"},
+  "body": "پس از «表扬» (تعریف‌کردن) و «批评» (سرزنش‌کردن) اول شخص می‌آید و بلافاصله کاری که به خاطرش تعریف یا سرزنش شده است.\nآن شخص هم مفعولِ فعل اول است و هم کنندهٔ فعل دوم. در فارسی «به خاطرِ اینکه» یا «که» می‌گذاریم، ولی در چینی هیچ واژهٔ ربطی لازم نیست. فعل‌هایی مثل 喜欢، 讨厌 و 感谢 هم همین‌طورند.",
+  "examples": [
+   {"zh": "老师表扬他经常帮助同学。", "py": "Lǎoshī biǎoyáng tā jīngcháng bāngzhù tóngxué.", "fa": "معلم از او تعریف کرد که اغلب به هم‌کلاسی‌ها کمک می‌کند.", "en": "The teacher praised him for often helping his classmates."},
+   {"zh": "妈妈批评我不收拾房间。", "py": "Māma pīpíng wǒ bù shōushi fángjiān.", "fa": "مادرم مرا سرزنش کرد که اتاقم را مرتب نمی‌کنم.", "en": "Mum criticised me for not tidying my room."}
+  ]},
+ {"id": "hsk3-g0305", "std": "hsk3", "level": 4, "no": 305,
+  "pattern": "فاعل + 选 / 收 + شخص + 当 / 做 / 为 + عنوان",
+  "title": {"fa": "کسی را به سِمَتی برگزیدن یا پذیرفتن: 选/收 … 当/做/为 …", "en": "Choosing or taking someone as …: 选/收 … 当/做/为 …"},
+  "body": "«选» (انتخاب‌کردن) و «收» (پذیرفتن) اول شخص را می‌گیرند و بعد با «当»، «做» یا «为» عنوان یا نقشِ تازهٔ او گفته می‌شود: «او را به عنوانِ … برگزیدند».\n«当» و «做» گفتاری‌اند و «为» رسمی‌تر است. پیش از عنوان معمولاً واحد شمارش نمی‌آید.",
+  "examples": [
+   {"zh": "大家都选他当队长。", "py": "Dàjiā dōu xuǎn tā dāng duìzhǎng.", "fa": "همه او را به عنوان کاپیتان تیم انتخاب کردند.", "en": "Everyone chose him as team captain."},
+   {"zh": "王教授收她做自己的研究生。", "py": "Wáng jiàoshòu shōu tā zuò zìjǐ de yánjiūshēng.", "fa": "استاد وانگ او را به عنوان دانشجوی تحصیلات تکمیلیِ خود پذیرفت.", "en": "Professor Wang took her on as his graduate student."},
+   {"zh": "公司选她为新的负责人。", "py": "Gōngsī xuǎn tā wéi xīn de fùzérén.", "fa": "شرکت او را به عنوان مسئول جدید برگزید.", "en": "The company selected her as the new person in charge."}
+  ]},
+ {"id": "hsk3-g0306", "std": "hsk3", "level": 4, "no": 306,
+  "pattern": "فاعل + 使 / 让 + ضمیر شخصی + فعل / صفت",
+  "title": {"fa": "باعث‌شدن: 使 و 让", "en": "Causing someone to feel or do: 使 and 让"},
+  "body": "«使» و «让» یعنی چیزی باعث می‌شود کسی حالی پیدا کند یا کاری بکند: «مرا خوشحال کرد»، «باعث شد بفهمم».\nفاعل معمولاً یک اتفاق، خبر یا حرف است، نه شخصی که دستور بدهد. «让» گفتاری و «使» رسمی‌تر و نوشتاری است.\nمنفی با «没» یا «不» پیش از «使/让» ساخته می‌شود.",
+  "examples": [
+   {"zh": "这个消息让我非常高兴。", "py": "Zhège xiāoxi ràng wǒ fēicháng gāoxìng.", "fa": "این خبر مرا خیلی خوشحال کرد.", "en": "This news made me very happy."},
+   {"zh": "他的话使我明白了很多。", "py": "Tā de huà shǐ wǒ míngbaile hěn duō.", "fa": "حرف‌های او باعث شد خیلی چیزها را بفهمم.", "en": "His words made me understand a great deal."},
+   {"zh": "这次失败没有使他失去信心。", "py": "Zhè cì shībài méiyǒu shǐ tā shīqù xìnxīn.", "fa": "این شکست باعث نشد او اعتمادبه‌نفسش را از دست بدهد.", "en": "This failure did not make him lose confidence."}
+  ]},
+ {"id": "hsk3-g0307", "std": "hsk3", "level": 4, "no": 307,
+  "pattern": "A + 不如 + B (+ صفت)",
+  "title": {"fa": "A به پای B نمی‌رسد: 不如", "en": "A is not as good as B: 不如"},
+  "body": "«A 不如 B» یعنی A به خوبیِ B نیست. اگر صفتی پس از B بیاید، مقایسه در همان ویژگی است: «A به اندازهٔ B … نیست».\nصفت باید معنای مثبت داشته باشد (好، 快، 高)، و چون «不如» خودش منفی است، دیگر «不» نمی‌آید. A و B می‌توانند اسم یا فعل باشند.",
+  "examples": [
+   {"zh": "我的汉语不如他好。", "py": "Wǒ de Hànyǔ bùrú tā hǎo.", "fa": "چینیِ من به خوبیِ او نیست.", "en": "My Chinese is not as good as his."},
+   {"zh": "坐公交车不如坐地铁快。", "py": "Zuò gōngjiāochē bùrú zuò dìtiě kuài.", "fa": "رفتن با اتوبوس به سرعتِ رفتن با مترو نیست.", "en": "Taking the bus is not as fast as taking the subway."},
+   {"zh": "今天的天气不如昨天。", "py": "Jīntiān de tiānqì bùrú zuótiān.", "fa": "هوای امروز به خوبیِ دیروز نیست.", "en": "Today's weather is not as good as yesterday's."}
+  ]},
+ {"id": "hsk3-g0308", "std": "hsk3", "level": 4, "no": 308,
+  "pattern": "跟 + B + 相比，A ……",
+  "title": {"fa": "در مقایسه با…: 跟……相比", "en": "Compared with …: 跟……相比"},
+  "body": "«跟……相比» یعنی «در مقایسه با…». این عبارت در آغاز جمله یا پس از فاعل می‌آید و معیار مقایسه را می‌گوید؛ نتیجهٔ مقایسه در ادامهٔ جمله می‌آید.\nبه‌جای «跟» می‌توان «和» یا در نوشتار «与» گفت. برخلاف جملهٔ «比»، در اینجا می‌توان در ادامه «很»، «非常» یا «不太» هم به کار برد.",
+  "examples": [
+   {"zh": "跟去年相比，今年的游客增加了很多。", "py": "Gēn qùnián xiāngbǐ, jīnnián de yóukè zēngjiāle hěn duō.", "fa": "در مقایسه با پارسال، گردشگران امسال خیلی بیشتر شده‌اند.", "en": "Compared with last year, the number of tourists this year has risen a lot."},
+   {"zh": "跟北京相比，这里的冬天不太冷。", "py": "Gēn Běijīng xiāngbǐ, zhèlǐ de dōngtiān bú tài lěng.", "fa": "در مقایسه با پکن، زمستانِ اینجا خیلی سرد نیست.", "en": "Compared with Beijing, winters here are not very cold."}
+  ]}
+]

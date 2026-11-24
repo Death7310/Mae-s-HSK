@@ -1,0 +1,726 @@
+[
+ {
+  "id": "重复",
+  "fa": [
+   "تکرار کردن",
+   "تکرار شدن"
+  ],
+  "en": [
+   "to repeat",
+   "to be duplicated"
+  ],
+  "ex": [
+   {
+    "zh": "请你把这个问题重复一遍。",
+    "py": "Qǐng nǐ bǎ zhège wèntí chóngfù yí biàn.",
+    "fa": "لطفاً این سؤال را یک بار دیگر تکرار کنید.",
+    "en": "Please repeat this question once more."
+   }
+  ],
+  "chg": "fa/en: second glosses did not match each other ('say again' vs 'duplicate')"
+ },
+ {
+  "id": "造",
+  "fa": [
+   "ساختن (تولید کردن)",
+   "بنا کردن"
+  ],
+  "en": [
+   "to make",
+   "to build"
+  ],
+  "ex": [
+   {
+    "zh": "这家工厂专门造汽车。",
+    "py": "Zhè jiā gōngchǎng zhuānmén zào qìchē.",
+    "fa": "این کارخانه مخصوص ساخت خودرو است.",
+    "en": "This factory specializes in making cars."
+   }
+  ],
+  "chg": "fa: awkward second gloss 'ساخت و تولید کردن' replaced; now matches en 'to build'"
+ },
+ {
+  "id": "批准",
+  "fa": [
+   "تأیید کردن",
+   "تصویب کردن"
+  ],
+  "en": [
+   "to approve",
+   "to ratify"
+  ],
+  "ex": [
+   {
+    "zh": "经理批准了我的请假申请。",
+    "py": "Jīnglǐ pīzhǔn le wǒ de qǐngjià shēnqǐng.",
+    "fa": "مدیر درخواست مرخصی من را تأیید کرد.",
+    "en": "The manager approved my leave request."
+   }
+  ],
+  "chg": "ex: 我的请假 as a noun phrase is unnatural -> 请假申请"
+ },
+ {
+  "id": "前进",
+  "fa": [
+   "پیش رفتن",
+   "به جلو حرکت کردن"
+  ],
+  "en": [
+   "to advance",
+   "to move forward"
+  ],
+  "ex": [
+   {
+    "zh": "不管遇到什么困难，我们都要继续前进。",
+    "py": "Bùguǎn yùdào shénme kùnnan, wǒmen dōu yào jìxù qiánjìn.",
+    "fa": "با هر مشکلی که روبه‌رو شویم، باید به پیش رفتن ادامه دهیم.",
+    "en": "Whatever difficulties we meet, we must keep moving forward."
+   }
+  ],
+  "chg": "ex: 向前进 split the headword (pinyin 'qián jìn'); rewritten with 前进 as one word"
+ },
+ {
+  "id": "骂",
+  "fa": [
+   "دشنام دادن (فحش دادن)",
+   "سرزنش کردن (دعوا کردن)"
+  ],
+  "en": [
+   "to scold",
+   "to curse"
+  ],
+  "ex": [
+   {
+    "zh": "他迟到了，被老师骂了一顿。",
+    "py": "Tā chídào le, bèi lǎoshī mà le yí dùn.",
+    "fa": "او دیر آمد و معلم حسابی سرزنشش کرد.",
+    "en": "He was late and got scolded by the teacher."
+   }
+  ],
+  "chg": "ex fa: 'دشنام و سرزنش کرد' was ungrammatical and wrong (teacher scolds, not curses); glosses disambiguated"
+ },
+ {
+  "id": "机器",
+  "fa": [
+   "ماشین (دستگاه)"
+  ],
+  "en": [
+   "machine"
+  ],
+  "note": "ماشین به معنای خودرو نیست؛ خودرو: 汽车. واحد شمارش: 台",
+  "ex": [
+   {
+    "zh": "这台机器是新买的。",
+    "py": "Zhè tái jīqì shì xīn mǎi de.",
+    "fa": "این دستگاه تازه خریده شده است.",
+    "en": "This machine was newly bought."
+   }
+  ],
+  "chg": "fa: redundant duplicate gloss 'دستگاه' removed; en 'device' dropped"
+ },
+ {
+  "id": "守",
+  "fa": [
+   "نگهبانی کردن",
+   "رعایت کردن"
+  ],
+  "en": [
+   "to guard",
+   "to abide by"
+  ],
+  "ex": [
+   {
+    "zh": "士兵们日夜守着这座大桥。",
+    "py": "Shìbīngmen rìyè shǒu zhe zhè zuò dà qiáo.",
+    "fa": "سربازان شبانه‌روز از این پل بزرگ نگهبانی می‌کنند.",
+    "en": "The soldiers guard this bridge day and night."
+   }
+  ],
+  "chg": "ex: headword appeared only inside 遵守/守时 in a clumsy sentence; rewritten with 守 as an independent verb in its first sense"
+ },
+ {
+  "id": "操作",
+  "fa": [
+   "کار کردن با (دستگاه)",
+   "اجرا کردن (عملیات)"
+  ],
+  "en": [
+   "to operate",
+   "to carry out (a procedure)"
+  ],
+  "ex": [
+   {
+    "zh": "这台机器很容易操作。",
+    "py": "Zhè tái jīqì hěn róngyì cāozuò.",
+    "fa": "کار کردن با این دستگاه خیلی آسان است.",
+    "en": "This machine is very easy to operate."
+   }
+  ],
+  "chg": "fa: 'کار با دستگاه کردن' unnatural, 'به کار انداختن' wrong sense (to start up); ex: measure word 台 for 机器"
+ },
+ {
+  "id": "达成",
+  "fa": [
+   "رسیدن (به توافق)",
+   "دست یافتن (به هدف)"
+  ],
+  "en": [
+   "to reach (an agreement)",
+   "to achieve"
+  ],
+  "ex": [
+   {
+    "zh": "两家公司终于达成了协议。",
+    "py": "Liǎng jiā gōngsī zhōngyú dáchéng le xiéyì.",
+    "fa": "دو شرکت سرانجام به توافق رسیدند.",
+    "en": "The two companies finally reached an agreement."
+   }
+  ],
+  "chg": "fa: 'به دست آوردن' is ambiguous (reads as 获得) and the main collocation was second; reordered and disambiguated"
+ },
+ {
+  "id": "标志",
+  "fa": [
+   "علامت (نشانه)",
+   "نماد",
+   "نشانهٔ چیزی بودن"
+  ],
+  "en": [
+   "sign",
+   "symbol",
+   "to mark; to symbolize"
+  ],
+  "ex": [
+   {
+    "zh": "这个标志的意思是禁止停车。",
+    "py": "Zhège biāozhì de yìsi shì jìnzhǐ tíngchē.",
+    "fa": "معنای این علامت ممنوعیت توقف است.",
+    "en": "This sign means no parking."
+   }
+  ],
+  "chg": "fa: verb gloss 'نشان دادن' recalls 表示/显示 -> 'نشانهٔ چیزی بودن'; noun aligned with example (علامت)"
+ },
+ {
+  "id": "公布",
+  "fa": [
+   "اعلام عمومی کردن",
+   "علنی کردن"
+  ],
+  "en": [
+   "to announce",
+   "to make public"
+  ],
+  "ex": [
+   {
+    "zh": "考试成绩明天公布。",
+    "py": "Kǎoshì chéngjì míngtiān gōngbù.",
+    "fa": "نتایج امتحان فردا اعلام می‌شود.",
+    "en": "The exam results will be announced tomorrow."
+   }
+  ],
+  "chg": "fa: glosses were identical to 发布; made distinct (make public)"
+ },
+ {
+  "id": "人才",
+  "fa": [
+   "فرد بااستعداد",
+   "نیروی متخصص"
+  ],
+  "en": [
+   "talented person",
+   "talent"
+  ],
+  "ex": [
+   {
+    "zh": "公司需要更多优秀的人才。",
+    "py": "Gōngsī xūyào gèng duō yōuxiù de réncái.",
+    "fa": "شرکت به نیروهای مستعد و برجستهٔ بیشتری نیاز دارد.",
+    "en": "The company needs more outstanding talent."
+   }
+  ],
+  "chg": "fa: 'استعداد برجسته' names the ability, but 人才 is a person/personnel"
+ },
+ {
+  "id": "舞蹈",
+  "fa": [
+   "رقص"
+  ],
+  "en": [
+   "dance"
+  ],
+  "ex": [
+   {
+    "zh": "她从小就学习舞蹈。",
+    "py": "Tā cóng xiǎo jiù xuéxí wǔdǎo.",
+    "fa": "او از کودکی رقص آموخته است.",
+    "en": "She has studied dance since childhood."
+   }
+  ],
+  "chg": "ex fa: 'یاد می‌گرفته است' unnatural tense"
+ },
+ {
+  "id": "伙伴",
+  "fa": [
+   "همراه (رفیق)",
+   "شریک"
+  ],
+  "en": [
+   "partner",
+   "companion"
+  ],
+  "ex": [
+   {
+    "zh": "他是我最好的学习伙伴。",
+    "py": "Tā shì wǒ zuì hǎo de xuéxí huǒbàn.",
+    "fa": "او بهترین همراه من در درس خواندن است.",
+    "en": "He is my best study partner."
+   }
+  ],
+  "chg": "fa: 'همکار' means colleague (同事), not 伙伴"
+ },
+ {
+  "id": "发布",
+  "fa": [
+   "منتشر کردن (خبر، دستور)",
+   "عرضه کردن (محصول جدید)"
+  ],
+  "en": [
+   "to issue",
+   "to release"
+  ],
+  "ex": [
+   {
+    "zh": "公司明天发布新手机。",
+    "py": "Gōngsī míngtiān fābù xīn shǒujī.",
+    "fa": "شرکت فردا گوشی جدید را عرضه می‌کند.",
+    "en": "The company will release a new phone tomorrow."
+   }
+  ],
+  "chg": "fa: glosses were identical to 公布; distinguished (issue/release); ex fa aligned with gloss"
+ },
+ {
+  "id": "忍",
+  "fa": [
+   "تحمل کردن (صبر کردن)",
+   "جلوی خود را گرفتن"
+  ],
+  "en": [
+   "to endure",
+   "to hold back"
+  ],
+  "ex": [
+   {
+    "zh": "他再也忍不住了，大声哭了起来。",
+    "py": "Tā zài yě rěn bu zhù le, dàshēng kū le qǐlai.",
+    "fa": "او دیگر نتوانست جلوی خودش را بگیرد و بلند زد زیر گریه.",
+    "en": "He could hold back no longer and burst out crying."
+   }
+  ],
+  "chg": "fa: same gloss as 承受, disambiguated and 'restrain oneself' sense added; ex: too short for level 5 (7 chars), extended"
+ },
+ {
+  "id": "库",
+  "fa": [
+   "انبار",
+   "مخزن"
+  ],
+  "en": [
+   "warehouse",
+   "storehouse"
+  ],
+  "note": "بیشتر در ترکیب‌ها می‌آید: 仓库 (انبار)، 数据库 (پایگاه داده)",
+  "ex": [
+   {
+    "zh": "货物都放在仓库里。",
+    "py": "Huòwù dōu fàng zài cāngkù li.",
+    "fa": "کالاها همه در انبار گذاشته شده‌اند.",
+    "en": "The goods are all kept in the warehouse."
+   }
+  ],
+  "chg": "fa/en mismatch: 'پایگاه (داده)' vs 'storehouse'; the database use stays in the note"
+ },
+ {
+  "id": "吵",
+  "fa": [
+   "پرسروصدا",
+   "دعوا کردن (بگومگو)",
+   "سروصدا کردن"
+  ],
+  "en": [
+   "noisy",
+   "to quarrel",
+   "to make noise"
+  ],
+  "ex": [
+   {
+    "zh": "外面太吵了，我睡不着。",
+    "py": "Wàimian tài chǎo le, wǒ shuì bu zháo.",
+    "fa": "بیرون خیلی پرسروصداست و من خوابم نمی‌برد.",
+    "en": "It's too noisy outside, I can't sleep."
+   }
+  ],
+  "chg": "fa: 'شلوغ و پرسروصدا' trimmed; verb sense 'make noise' was missing"
+ },
+ {
+  "id": "奖励",
+  "fa": [
+   "پاداش دادن",
+   "جایزه دادن"
+  ],
+  "en": [
+   "to reward",
+   "to award"
+  ],
+  "ex": [
+   {
+    "zh": "老师奖励了学习最努力的学生。",
+    "py": "Lǎoshī jiǎnglì le xuéxí zuì nǔlì de xuésheng.",
+    "fa": "معلم به پرتلاش‌ترین دانش‌آموز پاداش داد.",
+    "en": "The teacher rewarded the hardest-working student."
+   }
+  ],
+  "chg": "fa/en: 'تشویق کردن / to encourage' is 鼓励, not 奖励"
+ },
+ {
+  "id": "温暖",
+  "fa": [
+   "گرم (ملایم و دلپذیر)",
+   "دل‌گرم کردن"
+  ],
+  "en": [
+   "warm",
+   "to warm (the heart)"
+  ],
+  "ex": [
+   {
+    "zh": "春天的阳光很温暖。",
+    "py": "Chūntiān de yángguāng hěn wēnnuǎn.",
+    "fa": "آفتاب بهار گرم و دلپذیر است.",
+    "en": "The spring sunshine is warm."
+   }
+  ],
+  "chg": "fa: verb 'گرم کردن' reads as heating (加热); 温暖 as a verb is figurative"
+ },
+ {
+  "id": "承受",
+  "fa": [
+   "تحمل کردن (فشار، بار)",
+   "متحمل شدن"
+  ],
+  "en": [
+   "to bear",
+   "to sustain"
+  ],
+  "ex": [
+   {
+    "zh": "他承受不了这么大的压力。",
+    "py": "Tā chéngshòu bu liǎo zhème dà de yālì.",
+    "fa": "او نمی‌تواند این‌قدر فشار را تحمل کند.",
+    "en": "He can't bear such great pressure."
+   }
+  ],
+  "chg": "fa: same gloss as 忍; disambiguated"
+ },
+ {
+  "id": "齐",
+  "fa": [
+   "مرتب",
+   "یکدست",
+   "کامل (همه حاضر)"
+  ],
+  "en": [
+   "neat",
+   "even",
+   "all present"
+  ],
+  "note": "در سطح ۶ فعل و قید هم هست: «هم‌سطح شدن با»، «با هم»",
+  "ex": [
+   {
+    "zh": "书架上的书摆得很齐。",
+    "py": "Shūjià shang de shū bǎi de hěn qí.",
+    "fa": "کتاب‌های قفسه خیلی مرتب چیده شده‌اند.",
+    "en": "The books on the shelf are arranged very neatly."
+   }
+  ],
+  "chg": "fa: common adjective sense 'complete, all present' (人到齐了) was missing; note adjusted"
+ },
+ {
+  "id": "市民",
+  "fa": [
+   "شهروند (ساکن شهر)"
+  ],
+  "en": [
+   "city resident",
+   "townspeople"
+  ],
+  "ex": [
+   {
+    "zh": "市民们都喜欢这个新公园。",
+    "py": "Shìmínmen dōu xǐhuan zhège xīn gōngyuán.",
+    "fa": "شهروندان همه این پارک جدید را دوست دارند.",
+    "en": "The city's residents all like this new park."
+   }
+  ],
+  "chg": "en/fa: 'citizen' is 公民; 市民 is a city resident"
+ },
+ {
+  "id": "咨询",
+  "fa": [
+   "مشاوره گرفتن",
+   "پرس‌وجو کردن"
+  ],
+  "en": [
+   "to consult",
+   "to inquire"
+  ],
+  "ex": [
+   {
+    "zh": "你可以去银行咨询一下。",
+    "py": "Nǐ kěyǐ qù yínháng zīxún yíxià.",
+    "fa": "می‌توانی به بانک بروی و پرس‌وجو کنی.",
+    "en": "You can go to the bank and inquire."
+   }
+  ],
+  "chg": "ex fa: 'مشورت و پرس‌وجو کنی' doubled both glosses unnaturally"
+ },
+ {
+  "id": "地位",
+  "fa": [
+   "جایگاه",
+   "مقام"
+  ],
+  "en": [
+   "status",
+   "position"
+  ],
+  "ex": [
+   {
+    "zh": "女性在社会中的地位越来越高。",
+    "py": "Nǚxìng zài shèhuì zhōng de dìwèi yuè lái yuè gāo.",
+    "fa": "جایگاه زنان در جامعه روزبه‌روز بالاتر می‌رود.",
+    "en": "Women's status in society keeps rising."
+   }
+  ],
+  "chg": "ex: 女人 is the wrong register for this statement -> 女性"
+ },
+ {
+  "id": "青",
+  "fa": [
+   "سبز (سبز تیره)",
+   "جوان"
+  ],
+  "en": [
+   "green",
+   "young"
+  ],
+  "note": "رنگی میان سبز و آبی؛ مثال: 青菜 (سبزی)، 青年 (جوان)",
+  "ex": [
+   {
+    "zh": "春天来了，山上的草都青了。",
+    "py": "Chūntiān lái le, shān shang de cǎo dōu qīng le.",
+    "fa": "بهار آمده و علف‌های کوه همه سبز شده‌اند.",
+    "en": "Spring has come and the grass on the hills has turned green."
+   }
+  ],
+  "chg": "ex: 又青又绿 is unnatural Chinese; rewritten"
+ },
+ {
+  "id": "顺",
+  "fa": [
+   "در امتداد (حرف اضافه)",
+   "روان و بی‌مانع",
+   "پیروی کردن"
+  ],
+  "en": [
+   "along",
+   "smooth",
+   "to follow"
+  ],
+  "ex": [
+   {
+    "zh": "你顺着这条路一直走就到了。",
+    "py": "Nǐ shùn zhe zhè tiáo lù yìzhí zǒu jiù dào le.",
+    "fa": "از همین جاده مستقیم بروی می‌رسی.",
+    "en": "Just follow this road straight and you'll arrive."
+   },
+   {
+    "zh": "他最近工作很顺，心情也不错。",
+    "py": "Tā zuìjìn gōngzuò hěn shùn, xīnqíng yě búcuò.",
+    "fa": "این روزها کارش خوب پیش می‌رود و حالش هم خوب است.",
+    "en": "His work has been going smoothly lately and he is in a good mood."
+   }
+  ],
+  "chg": "ex 2 used 顺利, a different word, instead of 顺; fa: 'در راستای' means 'in line with', -> 'در امتداد' (along)"
+ },
+ {
+  "id": "不幸",
+  "fa": [
+   "بداقبال (بدبخت)",
+   "بدبیاری (مصیبت)"
+  ],
+  "en": [
+   "unfortunate",
+   "misfortune"
+  ],
+  "ex": [
+   {
+    "zh": "不幸的是，他在路上出了事故。",
+    "py": "Búxìng de shì, tā zài lùshang chū le shìgù.",
+    "fa": "متأسفانه او در راه تصادف کرد.",
+    "en": "Unfortunately, he had an accident on the road."
+   }
+  ],
+  "chg": "fa: three glosses vs two en; 'متأسفانه' is an adverb, not a sense of the a/n entry; glosses made natural"
+ },
+ {
+  "id": "妇女",
+  "fa": [
+   "زن",
+   "بانو"
+  ],
+  "en": [
+   "woman",
+   "women"
+  ],
+  "note": "اغلب به معنای زنان به‌طور کلی و رسمی است",
+  "ex": [
+   {
+    "zh": "三月八日是国际妇女节。",
+    "py": "Sānyuè bā rì shì Guójì Fùnǚ Jié.",
+    "fa": "هشتم مارس روز جهانی زن است.",
+    "en": "March 8 is International Women's Day."
+   }
+  ],
+  "chg": "fa: plural glosses -> singular citation forms; py: Sānyuè joined, proper noun capitalised"
+ },
+ {
+  "id": "领先",
+  "fa": [
+   "پیشتاز بودن",
+   "جلو بودن"
+  ],
+  "en": [
+   "to lead",
+   "to be ahead"
+  ],
+  "ex": [
+   {
+    "zh": "我们队暂时领先。",
+    "py": "Wǒmen duì zànshí lǐngxiān.",
+    "fa": "تیم ما فعلاً جلو است.",
+    "en": "Our team is in the lead for now."
+   }
+  ],
+  "chg": "fa: 'پیشی گرفتن' means to overtake (超过); 领先 is the state of leading"
+ },
+ {
+  "id": "矛盾",
+  "fa": [
+   "تضاد",
+   "اختلاف",
+   "متناقض"
+  ],
+  "en": [
+   "contradiction",
+   "conflict",
+   "contradictory"
+  ],
+  "ex": [
+   {
+    "zh": "他们两个人之间有矛盾。",
+    "py": "Tāmen liǎng ge rén zhījiān yǒu máodùn.",
+    "fa": "بین آن دو نفر اختلاف وجود دارد.",
+    "en": "There is conflict between the two of them."
+   }
+  ],
+  "chg": "en: third sense missing (fa had three)"
+ },
+ {
+  "id": "碰",
+  "fa": [
+   "برخورد کردن (خوردن به)",
+   "دست زدن",
+   "اتفاقی دیدن"
+  ],
+  "en": [
+   "to bump",
+   "to touch",
+   "to run into"
+  ],
+  "ex": [
+   {
+    "zh": "我在街上碰到了一个老同学。",
+    "py": "Wǒ zài jiē shang pèngdào le yí ge lǎo tóngxué.",
+    "fa": "در خیابان به یک همکلاسی قدیمی برخوردم.",
+    "en": "I ran into an old classmate on the street."
+   }
+  ],
+  "chg": "fa: core sense 'to touch' was missing"
+ },
+ {
+  "id": "煮",
+  "fa": [
+   "پختن (در آب جوش)",
+   "جوشاندن"
+  ],
+  "en": [
+   "to cook",
+   "to boil"
+  ],
+  "ex": [
+   {
+    "zh": "妈妈正在煮面条。",
+    "py": "Māma zhèngzài zhǔ miàntiáo.",
+    "fa": "مادر دارد نودل می‌پزد.",
+    "en": "Mom is cooking noodles."
+   }
+  ],
+  "chg": "fa: bare 'پختن' is ambiguous with 做/烤; specified boiling"
+ },
+ {
+  "id": "较",
+  "fa": [
+   "نسبتاً",
+   "در مقایسه با (حرف اضافه)"
+  ],
+  "en": [
+   "relatively",
+   "compared to"
+  ],
+  "ex": [
+   {
+    "zh": "今天的气温较低，出门多穿点儿。",
+    "py": "Jīntiān de qìwēn jiào dī, chūmén duō chuān diǎnr.",
+    "fa": "دمای امروز نسبتاً پایین است؛ بیرون می‌روی بیشتر بپوش.",
+    "en": "Today's temperature is fairly low; dress warmly when you go out."
+   },
+   {
+    "zh": "今年的价格较去年高了一些。",
+    "py": "Jīnnián de jiàgé jiào qùnián gāo le yìxiē.",
+    "fa": "قیمت امسال نسبت به پارسال کمی بالاتر است.",
+    "en": "This year's price is a bit higher than last year's."
+   }
+  ],
+  "chg": "ex 1 used 较为, a different word; rewritten with 较 itself as adverb"
+ },
+ {
+  "id": "纪念",
+  "fa": [
+   "گرامی داشتن یاد",
+   "یادگاری"
+  ],
+  "en": [
+   "to commemorate",
+   "souvenir"
+  ],
+  "ex": [
+   {
+    "zh": "这张照片是旅行的纪念。",
+    "py": "Zhè zhāng zhàopiàn shì lǚxíng de jìniàn.",
+    "fa": "این عکس یادگار سفر است.",
+    "en": "This photo is a keepsake of the trip."
+   }
+  ],
+  "chg": "fa: 'یادبود گرفتن' is not Persian for 'to commemorate'"
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "id": "看~2",
+  "issue": "example 1: tone of 看: expected 4, got 1"
+ },
+ {
+  "id": "为~3",
+  "issue": "example 1: tone of 为: expected 4, got 2"
+ },
+ {
+  "id": "为~3",
+  "issue": "example 2: tone of 为: expected 4, got 2"
+ },
+ {
+  "id": "哦",
+  "issue": "example 1: tone of 哦: expected 2, got 4"
+ },
+ {
+  "id": "行~2",
+  "issue": "example 1: pinyin letters differ: expected ~qingzaidisanxingxienidemingzi, got qingzaidisanhangxienidemingzi"
+ },
+ {
+  "id": "行~2",
+  "issue": "example 2: pinyin letters differ: expected ~taganzheyixingyijingshinianle, got taganzheyihangyijingshinianle"
+ },
+ {
+  "id": "处",
+  "issue": "example 1: tone of 处: expected 4, got 3"
+ },
+ {
+  "id": "伤",
+  "issue": "example 1: tone of 中: expected 4, got 1"
+ },
+ {
+  "id": "倒~2",
+  "issue": "example 1: tone of 倒: expected 4, got 3"
+ }
+]

@@ -1,0 +1,634 @@
+[
+ {
+  "id": "抢",
+  "fa": [
+   "قاپیدن",
+   "به زور گرفتن (ربودن)",
+   "هجوم بردن برای گرفتن"
+  ],
+  "en": [
+   "to grab",
+   "to rob",
+   "to scramble for"
+  ],
+  "ex": [
+   {
+    "zh": "大家都在抢最后一张票。",
+    "py": "Dàjiā dōu zài qiǎng zuìhòu yì zhāng piào.",
+    "fa": "همه برای گرفتن آخرین بلیت هجوم آورده‌اند.",
+    "en": "Everyone is scrambling for the last ticket."
+   }
+  ],
+  "chg": "fa: 'چپاول کردن' (plunder) too strong, third gloss too long"
+ },
+ {
+  "id": "傻",
+  "fa": [
+   "احمق",
+   "ساده‌لوح"
+  ],
+  "en": [
+   "foolish",
+   "silly"
+  ],
+  "ex": [
+   {
+    "zh": "你别傻了，他是在骗你。",
+    "py": "Nǐ bié shǎ le, tā shì zài piàn nǐ.",
+    "fa": "ساده‌لوح نباش، او دارد تو را فریب می‌دهد.",
+    "en": "Don't be silly, he's tricking you."
+   }
+  ],
+  "chg": "fa: removed inaccurate 'گیج' (dazed), aligned with en"
+ },
+ {
+  "id": "权",
+  "fa": [
+   "قدرت",
+   "حق",
+   "اختیار"
+  ],
+  "en": [
+   "power",
+   "right",
+   "authority"
+  ],
+  "note": "در ترکیب‌هایی مانند 权利 (حق) و 权力 (قدرت) می‌آید.",
+  "ex": [
+   {
+    "zh": "我们有权知道事情的真相。",
+    "py": "Wǒmen yǒu quán zhīdào shìqing de zhēnxiàng.",
+    "fa": "ما حق داریم حقیقت ماجرا را بدانیم.",
+    "en": "We have the right to know the truth of the matter."
+   }
+  ],
+  "chg": "ex: 选举的权 is unnatural Chinese; rewritten with 有权"
+ },
+ {
+  "id": "恢复",
+  "fa": [
+   "بهبود یافتن",
+   "از سر گرفتن",
+   "بازگرداندن"
+  ],
+  "en": [
+   "to recover",
+   "to resume",
+   "to restore"
+  ],
+  "ex": [
+   {
+    "zh": "他的身体已经慢慢恢复了。",
+    "py": "Tā de shēntǐ yǐjīng mànmàn huīfù le.",
+    "fa": "حال جسمی او کم‌کم بهبود یافته است.",
+    "en": "His health has gradually recovered."
+   }
+  ],
+  "chg": "py: mànmān -> mànmàn (citation tone)"
+ },
+ {
+  "id": "理由",
+  "fa": [
+   "دلیل",
+   "توجیه"
+  ],
+  "en": [
+   "reason",
+   "grounds"
+  ],
+  "ex": [
+   {
+    "zh": "你有什么理由不参加会议？",
+    "py": "Nǐ yǒu shénme lǐyóu bù cānjiā huìyì?",
+    "fa": "چه دلیلی داری که در جلسه شرکت نمی‌کنی؟",
+    "en": "What reason do you have for not attending the meeting?"
+   }
+  ],
+  "chg": "fa: 'بهانه' is 借口, not 理由 -> توجیه"
+ },
+ {
+  "id": "完美",
+  "fa": [
+   "بی‌نقص",
+   "کامل (بی‌عیب)"
+  ],
+  "en": [
+   "perfect",
+   "flawless"
+  ],
+  "ex": [
+   {
+    "zh": "这次演出几乎完美无缺。",
+    "py": "Zhè cì yǎnchū jīhū wánměi wúquē.",
+    "fa": "این اجرا تقریباً بی‌نقص بود.",
+    "en": "This performance was almost flawless."
+   }
+  ],
+  "chg": "fa: disambiguated 'کامل' (vs 完整/完全)"
+ },
+ {
+  "id": "传",
+  "fa": [
+   "منتقل کردن",
+   "پخش شدن",
+   "رساندن"
+  ],
+  "en": [
+   "to pass on",
+   "to spread",
+   "to transmit"
+  ],
+  "note": "خوانش دیگر: zhuàn، به معنای «زندگی‌نامه» (مثلاً 自传).",
+  "ex": [
+   {
+    "zh": "这个消息很快就传开了。",
+    "py": "Zhège xiāoxi hěn kuài jiù chuán kāi le.",
+    "fa": "این خبر خیلی زود پخش شد.",
+    "en": "The news spread very quickly."
+   }
+  ],
+  "chg": "note: removed Chinese word 如 from Persian note"
+ },
+ {
+  "id": "喂~2",
+  "fa": [
+   "غذا دادن (به کودک یا حیوان)",
+   "خوراندن"
+  ],
+  "en": [
+   "to feed"
+  ],
+  "note": "به‌عنوان حرف ندا یا «الو» در تلفن هم به کار می‌رود (wèi یا wéi): 喂，你好！",
+  "ex": [
+   {
+    "zh": "妈妈正在给孩子喂饭。",
+    "py": "Māma zhèngzài gěi háizi wèi fàn.",
+    "fa": "مادر دارد به بچه غذا می‌دهد.",
+    "en": "Mom is feeding the child."
+   }
+  ],
+  "chg": "note: Latin 'alo' replaced with Persian, reworded"
+ },
+ {
+  "id": "记录",
+  "fa": [
+   "ثبت کردن",
+   "یادداشت کردن",
+   "سند ثبت‌شده (رکورد)"
+  ],
+  "en": [
+   "to record",
+   "to take notes",
+   "record"
+  ],
+  "ex": [
+   {
+    "zh": "请把会议内容详细记录下来。",
+    "py": "Qǐng bǎ huìyì nèiróng xiángxì jìlù xiàlái.",
+    "fa": "لطفاً محتوای جلسه را با جزئیات ثبت کنید.",
+    "en": "Please record the meeting content in detail."
+   }
+  ],
+  "chg": "fa: noun sense 'سابقه' -> clearer record glosses; ex fa: 详细 = with details, not 'completely'"
+ },
+ {
+  "id": "期待",
+  "fa": [
+   "چشم‌انتظار بودن",
+   "مشتاقانه منتظر بودن"
+  ],
+  "en": [
+   "to look forward to",
+   "to await"
+  ],
+  "ex": [
+   {
+    "zh": "我很期待下个月的旅行。",
+    "py": "Wǒ hěn qīdài xià ge yuè de lǚxíng.",
+    "fa": "من خیلی مشتاق سفر ماه آینده هستم.",
+    "en": "I'm really looking forward to next month's trip."
+   }
+  ],
+  "chg": "fa: main sense 'look forward to' first and natural"
+ },
+ {
+  "id": "朝",
+  "fa": [
+   "رو به (سویی) بودن",
+   "به سمتِ (حرف اضافه)"
+  ],
+  "en": [
+   "to face",
+   "towards"
+  ],
+  "ex": [
+   {
+    "zh": "我的房间朝南，阳光很好。",
+    "py": "Wǒ de fángjiān cháo nán, yángguāng hěn hǎo.",
+    "fa": "اتاق من رو به جنوب است و آفتاب خوبی دارد.",
+    "en": "My room faces south and gets good sunlight."
+   },
+   {
+    "zh": "他朝我挥了挥手，然后走了。",
+    "py": "Tā cháo wǒ huī le huī shǒu, ránhòu zǒu le.",
+    "fa": "او برای من دست تکان داد و رفت.",
+    "en": "He waved at me and then left."
+   }
+  ],
+  "chg": "fa: removed noun sense 'dynasty' (official pos v/p); verb gloss made natural; ex1 now shows verb use"
+ },
+ {
+  "id": "副",
+  "fa": [
+   "واحد شمارش برای جفت یا دست (عینک، دستکش)"
+  ],
+  "en": [
+   "measure word for pairs/sets"
+  ],
+  "note": "به‌عنوان پیشوند به معنای «معاون» هم می‌آید: 副校长 (معاون مدیر مدرسه).",
+  "ex": [
+   {
+    "zh": "他戴着一副黑色的眼镜。",
+    "py": "Tā dài zhe yí fù hēisè de yǎnjìng.",
+    "fa": "او یک عینک مشکی به چشم دارد.",
+    "en": "He is wearing a pair of black glasses."
+   },
+   {
+    "zh": "我给妈妈买了一副手套。",
+    "py": "Wǒ gěi māma mǎi le yí fù shǒutào.",
+    "fa": "من برای مادرم یک جفت دستکش خریدم.",
+    "en": "I bought my mom a pair of gloves."
+   }
+  ],
+  "chg": "fa/en: official pos is q only; removed deputy/secondary glosses (kept in note); note: 副校长 = معاون مدیر مدرسه"
+ },
+ {
+  "id": "事业",
+  "fa": [
+   "کار و حرفه (شغل)",
+   "آرمان (هدف بزرگ)"
+  ],
+  "en": [
+   "career",
+   "cause"
+  ],
+  "ex": [
+   {
+    "zh": "他把全部精力都投入到事业中。",
+    "py": "Tā bǎ quánbù jīnglì dōu tóurù dào shìyè zhōng.",
+    "fa": "او تمام نیروی خود را صرف کار و حرفه‌اش کرد.",
+    "en": "He devoted all his energy to his career."
+   }
+  ],
+  "chg": "fa: 'امر خیر' is a wrong sense; glosses tightened"
+ },
+ {
+  "id": "承认",
+  "fa": [
+   "اعتراف کردن",
+   "پذیرفتن",
+   "به رسمیت شناختن"
+  ],
+  "en": [
+   "to admit",
+   "to acknowledge",
+   "to recognize"
+  ],
+  "ex": [
+   {
+    "zh": "他终于承认了自己的错误。",
+    "py": "Tā zhōngyú chéngrèn le zìjǐ de cuòwù.",
+    "fa": "او سرانجام به اشتباه خود اعتراف کرد.",
+    "en": "He finally admitted his mistake."
+   }
+  ],
+  "chg": "en: added missing third sense to match fa"
+ },
+ {
+  "id": "执行",
+  "fa": [
+   "اجرا کردن",
+   "به اجرا گذاشتن"
+  ],
+  "en": [
+   "to carry out",
+   "to execute"
+  ],
+  "ex": [
+   {
+    "zh": "公司严格执行新的规定。",
+    "py": "Gōngsī yángé zhíxíng xīn de guīdìng.",
+    "fa": "شرکت مقررات جدید را با جدیت اجرا می‌کند.",
+    "en": "The company strictly enforces the new regulations."
+   }
+  ],
+  "chg": "ex fa: 严格 = strictly (not 'به‌شدت'), 规定 = مقررات"
+ },
+ {
+  "id": "怪",
+  "fa": [
+   "عجیب",
+   "سرزنش کردن",
+   "خیلی (قید، گفتاری)"
+  ],
+  "en": [
+   "strange",
+   "to blame",
+   "quite"
+  ],
+  "ex": [
+   {
+    "zh": "他今天说话的样子有点儿怪。",
+    "py": "Tā jīntiān shuōhuà de yàngzi yǒudiǎnr guài.",
+    "fa": "طرز حرف زدن او امروز کمی عجیب است.",
+    "en": "The way he's talking today is a bit strange."
+   }
+  ],
+  "chg": "ex: redundant, unnatural sentence (奇怪…也觉得怪) rewritten"
+ },
+ {
+  "id": "显然",
+  "fa": [
+   "آشکار",
+   "بدیهی",
+   "آشکارا"
+  ],
+  "en": [
+   "obvious",
+   "evident",
+   "obviously"
+  ],
+  "ex": [
+   {
+    "zh": "他显然不想谈这件事。",
+    "py": "Tā xiǎnrán bù xiǎng tán zhè jiàn shì.",
+    "fa": "آشکار است که او نمی‌خواهد دربارهٔ این موضوع صحبت کند.",
+    "en": "He obviously doesn't want to talk about this."
+   }
+  ],
+  "chg": "fa: 'مسلماً' (certainly) is not 显然; official pos is adjective"
+ },
+ {
+  "id": "分享",
+  "fa": [
+   "به اشتراک گذاشتن",
+   "سهیم کردن"
+  ],
+  "en": [
+   "to share"
+  ],
+  "ex": [
+   {
+    "zh": "她喜欢和朋友分享自己的快乐。",
+    "py": "Tā xǐhuan hé péngyou fēnxiǎng zìjǐ de kuàilè.",
+    "fa": "او دوست دارد شادی‌اش را با دوستانش تقسیم کند.",
+    "en": "She likes sharing her happiness with friends."
+   }
+  ],
+  "chg": "fa: 'شریک شدن' (to become a partner) -> سهیم کردن"
+ },
+ {
+  "id": "架",
+  "fa": [
+   "قفسه (پایه)",
+   "برپا کردن (نصب کردن)",
+   "واحد شمارش برای هواپیما و دستگاه‌های بزرگ"
+  ],
+  "en": [
+   "shelf; rack",
+   "to put up",
+   "measure word for planes/machines"
+  ],
+  "ex": [
+   {
+    "zh": "天空中飞过一架飞机。",
+    "py": "Tiānkōng zhōng fēiguò yí jià fēijī.",
+    "fa": "یک هواپیما از آسمان گذشت.",
+    "en": "A plane flew across the sky."
+   },
+   {
+    "zh": "教室里摆着一架漂亮的钢琴。",
+    "py": "Jiàoshì li bǎi zhe yí jià piàoliang de gāngqín.",
+    "fa": "در کلاس یک پیانوی زیبا قرار داده شده است.",
+    "en": "A beautiful piano is placed in the classroom."
+   }
+  ],
+  "chg": "fa: added missing verb sense (official pos n/v/q), dropped redundant note"
+ },
+ {
+  "id": "伟大",
+  "fa": [
+   "بزرگ (والا)",
+   "عظیم",
+   "شکوهمند"
+  ],
+  "en": [
+   "great",
+   "grand"
+  ],
+  "ex": [
+   {
+    "zh": "母亲是世界上最伟大的人。",
+    "py": "Mǔqin shì shìjiè shang zuì wěidà de rén.",
+    "fa": "مادر بزرگ‌ترین انسان دنیاست.",
+    "en": "A mother is the greatest person in the world."
+   }
+  ],
+  "chg": "fa: bare 'بزرگ' is ambiguous with 大"
+ },
+ {
+  "id": "颗",
+  "fa": [
+   "واحد شمارش برای چیزهای کوچک و گرد (دانه، دل، ستاره)"
+  ],
+  "en": [
+   "measure word for small round things"
+  ],
+  "ex": [
+   {
+    "zh": "他往嘴里放了一颗糖。",
+    "py": "Tā wǎng zuǐ li fàng le yì kē táng.",
+    "fa": "او یک دانه آب‌نبات در دهانش گذاشت.",
+    "en": "He put a candy in his mouth."
+   },
+   {
+    "zh": "夜空中有一颗星星特别亮。",
+    "py": "Yèkōng zhōng yǒu yì kē xīngxing tèbié liàng.",
+    "fa": "در آسمان شب یک ستاره بسیار درخشان است.",
+    "en": "One star in the night sky is especially bright."
+   }
+  ],
+  "chg": "ex1: 苹果糖 is odd and did not match the translations; rewritten"
+ },
+ {
+  "id": "系",
+  "fa": [
+   "بستن (بند، کمربند)",
+   "گره زدن"
+  ],
+  "en": [
+   "to tie",
+   "to fasten"
+  ],
+  "note": "خوانش دیگر: xì، به معنای «دانشکده» و «سیستم».",
+  "ex": [
+   {
+    "zh": "开车前请系好安全带。",
+    "py": "Kāichē qián qǐng jì hǎo ānquándài.",
+    "fa": "لطفاً پیش از رانندگی کمربند ایمنی را ببندید.",
+    "en": "Please fasten your seat belt before driving."
+   }
+  ],
+  "chg": "fa: 'بند زدن' is a wrong sense (mending china); ex: 出门前 does not fit seat belts -> 开车前"
+ },
+ {
+  "id": "系~2",
+  "fa": [
+   "گروه آموزشی (در دانشگاه)",
+   "سیستم (منظومه)"
+  ],
+  "en": [
+   "department",
+   "system"
+  ],
+  "note": "خوانش دیگر: jì، به معنای «بستن».",
+  "ex": [
+   {
+    "zh": "他在大学中文系学习。",
+    "py": "Tā zài dàxué Zhōngwénxì xuéxí.",
+    "fa": "او در گروه زبان چینی دانشگاه درس می‌خواند.",
+    "en": "He studies in the Chinese department at the university."
+   }
+  ],
+  "chg": "fa: removed verb sense (official pos n); 系 is a university department, not a faculty (学院)"
+ },
+ {
+  "id": "直",
+  "fa": [
+   "صاف (راست)",
+   "مستقیم",
+   "رک"
+  ],
+  "en": [
+   "straight",
+   "direct",
+   "frank"
+  ],
+  "ex": [
+   {
+    "zh": "这条路又宽又直，开车很舒服。",
+    "py": "Zhè tiáo lù yòu kuān yòu zhí, kāichē hěn shūfu.",
+    "fa": "این جاده هم پهن است و هم صاف؛ رانندگی در آن راحت است.",
+    "en": "This road is wide and straight, so it's comfortable to drive on."
+   }
+  ],
+  "chg": "ex: used 一直 (a different word) instead of the headword; fa: 'راست' disambiguated"
+ },
+ {
+  "id": "测试",
+  "fa": [
+   "آزمایش کردن",
+   "آزمودن"
+  ],
+  "en": [
+   "to test"
+  ],
+  "ex": [
+   {
+    "zh": "工程师正在测试新的软件。",
+    "py": "Gōngchéngshī zhèngzài cèshì xīn de ruǎnjiàn.",
+    "fa": "مهندس در حال آزمایش نرم‌افزار جدید است.",
+    "en": "The engineer is testing the new software."
+   }
+  ],
+  "chg": "fa: 'آزمون کردن' is not natural Persian -> آزمودن"
+ },
+ {
+  "id": "年代",
+  "fa": [
+   "دهه",
+   "دوران"
+  ],
+  "en": [
+   "decade",
+   "era"
+  ],
+  "ex": [
+   {
+    "zh": "我爸爸出生在八十年代。",
+    "py": "Wǒ bàba chūshēng zài bāshí niándài.",
+    "fa": "پدرم در دههٔ هشتاد (میلادی) به دنیا آمد.",
+    "en": "My dad was born in the eighties."
+   }
+  ],
+  "chg": "ex fa: missing ezafe هٔ"
+ },
+ {
+  "id": "寻找",
+  "fa": [
+   "جست‌وجو کردن",
+   "دنبال چیزی گشتن"
+  ],
+  "en": [
+   "to look for",
+   "to seek"
+  ],
+  "ex": [
+   {
+    "zh": "他一直在寻找失踪的小狗。",
+    "py": "Tā yìzhí zài xúnzhǎo shīzōng de xiǎogǒu.",
+    "fa": "او همچنان دنبال توله‌سگ گم‌شده می‌گردد.",
+    "en": "He has been searching for the missing puppy."
+   }
+  ],
+  "chg": "ex fa: 一直在 = has kept on, not 'always'"
+ },
+ {
+  "id": "胜利",
+  "fa": [
+   "پیروز شدن",
+   "پیروزی"
+  ],
+  "en": [
+   "to win",
+   "victory"
+  ],
+  "ex": [
+   {
+    "zh": "经过努力，我们终于取得了胜利。",
+    "py": "Jīngguò nǔlì, wǒmen zhōngyú qǔdé le shènglì.",
+    "fa": "پس از تلاش فراوان سرانجام به پیروزی رسیدیم.",
+    "en": "After hard work, we finally achieved victory."
+   }
+  ],
+  "chg": "fa/en: official pos is verb, verb gloss first"
+ },
+ {
+  "id": "级",
+  "fa": [
+   "سطح",
+   "درجه (رتبه)",
+   "واحد شمارش برای پله و سطح"
+  ],
+  "en": [
+   "level",
+   "grade; rank",
+   "measure word for steps/levels"
+  ],
+  "ex": [
+   {
+    "zh": "他的汉语水平已经达到了五级。",
+    "py": "Tā de Hànyǔ shuǐpíng yǐjīng dádào le wǔ jí.",
+    "fa": "سطح زبان چینی او به سطح پنج رسیده است.",
+    "en": "His Chinese has already reached level five."
+   },
+   {
+    "zh": "这座楼的台阶一共有三十级。",
+    "py": "Zhè zuò lóu de táijiē yígòng yǒu sānshí jí.",
+    "fa": "پلکان این ساختمان در مجموع سی پله دارد.",
+    "en": "The stairs of this building have thirty steps in all."
+   }
+  ],
+  "chg": "ex1 used 年级 (a different word); glosses: dropped 'پایه', added measure-word sense (pos n/q); ex2 fa made natural"
+ }
+]
