@@ -224,7 +224,7 @@ def main() -> None:
             with_fa = sum(1 for w in words if w["fa"])
             reviewed = sum(1 for w in words if w.get("q", 0) >= 1)
             with_audio = sum(1 for w in words if "a" in w)
-            info = {"level": level, "count": len(words), "file": rel, "fa": with_fa, "audio": with_audio}
+            info = {"level": level, "count": len(words), "file": rel, "fa": with_fa, "reviewed": reviewed, "audio": with_audio}
             report.append(
                 f"{std} L{level}: {len(words):5d} words  fa {with_fa:5d} (reviewed {reviewed:5d})"
                 f"  audio {with_audio:5d}  {size / 1024:7.0f} KB"

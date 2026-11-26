@@ -39,24 +39,34 @@ A word that is in both standards is one entry with one review history.
 
 ## Content status
 
-Run `python3 tools/content_status.py` for the current numbers.
+This table is generated from the built data (`python3 tools/status_md.py`).
+"With Persian" counts words that have a Persian meaning, note and example
+sentence; "Reviewed" counts those that also passed the independent second pass.
 
-| | New HSK 1 | 2 | 3 | 4 | 5 | 6 |
+<!-- status:start -->
+| Level | Words | With Persian | Reviewed | Human audio | Dialogues | Grammar lessons |
 | --- | --- | --- | --- | --- | --- | --- |
-| Words (official list, pinyin, part of speech) | 300 | 200 | 500 | 1,000 | 1,600 | 1,800 |
-| Persian meaning, note, example sentence | all, reviewed | all, reviewed | all, reviewed | all, reviewed | not yet | not yet |
-| Human recording | 278 | 175 | 455 | 836 | 1,355 | 1,374 |
-| Dialogues (reviewed) | 10 | 10 | 10 | 10 | – | – |
-| Grammar lessons (reviewed) | 70 | 78 | not yet | not yet | – | – |
+| New HSK 1 | 300 | 300 | 300 | 278 | 10 | 70 |
+| New HSK 2 | 200 | 200 | 200 | 175 | 10 | 78 |
+| New HSK 3 | 500 | 500 | 500 | 455 | 10 | 96 |
+| New HSK 4 | 1,000 | 1,000 | 1,000 | 836 | 10 | 95 |
+| New HSK 5 | 1,600 | 1,600 | 1,054 | 1,355 | – | – |
+| New HSK 6 | 1,800 | 0 | 0 | 1,374 | – | – |
+| Old HSK 1 | 150 | 150 | 150 | 143 | | |
+| Old HSK 2 | 151 | 151 | 151 | 139 | | |
+| Old HSK 3 | 300 | 300 | 300 | 285 | | |
+| Old HSK 4 | 600 | 597 | 590 | 560 | | |
+| Old HSK 5 | 1,300 | 947 | 720 | 1,186 | | |
+| Old HSK 6 | 2,500 | 131 | 89 | 2,123 | | |
+<!-- status:end -->
 
-- Levels 1-2 were written by the stronger model (about 5% of entries corrected in
-  review); levels 3-4 by a cheaper model (about 22% corrected in review, some of
-  them real sense errors). The review pass fixed what it found, but levels 3-4
-  should get a second review pass and are where a native proofread matters most.
-- Words not yet authored (levels 5-6, and the 1,820 words that exist only in old
-  HSK 2.0) show their English gloss instead of Persian.
-- Old HSK levels 1-4 are almost fully covered by the work above, because nearly
-  all of their words are also in new HSK levels 1-4.
+- Old HSK dialogues and grammar reuse the new-HSK content of the same level number.
+- Levels 1-2 were written by the strongest model (about 5% of entries corrected in
+  review). From level 3 up a cheaper model wrote the entries and a stronger one
+  reviewed them, correcting 20-30% of entries, some of them real sense errors.
+  The review fixed what it found, but those levels deserve a second review pass
+  and are where a native proofread matters most.
+- Words without Persian yet show their English gloss instead.
 - Words without a human recording use the device's own Mandarin voice when one
   is installed.
 
@@ -125,6 +135,22 @@ python3 tools/merge_content.py     # staging -> data/content/words
 python3 tools/build_audio.py PATH/TO/audio-cmn/64k
 python3 tools/build_data.py        # everything -> app/public/data
 ```
+
+### Continuing the Persian content
+
+Authoring is resumable at any time; nothing depends on a particular session.
+
+1. `python3 tools/content_status.py` shows what is authored and reviewed;
+   `python3 tools/content_status.py --pending hsk3-L6` prints the batches of a
+   group that still need work, as JSON.
+2. Authors follow `tools/content/WORD_GUIDE.md` and write
+   `data/content/staging/<batch>.gen.json`; reviewers follow
+   `tools/content/VERIFY_GUIDE.md` and write `<batch>.ver.json` (corrections only).
+   `tools/workflows/` holds the orchestration scripts used to run these two
+   passes with language-model agents (one author and one independent reviewer per
+   batch), and the equivalents for dialogues and grammar.
+3. `python3 tools/merge_content.py && python3 tools/build_data.py && python3 tools/status_md.py`
+   publishes the result into the app and refreshes the table above.
 
 ## Sources and licences
 
