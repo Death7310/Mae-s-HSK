@@ -152,9 +152,11 @@ conversation.
 checkpoint and a new session is better. Left alone, a model with a 1M-token
 window compacts only near its limit (about 967k by default according to the
 documentation; 901,600 was the value observed in this environment).
-`.claude/settings.json` therefore sets `"autoCompactWindow": 500000`, so a turn
-that runs away unattended is cut back well before that. Delete the line to
-return to the default.
+`.claude/settings.json` therefore sets `"autoCompactWindow": 500000`, so that a
+turn that runs away unattended is cut back well before that. Not yet confirmed:
+the session that added the line kept its old threshold, so check the first new
+session (its compaction threshold should read about 500k, not 900k). Delete the
+line to return to the default.
 
 **What fills a context fastest**, in the order met here:
 
@@ -251,7 +253,7 @@ history.
 <!-- ledger:start -->
 | Session | Date | Task | Main calls | Fresh start | Peak context | Main: new in / re-read / out | Agents | Agents: new in / re-read / out | Lesson |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ebd5a4d8 | 2026-11-26 | Token-economy method, context guard and session rules | 21 | 88k | 359k | 296k / 5.1M / 118k | 6 | 659k / 3.8M / 99k | New input and output were about 9/10 of main-conversation cost; re-reads 8%. One skill load added 99k. Mid- and small-tier agents did checkable work at a fraction of top-tier cost. Independent review corrected the first cost model. |
+| ebd5a4d8 | 2026-11-26 | Token-economy method, context guard and session rules | 23 | 88k | 370k | 308k / 5.8M / 121k | 6 | 659k / 3.8M / 99k | New input and output were about 9/10 of main-conversation cost; re-reads 8%. One skill load added 99k. Mid- and small-tier agents did checkable work at a fraction of top-tier cost. Independent review corrected the first cost model. |
 <!-- ledger:end -->
 
 ## Sources
