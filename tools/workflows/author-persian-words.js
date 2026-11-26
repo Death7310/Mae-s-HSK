@@ -53,12 +53,12 @@ log(`${todo.length} batches: ${todo.map(b => b.id).join(' ')}`)
 const results = await pipeline(
   todo,
   b => b.gen
-    ? agent(authorPrompt(b.id), { label: `author:${b.id}`, phase: 'Author', schema: SUMMARY, agentType: 'general-purpose', ...authorOpts })
+    ? agent(authorPrompt(b.id), { label: `author:${b.id}`, phase: 'Author', schema: SUMMARY, agentType: 'general-purpose', effort: 'low', ...authorOpts })
     : { entries: 0, check: 'already authored' },
   (authored, b) => {
     if (!authored) { log(`author failed for ${b.id}`); return { id: b.id, authored: null, reviewed: null } }
     if (!b.ver) return { id: b.id, authored, reviewed: { entries: 0, check: 'already reviewed' } }
-    return agent(reviewPrompt(b.id), { label: `review:${b.id}`, phase: 'Review', schema: SUMMARY, agentType: 'general-purpose', ...reviewOpts })
+    return agent(reviewPrompt(b.id), { label: `review:${b.id}`, phase: 'Review', schema: SUMMARY, agentType: 'general-purpose', effort: 'medium', ...reviewOpts })
       .then(reviewed => ({ id: b.id, authored, reviewed }))
   }
 )

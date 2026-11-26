@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import io
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -48,8 +49,10 @@ class GuardTest(unittest.TestCase):
         self.path.write_text("\n".join(lines) + "\n", encoding="utf-8")
         return self.path
 
-    def run_hook(self, stdin):
-        done = subprocess.run([sys.executable, str(SCRIPT)], input=stdin, capture_output=True, text=True, timeout=30)
+    def run_hook(self, stdin, **env):
+        done = subprocess.run(
+            [sys.executable, str(SCRIPT)], input=stdin, capture_output=True, text=True, timeout=30, env={**os.environ, **env}
+        )
         self.assertEqual(done.returncode, 0, done.stderr)
         return done.stdout
 
@@ -61,13 +64,13 @@ class GuardTest(unittest.TestCase):
 
     def test_warn_output_is_valid_hook_json(self):
         out = json.loads(self.hook_on(line("a", write_1h=20_000), line("b", read=20_000, write_1h=110_000, out=500)))
-        self.assertIn("[WARN]", out["systemMessage"])
+        self.assertIn("⚠ Long conversation: 110k", out["systemMessage"])
         self.assertEqual(out["hookSpecificOutput"]["hookEventName"], "UserPromptSubmit")
         self.assertIn(out["systemMessage"], out["hookSpecificOutput"]["additionalContext"])
 
     def test_critical(self):
         out = json.loads(self.hook_on(line("a", write_1h=20_000), line("b", read=20_000, write_1h=260_000)))
-        self.assertIn("[CRITICAL]", out["systemMessage"])
+        self.assertIn("⚠ Very long conversation", out["systemMessage"])
 
     def test_repeated_lines_sidechain_and_synthetic_are_not_counted(self):
         synthetic = json.loads(line("s", read=900_000))
@@ -94,30 +97,80 @@ class GuardTest(unittest.TestCase):
 
     def test_expired_cache_is_reported_only_after_its_lifetime(self):
         m = guard.measure(guard.read_calls(self.write(line("a", write_1h=20_000), line("b", read=20_000, write_1h=150_000))))
-        self.assertNotIn("expired", guard.warning(m, now=T0 + timedelta(minutes=59))[1])
-        self.assertIn("expired", guard.warning(m, now=T0 + timedelta(minutes=61))[1])
+        self.assertNotIn("sat idle", guard.warning(m, now=T0 + timedelta(minutes=59))[1])
+        self.assertIn("sat idle for 61 minutes", guard.warning(m, now=T0 + timedelta(minutes=61))[1])
+        self.assertEqual(round(m.miss_as_output), round(m.now * 2 / 5))
 
     def test_bad_input_never_fails_or_prints(self):
         for stdin in ("", "{}", "garbage", "[1, 2]", '{"transcript_path": "/no/such/file"}', '{"transcript_path": 7}'):
             self.assertEqual(self.run_hook(stdin), "", stdin)
         self.assertEqual(self.hook_on("", "{", '{"type": "assistant", "message": {"usage": "assistant"}}'), "")
 
-    def test_log_appends_and_keeps_the_newest_rows(self):
-        self.write(line("a", write_1h=20_000), line("b", read=20_000, write_1h=5_000, out=100))
+    def test_side_calls_do_not_move_the_fresh_start_or_hide_the_history(self):
+        calls = guard.read_calls(
+            self.write(
+                line("title", read=3_000),
+                line("a", write_1h=20_000),
+                line("b", read=20_000, write_1h=130_000),
+                line("summary", read=7_500),
+            )
+        )
+        m = guard.measure(calls)
+        self.assertEqual((m.calls, m.baseline, m.history), (2, 20_002, 130_000))
+
+    def test_bad_settings_fall_back_to_the_defaults(self):
+        lines = (line("a", write_1h=20_000), line("b", read=20_000, write_1h=110_000))
+        for value in ("abc", "", "1e5", "0", "-5"):
+            env = {"CONTEXT_GUARD_WARN": value, "CONTEXT_GUARD_CRITICAL": value, "CONTEXT_GUARD_CACHE_TTL_MIN": value}
+            out = self.run_hook(json.dumps({"transcript_path": str(self.write(*lines))}), **env)
+            self.assertIn("more than 60 minutes", json.loads(out)["systemMessage"], value)
+
+    def test_after_a_tool_call_the_result_is_counted_and_only_the_model_is_told(self):
+        path = self.write(line("a", write_1h=20_000), line("b", read=20_000, write_1h=50_000))
+        payload = {"transcript_path": str(path), "hook_event_name": "PostToolUse", "tool_response": "x" * 400_000}
+        out = json.loads(self.run_hook(json.dumps(payload)))
+        self.assertEqual(out["hookSpecificOutput"]["hookEventName"], "PostToolUse")
+        self.assertIn("150k tokens more", out["hookSpecificOutput"]["additionalContext"])
+        self.assertNotIn("systemMessage", out)
+        self.assertEqual(self.run_hook(json.dumps({**payload, "tool_response": "small"})), "")
+
+    def test_cold_long_conversation_is_held_once_when_asked(self):
+        path = self.write(line("a", write_1h=20_000), line("b", read=20_000, write_1h=150_000))
+        stdin = json.dumps({"transcript_path": str(path), "session_id": "held-" + Path(self.dir.name).name})
+        self.assertNotIn("decision", json.loads(self.run_hook(stdin)))
+        first = json.loads(self.run_hook(stdin, CONTEXT_GUARD_HOLD_COLD="1"))
+        self.assertEqual(first["decision"], "block")
+        self.assertIn("send your message again", first["reason"])
+        self.assertIn("systemMessage", json.loads(self.run_hook(stdin, CONTEXT_GUARD_HOLD_COLD="1")))
+
+    def test_log_keeps_one_row_per_session_and_the_newest_rows(self):
         ledger = Path(self.dir.name) / "README.md"
-        ledger.write_text(f"before\n{guard.LEDGER_START}\n{guard.LEDGER_HEADER}\n{guard.LEDGER_END}\nafter\n", encoding="utf-8")
+        ledger.write_text(
+            f"before\n{guard.LEDGER_START}\n{guard.LEDGER_HEADER}\n  | hand | 2025-01-01 | by hand |\n{guard.LEDGER_END}\nafter\n",
+            encoding="utf-8",
+        )
         old = guard.LEDGER_FILE, guard.LEDGER_MAX_ROWS
-        guard.LEDGER_FILE, guard.LEDGER_MAX_ROWS = ledger, 2
+        guard.LEDGER_FILE, guard.LEDGER_MAX_ROWS = ledger, 3
         self.addCleanup(lambda: (setattr(guard, "LEDGER_FILE", old[0]), setattr(guard, "LEDGER_MAX_ROWS", old[1])))
+        content = "\n".join((line("a", write_1h=20_000), line("b", read=20_000, write_1h=5_000, out=100))) + "\n"
         with redirect_stdout(io.StringIO()):
-            for task in ("one", "two | with a pipe", "three"):
-                guard.log(self.path, task, "a\nnote")
+            for name, task in (("aaaaaaaa", "one"), ("bbbbbbbb", "two | <!-- ledger:end --> pipe"), ("aaaaaaaa", "one again")):
+                path = Path(self.dir.name) / f"{name}-rest-of-id.jsonl"
+                path.write_text(content, encoding="utf-8")
+                guard.log(path, task, "a\nnote")
         text = ledger.read_text(encoding="utf-8")
         self.assertTrue(text.startswith("before\n") and text.endswith("\nafter\n"))
-        rows = [r for r in text.splitlines() if r.startswith("| 2026")]
-        self.assertEqual(len(rows), 2)
-        self.assertIn("two / with a pipe", rows[0])
-        self.assertIn("| 2 | 20k | 25k | 25k / 20k / 100 | 0 | – | a note |", rows[1])
+        self.assertEqual(text.count(guard.LEDGER_END), 1)
+        rows = [r for r in text.splitlines() if r.startswith("| ") and "---" not in r and "Session" not in r]
+        self.assertEqual([r.split("|")[1].strip() for r in rows], ["hand", "bbbbbbbb", "aaaaaaaa"])
+        self.assertIn("| two / ledger:end pipe |", rows[1])
+        self.assertIn("| 2026-01-01 | one again | 2 | 20k | 25k | 25k / 20k / 100 | 0 | – | a note |", rows[2])
+        with redirect_stdout(io.StringIO()):
+            for name in ("cccccccc", "dddddddd"):
+                path = Path(self.dir.name) / f"{name}.jsonl"
+                path.write_text(content, encoding="utf-8")
+                guard.log(path, "more", "")
+        self.assertEqual(ledger.read_text(encoding="utf-8").count("\n| "), 2 + 3)
 
 
 if __name__ == "__main__":

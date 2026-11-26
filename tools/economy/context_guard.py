@@ -2,17 +2,17 @@
 """Context guard for Claude Code sessions.
 
 Every model call re-sends the whole conversation, so a long conversation makes
-each further call more expensive. This script measures that from the session
-transcript and does three things:
+each further call, and above all each cache miss, more expensive. This script
+measures that from the session transcript and does three things:
 
-  (no arguments)            UserPromptSubmit hook: reads the hook JSON on stdin
-                            and prints a warning when the conversation is long
-  --report [TRANSCRIPT]     usage summary of a session and its subagents
-  --log TASK [TRANSCRIPT]   append one measured row to the ledger in README.md
+  (no arguments)            hook: reads the hook JSON on stdin and prints a
+                            warning when the conversation is long
+  --report [TRANSCRIPT]     usage summary of a session and its agents
+  --log TASK [TRANSCRIPT]   write this session's row in the ledger in README.md
                             (add --note "what was learned")
 
 The method, the thresholds and the ledger are in the README.md next to this
-file. The script has no dependencies and never blocks a prompt: on any error
+file. The script has no dependencies and never fails a prompt: on any error
 the hook prints nothing and exits 0.
 """
 from __future__ import annotations
@@ -22,6 +22,7 @@ import json
 import os
 import re
 import sys
+import tempfile
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -30,15 +31,25 @@ HERE = Path(__file__).resolve().parent
 LEDGER_FILE = HERE / "README.md"
 LEDGER_START, LEDGER_END = "<!-- ledger:start -->", "<!-- ledger:end -->"
 LEDGER_HEADER = (
-    "| Date | Task | Main calls | Fresh start | Peak context | Main: new in / re-read / out | Agents | Agents: new in / re-read / out | Lesson |\n"
-    "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"
+    "| Session | Date | Task | Main calls | Fresh start | Peak context | Main: new in / re-read / out "
+    "| Agents | Agents: new in / re-read / out | Lesson |\n"
+    "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"
 )
 LEDGER_MAX_ROWS = 30  # older rows stay in git history
 
+
+def _env_int(name: str, default: int | None) -> int | None:
+    try:
+        value = int(os.environ[name])
+    except (KeyError, ValueError):
+        return default
+    return value if value > 0 else default
+
+
 # Tokens of conversation history, above what a fresh session starts with, that
 # are re-sent on every model call. Override with environment variables.
-WARN = int(os.environ.get("CONTEXT_GUARD_WARN", 100_000))
-CRITICAL = int(os.environ.get("CONTEXT_GUARD_CRITICAL", 250_000))
+WARN = _env_int("CONTEXT_GUARD_WARN", 100_000)
+CRITICAL = _env_int("CONTEXT_GUARD_CRITICAL", 250_000)
 
 # Price of each token class relative to one uncached input token of the same
 # model (see "What costs tokens" in the README for the sources). The cache-read
@@ -46,7 +57,9 @@ CRITICAL = int(os.environ.get("CONTEXT_GUARD_CRITICAL", 250_000))
 W_WRITE_5M, W_WRITE_1H, W_OUT = 1.25, 2.0, 5.0
 W_READ_LOW, W_READ_HIGH = 0.025, 0.1
 
-MIN_CONTEXT = 2_000  # smaller "calls" are not real conversation turns
+# Claude Code's own system prompt and tools are well above this, so a smaller
+# call (a title, a summary) is not a turn of the conversation.
+MIN_CONTEXT = 8_000
 
 
 @dataclass
@@ -101,6 +114,8 @@ def read_calls(path: Path, sidechain: bool | None = False) -> list[Call]:
     """
     calls: dict[str, Call] = {}
     try:
+        if not path.is_file():  # not a pipe or a device, which would never end
+            return []
         handle = open(path, encoding="utf-8", errors="replace")
     except OSError:
         return []
@@ -148,10 +163,16 @@ class Measure:
     reread: int  # history above the baseline, summed over all calls so far
     last_ts: datetime | None
     cache_minutes: int
+    write_weight: float
 
     @property
     def history(self) -> int:
         return max(0, self.now - self.baseline)
+
+    @property
+    def miss_as_output(self) -> float:
+        """A cache miss now, expressed as tokens of written output."""
+        return self.now * self.write_weight / W_OUT
 
 
 def measure(calls: list[Call]) -> Measure | None:
@@ -160,7 +181,7 @@ def measure(calls: list[Call]) -> Measure | None:
         return None
     baseline = min(c.context for c in real)
     last = real[-1]
-    ttl = os.environ.get("CONTEXT_GUARD_CACHE_TTL_MIN")
+    hour = any(c.write_1h for c in real[-20:])
     return Measure(
         calls=len(real),
         baseline=baseline,
@@ -168,7 +189,8 @@ def measure(calls: list[Call]) -> Measure | None:
         peak=max(c.context for c in real),
         reread=sum(c.context - baseline for c in real),
         last_ts=last.ts,
-        cache_minutes=int(ttl) if ttl and ttl.isdigit() else (60 if any(c.write_1h for c in real[-20:]) else 5),
+        cache_minutes=_env_int("CONTEXT_GUARD_CACHE_TTL_MIN", None) or (60 if hour else 5),
+        write_weight=W_WRITE_1H if hour else W_WRITE_5M,
     )
 
 
@@ -184,52 +206,93 @@ def short(n: float) -> str:
 # --- hook -------------------------------------------------------------------
 
 
+def idle_minutes(m: Measure, now: datetime | None = None) -> float:
+    if m.last_ts is None:
+        return 0.0
+    return ((now or datetime.now(timezone.utc)) - m.last_ts).total_seconds() / 60
+
+
 def warning(m: Measure, now: datetime | None = None) -> tuple[str, str] | None:
     """(level, one-line warning) when the conversation is long, else None."""
+    cost = f"about as much as writing {short(m.miss_as_output)} tokens of output"
     if m.history >= CRITICAL:
-        level, advice = "CRITICAL", "Checkpoint now and continue in a new session."
+        level = "CRITICAL"
+        line = (
+            f"⚠ Very long conversation: {short(m.history)} tokens more than a fresh one. Ask me to save a "
+            f"checkpoint now and continue in a new session. One idle break of {m.cache_minutes} minutes here "
+            f"costs {cost}."
+        )
     elif m.history >= WARN:
-        level, advice = "WARN", "Wrap up the current task, then continue in a new session."
+        level = "WARN"
+        line = (
+            f"⚠ Long conversation: {short(m.history)} tokens more than a fresh one. Fine to finish this task "
+            f"here, but do not leave it idle for more than {m.cache_minutes} minutes and do not change the model "
+            f"or effort setting: either makes the next message re-process everything, {cost}. Start your next "
+            "task in a new session."
+        )
     else:
         return None
-    line = (
-        f"⚠ Context economy [{level}]: this conversation now carries ≈{short(m.history)} tokens of history "
-        f"on top of the ≈{short(m.baseline)} a new session starts with. Every model call re-reads all "
-        f"≈{short(m.now)}, and a cache miss (a break over {m.cache_minutes} min, a model or effort switch) "
-        f"re-bills all of it at the cache-write price. {advice}"
-    )
-    if m.last_ts is not None:
-        idle = ((now or datetime.now(timezone.utc)) - m.last_ts).total_seconds() / 60
-        if idle > m.cache_minutes:
-            line += f" The cache has in fact expired (idle {idle:.0f} min): this message pays that price."
+    idle = idle_minutes(m, now)
+    if idle > m.cache_minutes:
+        line += f" (It sat idle for {idle:.0f} minutes, so this message has already paid that.)"
     return level, line
+
+
+def hold(m: Measure, payload: dict) -> str | None:
+    """Reason to hold a prompt once before a cold, long conversation is re-processed (opt-in)."""
+    if os.environ.get("CONTEXT_GUARD_HOLD_COLD") != "1" or m.history < WARN or m.last_ts is None:
+        return None
+    idle = idle_minutes(m)
+    if idle <= m.cache_minutes:
+        return None
+    session = re.sub(r"[^A-Za-z0-9_-]", "", str(payload.get("session_id") or "session"))[:64]
+    marker = Path(tempfile.gettempdir()) / f"context-guard-{session}-{int(m.last_ts.timestamp())}"
+    if marker.exists():
+        return None
+    marker.touch()
+    return (
+        f"⚠ Not sent yet. This conversation sat idle for {idle:.0f} minutes, so continuing here re-processes all "
+        f"of it, about as much as writing {short(m.miss_as_output)} tokens of output. Cheaper: start a new session "
+        "and ask it to continue from the last commit. To continue here anyway, send your message again."
+    )
 
 
 def hook() -> None:
     raw = sys.stdin.read()
     payload = json.loads(raw) if raw.strip() else {}
-    path = payload.get("transcript_path") if isinstance(payload, dict) else None
-    if not path:
+    if not isinstance(payload, dict) or not isinstance(payload.get("transcript_path"), str):
         return
-    m = measure(read_calls(Path(path)))
-    found = warning(m) if m else None
+    m = measure(read_calls(Path(payload["transcript_path"])))
+    if not m:
+        return
+    event = payload.get("hook_event_name")
+    event = event if isinstance(event, str) and event else "UserPromptSubmit"
+    if event == "UserPromptSubmit":
+        reason = hold(m, payload)
+        if reason:
+            json.dump({"decision": "block", "reason": reason}, sys.stdout, ensure_ascii=False)
+            return
+    else:  # after a tool call: its result is not in the transcript's usage yet, so estimate it
+        m.now += len(json.dumps(payload.get("tool_response", ""), ensure_ascii=False)) // 4
+    found = warning(m)
     if not found:
         return
     _, line = found
-    context = (
-        f"[context-guard] {line}\n"
-        "Start your reply with that ⚠ line, unchanged. Keep this turn lean (small tool outputs, bulk "
-        "reading in subagents). When the current task is done: commit, write the next step in two "
-        "lines, and tell the user to continue in a new session. Method: tools/economy/README.md"
-    )
-    json.dump(
-        {
-            "systemMessage": line,
-            "hookSpecificOutput": {"hookEventName": "UserPromptSubmit", "additionalContext": context},
-        },
-        sys.stdout,
-        ensure_ascii=False,
-    )
+    out: dict = {
+        "hookSpecificOutput": {
+            "hookEventName": event,
+            "additionalContext": (
+                f"[context-guard] {line}\n"
+                "Start your next reply to the user with that ⚠ line, unchanged. Keep the rest of this turn "
+                "lean (small tool outputs, bulk reading in agents). When the current task is done: commit, "
+                "give the next step in two lines, and tell the user to start the next task in a new session. "
+                "Method: tools/economy/README.md"
+            ),
+        }
+    }
+    if event == "UserPromptSubmit":
+        out["systemMessage"] = line
+    json.dump(out, sys.stdout, ensure_ascii=False)
 
 
 # --- report and ledger ------------------------------------------------------
@@ -298,6 +361,11 @@ def report(transcript: Path) -> None:
     print("       counted in input tokens of the model that ran; tiers are not converted into each other.")
 
 
+def _cell(text: str) -> str:
+    text = text.replace("|", "/").replace("<!--", "").replace("-->", "")
+    return " ".join(text.split())
+
+
 def ledger_row(transcript: Path, task: str, note: str) -> str:
     main = read_calls(transcript)
     m = measure(main)
@@ -306,21 +374,28 @@ def ledger_row(transcript: Path, task: str, note: str) -> str:
     agents = agent_calls(transcript)
     flat = [c for calls in agents.values() for c in calls]
     day = (m.last_ts or datetime.now(timezone.utc)).strftime("%Y-%m-%d")
-    cell = lambda s: " ".join(s.replace("|", "/").split())  # noqa: E731
     return (
-        f"| {day} | {cell(task)} | {m.calls} | {short(m.baseline)} | {short(m.peak)} | {triple(main)} | "
-        f"{len(agents)} | {triple(flat) if flat else '–'} | {cell(note)} |"
+        f"| {_cell(transcript.stem)[:8]} | {day} | {_cell(task)} | {m.calls} | {short(m.baseline)} | {short(m.peak)} | "
+        f"{triple(main)} | {len(agents)} | {triple(flat) if flat else '–'} | {_cell(note)} |"
     )
 
 
 def log(transcript: Path, task: str, note: str) -> None:
+    """Write the session's row; logging the same session again replaces its row."""
     row = ledger_row(transcript, task, note)
     text = LEDGER_FILE.read_text(encoding="utf-8")
     if LEDGER_START not in text or LEDGER_END not in text:
         raise SystemExit(f"{LEDGER_FILE} has no {LEDGER_START} … {LEDGER_END} block")
     head, rest = text.split(LEDGER_START, 1)
-    body, tail = rest.split(LEDGER_END, 1)
-    rows = [r for r in body.strip().splitlines() if r.startswith("|")][2:]  # drop the header
+    body, tail = rest.rsplit(LEDGER_END, 1)
+    session = row.split("|")[1]
+    rows = []
+    for line in body.splitlines():
+        line = line.strip()
+        if not line.startswith("|") or line.startswith("| Session |") or re.fullmatch(r"\|[\s\-:|]+", line):
+            continue
+        if line.split("|")[1] != session:
+            rows.append(line)
     rows = (rows + [row])[-LEDGER_MAX_ROWS:]
     block = "\n".join([LEDGER_START, LEDGER_HEADER, *rows, LEDGER_END])
     LEDGER_FILE.write_text(head + block + tail, encoding="utf-8")
@@ -336,14 +411,16 @@ def main() -> None:
         return
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--report", action="store_true", help="print a usage summary")
-    parser.add_argument("--log", metavar="TASK", help="append a row to the ledger in README.md")
+    parser.add_argument("--log", metavar="TASK", help="write this session's row in the ledger in README.md")
     parser.add_argument("--note", default="", help="lesson to record with --log")
     parser.add_argument("transcript", nargs="?", type=Path, help="session transcript (default: this session)")
     args = parser.parse_args()
+    if args.log is not None and not args.log.strip():
+        parser.error("--log needs a task description")
     transcript = args.transcript or find_transcript()
     if not transcript or not transcript.is_file():
         raise SystemExit("no transcript found; pass its path")
-    if args.log:
+    if args.log is not None:
         log(transcript, args.log, args.note)
     else:
         report(transcript)

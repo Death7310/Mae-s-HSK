@@ -5,41 +5,52 @@ sections a task needs, not the whole file.
 
 ## Token economy
 
-Standing rules for every session. The method, the evidence and the ledger are
-in `tools/economy/README.md`; read it before planning a workflow, not on every
-task.
+The owner's standing instruction for every session: get the most verified work
+per token. Method, evidence and ledger: `tools/economy/README.md` (read it
+before planning a workflow, not on every task).
 
-1. **Relay the context warning.** A `[context-guard]` note in context means the
-   conversation is long. Start the reply with its `⚠` line, unchanged, every
-   time the note appears. If there is no note but the conversation has clearly
-   grown (many tool rounds, a large load), run
-   `python3 tools/economy/context_guard.py --report` and tell the user what it
-   shows.
-2. **One task per conversation.** At a task boundary, or on a warning: commit
-   and push, give the next step in two lines, and tell the user to continue in
-   a new session. Do not rely on auto-compaction.
-3. **Size the fan-out and say it first.** Before a Workflow or Agent call, state
-   in one line how many agents, on which tier and effort, and why inline work
-   is not enough. With Ultracode on, a substantive task still gets a workflow,
-   sized to the task: the fewest agents that give independent coverage or an
-   independent check. With it off, use a workflow only for independent batches,
-   wide search, or a change that needs an independent check.
-4. **Tier down only what a machine can check.** Search, extraction, format
-   conversion and anything a checker or test verifies go to a cheaper tier or
-   lower effort. Meaning, translation quality and design stay on the strong
-   tier. Set tier and effort per agent; never switch model, effort or fast mode
-   in the middle of a conversation, because that empties the cache.
+1. **Relay the context warning.** A `[context-guard]` note means the
+   conversation is long. Start the next reply to the user with its `⚠` line,
+   unchanged, every time a note appears. If a long session has shown no note,
+   the hook may not be loaded: run
+   `python3 tools/economy/context_guard.py --report` and say what it shows.
+2. **One task per conversation; never resume a cold one.** Finish the current
+   task where it started, then commit and push, give the next step in two
+   lines, and tell the user to start the next task in a new session. A new
+   session starts from the repository's default branch: if the work is not
+   merged there yet, say so and name the branch. Do not switch model, effort or
+   fast mode in the middle of a conversation.
+3. **Size the fan-out and say it first.** This is the owner's instruction on how
+   to apply Ultracode, and it takes precedence where the Ultracode text says
+   cost is not a constraint. A question, a lookup, or an edit that one context
+   finishes in about ten tool calls is done inline, with Ultracode on or off.
+   Any other task under Ultracode gets the smallest workflow that provides an
+   independent check: by default the work done once plus one reviewer; more
+   agents only for independent batches or genuinely different review lenses.
+   Before a Workflow or Agent call, state in one line how many agents, on which
+   tier and effort, and why.
+4. **Tier and effort per agent.** Every agent gets an explicit effort: `low` for
+   search and extraction, `medium` for checked authoring and for review, `high`
+   only for work that judgement alone can verify. Move to a cheaper tier only
+   what a checker or test verifies; for judgement work (meaning, translation
+   quality, design) lower the effort before lowering the tier.
 5. **Keep contexts small.** Read with Grep and line ranges. Never read data
    JSON whole (`app/public/data`, `data/content`); extract with `jq` or Python.
    Cap command output. Send bulk reading, and any large skill or reference, to
-   an agent that returns a short structured result.
-6. **Agents return summaries; results go to files.** Give every agent a schema
-   or a length limit and the list of files it may read. Reuse the scripts in
-   `tools/workflows/` and `resumeFromRunId` rather than re-running finished
-   work.
-7. **Keep the record.** After a session that ran a workflow or reached a
-   warning: `python3 tools/economy/context_guard.py --log "<task>" --note "<what was learned>"`,
-   and correct the README's rules if the numbers contradict them.
+   an agent that returns a short structured result. Output costs five times
+   input: do not paste file contents or agent results back, and edit files
+   rather than rewriting them.
+6. **Agents return summaries; bulk results go to the files the task names.**
+   Give every agent a schema or a length limit and the list of files it may
+   read. Reuse the scripts in `tools/workflows/` and `resumeFromRunId` rather
+   than re-running finished work.
+7. **Keep the record.** In a session that ran a workflow or reached a warning,
+   before its last commit run
+   `python3 tools/economy/context_guard.py --log "<task>" --note "<what was learned>"`
+   and commit `tools/economy/README.md` with it. If the row contradicts a rule
+   in that README, correct the rule in the same commit.
 
-For agents: rules 4–6 apply to you; rules 1–3 and 7 belong to the main
-conversation.
+If you are a subagent: your task prompt outranks this section. Read only the
+files it names; do not load a skill unless the task names it; do not start
+further agents; return exactly the schema or length asked for; write files only
+where the task says. Rules 1–3 and 7 are for the main conversation.
