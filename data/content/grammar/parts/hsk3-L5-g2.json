@@ -1,0 +1,204 @@
+[
+ {"id": "hsk3-g0364", "std": "hsk3", "level": 5, "no": 364,
+  "pattern": "不得了 / 可不得了",
+  "title": {"fa": "«وای، خیلی جدی است!»: 不得了", "en": "\"This is serious!\": 不得了"},
+  "body": "«不得了» به‌تنهایی یا در جای گزاره می‌آید و می‌گوید وضع خیلی جدی یا خطرناک است؛ مثل «وای!» یا «کار خراب شد!» در فارسی.\nگاهی هم برای تعجب و تحسین به کار می‌رود: «فوق‌العاده است».\nبرای تأکید بیشتر، پیش از آن 可 می‌گذارند: 可不得了.",
+  "examples": [
+   {"zh": "不得了，我的手机不见了！", "py": "Bùdéliǎo, wǒ de shǒujī bú jiàn le!", "fa": "وای، گوشی‌ام نیست!", "en": "Oh no, my phone is gone!"},
+   {"zh": "这件事要是让他知道了，可不得了。", "py": "Zhè jiàn shì yàoshi ràng tā zhīdào le, kě bùdéliǎo.", "fa": "اگر او از این ماجرا باخبر شود، کار خیلی خراب می‌شود.", "en": "If he finds out about this, it will be a disaster."},
+   {"zh": "他才十岁就会说三种语言，真不得了。", "py": "Tā cái shí suì jiù huì shuō sān zhǒng yǔyán, zhēn bùdéliǎo.", "fa": "فقط ده سالش است و سه زبان بلد است؛ واقعاً فوق‌العاده است.", "en": "He is only ten and already speaks three languages; that's really amazing."}
+  ]},
+ {"id": "hsk3-g0365", "std": "hsk3", "level": 5, "no": 365,
+  "pattern": "用不着 + فعل / اسم",
+  "title": {"fa": "«لازم نیست»: 用不着", "en": "\"There is no need to\": 用不着"},
+  "body": "«用不着» یعنی «لازم نیست» یا «به کار نمی‌آید». پیش از فعل می‌آید و می‌گوید انجام آن کار ضرورتی ندارد؛ معنایش به 不用 نزدیک است ولی محکم‌تر است.\nپیش از اسم یعنی «به آن چیز نیازی نیست». شکل مثبتش 用得着 است که بیشتر در پرسش می‌آید.",
+  "examples": [
+   {"zh": "这点儿小事，你用不着担心。", "py": "Zhè diǎnr xiǎo shì, nǐ yòngbuzháo dānxīn.", "fa": "برای این موضوع کوچک لازم نیست نگران باشی.", "en": "You don't need to worry about such a small thing."},
+   {"zh": "我们是老朋友，用不着这么客气。", "py": "Wǒmen shì lǎo péngyou, yòngbuzháo zhème kèqi.", "fa": "ما دوستان قدیمی هستیم، این‌همه تعارف لازم نیست.", "en": "We are old friends; there's no need to be so polite."},
+   {"zh": "这些书我现在用不着，你拿去吧。", "py": "Zhèxiē shū wǒ xiànzài yòngbuzháo, nǐ ná qù ba.", "fa": "این کتاب‌ها فعلاً به کارم نمی‌آیند، تو ببرشان.", "en": "I don't need these books right now; take them."}
+  ]},
+ {"id": "hsk3-g0366", "std": "hsk3", "level": 5, "no": 366,
+  "pattern": "从 + اسم + 来看،جمله",
+  "title": {"fa": "«از نظرِ … / با توجه به …»: 从……来看", "en": "\"Judging from …\": 从……来看"},
+  "body": "این قالب در آغاز جمله می‌آید و می‌گوید نتیجه‌گیری بر چه پایه‌ای است: «از این زاویه که نگاه کنیم» یا «با توجه به …».\nمیان 从 و 来看 یک اسم یا گروه اسمی می‌آید (وضعیت، نتیجه، تجربه و …) و داوری گوینده پس از آن گفته می‌شود.",
+  "examples": [
+   {"zh": "从目前的情况来看，问题不大。", "py": "Cóng mùqián de qíngkuàng lái kàn, wèntí bú dà.", "fa": "با توجه به وضعیت فعلی، مشکل بزرگی نیست.", "en": "Judging from the current situation, the problem is not serious."},
+   {"zh": "从这次考试的成绩来看，他进步很快。", "py": "Cóng zhè cì kǎoshì de chéngjì lái kàn, tā jìnbù hěn kuài.", "fa": "از روی نمرهٔ این امتحان پیداست که خیلی زود پیشرفت کرده است.", "en": "Judging from this exam's results, he is improving quickly."}
+  ]},
+ {"id": "hsk3-g0367", "std": "hsk3", "level": 5, "no": 367,
+  "pattern": "A 的 A،B 的 B",
+  "title": {"fa": "«بعضی این‌طور، بعضی آن‌طور»: A的A，B的B", "en": "\"Some do A, some do B\": A的A，B的B"},
+  "body": "برای توصیف یک جمع به کار می‌رود که هر بخش آن کاری می‌کند یا حالتی دارد: «یکی … ، یکی …».\nفعل یا صفت دو بار می‌آید و میانش 的 قرار می‌گیرد: 唱的唱 یعنی «آن‌ها که می‌خوانند، می‌خوانند».\nمعمولاً پس از آن جمله‌ای می‌آید که کل صحنه را جمع‌بندی می‌کند.",
+  "examples": [
+   {"zh": "孩子们唱的唱，跳的跳，热闹极了。", "py": "Háizimen chàng de chàng, tiào de tiào, rènao jí le.", "fa": "بچه‌ها یکی می‌خواند و یکی می‌رقصید؛ خیلی شلوغ و شاد بود.", "en": "Some of the children were singing, some dancing; it was very lively."},
+   {"zh": "这些苹果大的大，小的小，不太好卖。", "py": "Zhèxiē píngguǒ dà de dà, xiǎo de xiǎo, bú tài hǎo mài.", "fa": "این سیب‌ها بعضی بزرگ‌اند و بعضی کوچک؛ خوب فروش نمی‌روند.", "en": "Some of these apples are big and some small; they're hard to sell."}
+  ]},
+ {"id": "hsk3-g0368", "std": "hsk3", "level": 5, "no": 368,
+  "pattern": "(自) + زمان / رویداد + 以来",
+  "title": {"fa": "«از … تا حالا»: （自）……以来", "en": "\"Ever since …\": （自）……以来"},
+  "body": "این قالب بازه‌ای را نشان می‌دهد که از یک زمان یا رویداد در گذشته آغاز شده و تا اکنون ادامه دارد: «از … به این سو».\n自 را می‌توان انداخت؛ 以来 همیشه پس از عبارت زمان می‌آید، برخلاف «از» در فارسی که پیش از آن می‌نشیند.\nبیشتر در نوشتار و گفتار رسمی شنیده می‌شود.",
+  "examples": [
+   {"zh": "自去年以来，这里的变化很大。", "py": "Zì qùnián yǐlái, zhèlǐ de biànhuà hěn dà.", "fa": "از پارسال تا حالا، اینجا خیلی تغییر کرده است.", "en": "Since last year, this place has changed a lot."},
+   {"zh": "上大学以来，她一直住在北京。", "py": "Shàng dàxué yǐlái, tā yìzhí zhù zài Běijīng.", "fa": "از وقتی به دانشگاه رفته، همیشه در پکن زندگی کرده است.", "en": "Ever since she started university, she has lived in Beijing."}
+  ]},
+ {"id": "hsk3-g0369", "std": "hsk3", "level": 5, "no": 369,
+  "pattern": "کل + 由 + اجزا + 组成",
+  "title": {"fa": "«از … تشکیل شده است»: 由……组成", "en": "\"Is made up of …\": 由……组成"},
+  "body": "برای گفتن اینکه یک کل از چه بخش‌ها یا اعضایی ساخته شده است. نخست کل می‌آید، سپس 由 و اجزا، و در پایان فعل 组成.\nترتیب مانند فارسی است: «این گروه از پنج دانشجو تشکیل شده است». سبک آن رسمی و نوشتاری است.",
+  "examples": [
+   {"zh": "这个小组由五名学生组成。", "py": "Zhège xiǎozǔ yóu wǔ míng xuésheng zǔchéng.", "fa": "این گروه از پنج دانشجو تشکیل شده است.", "en": "This group is made up of five students."},
+   {"zh": "我们班由来自十个国家的学生组成。", "py": "Wǒmen bān yóu láizì shí gè guójiā de xuésheng zǔchéng.", "fa": "کلاس ما از دانشجویانی از ده کشور تشکیل شده است.", "en": "Our class is made up of students from ten countries."}
+  ]},
+ {"id": "hsk3-g0370", "std": "hsk3", "level": 5, "no": 370,
+  "pattern": "X 也不是،Y 也不是",
+  "title": {"fa": "«نه این درست است، نه آن»: X也不是，Y也不是", "en": "\"Neither X nor Y feels right\": X也不是，Y也不是"},
+  "body": "وقتی کسی میان دو کار مانده و هیچ‌کدام مناسب نیست، این قالب را می‌گویند: «نه می‌شود … ، نه می‌شود …».\nX و Y معمولاً دو فعل متضادند (ایستادن و نشستن، رفتن و نرفتن). حالتِ دستپاچگی یا ناچاری را نشان می‌دهد و پس از آن اغلب می‌گویند «نمی‌دانم چه کنم».",
+  "examples": [
+   {"zh": "他站也不是，坐也不是，不知道怎么办才好。", "py": "Tā zhàn yě bú shì, zuò yě bú shì, bù zhīdào zěnme bàn cái hǎo.", "fa": "نه می‌توانست بایستد، نه بنشیند؛ نمی‌دانست چه کند.", "en": "He could neither stand nor sit comfortably; he didn't know what to do."},
+   {"zh": "这件事我说也不是，不说也不是。", "py": "Zhè jiàn shì wǒ shuō yě bú shì, bù shuō yě bú shì.", "fa": "این موضوع را نه می‌توانم بگویم، نه می‌توانم نگویم.", "en": "It feels wrong to mention this and wrong not to."}
+  ]},
+ {"id": "hsk3-g0371", "std": "hsk3", "level": 5, "no": 371,
+  "pattern": "X 也 X 不得،Y 也 Y 不得",
+  "title": {"fa": "«نه می‌شود این کار را کرد، نه آن کار را»: X也X不得，Y也Y不得", "en": "\"Can neither X nor Y\": X也X不得，Y也Y不得"},
+  "body": "«فعل + 不得» یعنی «نباید / نمی‌شود آن کار را کرد». با تکرار این ساخت برای دو فعل، می‌گویند هیچ‌یک از دو راه ممکن نیست و آدم درمانده است.\nهر فعل دو بار می‌آید: یک بار پیش از 也 و یک بار پیش از 不得. در فارسی: «نه می‌شود زدش، نه می‌شود دعوایش کرد».",
+  "examples": [
+   {"zh": "这个孩子打也打不得，骂也骂不得。", "py": "Zhège háizi dǎ yě dǎbude, mà yě màbude.", "fa": "این بچه را نه می‌شود زد، نه می‌شود دعوا کرد.", "en": "You can neither hit this child nor scold him."},
+   {"zh": "听了他的话，我哭也哭不得，笑也笑不得。", "py": "Tīngle tā de huà, wǒ kū yě kūbude, xiào yě xiàobude.", "fa": "حرفش را که شنیدم، نه می‌توانستم گریه کنم، نه بخندم.", "en": "After hearing what he said, I could neither cry nor laugh."}
+  ]},
+ {"id": "hsk3-g0372", "std": "hsk3", "level": 5, "no": 372,
+  "pattern": "X 是它،Y 也是它",
+  "title": {"fa": "«برای این همان است، برای آن هم همان»: X是它，Y也是它", "en": "\"The same one for X and for Y\": X是它，Y也是它"},
+  "body": "می‌گوید یک چیز برای چند کار یا چند موقعیت به کار می‌رود، چون چیز دیگری نیست یا همان کافی است.\n它 به همان چیزی برمی‌گردد که پیش‌تر نام برده شده است؛ X و Y کارها یا موقعیت‌ها هستند.",
+  "examples": [
+   {"zh": "他只有一双鞋，上班是它，运动也是它。", "py": "Tā zhǐ yǒu yì shuāng xié, shàngbān shì tā, yùndòng yě shì tā.", "fa": "او فقط یک جفت کفش دارد؛ سر کار همان را می‌پوشد، برای ورزش هم همان را.", "en": "He has only one pair of shoes: he wears them to work and for sports too."},
+   {"zh": "我家就这一张桌子，吃饭是它，写作业也是它。", "py": "Wǒ jiā jiù zhè yì zhāng zhuōzi, chīfàn shì tā, xiě zuòyè yě shì tā.", "fa": "خانهٔ ما فقط همین یک میز را دارد؛ هم برای غذا خوردن است، هم برای نوشتن تکلیف.", "en": "We have just this one table at home: we eat at it and do homework at it too."}
+  ]},
+ {"id": "hsk3-g0373", "std": "hsk3", "level": 5, "no": 373,
+  "pattern": "X 着也是 X 着،پیشنهاد",
+  "title": {"fa": "«همین‌طور بی‌استفاده مانده، پس …»: X着也是X着", "en": "\"It's just sitting there anyway, so …\": X着也是X着"},
+  "body": "می‌گوید چیزی یا کسی در حالتی مانده که فایده‌ای ندارد، پس بهتر است از آن استفاده شود. پس از آن معمولاً پیشنهادی می‌آید.\nX فعل یا صفتی است که حالتِ ماندن را نشان می‌دهد: 放 (گذاشته بودن)، 空 (خالی بودن)، 闲 (بیکار بودن).",
+  "examples": [
+   {"zh": "这些书放着也是放着，你拿去看吧。", "py": "Zhèxiē shū fàngzhe yě shì fàngzhe, nǐ ná qù kàn ba.", "fa": "این کتاب‌ها که همین‌طور افتاده‌اند؛ ببر بخوانشان.", "en": "These books are just sitting here anyway; take them and read them."},
+   {"zh": "我闲着也是闲着，帮你打扫一下房间吧。", "py": "Wǒ xiánzhe yě shì xiánzhe, bāng nǐ dǎsǎo yíxià fángjiān ba.", "fa": "من که بیکارم؛ بگذار اتاقت را برایت تمیز کنم.", "en": "I've got nothing to do anyway; let me help you clean the room."}
+  ]},
+ {"id": "hsk3-g0374", "std": "hsk3", "level": 5, "no": 374,
+  "pattern": "不管怎样说،جمله",
+  "title": {"fa": "«هرچه باشد / به هر حال»: 不管怎样说", "en": "\"Whatever one may say\": 不管怎样说"},
+  "body": "در آغاز جمله می‌آید و می‌گوید حرفِ بعدی در هر صورت درست است، هر دلیل و بحثی هم که در میان باشد: «هرچه بگوییم»، «به هر حال».\nدر گفتار 不管怎么说 هم با همین معنا رایج است.",
+  "examples": [
+   {"zh": "不管怎样说，他是你的父亲。", "py": "Bùguǎn zěnyàng shuō, tā shì nǐ de fùqīn.", "fa": "هرچه باشد، او پدر توست.", "en": "Whatever you say, he is your father."},
+   {"zh": "不管怎样说，你应该先给他打个电话。", "py": "Bùguǎn zěnyàng shuō, nǐ yīnggāi xiān gěi tā dǎ gè diànhuà.", "fa": "به هر حال، باید اول به او زنگ بزنی.", "en": "In any case, you should call him first."}
+  ]},
+ {"id": "hsk3-g0375", "std": "hsk3", "level": 5, "no": 375,
+  "pattern": "真有 你 / 他 / 她 的",
+  "title": {"fa": "«دمت گرم! / عجب آدمی هستی!»: 真有你的", "en": "\"You're really something!\": 真有你/他/她的"},
+  "body": "عبارتی گفتاری برای تحسین توانایی یا زیرکی کسی: «دمت گرم!»، «کارت درست است!».\nگاهی هم با لحن گله‌آمیز می‌آید: «واقعاً که!»؛ لحن و موقعیت معنا را روشن می‌کند.\nبه‌جای 你 می‌توان 他 یا 她 گذاشت. معمولاً پس از جمله‌ای می‌آید که کارِ آن شخص را بیان می‌کند.",
+  "examples": [
+   {"zh": "这么难的问题你都解决了，真有你的！", "py": "Zhème nán de wèntí nǐ dōu jiějué le, zhēn yǒu nǐ de!", "fa": "مسئله‌ای به این سختی را هم حل کردی؛ دمت گرم!", "en": "You even solved a problem this hard; you're really something!"},
+   {"zh": "他一个人把车修好了，真有他的！", "py": "Tā yí gè rén bǎ chē xiūhǎo le, zhēn yǒu tā de!", "fa": "تنهایی ماشین را تعمیر کرد؛ واقعاً کارش درست است!", "en": "He fixed the car all by himself; he's really something!"}
+  ]},
+ {"id": "hsk3-g0376", "std": "hsk3", "level": 5, "no": 376,
+  "pattern": "X + 什么 + X",
+  "title": {"fa": "«چه خبر است که …؟!» برای بازداشتن: X什么X", "en": "\"What are you X-ing for?!\": X什么X"},
+  "body": "با تکرار فعل یا صفت در دو سوی 什么، گوینده ناخشنودی‌اش را نشان می‌دهد و می‌خواهد طرف دست از آن کار بردارد: «چرا می‌خندی؟ نخند!».\nپرسش واقعی نیست و پاسخی نمی‌خواهد. لحنش تند و خودمانی است؛ با بزرگ‌ترها و در موقعیت رسمی به کار نمی‌رود.",
+  "examples": [
+   {"zh": "笑什么笑！这有什么好笑的？", "py": "Xiào shénme xiào! Zhè yǒu shénme hǎoxiào de?", "fa": "به چه می‌خندی؟! کجای این خنده‌دار است؟", "en": "What are you laughing at?! What's so funny about this?"},
+   {"zh": "急什么急，时间还早呢。", "py": "Jí shénme jí, shíjiān hái zǎo ne.", "fa": "چه عجله‌ای داری؟ هنوز زود است.", "en": "What's the rush? It's still early."}
+  ]},
+ {"id": "hsk3-g0377", "std": "hsk3", "level": 5, "no": 377,
+  "pattern": "什么 + X 不 X (的)",
+  "title": {"fa": "«این حرف‌ها چیست؟ مهم نیست»: 什么X不X（的）", "en": "\"Never mind X or not\": 什么X不X（的）"},
+  "body": "گوینده با این قالب می‌گوید موضوعی که طرف پیش کشیده اهمیتی ندارد: «پول چیست؟»، «تشکر لازم نیست».\nX اسم، فعل یا صفتی است که از حرفِ طرف مقابل گرفته می‌شود و دو بار می‌آید. 的 در پایان اختیاری است. پس از آن معمولاً دلیل یا نظر خود گوینده می‌آید.",
+  "examples": [
+   {"zh": "什么钱不钱的，我们是朋友。", "py": "Shénme qián bù qián de, wǒmen shì péngyou.", "fa": "حرف پول را نزن؛ ما دوستیم.", "en": "Never mind the money; we're friends."},
+   {"zh": "什么谢不谢的，这是我应该做的。", "py": "Shénme xiè bú xiè de, zhè shì wǒ yīnggāi zuò de.", "fa": "تشکر چیست؟ این وظیفهٔ من بود.", "en": "No need for thanks; it's what I should do."},
+   {"zh": "什么好看不好看，穿着舒服就行。", "py": "Shénme hǎokàn bù hǎokàn, chuānzhe shūfu jiù xíng.", "fa": "قشنگ بودن یا نبودنش مهم نیست؛ همین که راحت باشد کافی است.", "en": "Never mind whether it looks good; as long as it's comfortable to wear."}
+  ]},
+ {"id": "hsk3-g0378", "std": "hsk3", "level": 5, "no": 378,
+  "pattern": "不 X 白不 X",
+  "title": {"fa": "«مفت است، چرا استفاده نکنیم؟»: 不X白不X", "en": "\"It would be a waste not to\": 不X白不X"},
+  "body": "白 در اینجا یعنی «بیهوده، از دست رفته». این قالب می‌گوید اگر این کار را نکنی فرصت را مفت از دست داده‌ای، پس بکن.\nX یک فعل تک‌هجایی است (吃، 拿، 看، 去). بیشتر دربارهٔ چیزهای رایگان یا فرصت‌های آماده گفته می‌شود و لحنش شوخ و خودمانی است.",
+  "examples": [
+   {"zh": "这些水果是免费的，不吃白不吃。", "py": "Zhèxiē shuǐguǒ shì miǎnfèi de, bù chī bái bù chī.", "fa": "این میوه‌ها رایگان است؛ نخوری ضرر کرده‌ای.", "en": "This fruit is free; it would be a waste not to eat it."},
+   {"zh": "公司请大家去旅游，不去白不去。", "py": "Gōngsī qǐng dàjiā qù lǚyóu, bú qù bái bú qù.", "fa": "شرکت همه را به سفر دعوت کرده؛ نرفتن حیف است.", "en": "The company is treating everyone to a trip; it would be a waste not to go."}
+  ]},
+ {"id": "hsk3-g0379", "std": "hsk3", "level": 5, "no": 379,
+  "pattern": "X 来 X 去،都是 / 就是 …",
+  "title": {"fa": "«هرچه … باز هم همان»: X来X去，都是/就是……", "en": "\"After all that X-ing, it still comes down to …\": X来X去，都是/就是……"},
+  "body": "«X来X去» یعنی کاری بارها و از هر سو تکرار شده است: 说来说去 «هرچه گفتیم و گفتیم»، 想来想去 «هرچه فکر کردم».\nبخش دوم نتیجه را می‌گوید: با 都是 یعنی «آخرش همه همین است» و با 就是 یعنی «باز هم فقط همین» یا «با این‌همه نمی‌شود».",
+  "examples": [
+   {"zh": "说来说去，都是我的错。", "py": "Shuō lái shuō qù, dōu shì wǒ de cuò.", "fa": "هرچه بگوییم، آخرش تقصیر من است.", "en": "However we put it, it's all my fault."},
+   {"zh": "我想来想去，就是不知道该选哪个。", "py": "Wǒ xiǎng lái xiǎng qù, jiù shì bù zhīdào gāi xuǎn nǎge.", "fa": "هرچه فکر کردم، باز هم نمی‌دانم کدام را انتخاب کنم.", "en": "I thought it over and over and still don't know which one to choose."},
+   {"zh": "他看来看去，就是不买。", "py": "Tā kàn lái kàn qù, jiù shì bù mǎi.", "fa": "هی نگاه کرد و نگاه کرد، ولی نخرید.", "en": "He looked and looked but just wouldn't buy."}
+  ]},
+ {"id": "hsk3-g0380", "std": "hsk3", "level": 5, "no": 380,
+  "pattern": "فعل + 什么 + (就) 是什么",
+  "title": {"fa": "«هرچه … همان است»: 动词+什么（就）是什么", "en": "\"Whatever … , that's it\": Verb + 什么（就）是什么"},
+  "body": "什么 در اینجا پرسشی نیست و یعنی «هرچه». این قالب می‌گوید نتیجه دقیقاً همان است که آن فعل تعیین می‌کند و گوینده چون‌وچرا نمی‌کند: «هرچه تو بگویی، همان».\n就 را می‌توان انداخت. در فارسی هم دو بخش داریم («هرچه … همان …»)، ولی در چینی 什么 دو بار تکرار می‌شود.",
+  "examples": [
+   {"zh": "你说什么就是什么，我听你的。", "py": "Nǐ shuō shénme jiù shì shénme, wǒ tīng nǐ de.", "fa": "هرچه تو بگویی همان است؛ من به حرف تو گوش می‌کنم.", "en": "Whatever you say goes; I'll do as you say."},
+   {"zh": "妈妈做什么就是什么，我都爱吃。", "py": "Māma zuò shénme jiù shì shénme, wǒ dōu ài chī.", "fa": "هرچه مادر بپزد همان را می‌خوریم؛ من همه را دوست دارم.", "en": "Whatever Mum cooks is what we have; I like it all."}
+  ]},
+ {"id": "hsk3-g0381", "std": "hsk3", "level": 5, "no": 381,
+  "pattern": "فاعل + زمان + مکان + همراه + چگونگی (地) + فعل",
+  "title": {"fa": "ترتیب چند قید پیش از فعل", "en": "The order of several adverbials before the verb"},
+  "body": "وقتی چند قید با هم می‌آیند، همه پیش از فعل می‌نشینند و ترتیب معمولشان این است: زمان، سپس مکان (在 …)، سپس همراه یا طرفِ کار (跟 … / 给 …)، و در پایان چگونگی (صفت + 地).\nقیدهایی مانند 都، 也 و 已经 معمولاً پس از زمان و پیش از مکان می‌آیند.\nدر فارسی جای قیدها آزادتر است، ولی در چینی هیچ‌کدام پس از فعل نمی‌آید.",
+  "examples": [
+   {"zh": "我昨天在图书馆跟同学一起认真地复习了三个小时。", "py": "Wǒ zuótiān zài túshūguǎn gēn tóngxué yìqǐ rènzhēn de fùxíle sān gè xiǎoshí.", "fa": "دیروز در کتابخانه با هم‌کلاسی‌ام سه ساعت با دقت مرور کردم.", "en": "Yesterday I reviewed carefully with a classmate in the library for three hours."},
+   {"zh": "她每天早上都在公园里慢慢地跑步。", "py": "Tā měi tiān zǎoshang dōu zài gōngyuán lǐ mànmàn de pǎobù.", "fa": "او هر روز صبح در پارک آهسته می‌دود.", "en": "Every morning she jogs slowly in the park."}
+  ]},
+ {"id": "hsk3-g0382", "std": "hsk3", "level": 5, "no": 382,
+  "pattern": "فعل + 得 / 不得",
+  "title": {"fa": "«می‌شود / نباید این کار را کرد»: 动词+得/不得", "en": "\"May / must not do\": Verb + 得/不得"},
+  "body": "«فعل + 不得» یعنی آن کار را نباید کرد، چون پیامد بدی دارد یا درست نیست: 吃不得 «نباید خوردش»، 说不得 «نباید گفتش».\nشکل مثبت، «فعل + 得»، یعنی «می‌شود / اشکالی ندارد»؛ کمتر به کار می‌رود و بیشتر در پرسش یا در کنار شکل منفی می‌آید.\n得 در اینجا بی‌آهنگ خوانده می‌شود و فعل معمولاً تک‌هجایی است.",
+  "examples": [
+   {"zh": "这里的水很脏，喝不得。", "py": "Zhèlǐ de shuǐ hěn zāng, hēbude.", "fa": "آبِ اینجا خیلی کثیف است، نباید خوردش.", "en": "The water here is very dirty; you mustn't drink it."},
+   {"zh": "这种话在他面前说不得。", "py": "Zhè zhǒng huà zài tā miànqián shuōbude.", "fa": "این‌جور حرف‌ها را نباید جلوی او زد.", "en": "You mustn't say this kind of thing in front of him."},
+   {"zh": "这种鱼吃得吃不得？", "py": "Zhè zhǒng yú chīde chībude?", "fa": "این نوع ماهی را می‌شود خورد یا نه؟", "en": "Is this kind of fish safe to eat or not?"}
+  ]},
+ {"id": "hsk3-g0383", "std": "hsk3", "level": 5, "no": 383,
+  "pattern": "صفت / فعل احساسی + 得 + 不得了",
+  "title": {"fa": "«بی‌اندازه …»: 得+不得了", "en": "\"Extremely …\": Adjective + 得 + 不得了"},
+  "body": "«不得了» پس از 得 شدتِ بسیار زیادِ یک صفت یا احساس را نشان می‌دهد: «از خوشحالی سر از پا نشناخت»، «گرما بیداد می‌کند».\nپیش از صفت دیگر 很 یا 非常 نمی‌آید، چون خودِ 不得了 شدت را می‌رساند. این ساخت شکل منفی ندارد.",
+  "examples": [
+   {"zh": "听到这个消息，他高兴得不得了。", "py": "Tīngdào zhège xiāoxi, tā gāoxìng de bùdéliǎo.", "fa": "این خبر را که شنید، بی‌اندازه خوشحال شد.", "en": "When he heard the news, he was overjoyed."},
+   {"zh": "今天热得不得了。", "py": "Jīntiān rè de bùdéliǎo.", "fa": "امروز هوا بی‌نهایت گرم است.", "en": "It is terribly hot today."},
+   {"zh": "没参加那次比赛，我后悔得不得了。", "py": "Méi cānjiā nà cì bǐsài, wǒ hòuhuǐ de bùdéliǎo.", "fa": "از اینکه در آن مسابقه شرکت نکردم بی‌اندازه پشیمانم.", "en": "I regret terribly that I didn't take part in that competition."}
+  ]},
+ {"id": "hsk3-g0384", "std": "hsk3", "level": 5, "no": 384,
+  "pattern": "فعل / صفت + 下来 / 下去 / 起来 / 过来 / 过去",
+  "title": {"fa": "تغییر حالت با متمم‌های جهت: 下来، 下去، 起来، 过来، 过去", "en": "Change of state with directional complements: 下来, 下去, 起来, 过来, 过去"},
+  "body": "این متمم‌های جهت گاهی حرکت واقعی را نشان نمی‌دهند، بلکه تغییرِ حالت را می‌گویند.\n«起来» یعنی حالتی آغاز می‌شود و بالا می‌گیرد (暖和起来 «گرم شدن»). «下来» یعنی حالتی آرام‌آرام پدید می‌آید و جا می‌افتد، بیشتر به سوی آرامی، تاریکی یا کندی (安静下来 «ساکت شدن»).\n«下去» یعنی حالت یا کاری که هست ادامه پیدا می‌کند (坚持下去 «ادامه دادن»).\n«过来» بازگشت به حالت عادی است (醒过来 «به هوش آمدن») و «过去» از دست دادنِ آن (睡过去 «از هوش رفتن، به خواب رفتن»).",
+  "examples": [
+   {"zh": "老师一进来，教室里就安静下来了。", "py": "Lǎoshī yí jìnlái, jiàoshì lǐ jiù ānjìng xiàlái le.", "fa": "همین که معلم وارد شد، کلاس ساکت شد.", "en": "As soon as the teacher came in, the classroom quietened down."},
+   {"zh": "春天到了，天气暖和起来了。", "py": "Chūntiān dào le, tiānqì nuǎnhuo qǐlái le.", "fa": "بهار آمده و هوا رو به گرمی گذاشته است.", "en": "Spring has come and the weather is getting warm."},
+   {"zh": "病人终于醒过来了，可是不吃东西的话，他会一天天瘦下去。", "py": "Bìngrén zhōngyú xǐng guòlái le, kěshì bù chī dōngxi dehuà, tā huì yì tiāntiān shòu xiàqù.", "fa": "بیمار سرانجام به هوش آمد، ولی اگر چیزی نخورد روزبه‌روز لاغرتر می‌شود.", "en": "The patient has finally come round, but if he doesn't eat he will keep getting thinner day by day."}
+  ]},
+ {"id": "hsk3-g0385", "std": "hsk3", "level": 5, "no": 385,
+  "pattern": "فعل / صفت + 得 + گروه فعلی",
+  "title": {"fa": "«آن‌قدر … که (کاری کرد)»: 得 + گروه فعلی", "en": "\"So … that (one does something)\": 得 + verb phrase"},
+  "body": "پس از 得 می‌توان یک گروه فعلی آورد که نتیجه یا اندازهٔ آن حالت را نشان می‌دهد: «آن‌قدر خوشحال شد که بالا پرید».\nدر فارسی «آن‌قدر … که» می‌گوییم؛ در چینی واژه‌ای برای «آن‌قدر» لازم نیست و 得 به‌تنهایی این پیوند را می‌سازد.\nفاعلِ هر دو بخش یکی است.",
+  "examples": [
+   {"zh": "他高兴得跳了起来。", "py": "Tā gāoxìng de tiàole qǐlái.", "fa": "آن‌قدر خوشحال شد که از جا پرید.", "en": "He was so happy that he jumped up."},
+   {"zh": "她累得不想吃饭。", "py": "Tā lèi de bù xiǎng chīfàn.", "fa": "آن‌قدر خسته است که میل به غذا ندارد.", "en": "She is so tired that she doesn't want to eat."},
+   {"zh": "我昨天忙得忘了给你打电话。", "py": "Wǒ zuótiān máng de wàngle gěi nǐ dǎ diànhuà.", "fa": "دیروز آن‌قدر سرم شلوغ بود که یادم رفت به تو زنگ بزنم.", "en": "I was so busy yesterday that I forgot to call you."}
+  ]},
+ {"id": "hsk3-g0386", "std": "hsk3", "level": 5, "no": 386,
+  "pattern": "فعل / صفت + 得 + فاعل دوم + گزاره",
+  "title": {"fa": "«آن‌قدر … که (کس یا چیز دیگری) …»: 得 + جملهٔ کوچک", "en": "\"So … that (someone / something else) …\": 得 + clause"},
+  "body": "پس از 得 می‌تواند یک جملهٔ کوچک با فاعلِ خودش بیاید که نتیجهٔ کار یا حالتِ نخست را نشان می‌دهد.\nفاعلِ دوم اغلب عضوی از بدن یا کسان دیگر است: 腿 «پا»، 眼泪 «اشک»، 大家 «همه».\nدر این جملهٔ کوچک معمولاً 都 می‌آید و بر شدت تأکید می‌کند.",
+  "examples": [
+   {"zh": "他说得大家都笑了。", "py": "Tā shuō de dàjiā dōu xiào le.", "fa": "طوری حرف زد که همه خندیدند.", "en": "He spoke in such a way that everyone laughed."},
+   {"zh": "我走得腿都疼了。", "py": "Wǒ zǒu de tuǐ dōu téng le.", "fa": "آن‌قدر راه رفتم که پاهایم درد گرفت.", "en": "I walked so much that my legs hurt."},
+   {"zh": "她感动得眼泪都流下来了。", "py": "Tā gǎndòng de yǎnlèi dōu liú xiàlái le.", "fa": "آن‌قدر تحت تأثیر قرار گرفت که اشکش سرازیر شد.", "en": "She was so moved that tears ran down her face."}
+  ]},
+ {"id": "hsk3-g0387", "std": "hsk3", "level": 5, "no": 387,
+  "pattern": "فعل / صفت + 得 + عبارت ثابت",
+  "title": {"fa": "توصیف نتیجه با یک عبارت ثابت پس از 得", "en": "Describing the result with a set phrase after 得"},
+  "body": "پس از 得 می‌توان یک عبارت ثابت، بیشتر چهارنویسه‌ای، آورد تا حالت یا نتیجه را زنده و تصویری نشان دهد.\nاین عبارت‌ها تغییر نمی‌کنند و باید آن‌ها را یکجا به خاطر سپرد؛ مثلاً 五颜六色 «رنگارنگ» و 丰富多彩 «پربار و گوناگون».\nپیش از عبارت ثابت 很 نمی‌آید.",
+  "examples": [
+   {"zh": "公园里的花开得五颜六色。", "py": "Gōngyuán lǐ de huā kāi de wǔyánliùsè.", "fa": "گل‌های پارک رنگارنگ شکفته‌اند.", "en": "The flowers in the park are blooming in every colour."},
+   {"zh": "她的大学生活过得丰富多彩。", "py": "Tā de dàxué shēnghuó guò de fēngfùduōcǎi.", "fa": "زندگی دانشجویی او پربار و گوناگون می‌گذرد.", "en": "Her university life is rich and colourful."},
+   {"zh": "他急得满头大汗。", "py": "Tā jí de mǎn tóu dà hàn.", "fa": "از نگرانی سر و رویش خیس عرق شده بود.", "en": "He was so anxious that his head was covered in sweat."}
+  ]}
+]
