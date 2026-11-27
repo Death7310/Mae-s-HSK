@@ -1,0 +1,122 @@
+[
+ {
+  "id": "长寿",
+  "fa": [
+   "دارای عمر طولانی",
+   "دیرزی"
+  ],
+  "en": [
+   "long-lived",
+   "enjoying longevity"
+  ],
+  "ex": [
+   {
+    "zh": "这位老人很长寿，今年已经一百岁了。",
+    "py": "Zhè wèi lǎorén hěn chángshòu, jīnnián yǐjīng yìbǎi suì le.",
+    "fa": "این سالمند عمر درازی کرده و امسال صدساله شده است.",
+    "en": "This old man is long-lived; he is already a hundred this year."
+   }
+  ],
+  "chg": "fa: «پرعمر» is not standard Persian; en glosses were duplicates"
+ },
+ {
+  "id": "噪声",
+  "fa": [
+   "سروصدا (صدای مزاحم)",
+   "نویز"
+  ],
+  "en": [
+   "noise (unwanted sound)",
+   "noise (technical)"
+  ],
+  "ex": [
+   {
+    "zh": "工厂的噪声影响了附近居民的休息。",
+    "py": "Gōngchǎng de zàoshēng yǐngxiǎng le fùjìn jūmín de xiūxi.",
+    "fa": "سروصدای کارخانه آسایش ساکنان اطراف را به هم زده است.",
+    "en": "The factory noise has disturbed the rest of nearby residents."
+   }
+  ],
+  "chg": "fa/en: second gloss 'noise pollution' is 噪声污染, not 噪声; first gloss tightened"
+ },
+ {
+  "id": "只顾",
+  "fa": [
+   "فقط سرگرمِ ... (بی‌توجه به بقیه)",
+   "تنها به فکرِ ..."
+  ],
+  "en": [
+   "absorbed only in",
+   "caring only about"
+  ],
+  "ex": [
+   {
+    "zh": "他只顾玩手机，没听见我叫他。",
+    "py": "Tā zhǐgù wán shǒujī, méi tīngjiàn wǒ jiào tā.",
+    "fa": "او فقط سرگرم گوشی‌اش بود و نشنید که صدایش می‌زنم.",
+    "en": "He was so busy with his phone that he didn't hear me call him."
+   }
+  ],
+  "chg": "fa: adverb glossed as infinitive verb phrases; reworded to match pos d"
+ },
+ {
+  "id": "文艺",
+  "fa": [
+   "ادبیات و هنر",
+   "هنرهای نمایشی (برنامهٔ هنری)"
+  ],
+  "en": [
+   "literature and art",
+   "performing arts"
+  ],
+  "ex": [
+   {
+    "zh": "她从小就喜欢文艺，会唱歌也会跳舞。",
+    "py": "Tā cóngxiǎo jiù xǐhuan wényì, huì chànggē yě huì tiàowǔ.",
+    "fa": "او از بچگی به هنر و ادبیات علاقه دارد؛ هم آواز خواندن بلد است و هم رقصیدن.",
+    "en": "She has loved the arts since childhood and can both sing and dance."
+   }
+  ],
+  "chg": "ex.fa: wrong tense and 会 (can) not translated"
+ },
+ {
+  "id": "踏实",
+  "fa": [
+   "باثبات و قابل‌اتکا (در کار)",
+   "آسوده‌خاطر"
+  ],
+  "en": [
+   "steady and dependable",
+   "at ease"
+  ],
+  "ex": [
+   {
+    "zh": "他工作很踏实，领导对他很放心。",
+    "py": "Tā gōngzuò hěn tāshi, lǐngdǎo duì tā hěn fàngxīn.",
+    "fa": "او در کارش باثبات و قابل‌اتکاست و رئیس خیالش از او راحت است.",
+    "en": "He is steady in his work, and his boss has full confidence in him."
+   }
+  ],
+  "chg": "fa: «جدی و پیگیر» recalls 认真 and disagreed with en; now steady/dependable"
+ },
+ {
+  "id": "简介",
+  "fa": [
+   "به‌اختصار معرفی کردن",
+   "معرفی کوتاه"
+  ],
+  "en": [
+   "to introduce briefly",
+   "brief introduction"
+  ],
+  "ex": [
+   {
+    "zh": "这本小册子简介了博物馆的历史和主要展品。",
+    "py": "Zhè běn xiǎocèzi jiǎnjiè le bówùguǎn de lìshǐ hé zhǔyào zhǎnpǐn.",
+    "fa": "این کتابچه تاریخچهٔ موزه و آثار اصلی آن را به‌اختصار معرفی می‌کند.",
+    "en": "This booklet briefly introduces the museum's history and main exhibits."
+   }
+  ],
+  "chg": "ex: 我简介一下 is unnatural spoken Chinese (natives say 简单介绍一下); replaced with written-register verb use"
+ }
+]

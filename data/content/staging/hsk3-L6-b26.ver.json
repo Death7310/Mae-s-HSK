@@ -1,0 +1,142 @@
+[
+ {
+  "id": "总计",
+  "fa": [
+   "در مجموع بالغ شدن بر",
+   "سرجمع شدن"
+  ],
+  "en": [
+   "to amount to in all",
+   "to total"
+  ],
+  "ex": [
+   {
+    "zh": "这次活动的各种费用总计三万元。",
+    "py": "Zhè cì huódòng de gè zhǒng fèiyòng zǒngjì sān wàn yuán.",
+    "fa": "جمع کل هزینه‌های گوناگون این برنامه سی هزار یوان می‌شود.",
+    "en": "The various expenses for this event total thirty thousand yuan."
+   }
+  ],
+  "chg": "fa: «جمع کل شدن» is not natural Persian; reordered and reworded"
+ },
+ {
+  "id": "启事",
+  "fa": [
+   "آگهی (اطلاعیهٔ کتبی)"
+  ],
+  "en": [
+   "notice, announcement"
+  ],
+  "note": "با 启示 (qǐshì، الهام و درس عبرت) اشتباه نشود.",
+  "ex": [
+   {
+    "zh": "他在报纸上登了一则寻人启事。",
+    "py": "Tā zài bàozhǐ shang dēng le yì zé xúnrén qǐshì.",
+    "fa": "او در روزنامه یک آگهی برای یافتن فردی گم‌شده چاپ کرد.",
+    "en": "He placed a missing-person notice in the newspaper."
+   }
+  ],
+  "chg": "ex.fa: «آگهی گم‌شده» reads as 'a lost notice'; rewritten as missing-person notice"
+ },
+ {
+  "id": "有序",
+  "fa": [
+   "بانظم (با نظم و ترتیب)",
+   "منظم"
+  ],
+  "en": [
+   "orderly",
+   "in good order"
+  ],
+  "ex": [
+   {
+    "zh": "乘客们正在有序地排队上车。",
+    "py": "Chéngkèmen zhèngzài yǒuxù de páiduì shàng chē.",
+    "fa": "مسافران دارند منظم در صف سوار می‌شوند.",
+    "en": "The passengers are queuing up to board in an orderly way."
+   }
+  ],
+  "chg": "fa: «به‌ترتیب» means 'respectively/in sequence', not 'orderly'; bare «منظم» disambiguated"
+ },
+ {
+  "id": "拐弯",
+  "fa": [
+   "پیچیدن (سر پیچ)",
+   "از پیچ گذشتن"
+  ],
+  "en": [
+   "to turn a corner",
+   "to go round a bend"
+  ],
+  "note": "فعل جداشدنی: 拐弯 ← 拐个弯.",
+  "ex": [
+   {
+    "zh": "一直往前走，到第二个路口往右拐弯。",
+    "py": "Yìzhí wǎng qián zǒu, dào dì-èr ge lùkǒu wǎng yòu guǎiwān.",
+    "fa": "مستقیم برو و سر تقاطع دوم به راست بپیچ.",
+    "en": "Go straight ahead and turn right at the second intersection."
+   }
+  ],
+  "chg": "fa: «دور زدن» means to make a U-turn (掉头), wrong sense"
+ },
+ {
+  "id": "严寒",
+  "fa": [
+   "بسیار سرد (سرمای سخت)",
+   "استخوان‌سوز (سرما)"
+  ],
+  "en": [
+   "bitterly cold",
+   "piercingly cold"
+  ],
+  "ex": [
+   {
+    "zh": "这里的冬天十分严寒，最低气温零下三十度。",
+    "py": "Zhèlǐ de dōngtiān shífēn yánhán, zuì dī qìwēn língxià sānshí dù.",
+    "fa": "زمستان اینجا بسیار سرد است و دما تا سی درجه زیر صفر پایین می‌آید.",
+    "en": "Winters here are bitterly cold, with lows of thirty below zero."
+   }
+  ],
+  "chg": "fa: «یخبندان» is a noun (frost), official pos is adjective"
+ },
+ {
+  "id": "古迹",
+  "fa": [
+   "اثر باستانی",
+   "بنای تاریخی"
+  ],
+  "en": [
+   "historic site",
+   "ancient monument"
+  ],
+  "ex": [
+   {
+    "zh": "这座城市保存着许多历史古迹。",
+    "py": "Zhè zuò chéngshì bǎocúnzhe xǔduō lìshǐ gǔjì.",
+    "fa": "در این شهر آثار تاریخی فراوانی حفظ شده است.",
+    "en": "This city preserves many historic sites."
+   }
+  ],
+  "chg": "fa: singular citation form; ex.fa: «آثار باستانی تاریخی» redundant"
+ },
+ {
+  "id": "难点",
+  "fa": [
+   "نقطهٔ دشوار",
+   "بخش سخت (مشکل اصلی)"
+  ],
+  "en": [
+   "difficult point",
+   "the hard part"
+  ],
+  "ex": [
+   {
+    "zh": "声调是外国人学习汉语的一个难点。",
+    "py": "Shēngdiào shì wàiguórén xuéxí Hànyǔ de yí ge nándiǎn.",
+    "fa": "نواخت‌ها (تُن‌ها) یکی از بخش‌های دشوار یادگیری چینی برای خارجی‌هاست.",
+    "en": "Tones are one of the difficult points for foreigners learning Chinese."
+   }
+  ],
+  "chg": "ex.fa: tones are «نواخت» in Persian linguistics, not «آهنگ‌های صدا»"
+ }
+]

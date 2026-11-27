@@ -1,0 +1,60 @@
+[
+ {
+  "id": "定制",
+  "fa": [
+   "سفارشی ساختن",
+   "به سفارش مشتری تهیه کردن"
+  ],
+  "en": [
+   "to custom-make",
+   "to make to order"
+  ],
+  "ex": [
+   {
+    "zh": "他为婚礼定制了一套西服。",
+    "py": "Tā wèi hūnlǐ dìngzhì le yí tào xīfú.",
+    "fa": "او برای عروسی یک دست کت‌وشلوار سفارشی سفارش داد.",
+    "en": "He had a suit custom-made for the wedding."
+   }
+  ],
+  "chg": "ex.fa: «سفارشی دوخت» says he sewed the suit himself; 定制 = had it made to order"
+ },
+ {
+  "id": "热议",
+  "fa": [
+   "با حرارت بحث کردن (دربارهٔ موضوع داغ روز)"
+  ],
+  "en": [
+   "to discuss heatedly"
+  ],
+  "ex": [
+   {
+    "zh": "网友们正在热议这部新电影。",
+    "py": "Wǎngyǒumen zhèngzài rèyì zhè bù xīn diànyǐng.",
+    "fa": "کاربران اینترنت دارند دربارهٔ این فیلم جدید بحث داغی می‌کنند.",
+    "en": "Internet users are heatedly discussing this new film."
+   }
+  ],
+  "chg": "fa: «بحث داغ کردن» is not idiomatic Persian; rephrased as a natural infinitive"
+ },
+ {
+  "id": "扑灭",
+  "fa": [
+   "خاموش کردن (آتش)",
+   "ریشه‌کن کردن (آفت)"
+  ],
+  "en": [
+   "to put out (a fire)",
+   "to stamp out; to wipe out"
+  ],
+  "ex": [
+   {
+    "zh": "消防员用了两个小时才把大火扑灭。",
+    "py": "Xiāofángyuán yòng le liǎng ge xiǎoshí cái bǎ dàhuǒ pūmiè.",
+    "fa": "دو ساعت طول کشید تا آتش‌نشان‌ها آتش بزرگ را خاموش کنند.",
+    "en": "It took the firefighters two hours to put out the blaze."
+   }
+  ],
+  "chg": "ex.fa: ungrammatical dangling subject; reordered into a grammatical sentence"
+ }
+]

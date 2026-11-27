@@ -1,0 +1,179 @@
+[
+ {
+  "id": "诗词",
+  "fa": [
+   "شعر کلاسیک چینی (شی و تسی)"
+  ],
+  "en": [
+   "classical poetry"
+  ],
+  "ex": [
+   {
+    "zh": "他从小就喜欢背诵中国古代诗词。",
+    "py": "Tā cóngxiǎo jiù xǐhuan bèisòng Zhōngguó gǔdài shīcí.",
+    "fa": "او از کودکی دوست داشت شعرهای کهن چینی را از بر کند.",
+    "en": "He has loved reciting classical Chinese poetry since childhood."
+   }
+  ],
+  "chg": "fa: 'شعر و سروده' is redundant and does not identify the word; name the shi and ci genres"
+ },
+ {
+  "id": "实时",
+  "fa": [
+   "به‌صورت بی‌درنگ (لحظه‌به‌لحظه)",
+   "به‌صورت زنده"
+  ],
+  "en": [
+   "in real time",
+   "live"
+  ],
+  "ex": [
+   {
+    "zh": "这个软件可以实时显示公交车的位置。",
+    "py": "Zhège ruǎnjiàn kěyǐ shíshí xiǎnshì gōngjiāochē de wèizhi.",
+    "fa": "این نرم‌افزار می‌تواند جای اتوبوس را لحظه‌به‌لحظه نشان بدهد.",
+    "en": "This app can show the bus's location in real time."
+   }
+  ],
+  "chg": "fa: order did not match en (live vs real time); 'هم‌زمان' recalls 同时"
+ },
+ {
+  "id": "退税",
+  "fa": [
+   "پس دادن مالیات",
+   "پس گرفتن مالیات (استرداد)"
+  ],
+  "en": [
+   "to refund tax",
+   "to get a tax refund"
+  ],
+  "ex": [
+   {
+    "zh": "外国游客在机场可以办理退税。",
+    "py": "Wàiguó yóukè zài jīchǎng kěyǐ bànlǐ tuìshuì.",
+    "fa": "گردشگران خارجی می‌توانند در فرودگاه کارهای استرداد مالیات را انجام بدهند.",
+    "en": "Foreign tourists can claim a tax refund at the airport."
+   }
+  ],
+  "note": "فعل جداشدنی: 退税 ← 退了税",
+  "chg": "fa: 'استرداد مالیات گرفتن' is unnatural Persian -> 'پس گرفتن مالیات'"
+ },
+ {
+  "id": "万物",
+  "fa": [
+   "همه‌چیزِ جهان",
+   "همهٔ موجودات"
+  ],
+  "en": [
+   "everything in the world",
+   "all creatures"
+  ],
+  "ex": [
+   {
+    "zh": "春天来了，万物都开始生长。",
+    "py": "Chūntiān lái le, wànwù dōu kāishǐ shēngzhǎng.",
+    "fa": "بهار آمده و همهٔ موجودات شروع به رشد کرده‌اند.",
+    "en": "Spring has come, and all things are beginning to grow."
+   }
+  ],
+  "chg": "fa/en: 万物 is all things, not only living things; general sense first"
+ },
+ {
+  "id": "围棋",
+  "fa": [
+   "گو (وی‌چی؛ بازی تخته‌ای با مهره‌های سیاه و سفید)"
+  ],
+  "en": [
+   "Go (weiqi board game)"
+  ],
+  "ex": [
+   {
+    "zh": "爷爷每天下午都和邻居下围棋。",
+    "py": "Yéye měi tiān xiàwǔ dōu hé línjū xià wéiqí.",
+    "fa": "پدربزرگ هر روز بعدازظهر با همسایه گو بازی می‌کند.",
+    "en": "Grandpa plays Go with the neighbour every afternoon."
+   }
+  ],
+  "note": "با فعل 下 می‌آید: 下围棋.",
+  "chg": "fa: 'شطرنج چینی' is wrong and recalls 象棋 (Chinese chess); describe as a board game"
+ },
+ {
+  "id": "现存",
+  "fa": [
+   "تا امروز باقی ماندن",
+   "موجود بودن (در حال حاضر)"
+  ],
+  "en": [
+   "to survive to the present",
+   "to be extant"
+  ],
+  "ex": [
+   {
+    "zh": "这是中国现存最古老的木结构建筑之一。",
+    "py": "Zhè shì Zhōngguó xiàncún zuì gǔlǎo de mùjiégòu jiànzhù zhī yī.",
+    "fa": "این یکی از کهن‌ترین بناهای چوبی است که در چین تا امروز باقی مانده است.",
+    "en": "This is one of the oldest surviving wooden buildings in China."
+   }
+  ],
+  "chg": "ex: 木头建筑 is an unnatural collocation -> 木结构建筑"
+ },
+ {
+  "id": "现货",
+  "fa": [
+   "کالای موجود (آمادهٔ تحویل)"
+  ],
+  "en": [
+   "goods in stock"
+  ],
+  "ex": [
+   {
+    "zh": "这款手机现在没有现货，要等两个星期。",
+    "py": "Zhè kuǎn shǒujī xiànzài méiyǒu xiànhuò, yào děng liǎng ge xīngqī.",
+    "fa": "این مدل گوشی فعلاً موجود نیست و باید دو هفته صبر کرد.",
+    "en": "This phone model is not in stock right now; you have to wait two weeks."
+   }
+  ],
+  "chg": "en: 'spot goods' is a second (finance) sense absent from fa; en now matches fa"
+ },
+ {
+  "id": "种地",
+  "fa": [
+   "کشاورزی کردن",
+   "کشت‌وکار کردن (روی زمین)"
+  ],
+  "en": [
+   "to farm",
+   "to work the land"
+  ],
+  "ex": [
+   {
+    "zh": "他父母一辈子都在农村种地。",
+    "py": "Tā fùmǔ yíbèizi dōu zài nóngcūn zhòngdì.",
+    "fa": "پدر و مادرش تمام عمر در روستا کشاورزی کرده‌اند.",
+    "en": "His parents have farmed in the countryside all their lives."
+   }
+  ],
+  "note": "种 در اینجا zhòng خوانده می‌شود (کاشتن)، نه zhǒng (نوع).",
+  "chg": "fa: 'زمین کاشتن' is not natural Persian -> 'کشت‌وکار کردن'; en aligned"
+ },
+ {
+  "id": "主播",
+  "fa": [
+   "اجرا کردن (برنامهٔ خبری یا پخش زنده)",
+   "مجری (گویندهٔ خبر، استریمر)"
+  ],
+  "en": [
+   "to anchor, to host (a broadcast)",
+   "anchor, livestreamer"
+  ],
+  "ex": [
+   {
+    "zh": "这档新闻节目由她主播，已经播了十年。",
+    "py": "Zhè dàng xīnwén jiémù yóu tā zhǔbō, yǐjīng bōle shí nián.",
+    "fa": "اجرای این برنامهٔ خبری با اوست و ده سال است که پخش می‌شود.",
+    "en": "She anchors this news programme, which has been on air for ten years."
+   }
+  ],
+  "chg": "fa: verb sense is to anchor/host a programme, not only live streams; noun gloss clarified"
+ }
+]

@@ -1,0 +1,161 @@
+[
+ {
+  "id": "转交",
+  "fa": [
+   "به دست کسی رساندن (از طریق واسطه)",
+   "از طرف کسی تحویل دادن"
+  ],
+  "en": [
+   "to pass on (to someone)",
+   "to hand over on someone's behalf"
+  ],
+  "ex": [
+   {
+    "zh": "请你把这封信转交给王经理。",
+    "py": "Qǐng nǐ bǎ zhè fēng xìn zhuǎnjiāo gěi Wáng jīnglǐ.",
+    "fa": "لطفاً این نامه را به دست آقای وانگ، مدیر، برسان.",
+    "en": "Please pass this letter on to Manager Wang."
+   }
+  ],
+  "chg": "fa/en gloss 2: 'deliver to a third person' misleading -> 'hand over on someone's behalf'"
+ },
+ {
+  "id": "新款",
+  "fa": [
+   "مدل جدید",
+   "طرح جدید (کالا)"
+  ],
+  "en": [
+   "new model",
+   "new style"
+  ],
+  "ex": [
+   {
+    "zh": "这家公司下个月要推出新款手机。",
+    "py": "Zhè jiā gōngsī xià ge yuè yào tuīchū xīnkuǎn shǒujī.",
+    "fa": "این شرکت ماه آینده مدل جدید گوشی‌اش را به بازار عرضه می‌کند.",
+    "en": "This company will launch its new phone model next month."
+   }
+  ],
+  "chg": "ex: 一款新款手机 is clumsy (款 repeated) -> 推出新款手机"
+ },
+ {
+  "id": "庄稼",
+  "fa": [
+   "محصول کشاورزی (سر زمین)",
+   "زراعت (گیاه کاشته‌شده در مزرعه)"
+  ],
+  "en": [
+   "crops (in the field)",
+   "farm crops"
+  ],
+  "ex": [
+   {
+    "zh": "今年雨水充足，地里的庄稼长得特别好。",
+    "py": "Jīnnián yǔshuǐ chōngzú, dì lǐ de zhuāngjia zhǎng de tèbié hǎo.",
+    "fa": "امسال باران کافی باریده و محصول مزرعه خیلی خوب رشد کرده است.",
+    "en": "There has been plenty of rain this year, and the crops are growing very well."
+   }
+  ],
+  "chg": "fa gloss 2: «کشت و زرع» names the activity of farming, not the crops"
+ },
+ {
+  "id": "轮子",
+  "fa": [
+   "چرخ (وسیلهٔ نقلیه)"
+  ],
+  "en": [
+   "wheel"
+  ],
+  "ex": [
+   {
+    "zh": "这辆自行车的一个轮子坏了，得修一下。",
+    "py": "Zhè liàng zìxíngchē de yí ge lúnzi huài le, děi xiū yíxià.",
+    "fa": "یکی از چرخ‌های این دوچرخه خراب شده و باید تعمیر شود.",
+    "en": "One of this bicycle's wheels is broken and needs fixing."
+   }
+  ],
+  "chg": "ex: 前轮子 is not natural Chinese (前轮) -> 一个轮子"
+ },
+ {
+  "id": "念书",
+  "fa": [
+   "درس خواندن (تحصیل کردن)",
+   "کتاب خواندن"
+  ],
+  "en": [
+   "to study (attend school)",
+   "to read (books)"
+  ],
+  "ex": [
+   {
+    "zh": "他的两个孩子都在北京念书。",
+    "py": "Tā de liǎng ge háizi dōu zài Běijīng niànshū.",
+    "fa": "هر دو فرزند او در پکن درس می‌خوانند.",
+    "en": "Both of his children are studying in Beijing."
+   }
+  ],
+  "note": "گفتاری‌تر از 读书 است. فعل جداشدنی: 念书 ← 念过几年书.",
+  "chg": "fa/en gloss 2: 念书 is 'to read (books)', not specifically 'read aloud'"
+ },
+ {
+  "id": "求职",
+  "fa": [
+   "دنبال کار گشتن",
+   "درخواست کار دادن"
+  ],
+  "en": [
+   "to look for a job",
+   "to apply for a job"
+  ],
+  "ex": [
+   {
+    "zh": "毕业以后，他向很多大公司求职，都没有成功。",
+    "py": "Bìyè yǐhòu, tā xiàng hěn duō dà gōngsī qiúzhí, dōu méiyǒu chénggōng.",
+    "fa": "او بعد از فارغ‌التحصیلی از شرکت‌های بزرگ زیادی درخواست کار کرد، اما هیچ‌کدام نتیجه نداد.",
+    "en": "After graduating, he applied for jobs at many big companies, all without success."
+   }
+  ],
+  "chg": "ex: 在各大公司求职 unnatural collocation -> 向…求职; translations redone"
+ },
+ {
+  "id": "发愁",
+  "fa": [
+   "غصه خوردن",
+   "دل‌نگران بودن (برای مشکلی)"
+  ],
+  "en": [
+   "to fret",
+   "to be worried (about a problem)"
+  ],
+  "ex": [
+   {
+    "zh": "他正在为孩子的学费发愁。",
+    "py": "Tā zhèngzài wèi háizi de xuéfèi fāchóu.",
+    "fa": "او برای شهریهٔ فرزندش غصه می‌خورد.",
+    "en": "He is fretting about his child's tuition fees."
+   }
+  ],
+  "chg": "fa gloss 2: odd parenthesis «از ناچاری» did not match en -> «برای مشکلی»"
+ },
+ {
+  "id": "散文",
+  "fa": [
+   "نثر (ادبی)",
+   "قطعهٔ ادبی منثور"
+  ],
+  "en": [
+   "prose",
+   "prose essay"
+  ],
+  "ex": [
+   {
+    "zh": "这位作家写的散文语言很优美。",
+    "py": "Zhè wèi zuòjiā xiě de sǎnwén yǔyán hěn yōuměi.",
+    "fa": "نوشته‌های منثور این نویسنده زبانی بسیار زیبا دارند.",
+    "en": "This author's prose pieces are written in beautiful language."
+   }
+  ],
+  "chg": "ex fa/en: «نثرِ نویسنده زبان دارد» was word-for-word and unnatural"
+ }
+]

@@ -1,0 +1,61 @@
+[
+ {
+  "id": "喜事",
+  "fa": [
+   "رویداد شاد (مناسبت خوش)",
+   "عروسی (جشن ازدواج)"
+  ],
+  "en": [
+   "happy occasion",
+   "wedding"
+  ],
+  "ex": [
+   {
+    "zh": "他们家最近有喜事，儿子要结婚了。",
+    "py": "Tāmen jiā zuìjìn yǒu xǐshì, érzi yào jiéhūn le.",
+    "fa": "خانوادهٔ آن‌ها این روزها مراسم شادی در پیش دارد؛ پسرشان دارد ازدواج می‌کند.",
+    "en": "Their family has a happy occasion coming up: their son is getting married."
+   }
+  ],
+  "chg": "ex fa: unnatural «مناسبت شادی دارد» -> «مراسم شادی در پیش دارد»"
+ },
+ {
+  "id": "晕车",
+  "fa": [
+   "دچار ماشین‌گرفتگی شدن",
+   "در ماشین حالت تهوع گرفتن"
+  ],
+  "en": [
+   "to get carsick",
+   "to feel sick in vehicles"
+  ],
+  "ex": [
+   {
+    "zh": "我一坐长途汽车就晕车。",
+    "py": "Wǒ yí zuò chángtú qìchē jiù yùnchē.",
+    "fa": "من هر وقت سوار اتوبوس بین‌شهری می‌شوم، دچار ماشین‌گرفتگی می‌شوم.",
+    "en": "I get carsick whenever I take a long-distance bus."
+   }
+  ],
+  "chg": "ex fa: «حالم بد می‌شود» lost the headword sense (carsick); now uses the gloss"
+ },
+ {
+  "id": "日前",
+  "fa": [
+   "چند روز پیش"
+  ],
+  "en": [
+   "a few days ago"
+  ],
+  "ex": [
+   {
+    "zh": "两国领导人日前在北京举行了会谈。",
+    "py": "Liǎng guó lǐngdǎorén rìqián zài Běijīng jǔxíngle huìtán.",
+    "fa": "رهبران دو کشور چند روز پیش در پکن گفت‌وگو کردند.",
+    "en": "The leaders of the two countries held talks in Beijing a few days ago."
+   }
+  ],
+  "note": "واژه‌ای رسمی و خبری است.",
+  "chg": "fa/en: dropped «در روزهای اخیر» / 'in recent days' (that is 近日/最近; 日前 is a point a few days back)"
+ }
+]

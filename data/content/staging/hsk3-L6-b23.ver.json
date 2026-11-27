@@ -1,0 +1,158 @@
+[
+ {
+  "id": "多亏",
+  "fa": [
+   "به لطفِ (کسی یا چیزی)",
+   "خوب شد که (خوشبختانه)"
+  ],
+  "en": [
+   "thanks to",
+   "luckily"
+  ],
+  "ex": [
+   {
+    "zh": "多亏你提醒我，不然我就忘了带护照。",
+    "py": "Duōkuī nǐ tíxǐng wǒ, bùrán wǒ jiù wàng le dài hùzhào.",
+    "fa": "خوب شد که یادآوری کردی، وگرنه یادم می‌رفت گذرنامه‌ام را بیاورم.",
+    "en": "Luckily you reminded me, otherwise I would have forgotten to bring my passport."
+   }
+  ],
+  "chg": "fa: awkward infinitive 'به لطفِ ... بودن' replaced by usable glosses; ex en: ungrammatical 'Thanks to ..., otherwise'"
+ },
+ {
+  "id": "口头",
+  "fa": [
+   "حرف (در برابر عمل)",
+   "شفاهی"
+  ],
+  "en": [
+   "words (as opposed to deeds)",
+   "oral"
+  ],
+  "ex": [
+   {
+    "zh": "他只是口头上答应了，并没有真正去做。",
+    "py": "Tā zhǐshì kǒutóu shang dāying le, bìng méiyǒu zhēnzhèng qù zuò.",
+    "fa": "او فقط در حرف قبول کرد و در عمل کاری نکرد.",
+    "en": "He only agreed in words and didn't actually do it."
+   }
+  ],
+  "chg": "fa: bare 'زبان' recalls 语言/舌头; noun sense is 'words, as opposed to deeds'"
+ },
+ {
+  "id": "勇于",
+  "fa": [
+   "جرئتِ (کاری را) داشتن",
+   "از (انجام کاری) نهراسیدن"
+  ],
+  "en": [
+   "to have the courage to",
+   "to not shrink from"
+  ],
+  "ex": [
+   {
+    "zh": "年轻人应该勇于承担自己的责任。",
+    "py": "Niánqīngrén yīnggāi yǒngyú chéngdān zìjǐ de zérèn.",
+    "fa": "جوانان باید جرئت پذیرفتن مسئولیت خود را داشته باشند.",
+    "en": "Young people should have the courage to take on their responsibilities."
+   }
+  ],
+  "chg": "fa: 'تن دادن' means to submit reluctantly, opposite nuance of 勇于"
+ },
+ {
+  "id": "套餐",
+  "fa": [
+   "منوی ترکیبی (غذای ست)",
+   "بسته (خدمات تلفن و مانند آن)"
+  ],
+  "en": [
+   "set meal",
+   "package (plan)"
+  ],
+  "ex": [
+   {
+    "zh": "我点了一份套餐，里面有汉堡、薯条和饮料。",
+    "py": "Wǒ diǎn le yí fèn tàocān, lǐmiàn yǒu hànbǎo, shǔtiáo hé yǐnliào.",
+    "fa": "من یک منوی ترکیبی سفارش دادم که همبرگر، سیب‌زمینی سرخ‌کرده و نوشیدنی دارد.",
+    "en": "I ordered a set meal with a hamburger, fries and a drink."
+   }
+  ],
+  "chg": "fa: 'غذای ست' is not natural Persian; use 'منوی ترکیبی' in gloss and example"
+ },
+ {
+  "id": "劳动力",
+  "fa": [
+   "نیروی کار"
+  ],
+  "en": [
+   "labor force"
+  ],
+  "ex": [
+   {
+    "zh": "这个地区的劳动力成本比较低。",
+    "py": "Zhège dìqū de láodònglì chéngběn bǐjiào dī.",
+    "fa": "هزینهٔ نیروی کار در این منطقه نسبتاً پایین است.",
+    "en": "Labor costs in this region are relatively low."
+   }
+  ],
+  "chg": "en: two glosses for one fa gloss; aligned"
+ },
+ {
+  "id": "北极",
+  "fa": [
+   "قطب شمال",
+   "شمالگان (منطقهٔ قطب شمال)"
+  ],
+  "en": [
+   "the North Pole",
+   "the Arctic"
+  ],
+  "ex": [
+   {
+    "zh": "由于气候变暖，北极的冰正在不断融化。",
+    "py": "Yóuyú qìhòu biànnuǎn, běijí de bīng zhèngzài búduàn rónghuà.",
+    "fa": "به‌دلیل گرم شدن آب‌وهوا، یخ‌های قطب شمال پیوسته در حال آب شدن است.",
+    "en": "Because of climate warming, the Arctic ice is steadily melting."
+   }
+  ],
+  "chg": "fa/en count mismatch: added the Arctic sense used in the example"
+ },
+ {
+  "id": "台球",
+  "fa": [
+   "بیلیارد"
+  ],
+  "en": [
+   "billiards"
+  ],
+  "ex": [
+   {
+    "zh": "周末他常常和朋友去打台球。",
+    "py": "Zhōumò tā chángcháng hé péngyou qù dǎ táiqiú.",
+    "fa": "او آخر هفته‌ها اغلب با دوستانش می‌رود بیلیارد بازی کند.",
+    "en": "At weekends he often goes to play billiards with friends."
+   }
+  ],
+  "chg": "ex fa: 'به بیلیارد می‌رود' unnatural; 打台球 = play billiards"
+ },
+ {
+  "id": "动听",
+  "fa": [
+   "گوش‌نواز",
+   "دل‌نشین (صدا، آهنگ)"
+  ],
+  "en": [
+   "pleasant to hear",
+   "melodious"
+  ],
+  "ex": [
+   {
+    "zh": "她的歌声十分动听，观众都被吸引住了。",
+    "py": "Tā de gēshēng shífēn dòngtīng, guānzhòng dōu bèi xīyǐn zhù le.",
+    "fa": "صدای آواز او بسیار گوش‌نواز بود و همهٔ تماشاگران مجذوبش شدند.",
+    "en": "Her singing was so pleasant to hear that the whole audience was captivated."
+   }
+  ],
+  "chg": "ex fa/en: tense mixed present and past; made consistent"
+ }
+]

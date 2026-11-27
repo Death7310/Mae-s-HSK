@@ -1,0 +1,102 @@
+[
+ {
+  "id": "看中",
+  "fa": [
+   "پسندیدن (و برگزیدن)",
+   "نشان کردن (برای خود)"
+  ],
+  "en": [
+   "to take a fancy to",
+   "to pick out (for oneself)"
+  ],
+  "ex": [
+   {
+    "zh": "她一眼就看中了那条红色的裙子。",
+    "py": "Tā yì yǎn jiù kànzhòng le nà tiáo hóngsè de qúnzi.",
+    "fa": "او در همان نگاه اول آن دامن قرمز را پسندید.",
+    "en": "She took a fancy to that red skirt at first sight."
+   }
+  ],
+  "chg": "fa/en: second gloss «چشم کسی را گرفتن» reverses the subject (the thing catches the eye; 看中's subject is the chooser) -> «نشان کردن»"
+ },
+ {
+  "id": "传授",
+  "fa": [
+   "یاد دادن (دانش و مهارت به دیگری)",
+   "منتقل کردن (تجربه)"
+  ],
+  "en": [
+   "to teach (knowledge, skills)",
+   "to pass on"
+  ],
+  "ex": [
+   {
+    "zh": "老工人把多年的经验都传授给了年轻人。",
+    "py": "Lǎo gōngrén bǎ duō nián de jīngyàn dōu chuánshòu gěi le niánqīngrén.",
+    "fa": "کارگر کهنه‌کار تجربهٔ چندین‌ساله‌اش را تمام و کمال به جوان‌ها منتقل کرد.",
+    "en": "The veteran worker passed on all his years of experience to the young people."
+   }
+  ],
+  "chg": "fa: «آموختن» is ambiguous (to learn / to teach) -> «یاد دادن»"
+ },
+ {
+  "id": "讲解",
+  "fa": [
+   "شرح دادن",
+   "توضیح دادن (مفصل و آموزشی)"
+  ],
+  "en": [
+   "to explain",
+   "to explain in detail"
+  ],
+  "ex": [
+   {
+    "zh": "导游正在给游客讲解这座宫殿的历史。",
+    "py": "Dǎoyóu zhèngzài gěi yóukè jiǎngjiě zhè zuò gōngdiàn de lìshǐ.",
+    "fa": "راهنما دارد تاریخچهٔ این کاخ را برای گردشگران شرح می‌دهد.",
+    "en": "The guide is explaining the history of this palace to the tourists."
+   }
+  ],
+  "chg": "en: glosses did not match fa (no 'commentary' sense in fa); aligned"
+ },
+ {
+  "id": "照明",
+  "fa": [
+   "روشن کردن (با نور)",
+   "روشنایی دادن"
+  ],
+  "en": [
+   "to illuminate",
+   "to provide light"
+  ],
+  "ex": [
+   {
+    "zh": "停电的时候，我们只好用蜡烛照明。",
+    "py": "Tíngdiàn de shíhou, wǒmen zhǐhǎo yòng làzhú zhàomíng.",
+    "fa": "وقتی برق رفت، ناچار شدیم برای روشنایی از شمع استفاده کنیم.",
+    "en": "During the power cut, we had to use candles for light."
+   }
+  ],
+  "chg": "fa: «نورپردازی کردن» is stage/decorative lighting design, not 照明 -> «روشنایی دادن»; ex fa: awkward «روشنایی درست کنیم» reworded"
+ },
+ {
+  "id": "徒弟",
+  "fa": [
+   "شاگرد (نزد استادکار)",
+   "کارآموز"
+  ],
+  "en": [
+   "apprentice",
+   "disciple"
+  ],
+  "ex": [
+   {
+    "zh": "王师傅带过十几个徒弟，个个技术都很好。",
+    "py": "Wáng shīfu dài guo shí jǐ ge túdì, gègè jìshù dōu hěn hǎo.",
+    "fa": "استاد وانگ بیش از ده شاگرد تربیت کرده که همه‌شان مهارت خوبی دارند.",
+    "en": "Master Wang has trained more than ten apprentices, and every one of them is highly skilled."
+   }
+  ],
+  "chg": "ex fa: 十几个 is 'more than ten' (11-19), not «ده‌دوازده»"
+ }
+]
