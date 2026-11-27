@@ -62,8 +62,32 @@ TOPICS = {
         "discussing a piece of news or an event",
         "planning a trip: weighing advantages and disadvantages",
     ],
+    5: [
+        "negotiating a price and delivery terms with a business partner",
+        "renting or buying a home: cost and quality of life in a big city",
+        "an environmental problem in the city and what residents can do",
+        "discussing treatment options for a long-term health problem with a doctor",
+        "a misunderstanding between colleagues and clearing it up",
+        "parents and grown-up children: expectations and independence",
+        "a stable job or starting your own business",
+        "reporting a lost item or a minor accident and dealing with insurance",
+        "a film, book or exhibition: giving an opinion and defending it",
+        "preparing a group presentation and dividing the work",
+    ],
+    6: [
+        "how new technology is changing jobs and what people should learn",
+        "differences in values and lifestyle between generations",
+        "developing a city or protecting its old neighbourhoods",
+        "interviewing a specialist (scientist, doctor or artist) about their work",
+        "a consumer or tenancy dispute: asking for advice about rights and next steps",
+        "pressure at work, mental well-being and finding a balance",
+        "traditional culture in modern life: what stays and what changes",
+        "prices, saving and investing: weighing return against risk",
+        "studying or working abroad: culture shock and adapting",
+        "a formal meeting: making a proposal, objecting politely, reaching a compromise",
+    ],
 }
-LINES = {1: (6, 8), 2: (6, 9), 3: (8, 10), 4: (8, 12)}
+LINES = {1: (6, 8), 2: (6, 9), 3: (8, 10), 4: (8, 12), 5: (10, 12), 6: (10, 14)}
 
 
 GRAMMAR_PART = 33  # grammar points per authoring part
@@ -82,7 +106,7 @@ def grammar_briefs(entries) -> None:
 
     with open(RAW / "ofou-hsk" / "grammar.csv", encoding="utf-8-sig", newline="") as fh:
         rows = list(csv.DictReader(fh))
-    for level in range(1, 5):
+    for level in sorted(TOPICS):
         allowed = sorted({e.s for e in entries if (std_level(e, "hsk3") or 99) <= level})
         points = [
             {

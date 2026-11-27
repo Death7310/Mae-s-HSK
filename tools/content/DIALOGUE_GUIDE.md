@@ -41,7 +41,8 @@ Rules
   particles (吧、呢、啊) where natural — not textbook-stiff, not above level.
   Each dialogue should have a small point (a question answered, a plan made, a
   problem solved), not a list of unrelated sentences.
-- Lines short enough to type: levels 1–2 at most 14 characters, levels 3–4 at most 24.
+- Lines short enough to type: levels 1–2 at most 14 characters, levels 3–4 at
+  most 24, levels 5–6 at most 30.
 - `zh`: full-width Chinese punctuation. `py`: tone marks, syllables of a word
   joined, words separated by spaces, capital at sentence start and for names,
   ASCII punctuation; sandhi written only for 不 and 一 (bú shì, yí ge, yì tiān);

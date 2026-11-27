@@ -90,6 +90,30 @@ the usual measure word, a classic confusion (二 / 两). Most words need no note
 - `fa`: natural Persian (not word-for-word), full sentence with final punctuation.
 - `en`: natural English.
 
+## Mistakes the review found most often
+
+About one entry in four of levels 3–5 was corrected in review; nearly half of
+the corrections were to `fa`. Check each entry against these:
+
+- **A gloss that belongs to a near-synonym.** If the Persian gloss is the
+  natural translation of another, commoner Chinese word, the learner will recall
+  that word: 祝 is not «تبریک گفتن» (祝贺); 权利 is not «اختیار» (权力); 车厢 is not
+  «کوپه» (包厢); a bare «درست» recalls 对. Choose another gloss or disambiguate.
+- **The wrong reading or sense.** Describe only the reading in `p`: 精神
+  `jīngshen` is "vigour; lively", not `jīngshén` "spirit, mind". Give the sense
+  the word has as the official `pos`: 火 (a) is "popular, booming", not "angry".
+- **Part of speech.** Glosses follow the official `pos`, in its order: verbs as
+  infinitives first when `pos` starts with v; one gloss for each `pos` listed.
+  The example uses the word as the first glossed part of speech.
+- **`fa` and `en` disagree.** Same senses, same number, same order.
+- **Unnatural Chinese in the example.** Check every collocation and measure
+  word (not 一间房子, not 这几天的日子). When unsure, write a plainer sentence. Use
+  the headword as a free word, not inside a longer word (超, not 超过).
+- **Word-for-word Persian in the example.** Translate the meaning in
+  grammatical Persian, with the right tense; convert numbers (万, 亿) properly.
+- **Notes that are not facts.** No sense called "later-level" unless `later`
+  says so, no invented separable forms, no Chinese grammar terms (量词).
+
 ## Before you write the file
 
 Re-read each entry once: Does the gloss match the official reading and part of
