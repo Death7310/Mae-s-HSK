@@ -4,16 +4,16 @@
   "title": {"fa": "داشتن و وجود داشتن در زبان رسمی: 有着", "en": "Having or existing, formal style: 有着"},
   "body": "«有着» همان «有» (داشتن، وجود داشتن) است، ولی رسمی‌تر و نوشتاری‌تر، و نشان می‌دهد که این داشتن پایدار و ادامه‌دار است.\nمفعولِ آن معمولاً چیزی غیرمادی است، مثل تاریخ، رابطه، علاقه یا تأثیر، و بیشتر وقت‌ها پیش از آن یک توصیف می‌آید.\nشکل منفی «没有着» وجود ندارد؛ برای منفی فقط 没有 می‌گوییم.",
   "examples": [
-   {"zh": "两国有着很长的友好历史。", "py": "Liǎng guó yǒuzhe hěn cháng de yǒuhǎo lìshǐ.", "fa": "دو کشور تاریخ دوستیِ درازی دارند.", "en": "The two countries have a long history of friendship."},
+   {"zh": "两国有着悠久的友好历史。", "py": "Liǎng guó yǒuzhe yōujiǔ de yǒuhǎo lìshǐ.", "fa": "دو کشور پیشینهٔ دوستیِ دیرینه‌ای دارند.", "en": "The two countries have a long history of friendship."},
    {"zh": "他对中国文化有着很大的兴趣。", "py": "Tā duì Zhōngguó wénhuà yǒuzhe hěn dà de xìngqù.", "fa": "او به فرهنگ چین علاقهٔ زیادی دارد.", "en": "He has a great interest in Chinese culture."}
   ]},
  {"id": "hsk3-g0389", "std": "hsk3", "level": 5, "no": 389,
   "pattern": "مکان / چیز + فعل + 有 + مفعول",
-  "title": {"fa": "چیزی روی چیزی نوشته، چاپ یا آویخته است: فعل + 有", "en": "Something is written, printed or hung on something: verb + 有"},
-  "body": "وقتی 有 درست بعد از فعل‌هایی مثل 写، 印، 挂، 放 می‌آید، می‌گوید که نتیجهٔ آن کار روی چیزی باقی مانده است: «روی آن … نوشته شده است».\nجمله با مکان یا خودِ آن چیز شروع می‌شود، نه با کسی که کار را انجام داده است.\nاین ساخت نوشتاری است؛ در گفتار معمولاً به‌جای آن «فعل + 着» می‌گویند: 写着.",
+  "title": {"fa": "چیزی روی یا درون چیزی نوشته، آویخته یا گذاشته شده است: فعل + 有", "en": "Something is written, hung or placed on or in something: verb + 有"},
+  "body": "وقتی 有 درست بعد از فعل‌هایی مثل 写، 挂، 放، 装 می‌آید، می‌گوید که نتیجهٔ آن کار روی چیزی باقی مانده است: «روی آن … نوشته شده است».\nجمله با مکان یا خودِ آن چیز شروع می‌شود، نه با کسی که کار را انجام داده است.\nاین ساخت نوشتاری است؛ در گفتار معمولاً به‌جای آن «فعل + 着» می‌گویند: 写着.",
   "examples": [
    {"zh": "信封上写有他的名字和地址。", "py": "Xìnfēng shang xiěyǒu tā de míngzi hé dìzhǐ.", "fa": "روی پاکت نامه نام و نشانیِ او نوشته شده است.", "en": "His name and address are written on the envelope."},
-   {"zh": "杯子上印有公司的名字。", "py": "Bēizi shang yìnyǒu gōngsī de míngzi.", "fa": "روی لیوان نام شرکت چاپ شده است.", "en": "The company's name is printed on the cup."},
+   {"zh": "箱子里装有他的衣服和护照。", "py": "Xiāngzi li zhuāngyǒu tā de yīfu hé hùzhào.", "fa": "در چمدان لباس‌ها و گذرنامهٔ او گذاشته شده است.", "en": "The suitcase contains his clothes and passport."},
    {"zh": "墙上挂有一张世界地图。", "py": "Qiáng shang guàyǒu yì zhāng shìjiè dìtú.", "fa": "روی دیوار یک نقشهٔ جهان آویخته است.", "en": "A world map hangs on the wall."}
   ]},
  {"id": "hsk3-g0390", "std": "hsk3", "level": 5, "no": 390,
@@ -82,7 +82,7 @@
   "body": "«一旦» یعنی «اگر روزی، همین که»: اتفاقی که هنوز نیفتاده، ولی اگر بیفتد نتیجه‌اش حتمی و معمولاً مهم است.\n一旦 پیش یا پس از فاعلِ بخش اول می‌آید و 就 در بخش دوم، بعد از فاعل و پیش از فعل.",
   "examples": [
    {"zh": "一旦做了决定，就不要后悔。", "py": "Yídàn zuòle juédìng, jiù búyào hòuhuǐ.", "fa": "همین که تصمیم گرفتی، دیگر پشیمان نشو.", "en": "Once you've made a decision, don't regret it."},
-   {"zh": "一旦下大雨，比赛就要改时间。", "py": "Yídàn xià dàyǔ, bǐsài jiù yào gǎi shíjiān.", "fa": "اگر باران شدید ببارد، زمان مسابقه باید عوض شود.", "en": "Once it rains heavily, the match will have to be rescheduled."}
+   {"zh": "一旦下大雨，比赛就要改时间。", "py": "Yídàn xià dàyǔ, bǐsài jiù yào gǎi shíjiān.", "fa": "اگر باران شدید ببارد، زمان مسابقه باید عوض شود.", "en": "If it does rain heavily, the match will have to be rescheduled."}
   ]},
  {"id": "hsk3-g0398", "std": "hsk3", "level": 5, "no": 398,
   "pattern": "假如 …، (就) …",
@@ -143,10 +143,10 @@
  {"id": "hsk3-g0405", "std": "hsk3", "level": 5, "no": 405,
   "pattern": "不是 …، 还 / 还是 …",
   "title": {"fa": "«فقط … نیست، … هم هست»: 不是 … 还/还是 …", "en": "'It is not just …, it is also …': 不是 … 还/还是 …"},
-  "body": "بخش اول با 不是 می‌گوید موضوع به همین یک چیز ختم نمی‌شود و بخش دوم با 还 یا 还是 چیز مهم‌تری به آن اضافه می‌کند.\nپیش از فعل 还 می‌آید و پیش از اسم 还是.\nآن را با «不是 … 而是 …» (این نیست، بلکه آن است) اشتباه نکن: این‌جا بخش اول رد نمی‌شود، فقط چیزی به آن افزوده می‌شود.",
+  "body": "بخش اول با 不是 می‌گوید موضوع به همین یک چیز ختم نمی‌شود و بخش دوم با 还 یا 还是 چیز مهم‌تری به آن اضافه می‌کند. در بخش اول معمولاً کلمه‌ای مثل 只، 光 یا 一个人 هست که معنیِ «فقط» را می‌رساند.\nپیش از فعل 还 می‌آید و پیش از اسم 还是.\nآن را با «不是 … 而是 …» (این نیست، بلکه آن است) اشتباه نکن: این‌جا بخش اول رد نمی‌شود، فقط چیزی به آن افزوده می‌شود.",
   "examples": [
    {"zh": "这不是他一个人的问题，还是我们大家的问题。", "py": "Zhè bú shì tā yí gè rén de wèntí, hái shì wǒmen dàjiā de wèntí.", "fa": "این فقط مشکلِ خودِ او نیست، مشکلِ همهٔ ما هم هست.", "en": "This is not just his problem; it is also a problem for all of us."},
-   {"zh": "他不是会说汉语，还会写汉字。", "py": "Tā bú shì huì shuō Hànyǔ, hái huì xiě Hànzì.", "fa": "او فقط چینی حرف نمی‌زند، نویسه‌های چینی را هم می‌تواند بنویسد.", "en": "He doesn't just speak Chinese; he can write the characters too."}
+   {"zh": "他不是只会说汉语，还会写汉字。", "py": "Tā bú shì zhǐ huì shuō Hànyǔ, hái huì xiě Hànzì.", "fa": "او فقط چینی حرف نمی‌زند، نویسه‌های چینی را هم می‌تواند بنویسد.", "en": "He doesn't just speak Chinese; he can write the characters too."}
   ]},
  {"id": "hsk3-g0406", "std": "hsk3", "level": 5, "no": 406,
   "pattern": "…، 为的是 …",

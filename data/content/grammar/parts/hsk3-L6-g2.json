@@ -1,0 +1,209 @@
+[
+ {"id": "hsk3-g0435", "std": "hsk3", "level": 6, "no": 435,
+  "pattern": "得了，+ جمله",
+  "title": {"fa": "«بس است، ولش کن»: 得了", "en": "\"Enough, forget it\": 得了"},
+  "body": "«得了» در گفت‌وگو، در آغاز جمله می‌آید و یعنی «بس است، دیگر ادامه نده» یا «باشد، قبول».\nبا 吧 («得了吧») نشان می‌دهد که حرف طرف را باور نداری؛ مثل «برو بابا» در فارسی.\nاین عبارت خودمانی است و با بزرگ‌ترها یا در موقعیت رسمی به کار نمی‌رود.",
+  "examples": [
+   {"zh": "得了，别说了，我都知道了。", "py": "Déle, bié shuō le, wǒ dōu zhīdào le.", "fa": "بس است، دیگر نگو؛ همه را می‌دانم.", "en": "All right, stop talking, I already know everything."},
+   {"zh": "得了吧，你哪儿会做饭？", "py": "Déle ba, nǐ nǎr huì zuò fàn?", "fa": "برو بابا، تو کجا آشپزی بلدی؟", "en": "Come off it, since when can you cook?"}
+  ]},
+ {"id": "hsk3-g0436", "std": "hsk3", "level": 6, "no": 436,
+  "pattern": "A + 一 + واحد شمارش، B + 一 + واحد شمارش",
+  "title": {"fa": "«یکی این، یکی آن»: 你一句，我一句", "en": "\"One from this, one from that\": A一…，B一…"},
+  "body": "دو واژهٔ جفت یا متضاد (مثل 你 و 我، یا 左 و 右) هر کدام با «一 + واحد شمارش» می‌آیند.\nمعنا این است که کاری پشت سر هم و به نوبت از دو طرف تکرار می‌شود؛ مثل «یکی تو بگو، یکی من».\nبعد از این عبارت معمولاً نتیجه یا توصیف وضعیت می‌آید.",
+  "examples": [
+   {"zh": "大家你一句，我一句，说个不停。", "py": "Dàjiā nǐ yí jù, wǒ yí jù, shuō ge bù tíng.", "fa": "همه یکی این می‌گفت، یکی آن؛ حرفشان تمامی نداشت.", "en": "Everyone kept chiming in, one after another, without stopping."},
+   {"zh": "他左一杯，右一杯，很快就喝醉了。", "py": "Tā zuǒ yì bēi, yòu yì bēi, hěn kuài jiù hē zuì le.", "fa": "او لیوان پشت لیوان خورد و خیلی زود مست شد.", "en": "He had one glass after another and was soon drunk."}
+  ]},
+ {"id": "hsk3-g0437", "std": "hsk3", "level": 6, "no": 437,
+  "pattern": "东一 + واحد شمارش，西一 + واحد شمارش",
+  "title": {"fa": "«یکی این‌جا، یکی آن‌جا»؛ پراکنده و بی‌نظم: 东一…西一…", "en": "\"One here, one there\" (scattered, disorderly): 东一…西一…"},
+  "body": "«东» (شرق) و «西» (غرب) این‌جا معنای جهت ندارند؛ فقط می‌گویند چیزی پراکنده و بی‌نظم است.\nهر دو بار همان واحد شمارش می‌آید: 东一本，西一本 یعنی «یک کتاب این‌جا، یکی آن‌جا».\nبرای حرف‌زدنِ بی‌سروته هم به کار می‌رود: 东一句，西一句.",
+  "examples": [
+   {"zh": "他的书东一本，西一本，放得到处都是。", "py": "Tā de shū dōng yì běn, xī yì běn, fàng de dàochù dōu shì.", "fa": "کتاب‌هایش یکی این‌جا و یکی آن‌جا، همه‌جا پخش است.", "en": "His books are scattered all over the place, one here and one there."},
+   {"zh": "他说话东一句，西一句，我听不明白。", "py": "Tā shuōhuà dōng yí jù, xī yí jù, wǒ tīng bu míngbai.", "fa": "او از این در و آن در حرف می‌زند؛ من سر در نمی‌آورم.", "en": "He rambles from one thing to another; I can't follow him."}
+  ]},
+ {"id": "hsk3-g0438", "std": "hsk3", "level": 6, "no": 438,
+  "pattern": "到 + زمان / مکان + 为止",
+  "title": {"fa": "«تا … (و نه بیشتر)»: 到……为止", "en": "\"Up to, until\": 到……为止"},
+  "body": "میان 到 و 为止 زمان یا نقطه‌ای می‌آید که کار تا آن‌جا ادامه دارد و همان‌جا تمام می‌شود.\n«到现在为止» (تا الان) و «到此为止» (تا همین‌جا) بسیار پرکاربردند.\nدر فارسی یک «تا» کافی است، اما در چینی 为止 در پایان عبارت نقطهٔ پایان را محکم می‌کند.",
+  "examples": [
+   {"zh": "到现在为止，我还没收到他的回信。", "py": "Dào xiànzài wéizhǐ, wǒ hái méi shōudào tā de huíxìn.", "fa": "تا الان هنوز جواب نامه‌اش به دستم نرسیده است.", "en": "Up to now, I still haven't received his reply."},
+   {"zh": "今天的课就到这儿为止。", "py": "Jīntiān de kè jiù dào zhèr wéizhǐ.", "fa": "درس امروز تا همین‌جا بس است.", "en": "That's as far as we go in today's class."},
+   {"zh": "报名到星期五为止。", "py": "Bàomíng dào xīngqīwǔ wéizhǐ.", "fa": "ثبت‌نام تا جمعه است.", "en": "Registration is open until Friday."}
+  ]},
+ {"id": "hsk3-g0439", "std": "hsk3", "level": 6, "no": 439,
+  "pattern": "فعل + 到 + شخص + 头上来了",
+  "title": {"fa": "«کار به جایی رسیده که با من هم …!»: X到Y头上来了", "en": "\"Now they've even done it to me!\": X到Y头上来了"},
+  "body": "گوینده با این ساخت با ناراحتی می‌گوید کارِ بدی (فریب، زورگویی، دخالت) حالا به سراغ کسی آمده که نباید می‌آمد.\nفعل پیش از 到 می‌آید و آن شخص (بیشتر 我) میان 到 و 头上 قرار می‌گیرد.\nلحن آن خشمگین یا شگفت‌زده است؛ مثل «حالا دیگر سر من هم کلاه می‌گذاری؟».",
+  "examples": [
+   {"zh": "他竟然骗到我头上来了！", "py": "Tā jìngrán piàn dào wǒ tóu shang lái le!", "fa": "باورم نمی‌شود، حالا دیگر سر من هم کلاه می‌گذارد!", "en": "He actually had the nerve to try cheating me!"},
+   {"zh": "你怎么管到我头上来了？", "py": "Nǐ zěnme guǎn dào wǒ tóu shang lái le?", "fa": "چه شده که حالا در کار من هم دخالت می‌کنی؟", "en": "Since when do you get to boss me around?"}
+  ]},
+ {"id": "hsk3-g0440", "std": "hsk3", "level": 6, "no": 440,
+  "pattern": "不 + فعل + 不……，一 + فعل + ……",
+  "title": {"fa": "«تا نکنی نمی‌فهمی، همین که کردی …»: 不X不……，一X……", "en": "\"You don't realise until you try it\": 不X不……，一X……"},
+  "body": "یک فعل دو بار می‌آید: بار اول با 不 («اگر این کار را نکنی، …نمی‌شود») و بار دوم با 一 («همین که کردی، …»).\nنیمهٔ دوم نتیجه‌ای غافلگیرکننده را می‌گوید و اغلب 才 یا 就 دارد.\nمعروف‌ترین نمونه: 不看不知道，一看吓一跳.",
+  "examples": [
+   {"zh": "不看不知道，一看吓一跳。", "py": "Bú kàn bù zhīdào, yí kàn xià yí tiào.", "fa": "تا نگاه نکنی نمی‌دانی؛ همین که نگاه کنی جا می‌خوری.", "en": "You have no idea until you look, and then you get a shock."},
+   {"zh": "不问不知道，一问才明白是我错了。", "py": "Bú wèn bù zhīdào, yí wèn cái míngbai shì wǒ cuò le.", "fa": "تا نپرسیده بودم نمی‌دانستم؛ وقتی پرسیدم تازه فهمیدم اشتباه از من بوده.", "en": "I didn't know until I asked, and only then did I realise I was the one in the wrong."}
+  ]},
+ {"id": "hsk3-g0441", "std": "hsk3", "level": 6, "no": 441,
+  "pattern": "好你个 + اسم / نام شخص",
+  "title": {"fa": "«ای …!»؛ سرزنش یا گلهٔ خودمانی: 好你个X", "en": "\"Why, you …!\" (scolding or teasing): 好你个X"},
+  "body": "«好» این‌جا معنای «خوب» ندارد. «好你个 + نام یا لقب» در آغاز جمله می‌آید و گوینده با آن طرف را سرزنش می‌کند یا از او گله دارد.\nمیان دوستان لحن شوخی دارد و با غریبه‌ها تند است؛ مثل «ای ناقلا!» یا «ای فلان‌فلان‌شده!».\nبعد از آن معمولاً دلیل ناراحتی گفته می‌شود.",
+  "examples": [
+   {"zh": "好你个小王，来北京也不告诉我！", "py": "Hǎo nǐ ge Xiǎo Wáng, lái Běijīng yě bú gàosu wǒ!", "fa": "ای شیائو وانگِ ناقلا! می‌آیی پکن و به من هم نمی‌گویی!", "en": "Why, Xiao Wang, you came to Beijing and didn't even tell me!"},
+   {"zh": "好你个骗子，又来骗我！", "py": "Hǎo nǐ ge piànzi, yòu lái piàn wǒ!", "fa": "ای کلاه‌بردار! باز آمده‌ای مرا گول بزنی!", "en": "You swindler, trying to trick me again!"}
+  ]},
+ {"id": "hsk3-g0442", "std": "hsk3", "level": 6, "no": 442,
+  "pattern": "早（也）不 + فعل，晚（也）不 + فعل，……",
+  "title": {"fa": "«نه زودتر، نه دیرتر؛ درست همین حالا!»: 早不X，晚不X", "en": "\"Of all times, it had to be now\": 早不X，晚不X"},
+  "body": "یک فعل دو بار، یک بار بعد از 早 (زود) و یک بار بعد از 晚 (دیر)، منفی می‌شود.\nمعنا: این اتفاق نه زودتر افتاد و نه دیرتر، بلکه درست در بدترین لحظه. گوینده از این بدموقع بودن گله دارد.\nنیمهٔ بعدی همان لحظهٔ نامناسب را می‌گوید.",
+  "examples": [
+   {"zh": "他早不来，晚不来，正好在我最忙的时候来了。", "py": "Tā zǎo bù lái, wǎn bù lái, zhènghǎo zài wǒ zuì máng de shíhou lái le.", "fa": "نه زودتر آمد و نه دیرتر؛ درست وقتی آمد که از همیشه گرفتارتر بودم.", "en": "He didn't come earlier or later; he had to show up just when I was busiest."},
+   {"zh": "这雨早也不下，晚也不下，我一出门就下了。", "py": "Zhè yǔ zǎo yě bú xià, wǎn yě bú xià, wǒ yì chūmén jiù xià le.", "fa": "این باران نه زودتر بارید و نه دیرتر؛ تا پایم را از در بیرون گذاشتم شروع شد.", "en": "The rain didn't fall sooner or later; it started the moment I stepped outside."}
+  ]},
+ {"id": "hsk3-g0443", "std": "hsk3", "level": 6, "no": 443,
+  "pattern": "看 / 瞧 + 把 + شخص + صفت / فعل + 得",
+  "title": {"fa": "«ببین چقدر …شده!»: 看把你高兴得", "en": "\"Look how … you are!\": 看/瞧+把…X得"},
+  "body": "با 看 یا 瞧 (ببین) شروع می‌شود و بعد از 把 همان کسی می‌آید که آن حال را دارد.\nجمله می‌تواند با 得 تمام شود و ادامه‌اش ناگفته بماند؛ شنونده خودش می‌فهمد که «خیلی زیاد». می‌توان ادامه را هم گفت.\nلحن آن خودمانی و اغلب مهربان یا شوخ است.",
+  "examples": [
+   {"zh": "看把你高兴得！", "py": "Kàn bǎ nǐ gāoxìng de!", "fa": "ببین چقدر خوشحال شده‌ای!", "en": "Look how happy you are!"},
+   {"zh": "瞧把他累得，话都说不出来了。", "py": "Qiáo bǎ tā lèi de, huà dōu shuō bu chūlái le.", "fa": "ببین چقدر خسته شده؛ حتی نمی‌تواند حرف بزند.", "en": "Look how exhausted he is; he can't even speak."},
+   {"zh": "看把孩子急得，都快哭了。", "py": "Kàn bǎ háizi jí de, dōu kuài kū le.", "fa": "ببین بچه چقدر دستپاچه شده؛ کم مانده گریه کند.", "en": "Look how anxious the child is, almost in tears."}
+  ]},
+ {"id": "hsk3-g0444", "std": "hsk3", "level": 6, "no": 444,
+  "pattern": "放着 + اسم + 不 + فعل",
+  "title": {"fa": "«چیز خوبِ دمِ دست را رها کردن»: 放着X不Y", "en": "\"To pass up something good that's right there\": 放着X不Y"},
+  "body": "«放着» یعنی «همین‌طور گذاشتن». این ساخت می‌گوید کسی چیز خوب یا راه آسانی را در اختیار دارد ولی از آن استفاده نمی‌کند و سراغ راه بدتر می‌رود.\nگوینده این کار را نمی‌فهمد یا نمی‌پسندد. نیمهٔ دوم جمله اغلب کاری را می‌گوید که آن شخص به‌جایش می‌کند.",
+  "examples": [
+   {"zh": "你怎么放着电梯不坐，要走楼梯？", "py": "Nǐ zěnme fàngzhe diàntī bú zuò, yào zǒu lóutī?", "fa": "چرا آسانسور را ول کرده‌ای و می‌خواهی از پله بروی؟", "en": "Why take the stairs when the lift is right there?"},
+   {"zh": "他放着好好的工作不做，非要去旅行。", "py": "Tā fàngzhe hǎohǎo de gōngzuò bú zuò, fēi yào qù lǚxíng.", "fa": "او کار به آن خوبی را رها کرده و اصرار دارد برود سفر.", "en": "He's giving up a perfectly good job and insists on going travelling."}
+  ]},
+ {"id": "hsk3-g0445", "std": "hsk3", "level": 6, "no": 445,
+  "pattern": "فعل + 了就 + فعل + 了，（没）有……",
+  "title": {"fa": "«شد که شد، مهم نیست»: X了就X了", "en": "\"If it happened, it happened; no big deal\": X了就X了"},
+  "body": "یک فعل دو بار با 了 می‌آید و 就 میانشان است: «اگر شد، خب شد». گوینده می‌گوید اتفاقِ افتاده را باید پذیرفت.\nنیمهٔ دوم با 没有 یا با پرسشی مثل 有什么… می‌گوید که جای نگرانی نیست.\nبرای دلداری دادن بسیار به کار می‌رود.",
+  "examples": [
+   {"zh": "丢了就丢了，没有什么大不了的。", "py": "Diū le jiù diū le, méiyǒu shénme dàbuliǎo de.", "fa": "گم شد که شد؛ چیز مهمی نیست.", "en": "If it's lost, it's lost; it's no big deal."},
+   {"zh": "输了就输了，有什么关系？下次再来。", "py": "Shū le jiù shū le, yǒu shénme guānxi? Xià cì zài lái.", "fa": "باختیم که باختیم، چه اشکالی دارد؟ دفعهٔ بعد دوباره تلاش می‌کنیم.", "en": "So we lost; what does it matter? We'll try again next time."}
+  ]},
+ {"id": "hsk3-g0446", "std": "hsk3", "level": 6, "no": 446,
+  "pattern": "这也不 + فعل，那也不 + فعل",
+  "title": {"fa": "«نه این را …، نه آن را»: 这也不X，那也不Y", "en": "\"Won't do this, won't do that either\": 这也不X，那也不Y"},
+  "body": "«这» و «那» این‌جا به چیز مشخصی اشاره نمی‌کنند؛ یعنی «هر چیزی که باشد».\nساخت می‌گوید کسی همه‌چیز را رد می‌کند یا هیچ کاری نمی‌کند، و گوینده معمولاً از این وضع ناراضی است.\nدو فعل می‌توانند یکی باشند یا فرق داشته باشند؛ جای 这 و 那 هم می‌تواند عوض شود.",
+  "examples": [
+   {"zh": "她这也不吃，那也不喝，真让人担心。", "py": "Tā zhè yě bù chī, nà yě bù hē, zhēn ràng rén dānxīn.", "fa": "او نه این را می‌خورد و نه آن را می‌نوشد؛ واقعاً آدم نگران می‌شود.", "en": "She won't eat this and won't drink that; it's really worrying."},
+   {"zh": "他这也不满意，那也不喜欢，最后什么都没买。", "py": "Tā zhè yě bù mǎnyì, nà yě bù xǐhuan, zuìhòu shénme dōu méi mǎi.", "fa": "نه از این راضی بود و نه از آن خوشش آمد؛ آخرش هم هیچ نخرید.", "en": "He wasn't happy with this and didn't like that, and ended up buying nothing."}
+  ]},
+ {"id": "hsk3-g0447", "std": "hsk3", "level": 6, "no": 447,
+  "pattern": "X 归 X，Y 归 Y",
+  "title": {"fa": "«حسابِ این جدا، حسابِ آن جدا»: X归X，Y归Y", "en": "\"X is one thing, Y is another\": X归X，Y归Y"},
+  "body": "هر واژه دو بار می‌آید و 归 میانش قرار می‌گیرد. معنا: این دو چیز را نباید با هم قاطی کرد.\nمثل فارسی: «دوستی به جای خود، حساب‌وکتاب به جای خود».\nگاهی فقط نیمهٔ اول می‌آید و بعدش «اما» (可是 / 但是): «X درست، ولی …».",
+  "examples": [
+   {"zh": "朋友归朋友，生意归生意。", "py": "Péngyou guī péngyou, shēngyi guī shēngyi.", "fa": "دوستی به جای خود، کاسبی به جای خود.", "en": "Friendship is friendship and business is business."},
+   {"zh": "工作归工作，休息归休息，不能放在一起。", "py": "Gōngzuò guī gōngzuò, xiūxi guī xiūxi, bù néng fàng zài yìqǐ.", "fa": "کار جدا، استراحت جدا؛ این دو را نباید با هم قاطی کرد.", "en": "Work is work and rest is rest; you can't mix the two."},
+   {"zh": "批评归批评，可是他还是很关心你。", "py": "Pīpíng guī pīpíng, kěshì tā háishi hěn guānxīn nǐ.", "fa": "انتقاد به جای خود، اما او هنوز خیلی به فکر توست.", "en": "He may criticise you, but he still cares about you a lot."}
+  ]},
+ {"id": "hsk3-g0448", "std": "hsk3", "level": 6, "no": 448,
+  "pattern": "看你 / 瞧他 + فعل / صفت + 的",
+  "title": {"fa": "«ببین چه …!»؛ واکنش خودمانی: 看你说的 / 瞧他高兴的", "en": "\"Look at you / him …!\": 看你X的 / 瞧他X的"},
+  "body": "با 看 یا 瞧 و یک ضمیر شروع می‌شود و با 的 تمام می‌شود. گوینده به حرف یا حال کسی واکنش نشان می‌دهد.\n«看你说的» یعنی «این چه حرفی است!»؛ پاسخی مؤدبانه به تشکر یا تعارف، یا مخالفتی ملایم.\nبا صفت (高兴، 累، 急) یعنی «ببین چقدر …!» و ادامهٔ جمله توضیح می‌دهد.",
+  "examples": [
+   {"zh": "看你说的，这点儿小事不用谢。", "py": "Kàn nǐ shuō de, zhè diǎnr xiǎoshì búyòng xiè.", "fa": "این چه حرفی است! این کارِ کوچک تشکر ندارد.", "en": "Oh, come on, there's no need to thank me for such a small thing."},
+   {"zh": "瞧他高兴的，一定是考得不错。", "py": "Qiáo tā gāoxìng de, yídìng shì kǎo de búcuò.", "fa": "ببین چقدر خوشحال است؛ حتماً امتحانش را خوب داده.", "en": "Look how pleased he is; he must have done well in the exam."},
+   {"zh": "看你累的，快坐下休息一会儿。", "py": "Kàn nǐ lèi de, kuài zuòxia xiūxi yíhuìr.", "fa": "ببین چقدر خسته‌ای؛ زود بنشین و کمی استراحت کن.", "en": "Look how tired you are; sit down and rest for a while."}
+  ]},
+ {"id": "hsk3-g0449", "std": "hsk3", "level": 6, "no": 449,
+  "pattern": "فعل / صفت + 透 + 了",
+  "title": {"fa": "«تا ته، بی‌اندازه» (بیشتر برای چیزهای بد): 透了", "en": "\"Utterly, through and through\" (mostly negative): 透了"},
+  "body": "«透了» بعد از صفت یا فعلِ احساسی می‌آید و بالاترین درجه را نشان می‌دهد: «به‌کلی، تا مغز استخوان».\nتقریباً همیشه با واژه‌های منفی می‌آید: 糟透了 (افتضاح)، 坏透了، 恨透了، 烦透了.\nچون خودش درجه را می‌گوید، دیگر 很 یا 非常 پیش از صفت نمی‌آید. اگر مفعول باشد، بعد از 透了 قرار می‌گیرد.",
+  "examples": [
+   {"zh": "今天的天气糟透了。", "py": "Jīntiān de tiānqì zāo tòu le.", "fa": "هوای امروز واقعاً افتضاح است.", "en": "Today's weather is absolutely awful."},
+   {"zh": "我恨透了这种人。", "py": "Wǒ hèn tòu le zhè zhǒng rén.", "fa": "من از این‌جور آدم‌ها تا سر حد مرگ بیزارم.", "en": "I utterly detest this kind of person."}
+  ]},
+ {"id": "hsk3-g0450", "std": "hsk3", "level": 6, "no": 450,
+  "pattern": "فاعل (چیز / رویداد) + 把 + مفعول + فعل + نتیجه",
+  "title": {"fa": "جملهٔ 把 با فاعل بی‌جان: «باد درخت را انداخت»", "en": "把 sentences with a non-living subject"},
+  "body": "فاعلِ جملهٔ 把 لازم نیست انسان باشد؛ باد، باران، یک خبر یا یک فیلم هم می‌تواند سببِ تغییر باشد.\nترتیب همان است: سبب + 把 + کسی یا چیزی که تغییر می‌کند + فعل + نتیجه. فعل هرگز تنها نمی‌آید.\nدر فارسی اغلب می‌گوییم «از این خبر خیلی خوشحال شد»؛ در چینی خودِ خبر فاعل می‌شود.",
+  "examples": [
+   {"zh": "大风把树吹倒了。", "py": "Dàfēng bǎ shù chuī dǎo le.", "fa": "باد شدید درخت را انداخت.", "en": "The strong wind blew the tree down."},
+   {"zh": "这个消息把他高兴坏了。", "py": "Zhège xiāoxi bǎ tā gāoxìng huài le.", "fa": "این خبر او را از خوشحالی از خود بی‌خود کرد.", "en": "This news made him overjoyed."},
+   {"zh": "那部电影把我感动得哭了。", "py": "Nà bù diànyǐng bǎ wǒ gǎndòng de kū le.", "fa": "آن فیلم چنان مرا تحت تأثیر قرار داد که گریه‌ام گرفت.", "en": "That film moved me to tears."}
+  ]},
+ {"id": "hsk3-g0451", "std": "hsk3", "level": 6, "no": 451,
+  "pattern": "(سبب) + 把 + کنندهٔ کار + فعل + نتیجه",
+  "title": {"fa": "جملهٔ 把 که مفعولش خودش کنندهٔ کار است: 把我累坏了", "en": "把 sentences whose object is the one doing or feeling: 把我累坏了"},
+  "body": "در این نوع، اسمِ بعد از 把 همان کسی است که کارِ فعل را می‌کند یا آن حال را دارد: در 把我累坏了 این «من» هستم که خسته شده‌ام.\nبخش پیش از 把 فقط سبب را می‌گوید و می‌تواند یک جملهٔ کامل باشد یا اصلاً نیاید.\nاین ساخت برای حال‌های شدید (累، 急، 气، 忙) و برای اتفاق ناخواسته (مثل 跑了 «در رفت») به کار می‌رود.",
+  "examples": [
+   {"zh": "这几天的工作把我累坏了。", "py": "Zhè jǐ tiān de gōngzuò bǎ wǒ lèi huài le.", "fa": "کارِ این چند روز مرا از پا انداخت.", "en": "The work of the last few days has worn me out."},
+   {"zh": "孩子还没回家，把妈妈急得睡不着觉。", "py": "Háizi hái méi huí jiā, bǎ māma jí de shuì bu zháo jiào.", "fa": "بچه هنوز به خانه نیامده و مادر از نگرانی خوابش نمی‌برد.", "en": "The child still isn't home, and the mother is too worried to sleep."},
+   {"zh": "我没关好门，把小狗跑了。", "py": "Wǒ méi guān hǎo mén, bǎ xiǎo gǒu pǎo le.", "fa": "در را خوب نبستم و سگ کوچولو در رفت.", "en": "I didn't shut the door properly and the puppy got away."}
+  ]},
+ {"id": "hsk3-g0452", "std": "hsk3", "level": 6, "no": 452,
+  "pattern": "一时 + A，一时 + B",
+  "title": {"fa": "«گاهی این، گاهی آن»: 一时……一时……", "en": "\"Now this, now that\": 一时……一时……"},
+  "body": "دو بار «一时» دو حالت را نشان می‌دهد که پی‌درپی جای هم را می‌گیرند؛ مثل «یک لحظه … یک لحظه …».\nبیشتر برای وضعِ ناپایدار یا آدمِ دودل به کار می‌رود. در نیمهٔ دوم اغلب 又 می‌آید.\nمعنایش به 一会儿……一会儿…… نزدیک است، ولی کمی نوشتاری‌تر است.",
+  "examples": [
+   {"zh": "这几天天气一时冷，一时热，很容易感冒。", "py": "Zhè jǐ tiān tiānqì yìshí lěng, yìshí rè, hěn róngyì gǎnmào.", "fa": "این چند روز هوا گاهی سرد است و گاهی گرم؛ آدم راحت سرما می‌خورد.", "en": "These days the weather is cold one moment and hot the next; it's easy to catch a cold."},
+   {"zh": "他一时想去，一时又不想去，到现在还没决定。", "py": "Tā yìshí xiǎng qù, yìshí yòu bù xiǎng qù, dào xiànzài hái méi juédìng.", "fa": "یک لحظه می‌خواهد برود و یک لحظه نمی‌خواهد؛ تا الان هنوز تصمیم نگرفته.", "en": "One minute he wants to go, the next he doesn't; he still hasn't decided."}
+  ]},
+ {"id": "hsk3-g0453", "std": "hsk3", "level": 6, "no": 453,
+  "pattern": "要么 + A，要么 + B",
+  "title": {"fa": "«یا این، یا آن»: 要么……，要么……", "en": "\"Either … or …\": 要么……，要么……"},
+  "body": "«要么» پیش از هر یک از دو گزینه می‌آید و می‌گوید فقط یکی از این دو ممکن است؛ مثل «یا … یا …».\nاین ساخت برای جملهٔ خبری و پیشنهاد است، نه پرسش؛ برای پرسیدنِ «این یا آن؟» از 还是 استفاده می‌شود.\nاگر فاعلِ دو نیمه یکی باشد، فاعل پیش از 要么 اول می‌آید.",
+  "examples": [
+   {"zh": "要么你来，要么我去，都可以。", "py": "Yàome nǐ lái, yàome wǒ qù, dōu kěyǐ.", "fa": "یا تو بیا یا من می‌آیم؛ هر دو خوب است.", "en": "Either you come here or I go there; both are fine."},
+   {"zh": "周末我要么在家看书，要么去公园跑步。", "py": "Zhōumò wǒ yàome zài jiā kàn shū, yàome qù gōngyuán pǎobù.", "fa": "آخر هفته‌ها یا در خانه کتاب می‌خوانم یا می‌روم پارک و می‌دوم.", "en": "At weekends I either read at home or go running in the park."}
+  ]},
+ {"id": "hsk3-g0454", "std": "hsk3", "level": 6, "no": 454,
+  "pattern": "فاعل + 虽 + ……，但 / 可 / 却 / 也 + ……",
+  "title": {"fa": "«هرچند …، اما …» به سبک نوشتاری: 虽……，但/可/却/也……", "en": "\"Although … yet …\" (written style): 虽……，但/可/却/也……"},
+  "body": "«虽» شکل کوتاه و نوشتاریِ 虽然 است، با یک تفاوت مهم: فقط بعد از فاعل می‌آید، نه در آغاز جمله.\nنیمهٔ دوم با 但 یا 可 (اما) شروع می‌شود، یا 却 و 也 پیش از فعلِ آن می‌آیند.\nبرخلاف فارسی که «هرچند» را بدون «اما» هم می‌گوید، در چینی معمولاً هر دو نیمه نشانه دارند.",
+  "examples": [
+   {"zh": "他年纪虽小，但懂得很多。", "py": "Tā niánjì suī xiǎo, dàn dǒng de hěn duō.", "fa": "هرچند سنش کم است، اما خیلی چیزها می‌فهمد.", "en": "Although he is young, he understands a great deal."},
+   {"zh": "房间虽不大，却很干净。", "py": "Fángjiān suī bú dà, què hěn gānjìng.", "fa": "اتاق هرچند بزرگ نیست، ولی خیلی تمیز است.", "en": "The room isn't big, yet it's very clean."},
+   {"zh": "问题虽难，我们也要想办法解决。", "py": "Wèntí suī nán, wǒmen yě yào xiǎng bànfǎ jiějué.", "fa": "مسئله هرچند سخت است، باز هم باید راهی برای حلش پیدا کنیم.", "en": "Hard as the problem is, we still have to find a way to solve it."}
+  ]},
+ {"id": "hsk3-g0455", "std": "hsk3", "level": 6, "no": 455,
+  "pattern": "凡是 + …… 的 + اسم，都 + ……",
+  "title": {"fa": "«هر … که باشد، همه …»: 凡是……，都……", "en": "\"Every … without exception\": 凡是……，都……"},
+  "body": "«凡是» در آغاز جمله می‌آید و می‌گوید حکمِ جمله دربارهٔ همهٔ اعضای یک گروه، بدون استثنا، درست است.\nبعد از آن معمولاً توصیفی با 的 می‌آید («هر کسی که …»، «هر چیزی که …») و در نیمهٔ دوم 都 لازم است.\nمثل «هر کس که …» در فارسی، با این فرق که 都 را نباید جا انداخت.",
+  "examples": [
+   {"zh": "凡是去过那儿的人，都说风景很美。", "py": "Fánshì qùguo nàr de rén, dōu shuō fēngjǐng hěn měi.", "fa": "هر کس آن‌جا رفته، می‌گوید منظره‌اش خیلی زیباست.", "en": "Everyone who has been there says the scenery is beautiful."},
+   {"zh": "凡是他答应的事，都会做到。", "py": "Fánshì tā dāying de shì, dōu huì zuòdào.", "fa": "هر کاری را که قول بدهد، حتماً انجام می‌دهد.", "en": "Whatever he promises, he always does."}
+  ]},
+ {"id": "hsk3-g0456", "std": "hsk3", "level": 6, "no": 456,
+  "pattern": "除非 + شرط，(فاعل) + 才 + نتیجه",
+  "title": {"fa": "«فقط به شرطی که …، آن‌وقت …»: 除非……，才……", "en": "\"Only if … will …\": 除非……，才……"},
+  "body": "«除非» تنها شرطِ لازم را می‌گوید و 才 در نیمهٔ دوم نتیجه‌ای را که فقط با همان شرط به دست می‌آید.\nنیمهٔ دوم مثبت است: «فقط اگر …، آن‌وقت …». 才 همیشه بعد از فاعل و پیش از فعل می‌آید.\nدقت کنید: «مگر این‌که» در فارسی جملهٔ منفی می‌خواهد، اما این ساخت با 才 مثبت است.",
+  "examples": [
+   {"zh": "除非你亲自去请，他才会来。", "py": "Chúfēi nǐ qīnzì qù qǐng, tā cái huì lái.", "fa": "فقط اگر خودت بروی و دعوتش کنی، می‌آید.", "en": "He will come only if you go and invite him in person."},
+   {"zh": "除非有特别重要的事，我才请假。", "py": "Chúfēi yǒu tèbié zhòngyào de shì, wǒ cái qǐngjià.", "fa": "فقط وقتی کار خیلی مهمی داشته باشم مرخصی می‌گیرم.", "en": "I only ask for leave when there is something really important."}
+  ]},
+ {"id": "hsk3-g0457", "std": "hsk3", "level": 6, "no": 457,
+  "pattern": "除非 + شرط，否则 / 不然 + نتیجه",
+  "title": {"fa": "«مگر این‌که …، وگرنه …»: 除非……，否则/不然……", "en": "\"Unless …, otherwise …\": 除非……，否则/不然……"},
+  "body": "این‌جا بعد از 除非 شرط می‌آید و بعد از 否则 یا 不然 (وگرنه) چیزی که بدون آن شرط پیش می‌آید.\nفرق با ساختِ 才: آن‌جا نتیجهٔ برآورده شدنِ شرط گفته می‌شود، این‌جا نتیجهٔ برآورده نشدنش.\n«否则» رسمی‌تر و «不然» گفتاری‌تر است.\nدر چینی هر دو نشانه با هم می‌آیند، اما در فارسی فقط یکی را می‌گوییم: یا «مگر این‌که» یا «وگرنه».",
+  "examples": [
+   {"zh": "除非下大雨，否则比赛不会改时间。", "py": "Chúfēi xià dàyǔ, fǒuzé bǐsài bú huì gǎi shíjiān.", "fa": "زمان مسابقه عوض نمی‌شود، مگر این‌که باران شدید ببارد.", "en": "Unless it rains heavily, the match time won't be changed."},
+   {"zh": "除非你现在就走，不然肯定赶不上飞机。", "py": "Chúfēi nǐ xiànzài jiù zǒu, bùrán kěndìng gǎn bu shàng fēijī.", "fa": "باید همین حالا راه بیفتی، وگرنه حتماً به هواپیما نمی‌رسی.", "en": "Unless you leave right now, you'll definitely miss the plane."}
+  ]},
+ {"id": "hsk3-g0458", "std": "hsk3", "level": 6, "no": 458,
+  "pattern": "就算 + ……，(فاعل) + 也 + ……",
+  "title": {"fa": "«حتی اگر …، باز هم …»: 就算……，也……", "en": "\"Even if …, still …\": 就算……，也……"},
+  "body": "«就算» فرضی را می‌گوید (که شاید درست باشد و شاید نه) و 也 در نیمهٔ دوم می‌گوید نتیجه با وجود آن عوض نمی‌شود.\nمعنایش مثل 即使 است ولی گفتاری‌تر.\n也 را نباید انداخت و جایش بعد از فاعلِ نیمهٔ دوم است، نه در آغاز آن.",
+  "examples": [
+   {"zh": "就算明天下雨，我也要去。", "py": "Jiùsuàn míngtiān xià yǔ, wǒ yě yào qù.", "fa": "حتی اگر فردا باران ببارد، باز هم می‌روم.", "en": "Even if it rains tomorrow, I'm still going."},
+   {"zh": "就算你不同意，他也不会改变主意。", "py": "Jiùsuàn nǐ bù tóngyì, tā yě bú huì gǎibiàn zhǔyi.", "fa": "حتی اگر تو موافق نباشی، او نظرش را عوض نمی‌کند.", "en": "Even if you disagree, he won't change his mind."}
+  ]},
+ {"id": "hsk3-g0459", "std": "hsk3", "level": 6, "no": 459,
+  "pattern": "کار，以便 + هدف",
+  "title": {"fa": "«تا بشود …، برای این‌که …»: ……，以便……", "en": "\"So that, in order to make it easier to\": ……，以便……"},
+  "body": "«以便» در آغاز نیمهٔ دوم می‌آید: اول کاری که انجام می‌شود، بعد هدفی که آن کار رسیدن به آن را آسان می‌کند.\nدر فارسی «برای این‌که …» می‌تواند اول جمله بیاید، اما 以便 همیشه در نیمهٔ دوم است.\nاین واژه رسمی و نوشتاری است و در اطلاعیه‌ها و نامه‌های اداری زیاد دیده می‌شود.",
+  "examples": [
+   {"zh": "请留下电话号码，以便我们联系您。", "py": "Qǐng liúxià diànhuà hàomǎ, yǐbiàn wǒmen liánxì nín.", "fa": "لطفاً شماره‌تلفنتان را بگذارید تا بتوانیم با شما تماس بگیریم.", "en": "Please leave your phone number so that we can contact you."},
+   {"zh": "他把字写得很大，以便老人看清楚。", "py": "Tā bǎ zì xiě de hěn dà, yǐbiàn lǎorén kàn qīngchu.", "fa": "او حروف را خیلی درشت نوشت تا سالمندان بتوانند واضح ببینند.", "en": "He wrote the characters very large so that elderly people could read them clearly."}
+  ]}
+]
