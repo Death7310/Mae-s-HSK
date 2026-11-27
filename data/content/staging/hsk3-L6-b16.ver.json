@@ -1,0 +1,98 @@
+[
+ {
+  "id": "躲避",
+  "fa": [
+   "دوری کردن (عمداً از کسی)",
+   "گریختن از (خطر، مشکل)"
+  ],
+  "en": [
+   "to avoid; to shun",
+   "to dodge; to evade"
+  ],
+  "ex": [
+   {
+    "zh": "他最近好像一直在故意躲避我。",
+    "py": "Tā zuìjìn hǎoxiàng yìzhí zài gùyì duǒbì wǒ.",
+    "fa": "انگار او این اواخر مدام عمداً از من دوری می‌کند.",
+    "en": "Lately he seems to have been deliberately avoiding me."
+   }
+  ],
+  "chg": "fa: 'to hide oneself' recalls 躲/藏; core sense is to avoid/evade; example fa retranslated (avoiding me, not hiding)"
+ },
+ {
+  "id": "景象",
+  "fa": [
+   "صحنه (منظرهٔ پیش چشم)"
+  ],
+  "en": [
+   "scene; sight"
+  ],
+  "ex": [
+   {
+    "zh": "春节期间，到处都是一片热闹的景象。",
+    "py": "Chūnjié qījiān, dàochù dōu shì yí piàn rènao de jǐngxiàng.",
+    "fa": "در ایام عید بهار، همه‌جا صحنه‌ای پر از شور و شلوغی است.",
+    "en": "During the Spring Festival there are lively scenes everywhere."
+   }
+  ],
+  "chg": "fa: dropped second gloss «حال‌وهوا» (= 气氛 atmosphere, and did not match en 'spectacle'); en aligned"
+ },
+ {
+  "id": "先前",
+  "fa": [
+   "پیش‌تر (زمان گذشته)",
+   "پیش از این"
+  ],
+  "en": [
+   "earlier; the past",
+   "previously"
+  ],
+  "ex": [
+   {
+    "zh": "他的身体比先前好多了。",
+    "py": "Tā de shēntǐ bǐ xiānqián hǎo duō le.",
+    "fa": "حال جسمی او خیلی بهتر از قبل شده است.",
+    "en": "His health is much better than before."
+   }
+  ],
+  "chg": "ex fa: «بهتر از پیش‌تر» is ungrammatical Persian -> «بهتر از قبل»"
+ },
+ {
+  "id": "恰当",
+  "fa": [
+   "به‌جا (مناسبِ موقعیت)",
+   "درخور"
+  ],
+  "en": [
+   "appropriate; apt",
+   "fitting"
+  ],
+  "ex": [
+   {
+    "zh": "我一时找不到恰当的词来表达。",
+    "py": "Wǒ yìshí zhǎo bu dào qiàdàng de cí lái biǎodá.",
+    "fa": "فعلاً واژهٔ مناسبی برای بیانش پیدا نمی‌کنم.",
+    "en": "For the moment I can't find the right word to express it."
+   }
+  ],
+  "chg": "ex fa: 一时 is 'for the moment' (present), not 'at that moment'; more natural wording"
+ },
+ {
+  "id": "一贯",
+  "fa": [
+   "همیشگی (ثابت و پیوسته)"
+  ],
+  "en": [
+   "consistent; all along"
+  ],
+  "ex": [
+   {
+    "zh": "认真负责是他一贯的工作态度。",
+    "py": "Rènzhēn fùzé shì tā yíguàn de gōngzuò tàidu.",
+    "fa": "جدیت و مسئولیت‌پذیری، نگرش همیشگی او به کار است.",
+    "en": "Being conscientious and responsible has always been his attitude to work."
+   }
+  ],
+  "chg": "ex fa: 工作态度 is attitude to work, not behaviour"
+ }
+]

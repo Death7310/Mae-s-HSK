@@ -1,0 +1,158 @@
+[
+ {
+  "id": "跟随",
+  "fa": [
+   "به دنبال کسی رفتن",
+   "در پی کسی بودن (همراهی کردن)"
+  ],
+  "en": [
+   "to follow (someone)",
+   "to go along after"
+  ],
+  "ex": [
+   {
+    "zh": "他从小跟随父亲学习书法。",
+    "py": "Tā cóngxiǎo gēnsuí fùqīn xuéxí shūfǎ.",
+    "fa": "او از کودکی در کنار پدرش و زیر نظر او خوشنویسی آموخت.",
+    "en": "From childhood he followed his father in learning calligraphy."
+   }
+  ],
+  "chg": "fa: second gloss recalled 遵循/服从 and did not match en; ex fa: awkward double rendering"
+ },
+ {
+  "id": "打动",
+  "fa": [
+   "تحت تأثیر قرار دادن (عاطفی)",
+   "دلِ کسی را به دست آوردن"
+  ],
+  "en": [
+   "to move, to touch (emotionally)",
+   "to win over"
+  ],
+  "ex": [
+   {
+    "zh": "她的真诚深深地打动了我。",
+    "py": "Tā de zhēnchéng shēnshēn de dǎdòng le wǒ.",
+    "fa": "صداقت او مرا عمیقاً تحت تأثیر قرار داد.",
+    "en": "Her sincerity moved me deeply."
+   }
+  ],
+  "chg": "fa: order did not match en (emotional sense first)"
+ },
+ {
+  "id": "精确",
+  "fa": [
+   "دقیق (با دقت بسیار بالا)"
+  ],
+  "en": [
+   "precise, exact"
+  ],
+  "ex": [
+   {
+    "zh": "这台仪器的测量结果非常精确。",
+    "py": "Zhè tái yíqì de cèliáng jiéguǒ fēicháng jīngquè.",
+    "fa": "نتایج اندازه‌گیری این دستگاه بسیار دقیق است.",
+    "en": "This instrument's measurements are extremely precise."
+   }
+  ],
+  "chg": "fa: «موشکافانه» is a wrong sense (meticulous/analytical), removed"
+ },
+ {
+  "id": "出名",
+  "fa": [
+   "معروف (نام‌درآورده)",
+   "سرشناس"
+  ],
+  "en": [
+   "well-known",
+   "famous"
+  ],
+  "ex": [
+   {
+    "zh": "这家饭馆的烤鸭在当地很出名。",
+    "py": "Zhè jiā fànguǎn de kǎoyā zài dāngdì hěn chūmíng.",
+    "fa": "اردک کبابی این رستوران در آن منطقه خیلی معروف است.",
+    "en": "This restaurant's roast duck is well-known locally."
+   }
+  ],
+  "chg": "fa: «سرشناس» applies to people only; main gloss معروف; ex fa made natural"
+ },
+ {
+  "id": "佩服",
+  "fa": [
+   "از ته دل تحسین کردن",
+   "ستودن (از سر احترام)"
+  ],
+  "en": [
+   "to admire",
+   "to respect and admire"
+  ],
+  "ex": [
+   {
+    "zh": "我真佩服他克服困难的勇气。",
+    "py": "Wǒ zhēn pèifú tā kèfú kùnnan de yǒngqì.",
+    "fa": "واقعاً شجاعت او را در غلبه بر سختی‌ها تحسین می‌کنم.",
+    "en": "I truly admire his courage in overcoming difficulties."
+   }
+  ],
+  "chg": "fa: «ایمان آوردن» is a wrong sense; replaced to match en"
+ },
+ {
+  "id": "树立",
+  "fa": [
+   "ایجاد کردن (الگو، وجهه)",
+   "استوار کردن (باور، آرمان)"
+  ],
+  "en": [
+   "to set (an example, image)",
+   "to establish (a belief, ideal)"
+  ],
+  "ex": [
+   {
+    "zh": "他为年轻人树立了一个好榜样。",
+    "py": "Tā wèi niánqīng rén shùlì le yí ge hǎo bǎngyàng.",
+    "fa": "او الگوی خوبی برای جوانان شد.",
+    "en": "He set a good example for young people."
+   }
+  ],
+  "chg": "fa: «بنا نهادن/پدید آوردن» unnatural and too generic, did not match en; ex fa made natural"
+ },
+ {
+  "id": "平凡",
+  "fa": [
+   "معمولی (بی‌هیچ ویژگی برجسته)",
+   "ساده و عادی"
+  ],
+  "en": [
+   "ordinary",
+   "commonplace"
+  ],
+  "ex": [
+   {
+    "zh": "他只是一个平凡的工人，却做了不平凡的事。",
+    "py": "Tā zhǐ shì yí ge píngfán de gōngrén, què zuò le bù píngfán de shì.",
+    "fa": "او فقط کارگری معمولی است، اما کاری غیرمعمولی کرده است.",
+    "en": "He is just an ordinary worker, yet he did something extraordinary."
+   }
+  ],
+  "chg": "fa: «پیش‌پاافتاده» is pejorative (trivial); 平凡 is neutral"
+ },
+ {
+  "id": "花生",
+  "fa": [
+   "بادام‌زمینی"
+  ],
+  "en": [
+   "peanut"
+  ],
+  "ex": [
+   {
+    "zh": "爷爷喝酒的时候喜欢吃花生。",
+    "py": "Yéye hē jiǔ de shíhou xǐhuan chī huāshēng.",
+    "fa": "پدربزرگ موقع نوشیدن مشروب دوست دارد بادام‌زمینی بخورد.",
+    "en": "Grandpa likes to eat peanuts when he drinks."
+   }
+  ],
+  "chg": "ex fa: 喝酒 rendered as bare \"drinking\"; made explicit"
+ }
+]

@@ -1,0 +1,143 @@
+[
+ {
+  "id": "后期",
+  "fa": [
+   "دورهٔ پایانی",
+   "مرحلهٔ پایانی"
+  ],
+  "en": [
+   "late period",
+   "later stage"
+  ],
+  "ex": [
+   {
+    "zh": "这位作家后期的作品风格变化很大。",
+    "py": "Zhè wèi zuòjiā hòuqī de zuòpǐn fēnggé biànhuà hěn dà.",
+    "fa": "سبک آثار دورهٔ پایانی این نویسنده خیلی تغییر کرده است.",
+    "en": "The style of this writer's late works changed a great deal."
+   }
+  ],
+  "chg": "fa: 'مرحلهٔ بعدی' means 'next stage', not 'late stage' -> 'مرحلهٔ پایانی'"
+ },
+ {
+  "id": "议论",
+  "fa": [
+   "دربارهٔ چیزی حرف زدن (اظهارنظر کردن)",
+   "حرف‌وحدیث"
+  ],
+  "en": [
+   "to talk about, comment on",
+   "talk, comments"
+  ],
+  "ex": [
+   {
+    "zh": "大家都在议论昨天发生的那件事。",
+    "py": "Dàjiā dōu zài yìlùn zuótiān fāshēng de nà jiàn shì.",
+    "fa": "همه دارند دربارهٔ اتفاق دیروز حرف می‌زنند.",
+    "en": "Everyone is talking about what happened yesterday."
+   }
+  ],
+  "chg": "fa: 'پشت سر چیزی حرف زدن' is unidiomatic and implies only backbiting -> 'to talk about / comment on'"
+ },
+ {
+  "id": "理财",
+  "fa": [
+   "مدیریت کردن پول",
+   "اداره کردن امور مالی"
+  ],
+  "en": [
+   "to manage money",
+   "to manage finances"
+  ],
+  "ex": [
+   {
+    "zh": "年轻人应该早点儿学会理财。",
+    "py": "Niánqīngrén yīnggāi zǎodiǎnr xuéhuì lǐcái.",
+    "fa": "جوان‌ها باید زودتر مدیریت پول را یاد بگیرند.",
+    "en": "Young people should learn to manage their money early."
+   }
+  ],
+  "chg": "fa: second gloss was a noun phrase; verb needs infinitive"
+ },
+ {
+  "id": "重心",
+  "fa": [
+   "مرکز ثقل",
+   "محور اصلی (کار)"
+  ],
+  "en": [
+   "centre of gravity",
+   "main focus"
+  ],
+  "ex": [
+   {
+    "zh": "今年公司的工作重心是开发新产品。",
+    "py": "Jīnnián gōngsī de gōngzuò zhòngxīn shì kāifā xīn chǎnpǐn.",
+    "fa": "محور اصلی کار شرکت در سال جاری توسعهٔ محصولات تازه است.",
+    "en": "This year the company's main focus is developing new products."
+   }
+  ],
+  "chg": "ex fa: 开发 is 'develop', not 'produce' (تولید -> توسعه)"
+ },
+ {
+  "id": "启示",
+  "fa": [
+   "روشنگری کردن (درس دادن به کسی)",
+   "درس (عبرت و الهام)"
+  ],
+  "en": [
+   "to enlighten, teach",
+   "lesson, inspiration"
+  ],
+  "ex": [
+   {
+    "zh": "这次失败的经历启示我们，做事不能太着急。",
+    "py": "Zhè cì shībài de jīnglì qǐshì wǒmen, zuòshì bù néng tài zháojí.",
+    "fa": "تجربهٔ این شکست به ما آموخت که در کارها نباید زیاد عجله کرد.",
+    "en": "This experience of failure taught us that we must not be too hasty."
+   }
+  ],
+  "chg": "fa: bare 'آموختن' is ambiguous (learn/teach) and recalls 学/教 -> 'to enlighten'"
+ },
+ {
+  "id": "漂",
+  "fa": [
+   "شناور بودن",
+   "با جریان آب رفتن"
+  ],
+  "en": [
+   "to float",
+   "to drift"
+  ],
+  "note": "با خوانش piào در 漂亮 (زیبا) هم می‌آید.",
+  "ex": [
+   {
+    "zh": "几片树叶在水面上漂来漂去。",
+    "py": "Jǐ piàn shùyè zài shuǐmiàn shang piāo lái piāo qù.",
+    "fa": "چند برگ روی آب این‌طرف و آن‌طرف می‌روند.",
+    "en": "A few leaves are drifting back and forth on the water."
+   }
+  ],
+  "chg": "fa: 'روی آب رفتن (با جریان)' unnatural -> 'to drift with the current'"
+ },
+ {
+  "id": "背心",
+  "fa": [
+   "زیرپوش رکابی (رکابی)",
+   "جلیقه"
+  ],
+  "en": [
+   "sleeveless undershirt",
+   "waistcoat, vest"
+  ],
+  "ex": [
+   {
+    "zh": "天气太热了，他只穿了一件背心。",
+    "py": "Tiānqì tài rè le, tā zhǐ chuānle yí jiàn bèixīn.",
+    "fa": "هوا خیلی گرم بود و او فقط یک رکابی پوشیده بود.",
+    "en": "It was so hot that he wore only a sleeveless top."
+   }
+  ],
+  "chg": "fa/en: reordered so the commonest sense (sleeveless undershirt), the one used in the example, comes first"
+ }
+]

@@ -1,0 +1,84 @@
+[
+ {
+  "id": "混",
+  "fa": [
+   "مخلوط کردن",
+   "وقت گذراندن (بی‌هدف)",
+   "سرسری (بی‌فکر)"
+  ],
+  "en": [
+   "to mix",
+   "to drift along",
+   "carelessly, recklessly"
+  ],
+  "ex": [
+   {
+    "zh": "别把这两种药混在一起吃。",
+    "py": "Bié bǎ zhè liǎng zhǒng yào hùn zài yìqǐ chī.",
+    "fa": "این دو دارو را با هم قاطی نکن و هم‌زمان نخور.",
+    "en": "Don't take these two medicines mixed together."
+   }
+  ],
+  "chg": "ex fa/en: awkward, ambiguous translation of 混在一起吃 reworded"
+ },
+ {
+  "id": "基金",
+  "fa": [
+   "صندوق (مالی)"
+  ],
+  "en": [
+   "fund"
+  ],
+  "ex": [
+   {
+    "zh": "他们成立了一个基金，帮助贫困学生。",
+    "py": "Tāmen chénglìle yí ge jījīn, bāngzhù pínkùn xuésheng.",
+    "fa": "آن‌ها صندوقی برای کمک به دانش‌آموزان فقیر تأسیس کردند.",
+    "en": "They set up a fund to help poor students."
+   }
+  ],
+  "chg": "fa/en: dropped second gloss (بودجهٔ ویژه = budget, not a fund; did not match en \"endowment\")"
+ },
+ {
+  "id": "毒",
+  "fa": [
+   "سم (زهر)",
+   "مسموم کردن",
+   "بی‌رحم (بدجنس)"
+  ],
+  "en": [
+   "poison",
+   "to poison",
+   "vicious, cruel"
+  ],
+  "ex": [
+   {
+    "zh": "这种蘑菇有毒，千万不能吃。",
+    "py": "Zhè zhǒng mógu yǒu dú, qiānwàn bù néng chī.",
+    "fa": "این نوع قارچ سم دارد؛ به هیچ وجه نباید آن را خورد.",
+    "en": "This kind of mushroom is poisonous; you must never eat it."
+   }
+  ],
+  "chg": "fa/en: adjective gloss mixed two senses in the parenthesis (cruel vs scorching); now the core sense \"vicious, cruel\""
+ },
+ {
+  "id": "检测",
+  "fa": [
+   "آزمایش کردن (سنجش فنی)",
+   "تشخیص دادن (با آزمایش)"
+  ],
+  "en": [
+   "to test, to measure",
+   "to detect"
+  ],
+  "ex": [
+   {
+    "zh": "工作人员正在检测这里的空气质量。",
+    "py": "Gōngzuò rényuán zhèngzài jiǎncè zhèlǐ de kōngqì zhìliàng.",
+    "fa": "کارکنان دارند کیفیت هوای اینجا را آزمایش می‌کنند.",
+    "en": "The staff are testing the air quality here."
+   }
+  ],
+  "chg": "fa/en disagreed (تست کردن vs \"to detect\"); glosses aligned; ex: 工人们 -> 工作人员 (more natural for testing staff)"
+ }
+]

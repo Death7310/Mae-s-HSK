@@ -1,0 +1,124 @@
+[
+ {
+  "id": "政策",
+  "fa": [
+   "سیاست (خط‌مشی)",
+   "خط‌مشی"
+  ],
+  "en": [
+   "policy",
+   "course of action"
+  ],
+  "ex": [
+   {
+    "zh": "新的教育政策从明年开始实行。",
+    "py": "Xīn de jiàoyù zhèngcè cóng míngnián kāishǐ shíxíng.",
+    "fa": "سیاست آموزشی جدید از سال آینده اجرا می‌شود.",
+    "en": "The new education policy takes effect next year."
+   }
+  ],
+  "chg": "fa/en: dropped wrong second sense (policy-making is 决策/政策制定, not 政策); added plain synonym"
+ },
+ {
+  "id": "编辑",
+  "fa": [
+   "ویرایش کردن",
+   "ویراستار (دبیر نشریه)"
+  ],
+  "en": [
+   "to edit",
+   "editor"
+  ],
+  "ex": [
+   {
+    "zh": "她正在编辑一本关于中国历史的书。",
+    "py": "Tā zhèngzài biānjí yì běn guānyú Zhōngguó lìshǐ de shū.",
+    "fa": "او دارد کتابی دربارهٔ تاریخ چین را ویرایش می‌کند.",
+    "en": "She is editing a book about Chinese history."
+   }
+  ],
+  "chg": "fa: «سردبیر» is editor-in-chief (主编/总编), not 编辑; replaced disambiguator"
+ },
+ {
+  "id": "证实",
+  "fa": [
+   "تأیید کردن (درستیِ خبر یا ادعا)",
+   "صحت چیزی را ثابت کردن"
+  ],
+  "en": [
+   "to confirm",
+   "to verify"
+  ],
+  "ex": [
+   {
+    "zh": "警方已经证实了这个消息。",
+    "py": "Jǐngfāng yǐjīng zhèngshí le zhège xiāoxi.",
+    "fa": "پلیس این خبر را تأیید کرده است.",
+    "en": "The police have confirmed the news."
+   }
+  ],
+  "chg": "ex: 证实了这个消息是真的 is redundant; plainer natural sentence"
+ },
+ {
+  "id": "刺",
+  "fa": [
+   "فرو کردن (سوزن، خار، چاقو)",
+   "خار (تیغ)"
+  ],
+  "en": [
+   "to prick; to stab",
+   "thorn"
+  ],
+  "ex": [
+   {
+    "zh": "他不小心被针刺了一下，手指流血了。",
+    "py": "Tā bù xiǎoxīn bèi zhēn cì le yíxià, shǒuzhǐ liúxuè le.",
+    "fa": "از بی‌احتیاطی سوزن به انگشتش فرو رفت و خون آمد.",
+    "en": "He accidentally pricked himself with a needle and his finger bled."
+   }
+  ],
+  "chg": "fa: slash pair with intransitive «فرو رفتن» replaced by one transitive citation form"
+ },
+ {
+  "id": "立",
+  "fa": [
+   "سرپا ایستادن (یا سرپا کردن)",
+   "برپا کردن (تأسیس کردن)",
+   "وضع کردن (قرارداد، قانون)"
+  ],
+  "en": [
+   "to stand; to set upright",
+   "to set up; to establish",
+   "to draw up (a rule, contract)"
+  ],
+  "ex": [
+   {
+    "zh": "公园门口立着一块很大的木牌子。",
+    "py": "Gōngyuán ménkǒu lì zhe yí kuài hěn dà de mù páizi.",
+    "fa": "جلوی ورودی پارک تابلوی چوبی بزرگی نصب شده است.",
+    "en": "A large wooden sign stands at the park entrance."
+   }
+  ],
+  "chg": "ex fa: «سرپا ایستاده است» is word-for-word for a sign; natural Persian"
+ },
+ {
+  "id": "公众",
+  "fa": [
+   "عموم مردم",
+   "همگان"
+  ],
+  "en": [
+   "the public",
+   "everyone at large"
+  ],
+  "ex": [
+   {
+    "zh": "这座博物馆下个月正式向公众开放。",
+    "py": "Zhè zuò bówùguǎn xià ge yuè zhèngshì xiàng gōngzhòng kāifàng.",
+    "fa": "این موزه ماه آینده رسماً به روی عموم مردم باز می‌شود.",
+    "en": "This museum officially opens to the public next month."
+   }
+  ],
+  "chg": "fa/en: «افکار عمومی» is public opinion (舆论), wrong sense; replaced"
+ }
+]

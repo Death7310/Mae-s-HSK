@@ -1,0 +1,102 @@
+[
+ {
+  "id": "寻求",
+  "fa": [
+   "در پی چیزی بودن",
+   "جستن (کمک، راه‌حل)"
+  ],
+  "en": [
+   "to seek",
+   "to look for (help, a solution)"
+  ],
+  "ex": [
+   {
+    "zh": "遇到困难时，要主动寻求别人的帮助。",
+    "py": "Yùdào kùnnan shí, yào zhǔdòng xúnqiú biérén de bāngzhù.",
+    "fa": "هنگام روبه‌رو شدن با مشکل، باید خودت از دیگران کمک بخواهی.",
+    "en": "When you run into difficulties, actively seek help from others."
+   }
+  ],
+  "chg": "fa: «جویا شدن» means 'to inquire about', not 'to seek'; replaced with «جستن»"
+ },
+ {
+  "id": "蹲",
+  "fa": [
+   "چمباتمه زدن",
+   "سرپا نشستن"
+  ],
+  "en": [
+   "to squat",
+   "to crouch"
+  ],
+  "ex": [
+   {
+    "zh": "他蹲在地上跟小朋友说话。",
+    "py": "Tā dūn zài dì shang gēn xiǎopéngyou shuōhuà.",
+    "fa": "او روی زمین چمباتمه زده بود و با بچه حرف می‌زد.",
+    "en": "He squatted on the ground talking to the child."
+   }
+  ],
+  "chg": "py: neutral tone per guide (xiǎopéngyou)"
+ },
+ {
+  "id": "和谐",
+  "fa": [
+   "هماهنگ",
+   "سازگار و بی‌تنش (رابطه، جامعه)"
+  ],
+  "en": [
+   "harmonious",
+   "in harmony (relations, society)"
+  ],
+  "ex": [
+   {
+    "zh": "他们一家人的关系非常和谐。",
+    "py": "Tāmen yì jiā rén de guānxi fēicháng héxié.",
+    "fa": "رابطهٔ اعضای خانواده‌شان بسیار هماهنگ و بی‌تنش است.",
+    "en": "The relationships in their family are very harmonious."
+   }
+  ],
+  "chg": "ex fa: «صمیمانه» (intimate) is not 和谐; use the glossed «هماهنگ»"
+ },
+ {
+  "id": "秩序",
+  "fa": [
+   "نظم (نظم عمومی)",
+   "سامان (وضع منظم)"
+  ],
+  "en": [
+   "order (orderliness)",
+   "orderly state"
+  ],
+  "ex": [
+   {
+    "zh": "请大家排好队，遵守公共秩序。",
+    "py": "Qǐng dàjiā páihǎo duì, zūnshǒu gōnggòng zhìxù.",
+    "fa": "لطفاً همه در صف بایستید و نظم عمومی را رعایت کنید.",
+    "en": "Everyone please line up and observe public order."
+   }
+  ],
+  "chg": "fa/en: «ترتیب»/sequence is 顺序, not 秩序; replaced second gloss"
+ },
+ {
+  "id": "以往",
+  "fa": [
+   "گذشته (زمان‌های پیشین)",
+   "پیش از این (روزگار سابق)"
+  ],
+  "en": [
+   "the past",
+   "former times"
+  ],
+  "ex": [
+   {
+    "zh": "今年冬天比以往任何一年都冷。",
+    "py": "Jīnnián dōngtiān bǐ yǐwǎng rènhé yì nián dōu lěng.",
+    "fa": "زمستان امسال از همهٔ سال‌های گذشته سردتر است.",
+    "en": "This winter is colder than any year in the past."
+   }
+  ],
+  "chg": "fa/en: second gloss was an adverb («قبلاً»/formerly) for a noun; made nominal"
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "循环",
+  "fa": [
+   "گردش کردن (در چرخه)",
+   "به‌صورت دوره‌ای تکرار شدن"
+  ],
+  "en": [
+   "to circulate",
+   "to cycle, to repeat"
+  ],
+  "ex": [
+   {
+    "zh": "工厂里的水经过处理后可以循环使用。",
+    "py": "Gōngchǎng li de shuǐ jīngguò chǔlǐ hòu kěyǐ xúnhuán shǐyòng.",
+    "fa": "آب کارخانه پس از تصفیه می‌تواند دوباره در چرخهٔ مصرف قرار بگیرد.",
+    "en": "After treatment, the factory's water can be recycled and reused."
+   }
+  ],
+  "chg": "fa: second gloss 'دوباره به جریان افتادن' (to resume flowing) is not a sense of 循环 -> cyclic repetition; first gloss tidied; en aligned"
+ },
+ {
+  "id": "立场",
+  "fa": [
+   "موضع (در یک مسئله)",
+   "دیدگاه (جایگاه فکری)"
+  ],
+  "en": [
+   "position, stance",
+   "standpoint"
+  ],
+  "ex": [
+   {
+    "zh": "在这个问题上，我们的立场一直没有改变。",
+    "py": "Zài zhège wèntí shang, wǒmen de lìchǎng yìzhí méiyǒu gǎibiàn.",
+    "fa": "موضع ما در این مسئله هیچ‌وقت تغییر نکرده است.",
+    "en": "Our position on this issue has never changed."
+   }
+  ],
+  "chg": "fa: 'ایستار فکری' is rare jargon meaning 'attitude' -> natural 'دیدگاه (جایگاه فکری)' for standpoint"
+ },
+ {
+  "id": "寸",
+  "fa": [
+   "تسون (واحد طول چینی، حدود ۳٫۳ سانتی‌متر)"
+  ],
+  "en": [
+   "cun (Chinese inch, about 3.3 cm)"
+  ],
+  "ex": [
+   {
+    "zh": "这条裤子长了一寸，需要改一下。",
+    "py": "Zhè tiáo kùzi chángle yí cùn, xūyào gǎi yíxià.",
+    "fa": "این شلوار یک تسون بلند است و باید کوتاهش کرد.",
+    "en": "These trousers are one cun too long and need altering."
+   },
+   {
+    "zh": "他买了一台五十五寸的电视。",
+    "py": "Tā mǎile yì tái wǔshíwǔ cùn de diànshì.",
+    "fa": "او یک تلویزیون پنجاه‌وپنج اینچی خرید.",
+    "en": "He bought a 55-inch television."
+   }
+  ],
+  "note": "ده تسون برابر یک 尺 است. در اندازهٔ صفحه‌نمایش در گفتار به معنی اینچ به کار می‌رود.",
+  "chg": "fa: 'about three cm' disagreed with en 'about 3.3 cm' -> same value in both"
+ }
+]

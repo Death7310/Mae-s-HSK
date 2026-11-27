@@ -1,0 +1,63 @@
+[
+ {
+  "id": "挫折",
+  "fa": [
+   "دلسرد کردن (سرکوب کردن شور و انگیزه)",
+   "با ناکامی روبه‌رو شدن (شکست خوردن)"
+  ],
+  "en": [
+   "to dampen, to discourage",
+   "to suffer a setback"
+  ],
+  "ex": [
+   {
+    "zh": "我们不应该挫折年轻人的积极性。",
+    "py": "Wǒmen bù yīnggāi cuòzhé niánqīngrén de jījíxìng.",
+    "fa": "ما نباید شور و انگیزهٔ جوانان را سرکوب کنیم.",
+    "en": "We should not dampen young people's enthusiasm."
+   }
+  ],
+  "note": "در عمل بیشتر به صورت اسم به کار می‌رود: 遇到挫折 (با ناکامی روبه‌رو شدن).",
+  "chg": "fa/en: second gloss replaced; the common sense 'to suffer a setback' (失败、失利) was missing and 'ناکام گذاشتن' only repeated sense 1"
+ },
+ {
+  "id": "大臣",
+  "fa": [
+   "وزیر (در نظام پادشاهی)",
+   "مقام بلندپایهٔ دربار"
+  ],
+  "en": [
+   "minister (of a monarchy)",
+   "high court official"
+  ],
+  "ex": [
+   {
+    "zh": "国王把几位大臣叫来商量这件事。",
+    "py": "Guówáng bǎ jǐ wèi dàchén jiào lái shāngliang zhè jiàn shì.",
+    "fa": "پادشاه چند وزیر را فراخواند تا دربارهٔ این موضوع مشورت کنند.",
+    "en": "The king summoned several ministers to discuss the matter."
+   }
+  ],
+  "chg": "fa/en: 'وزیر دربار' is a specific office (Minister of Court), not 大臣 in general"
+ },
+ {
+  "id": "借助",
+  "fa": [
+   "کمک گرفتن از",
+   "بهره گرفتن از"
+  ],
+  "en": [
+   "to draw on",
+   "to make use of (as help)"
+  ],
+  "ex": [
+   {
+    "zh": "借助现代技术，我们可以在家里上课。",
+    "py": "Jièzhù xiàndài jìshù, wǒmen kěyǐ zài jiā li shàngkè.",
+    "fa": "با کمک گرفتن از فناوری مدرن می‌توانیم در خانه سر کلاس باشیم.",
+    "en": "With the help of modern technology, we can attend class at home."
+   }
+  ],
+  "chg": "fa/en: second gloss was an adverbial phrase, not an infinitive; verb citation form"
+ }
+]

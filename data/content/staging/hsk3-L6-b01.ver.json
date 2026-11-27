@@ -1,0 +1,64 @@
+[
+ {
+  "id": "招",
+  "fa": [
+   "جذب کردن (نیرو، دانشجو)",
+   "با دست اشاره کردن",
+   "به دنبال آوردن (دردسر، توجه ناخواسته)"
+  ],
+  "en": [
+   "to recruit; to enrol",
+   "to beckon; to wave",
+   "to attract; to provoke"
+  ],
+  "ex": [
+   {
+    "zh": "这家公司今年打算招五十名新员工。",
+    "py": "Zhè jiā gōngsī jīnnián dǎsuàn zhāo wǔshí míng xīn yuángōng.",
+    "fa": "این شرکت امسال قصد دارد پنجاه کارمند جدید جذب کند.",
+    "en": "This company plans to recruit fifty new employees this year."
+   }
+  ],
+  "chg": "fa[2]: «به جان خریدن» means to accept willingly, not 招 \"to bring on/attract (trouble)\"; en aligned"
+ },
+ {
+  "id": "镇",
+  "fa": [
+   "مهار کردن (مرعوب کردن، فرونشاندن)",
+   "خنک کردن (با یخ)",
+   "شهرک (شهر کوچک)"
+  ],
+  "en": [
+   "to subdue; to overawe",
+   "to chill (with ice)",
+   "town"
+  ],
+  "ex": [
+   {
+    "zh": "他一句话就把大家镇住了。",
+    "py": "Tā yí jù huà jiù bǎ dàjiā zhèn zhù le.",
+    "fa": "او با یک جمله همه را مرعوب کرد.",
+    "en": "With a single sentence he overawed everyone."
+   }
+  ],
+  "chg": "fa[0]: vague «زیر نفوذ گرفتن» replaced by overawe/suppress sense; ex fa/en: unnatural «ساکت و مهار کرد» -> «مرعوب کرد»"
+ },
+ {
+  "id": "杀",
+  "fa": [
+   "کشتن"
+  ],
+  "en": [
+   "to kill"
+  ],
+  "ex": [
+   {
+    "zh": "过年的时候，奶奶杀了一只鸡。",
+    "py": "Guònián de shíhou, nǎinai shā le yì zhī jī.",
+    "fa": "موقع سال نو چینی، مادربزرگ یک مرغ کشت.",
+    "en": "At Chinese New Year, Grandma killed a chicken."
+   }
+  ],
+  "chg": "ex fa: 过年 is Chinese New Year; bare «عید» reads as Nowruz/Eid"
+ }
+]

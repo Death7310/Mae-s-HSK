@@ -1,0 +1,160 @@
+[
+ {
+  "id": "保健",
+  "fa": [
+   "از سلامت مراقبت کردن",
+   "تندرستی را حفظ کردن"
+  ],
+  "en": [
+   "to care for health",
+   "to maintain health"
+  ],
+  "ex": [
+   {
+    "zh": "老年人更应该注意保健，经常检查身体。",
+    "py": "Lǎoniánrén gèng yīnggāi zhùyì bǎojiàn, jīngcháng jiǎnchá shēntǐ.",
+    "fa": "سالمندان باید بیشتر به مراقبت از سلامت خود توجه کنند و مرتب معاینه شوند.",
+    "en": "Older people should pay more attention to health care and get regular check-ups."
+   }
+  ],
+  "chg": "fa: noun phrases under official pos v -> infinitives, matching en"
+ },
+ {
+  "id": "不适",
+  "fa": [
+   "ناخوش",
+   "ناخوش‌احوال (دچار ناراحتی جسمی)"
+  ],
+  "en": [
+   "unwell",
+   "indisposed"
+  ],
+  "ex": [
+   {
+    "zh": "如果感到身体不适，请马上告诉医生。",
+    "py": "Rúguǒ gǎndào shēntǐ búshì, qǐng mǎshàng gàosu yīshēng.",
+    "fa": "اگر احساس ناخوشی کردید، لطفاً فوراً به پزشک بگویید.",
+    "en": "If you feel unwell, please tell the doctor immediately."
+   }
+  ],
+  "chg": "fa: «کسل» suggests bored/listless, replaced with an unambiguous gloss"
+ },
+ {
+  "id": "称作",
+  "fa": [
+   "نامیدن (به نامی خواندن)",
+   "نامیده شدن"
+  ],
+  "en": [
+   "to call (by a name)",
+   "to be called"
+  ],
+  "ex": [
+   {
+    "zh": "熊猫被人们称作中国的国宝。",
+    "py": "Xióngmāo bèi rénmen chēngzuò Zhōngguó de guóbǎo.",
+    "fa": "مردم پاندا را گنجینهٔ ملی چین می‌نامند.",
+    "en": "The panda is called China's national treasure."
+   }
+  ],
+  "chg": "fa/en: active sense of the verb first (to call), passive second; clearer wording"
+ },
+ {
+  "id": "碰撞",
+  "fa": [
+   "برخورد کردن",
+   "تصادم کردن"
+  ],
+  "en": [
+   "to collide",
+   "to crash into"
+  ],
+  "ex": [
+   {
+    "zh": "两辆汽车在路口碰撞在一起，幸好没有人受伤。",
+    "py": "Liǎng liàng qìchē zài lùkǒu pèngzhuàng zài yìqǐ, xìnghǎo méiyǒu rén shòushāng.",
+    "fa": "دو خودرو سر چهارراه با هم برخورد کردند؛ خوشبختانه کسی زخمی نشد.",
+    "en": "Two cars collided at the intersection; luckily nobody was hurt."
+   }
+  ],
+  "chg": "ex: bare 在路口碰撞 unnatural -> 碰撞在一起"
+ },
+ {
+  "id": "鲨鱼",
+  "fa": [
+   "کوسه"
+  ],
+  "en": [
+   "shark"
+  ],
+  "ex": [
+   {
+    "zh": "这片海里有鲨鱼，游泳的时候要小心。",
+    "py": "Zhè piàn hǎi lǐ yǒu shāyú, yóuyǒng de shíhou yào xiǎoxīn.",
+    "fa": "در این دریا کوسه هست؛ هنگام شنا باید مراقب بود.",
+    "en": "There are sharks in these waters, so be careful when swimming."
+   }
+  ],
+  "chg": "fa: two synonymous glosses vs one en gloss -> single gloss"
+ },
+ {
+  "id": "被动",
+  "fa": [
+   "منفعل",
+   "غیرفعال (بدون ابتکار عمل)"
+  ],
+  "en": [
+   "passive",
+   "not taking the initiative"
+  ],
+  "ex": [
+   {
+    "zh": "他学习很被动，总要老师催才肯做作业。",
+    "py": "Tā xuéxí hěn bèidòng, zǒng yào lǎoshī cuī cái kěn zuò zuòyè.",
+    "fa": "او در درس خواندن خیلی منفعل است و تا معلم پیگیری نکند تکلیفش را انجام نمی‌دهد.",
+    "en": "He is very passive about studying and only does his homework when the teacher pushes him."
+   }
+  ],
+  "chg": "fa: Chinese characters inside the Persian gloss removed; disambiguated in Persian"
+ },
+ {
+  "id": "饥饿",
+  "fa": [
+   "گرسنه (رسمی)",
+   "گرسنگی‌کشیده"
+  ],
+  "en": [
+   "hungry (formal)",
+   "starving"
+  ],
+  "ex": [
+   {
+    "zh": "走了一整天山路，大家都感到非常饥饿。",
+    "py": "Zǒu le yì zhěng tiān shānlù, dàjiā dōu gǎndào fēicháng jī'è.",
+    "fa": "بعد از یک روز تمام راه‌پیمایی در کوه، همه خیلی گرسنه بودند.",
+    "en": "After walking mountain paths all day, everyone felt extremely hungry."
+   }
+  ],
+  "chg": "ex: headword was used as a noun (忍受着饥饿) though pos is a; rewritten with adjectival use"
+ },
+ {
+  "id": "观光",
+  "fa": [
+   "از جاهای دیدنی دیدن کردن",
+   "سیاحت کردن (گشت‌وگذار)"
+  ],
+  "en": [
+   "to go sightseeing",
+   "to tour"
+  ],
+  "ex": [
+   {
+    "zh": "每年都有很多外国游客来这里观光。",
+    "py": "Měi nián dōu yǒu hěn duō wàiguó yóukè lái zhèlǐ guānguāng.",
+    "fa": "هر سال گردشگران خارجی بسیاری برای دیدن جاهای دیدنی به اینجا می‌آیند.",
+    "en": "Every year many foreign tourists come here to go sightseeing."
+   }
+  ],
+  "chg": "fa: awkward «گشت‌وگذار سیاحتی کردن» -> natural Persian"
+ }
+]

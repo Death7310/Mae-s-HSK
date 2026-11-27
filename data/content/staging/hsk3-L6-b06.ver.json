@@ -1,0 +1,124 @@
+[
+ {
+  "id": "扎",
+  "fa": [
+   "فرو کردن (سوزن و چیز نوک‌تیز)",
+   "سوراخ کردن (با چیز تیز)"
+  ],
+  "en": [
+   "to prick",
+   "to stick (a needle) into"
+  ],
+  "note": "با تلفظ zā به معنی «بستن و گره زدن» است.",
+  "ex": [
+   {
+    "zh": "她缝衣服的时候不小心扎了手指。",
+    "py": "Tā féng yīfu de shíhou bù xiǎoxīn zhāle shǒuzhǐ.",
+    "fa": "او موقع دوختن لباس، ناخواسته سوزن به انگشتش فرو رفت.",
+    "en": "She accidentally pricked her finger while sewing."
+   }
+  ],
+  "chg": "ex.fa: unnatural ('accidentally drove a needle into her finger') -> natural intransitive"
+ },
+ {
+  "id": "资产",
+  "fa": [
+   "دارایی",
+   "اموال"
+  ],
+  "en": [
+   "assets",
+   "property"
+  ],
+  "ex": [
+   {
+    "zh": "这家公司的总资产已经超过十亿元。",
+    "py": "Zhè jiā gōngsī de zǒng zīchǎn yǐjīng chāoguò shí yì yuán.",
+    "fa": "کل دارایی این شرکت از یک میلیارد یوان گذشته است.",
+    "en": "This company's total assets already exceed one billion yuan."
+   }
+  ],
+  "chg": "fa: «سرمایه» recalls 资本/资金 -> «اموال»"
+ },
+ {
+  "id": "寂寞",
+  "fa": [
+   "تنها و دلتنگ",
+   "بی‌هم‌صحبت (دل‌گرفته از تنهایی)"
+  ],
+  "en": [
+   "lonely",
+   "lonesome"
+  ],
+  "ex": [
+   {
+    "zh": "一个人在国外生活，她常常感到很寂寞。",
+    "py": "Yí ge rén zài guówài shēnghuó, tā chángcháng gǎndào hěn jìmò.",
+    "fa": "او که تنها در خارج زندگی می‌کند، اغلب خیلی احساس تنهایی می‌کند.",
+    "en": "Living abroad alone, she often feels very lonely."
+   }
+  ],
+  "chg": "fa: second gloss was a noun phrase for an adjective -> adjective"
+ },
+ {
+  "id": "国王",
+  "fa": [
+   "پادشاه (شاه)"
+  ],
+  "en": [
+   "king"
+  ],
+  "ex": [
+   {
+    "zh": "很久以前，这个国家有一位聪明的国王。",
+    "py": "Hěn jiǔ yǐqián, zhège guójiā yǒu yí wèi cōngming de guówáng.",
+    "fa": "خیلی وقت پیش، این کشور پادشاهی باهوش داشت.",
+    "en": "Long ago, this country had a wise king."
+   }
+  ],
+  "chg": "fa/en count mismatch (2 vs 1): merged to one gloss"
+ },
+ {
+  "id": "收藏",
+  "fa": [
+   "جمع‌آوری کردن (مجموعه‌داری)",
+   "نگه داشتن (در جای امن)",
+   "نشان کردن (صفحهٔ اینترنتی)"
+  ],
+  "en": [
+   "to collect (art, antiques)",
+   "to keep safely",
+   "to bookmark"
+  ],
+  "ex": [
+   {
+    "zh": "我爷爷喜欢收藏世界各国的钱币和邮票。",
+    "py": "Wǒ yéye xǐhuan shōucáng shìjiè gè guó de qiánbì hé yóupiào.",
+    "fa": "پدربزرگم دوست دارد سکه‌ها و تمبرهای کشورهای مختلف جهان را جمع‌آوری کند.",
+    "en": "My grandfather likes collecting coins and stamps from around the world."
+   }
+  ],
+  "chg": "ex: 古代的邮票 is illogical (no ancient stamps); rewrote object"
+ },
+ {
+  "id": "消防",
+  "fa": [
+   "آتش‌نشانی",
+   "مهار و پیشگیری از آتش‌سوزی"
+  ],
+  "en": [
+   "firefighting",
+   "fire control and prevention"
+  ],
+  "note": "معمولاً در ترکیب می‌آید: 消防员 (آتش‌نشان)، 消防车 (خودروی آتش‌نشانی).",
+  "ex": [
+   {
+    "zh": "按照规定，每个楼层都必须配备消防设备。",
+    "py": "Ànzhào guīdìng, měi ge lóucéng dōu bìxū pèibèi xiāofáng shèbèi.",
+    "fa": "طبق مقررات، هر طبقه باید به تجهیزات آتش‌نشانی مجهز باشد.",
+    "en": "By regulation, every floor must be equipped with firefighting equipment."
+   }
+  ],
+  "chg": "fa: «آتش‌نشانی کردن» is not Persian -> «آتش‌نشانی»; ex: awkward 消防用的设备 -> 配备消防设备"
+ }
+]

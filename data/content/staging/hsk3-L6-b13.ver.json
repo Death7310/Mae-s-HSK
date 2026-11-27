@@ -1,0 +1,62 @@
+[
+ {
+  "id": "勉强",
+  "fa": [
+   "با اکراه (از سر ناچاری)",
+   "به‌زحمت کافی",
+   "به‌زور وادار کردن"
+  ],
+  "en": [
+   "reluctant",
+   "barely enough",
+   "to force (sb)"
+  ],
+  "ex": [
+   {
+    "zh": "他虽然答应了，但是看起来很勉强。",
+    "py": "Tā suīrán dāyingle, dànshì kàn qǐlái hěn miǎnqiǎng.",
+    "fa": "با اینکه قبول کرد، معلوم بود با اکراه پذیرفته است.",
+    "en": "Although he agreed, he looked very reluctant."
+   }
+  ],
+  "chg": "fa: orthography (بااکراه -> با اکراه); ex.fa: ungrammatical/awkward Persian rewritten"
+ },
+ {
+  "id": "货币",
+  "fa": [
+   "پول رایج",
+   "پول (در اقتصاد)"
+  ],
+  "en": [
+   "currency",
+   "money (in economics)"
+  ],
+  "ex": [
+   {
+    "zh": "人民币是中国的法定货币。",
+    "py": "Rénmínbì shì Zhōngguó de fǎdìng huòbì.",
+    "fa": "رنمینبی پول رایج قانونی چین است.",
+    "en": "The renminbi is China's legal currency."
+   }
+  ],
+  "chg": "fa/en disagreed (واحد پول = monetary unit vs en \"money\"); second gloss aligned to the sense money"
+ },
+ {
+  "id": "专利",
+  "fa": [
+   "حق ثبت اختراع (پتنت)"
+  ],
+  "en": [
+   "patent"
+  ],
+  "ex": [
+   {
+    "zh": "这家公司去年申请了二十多项专利。",
+    "py": "Zhè jiā gōngsī qùnián shēnqǐngle èrshí duō xiàng zhuānlì.",
+    "fa": "این شرکت پارسال بیش از بیست درخواست ثبت اختراع داد.",
+    "en": "This company applied for more than twenty patents last year."
+   }
+  ],
+  "chg": "fa/en count mismatch (2 vs 1): merged into one gloss; ex.fa: word-for-word Persian made natural"
+ }
+]

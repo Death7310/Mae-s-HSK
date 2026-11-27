@@ -1,0 +1,60 @@
+[
+ {
+  "id": "干扰",
+  "fa": [
+   "اختلال ایجاد کردن (در کار)",
+   "مزاحمت ایجاد کردن"
+  ],
+  "en": [
+   "to interfere with",
+   "to disturb"
+  ],
+  "ex": [
+   {
+    "zh": "请不要干扰别人的正常工作。",
+    "py": "Qǐng búyào gānrǎo biérén de zhèngcháng gōngzuò.",
+    "fa": "لطفاً در کار عادی دیگران اختلال ایجاد نکنید.",
+    "en": "Please don't interfere with other people's normal work."
+   }
+  ],
+  "chg": "fa/en: bare 'مزاحم شدن' recalls 打扰; lead with interfere/disrupt sense, example translation aligned"
+ },
+ {
+  "id": "肩膀",
+  "fa": [
+   "شانه (عضو بدن)"
+  ],
+  "en": [
+   "shoulder"
+  ],
+  "ex": [
+   {
+    "zh": "他轻轻地拍了拍我的肩膀。",
+    "py": "Tā qīngqīng de pāi le pāi wǒ de jiānbǎng.",
+    "fa": "او آرام روی شانه‌ام زد.",
+    "en": "He gently patted me on the shoulder."
+   }
+  ],
+  "chg": "fa/en: dropped ambiguous 'دوش' (also 'shower') and the duplicate English gloss 'shoulders'"
+ },
+ {
+  "id": "手臂",
+  "fa": [
+   "دست (از شانه تا مچ)",
+   "بازو"
+  ],
+  "en": [
+   "arm (shoulder to wrist)",
+   "upper arm (loosely)"
+  ],
+  "ex": [
+   {
+    "zh": "他打篮球的时候伤到了右手臂。",
+    "py": "Tā dǎ lánqiú de shíhou shāngdào le yòu shǒubì.",
+    "fa": "او موقع بسکتبال بازی کردن، دست راستش آسیب دید.",
+    "en": "He hurt his right arm while playing basketball."
+   }
+  ],
+  "chg": "fa/en: 手臂 is the whole arm, 'بازو' is only the upper arm; reordered, removed duplicate English gloss, example translation aligned"
+ }
+]

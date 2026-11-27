@@ -1,0 +1,61 @@
+[
+ {
+  "id": "收购",
+  "fa": [
+   "خریدن و تصاحب کردن (شرکت)",
+   "یکجا خریدن (از تولیدکنندگان)"
+  ],
+  "en": [
+   "to acquire (a company)",
+   "to buy up"
+  ],
+  "ex": [
+   {
+    "zh": "这家大公司打算收购一家小型网络企业。",
+    "py": "Zhè jiā dà gōngsī dǎsuàn shōugòu yì jiā xiǎoxíng wǎngluò qǐyè.",
+    "fa": "این شرکت بزرگ قصد دارد یک شرکت کوچک اینترنتی را بخرد.",
+    "en": "This big company plans to acquire a small internet firm."
+   }
+  ],
+  "chg": "fa: second gloss was a noun phrase (خرید عمده); verb needs infinitive citation form"
+ },
+ {
+  "id": "场合",
+  "fa": [
+   "موقعیت (مجلس، محفل)",
+   "مناسبت"
+  ],
+  "en": [
+   "setting; situation",
+   "occasion"
+  ],
+  "ex": [
+   {
+    "zh": "在正式场合，说话要特别注意礼貌。",
+    "py": "Zài zhèngshì chǎnghé, shuōhuà yào tèbié zhùyì lǐmào.",
+    "fa": "در موقعیت‌های رسمی باید هنگام حرف زدن به ادب توجه ویژه داشت.",
+    "en": "On formal occasions, you need to pay special attention to politeness when speaking."
+   }
+  ],
+  "chg": "en: order/senses did not match fa (مناسبت = occasion, not situation)"
+ },
+ {
+  "id": "中毒",
+  "fa": [
+   "مسموم شدن"
+  ],
+  "en": [
+   "to be poisoned"
+  ],
+  "note": "فعل جداشدنی: 中毒 ← 中了毒. در اینجا 中 با نواخت چهارم (zhòng) خوانده می‌شود.",
+  "ex": [
+   {
+    "zh": "他吃了不新鲜的海鲜，结果食物中毒了。",
+    "py": "Tā chī le bù xīnxiān de hǎixiān, jiéguǒ shíwù zhòngdú le.",
+    "fa": "او غذای دریایی مانده خورد و در نتیجه دچار مسمومیت غذایی شد.",
+    "en": "He ate seafood that wasn't fresh and ended up with food poisoning."
+   }
+  ],
+  "chg": "ex.fa: unnatural collocation (مسمومیت گرفت -> دچار مسمومیت شد)"
+ }
+]

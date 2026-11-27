@@ -1,0 +1,62 @@
+[
+ {
+  "id": "求婚",
+  "fa": [
+   "خواستگاری کردن",
+   "پیشنهاد ازدواج دادن"
+  ],
+  "en": [
+   "to propose marriage",
+   "to ask to marry"
+  ],
+  "ex": [
+   {
+    "zh": "他在女朋友生日那天向她求婚了。",
+    "py": "Tā zài nǚpéngyou shēngrì nà tiān xiàng tā qiúhūn le.",
+    "fa": "او روز تولد دوست‌دخترش از او خواستگاری کرد.",
+    "en": "He proposed to his girlfriend on her birthday."
+   }
+  ],
+  "chg": "ex.fa: 女朋友 is girlfriend, not fiancée (نامزد); verb aligned with first gloss"
+ },
+ {
+  "id": "同类",
+  "fa": [
+   "از یک نوع (هم‌سنخ)",
+   "هم‌نوع (موجود یا چیز هم‌جنس)"
+  ],
+  "en": [
+   "of the same kind",
+   "one's own kind"
+  ],
+  "ex": [
+   {
+    "zh": "在同类产品中，这款手机的价格最低。",
+    "py": "Zài tónglèi chǎnpǐn zhōng, zhè kuǎn shǒujī de jiàgé zuì dī.",
+    "fa": "در میان محصولات مشابه، قیمت این گوشی از همه پایین‌تر است.",
+    "en": "Among products of the same kind, this phone has the lowest price."
+   }
+  ],
+  "chg": "fa: adjective and noun glosses had the same head word; adjective gloss made distinct; ex.fa: natural Persian for 同类产品"
+ },
+ {
+  "id": "信赖",
+  "fa": [
+   "اعتماد و اتکا کردن",
+   "اطمینان داشتن (به کسی)"
+  ],
+  "en": [
+   "to trust and rely on",
+   "to have confidence in"
+  ],
+  "ex": [
+   {
+    "zh": "他做事认真负责，是一个值得信赖的人。",
+    "py": "Tā zuòshì rènzhēn fùzé, shì yí ge zhíde xìnlài de rén.",
+    "fa": "او در کار جدی و مسئولیت‌پذیر است و آدمی قابل اعتماد است.",
+    "en": "He is conscientious and responsible, a person worthy of trust."
+   }
+  ],
+  "chg": "ex.fa: 值得信赖 is 'trustworthy', not 'someone one can lean on'"
+ }
+]

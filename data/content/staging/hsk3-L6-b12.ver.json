@@ -1,0 +1,90 @@
+[
+ {
+  "id": "嫌",
+  "fa": [
+   "خوش نداشتن (ناپسند دانستن)",
+   "ناراضی بودن از (زیادی یا کمی چیزی)"
+  ],
+  "en": [
+   "to dislike; mind",
+   "to complain of (being too…)"
+  ],
+  "ex": [
+   {
+    "zh": "他嫌这里太吵，搬到郊区去住了。",
+    "py": "Tā xián zhèlǐ tài chǎo, bāndào jiāoqū qù zhù le.",
+    "fa": "او اینجا را زیادی پرسروصدا می‌دانست و به حومهٔ شهر اسباب‌کشی کرد.",
+    "en": "He found it too noisy here and moved to the suburbs."
+   }
+  ],
+  "chg": "fa/en: first gloss \"ایراد گرفتن\" (to find fault) recalls 挑剔/批评; reordered to core sense \"to dislike, mind\"; ex fa tightened (太吵 = too noisy, not crowded)"
+ },
+ {
+  "id": "赖",
+  "fa": [
+   "بد (محاوره‌ای)",
+   "به گردن دیگری انداختن",
+   "زیر حرف خود زدن (انکار کردن)"
+  ],
+  "en": [
+   "bad (colloquial)",
+   "to blame (wrongly)",
+   "to go back on; deny"
+  ],
+  "ex": [
+   {
+    "zh": "你做的菜味道真不赖，比饭馆的还好吃。",
+    "py": "Nǐ zuò de cài wèidào zhēn bú lài, bǐ fànguǎn de hái hǎochī.",
+    "fa": "غذایی که پختی واقعاً بد نیست؛ از غذای رستوران هم خوشمزه‌تر است.",
+    "en": "The food you made is really not bad, even tastier than a restaurant's."
+   }
+  ],
+  "chg": "fa: incomplete idiom \"زیر حرف زدن\" -> \"زیر حرف خود زدن\""
+ },
+ {
+  "id": "番",
+  "fa": [
+   "واحد شمارش برای یک دور کار، تلاش یا گفتار (یک بار، یک دور)",
+   "واحد شمارش برای نوع و حال‌وهوا (گونه)"
+  ],
+  "en": [
+   "measure word: a bout of",
+   "measure word: a kind of"
+  ],
+  "ex": [
+   {
+    "zh": "他认真思考了一番，才做出决定。",
+    "py": "Tā rènzhēn sīkǎo le yì fān, cái zuòchū juédìng.",
+    "fa": "او حسابی و با دقت فکر کرد و بعد تصمیم گرفت.",
+    "en": "He thought it over carefully before making a decision."
+   },
+   {
+    "zh": "这里的小吃别有一番风味。",
+    "py": "Zhèlǐ de xiǎochī bié yǒu yì fān fēngwèi.",
+    "fa": "خوراکی‌های محلی اینجا طعم و حال‌وهوای خاص خودشان را دارند.",
+    "en": "The snacks here have a flavour all their own."
+   }
+  ],
+  "chg": "ex fa: word-for-word \"یک دور حسابی فکر کرد\" is unnatural Persian"
+ },
+ {
+  "id": "漫长",
+  "fa": [
+   "بسیار طولانی",
+   "دور و دراز"
+  ],
+  "en": [
+   "very long",
+   "long and drawn-out"
+  ],
+  "ex": [
+   {
+    "zh": "经过漫长的等待，他终于收到了录取通知。",
+    "py": "Jīngguò màncháng de děngdài, tā zhōngyú shōudào le lùqǔ tōngzhī.",
+    "fa": "پس از انتظاری بسیار طولانی، بالاخره نامهٔ پذیرش به دستش رسید.",
+    "en": "After a very long wait, he finally received his admission notice."
+   }
+  ],
+  "chg": "en: \"endless\" did not match fa \"دور و دراز\""
+ }
+]

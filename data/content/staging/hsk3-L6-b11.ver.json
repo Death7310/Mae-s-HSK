@@ -1,0 +1,82 @@
+[
+ {
+  "id": "取代",
+  "fa": [
+   "جایگزین شدن",
+   "جای چیزی را گرفتن"
+  ],
+  "en": [
+   "to replace",
+   "to take the place of"
+  ],
+  "ex": [
+   {
+    "zh": "机器永远无法完全取代人类。",
+    "py": "Jīqì yǒngyuǎn wúfǎ wánquán qǔdài rénlèi.",
+    "fa": "ماشین هرگز نمی‌تواند کاملاً جای انسان را بگیرد.",
+    "en": "Machines can never completely replace humans."
+   }
+  ],
+  "chg": "ex: 取代人的作用 is an awkward collocation (one replaces a person/thing, not a 'role'); Persian 'جای نقش را گرفتن' was word-for-word"
+ },
+ {
+  "id": "旋转",
+  "fa": [
+   "چرخیدن",
+   "دوران کردن"
+  ],
+  "en": [
+   "to spin",
+   "to rotate"
+  ],
+  "ex": [
+   {
+    "zh": "地球围绕着太阳不停地旋转。",
+    "py": "Dìqiú wéiràozhe tàiyáng bù tíng de xuánzhuǎn.",
+    "fa": "زمین بی‌وقفه به دور خورشید می‌چرخد.",
+    "en": "The Earth revolves around the sun without stopping."
+   }
+  ],
+  "chg": "ex: 自己旋转 unnatural for the Earth's rotation (natives say 自转); rewritten as a plainer sentence"
+ },
+ {
+  "id": "限",
+  "fa": [
+   "محدود کردن",
+   "مهلت تعیین کردن"
+  ],
+  "en": [
+   "to limit",
+   "to set a deadline"
+  ],
+  "ex": [
+   {
+    "zh": "这张优惠券只限本人使用。",
+    "py": "Zhè zhāng yōuhuìquàn zhǐ xiàn běnrén shǐyòng.",
+    "fa": "استفاده از این کوپن تخفیف فقط به خود دارنده محدود است.",
+    "en": "This coupon is limited to use by the holder only."
+   }
+  ],
+  "chg": "ex: headword appeared only inside the longer word 限购; rewritten with 限 as a free verb"
+ },
+ {
+  "id": "看待",
+  "fa": [
+   "نگریستن (به کسی یا چیزی)",
+   "تلقی کردن"
+  ],
+  "en": [
+   "to look upon",
+   "to regard"
+  ],
+  "ex": [
+   {
+    "zh": "我们应该用发展的眼光看待这个问题。",
+    "py": "Wǒmen yīnggāi yòng fāzhǎn de yǎnguāng kàndài zhège wèntí.",
+    "fa": "باید به این مسئله با نگاهی پویا و رو به تحول بنگریم.",
+    "en": "We should look at this issue from a developmental perspective."
+   }
+  ],
+  "chg": "ex.fa: 发展的眼光 mistranslated as 'forward-looking' (آینده‌نگر); it means a dynamic, developmental view"
+ }
+]

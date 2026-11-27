@@ -1,0 +1,101 @@
+[
+ {
+  "id": "齐全",
+  "fa": [
+   "کامل (همه‌چیز موجود)",
+   "تکمیل"
+  ],
+  "en": [
+   "complete (nothing missing)",
+   "fully stocked"
+  ],
+  "ex": [
+   {
+    "zh": "这家超市的商品种类非常齐全。",
+    "py": "Zhè jiā chāoshì de shāngpǐn zhǒnglèi fēicháng qíquán.",
+    "fa": "این فروشگاه همه‌جور کالایی دارد و چیزی کم ندارد.",
+    "en": "This supermarket has a very complete range of goods."
+   }
+  ],
+  "chg": "ex.fa: awkward Persian (\"complete of every kind\") -> natural wording"
+ },
+ {
+  "id": "姑姑",
+  "fa": [
+   "عمه"
+  ],
+  "en": [
+   "paternal aunt"
+  ],
+  "ex": [
+   {
+    "zh": "我姑姑在上海工作，每年春节才回来。",
+    "py": "Wǒ gūgu zài Shànghǎi gōngzuò, měi nián Chūnjié cái huílái.",
+    "fa": "عمه‌ام در شانگهای کار می‌کند و هر سال فقط عید بهار برمی‌گردد.",
+    "en": "My aunt works in Shanghai and only comes back at Spring Festival each year."
+   }
+  ],
+  "chg": "ex.fa: misplaced \"only\" (才 = not until Spring Festival each year)"
+ },
+ {
+  "id": "自助",
+  "fa": [
+   "سلف‌سرویس بودن",
+   "خود کار خود را انجام دادن"
+  ],
+  "en": [
+   "to be self-service",
+   "to serve oneself"
+  ],
+  "ex": [
+   {
+    "zh": "现在很多银行都可以自助办理业务。",
+    "py": "Xiànzài hěn duō yínháng dōu kěyǐ zìzhù bànlǐ yèwù.",
+    "fa": "الان در خیلی از بانک‌ها مشتری می‌تواند کارهایش را خودش و بدون کارمند انجام دهد.",
+    "en": "Nowadays at many banks you can handle your business by self-service."
+   }
+  ],
+  "note": "بیشتر در ترکیب می‌آید: 自助餐 (بوفه، غذای سلف‌سرویس)، 自助游 (سفر بدون تور).",
+  "chg": "ex.fa: ungrammatical Persian sentence rewritten"
+ },
+ {
+  "id": "委屈",
+  "fa": [
+   "رنجیده (از بی‌انصافی)",
+   "در حق کسی بی‌انصافی کردن"
+  ],
+  "en": [
+   "feeling wronged",
+   "to treat unfairly"
+  ],
+  "ex": [
+   {
+    "zh": "被妈妈批评以后，她觉得很委屈。",
+    "py": "Bèi māma pīpíng yǐhòu, tā juéde hěn wěiqu.",
+    "fa": "بعد از اینکه مادرش سرزنشش کرد، احساس کرد در حقش بی‌انصافی شده است.",
+    "en": "After being criticized by her mother, she felt very wronged."
+   }
+  ],
+  "chg": "fa: \"heartbroken\" overstates; 委屈 is aggrieved/feeling wronged"
+ },
+ {
+  "id": "繁忙",
+  "fa": [
+   "پرمشغله",
+   "پررفت‌وآمد (پرکار)"
+  ],
+  "en": [
+   "busy",
+   "bustling"
+  ],
+  "ex": [
+   {
+    "zh": "虽然工作繁忙，他还是坚持每天锻炼。",
+    "py": "Suīrán gōngzuò fánmáng, tā háishi jiānchí měi tiān duànliàn.",
+    "fa": "با اینکه سرش خیلی شلوغ است، باز هم هر روز ورزش می‌کند.",
+    "en": "Although his work is busy, he still keeps exercising every day."
+   }
+  ],
+  "chg": "ex.fa: \"his work is busy\" is a calque in Persian"
+ }
+]

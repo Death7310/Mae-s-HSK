@@ -1,0 +1,123 @@
+[
+ {
+  "id": "书面",
+  "fa": [
+   "کتبی",
+   "نوشتاری"
+  ],
+  "en": [
+   "written",
+   "in writing"
+  ],
+  "ex": [
+   {
+    "zh": "请在周五以前给我们一个书面答复。",
+    "py": "Qǐng zài zhōuwǔ yǐqián gěi wǒmen yí ge shūmiàn dáfù.",
+    "fa": "لطفاً تا پیش از جمعه یک پاسخ کتبی به ما بدهید.",
+    "en": "Please give us a written reply before Friday."
+   }
+  ],
+  "chg": "en: split into two glosses to match the two fa glosses"
+ },
+ {
+  "id": "后者",
+  "fa": [
+   "دومی (از دو مورد یادشده)",
+   "مورد اخیر"
+  ],
+  "en": [
+   "the latter (of two)",
+   "the last-mentioned"
+  ],
+  "ex": [
+   {
+    "zh": "坐飞机和坐火车，我更喜欢后者。",
+    "py": "Zuò fēijī hé zuò huǒchē, wǒ gèng xǐhuan hòuzhě.",
+    "fa": "بین هواپیما و قطار، من دومی را بیشتر دوست دارم.",
+    "en": "Between flying and taking the train, I prefer the latter."
+   }
+  ],
+  "note": "متضاد: 前者 (اولی).",
+  "chg": "en: second gloss added to match the two fa glosses"
+ },
+ {
+  "id": "剩余",
+  "fa": [
+   "باقی ماندن",
+   "اضافه آمدن"
+  ],
+  "en": [
+   "to remain, be left over",
+   "to be surplus"
+  ],
+  "ex": [
+   {
+    "zh": "扣除房租以后，这个月的工资还剩余两千元。",
+    "py": "Kòuchú fángzū yǐhòu, zhège yuè de gōngzī hái shèngyú liǎngqiān yuán.",
+    "fa": "پس از کسر اجاره، از حقوق این ماه هنوز دو هزار یوان باقی می‌ماند.",
+    "en": "After deducting the rent, two thousand yuan of this month's salary is still left."
+   }
+  ],
+  "chg": "ex: 只剩余五百块钱 unnatural (natives say 只剩/只剩下); rewritten with a natural 还剩余 sentence"
+ },
+ {
+  "id": "思念",
+  "fa": [
+   "دلتنگ بودن برای",
+   "به یاد کسی بودن"
+  ],
+  "en": [
+   "to miss, long for",
+   "to think of fondly"
+  ],
+  "ex": [
+   {
+    "zh": "在国外的这几年，她一直思念着家乡的亲人。",
+    "py": "Zài guówài de zhè jǐ nián, tā yìzhí sīniàn zhe jiāxiāng de qīnrén.",
+    "fa": "در این چند سالی که خارج از کشور بود، همیشه دلتنگ خانواده‌اش در زادگاهش بود.",
+    "en": "During these years abroad she has always missed her family back home."
+   }
+  ],
+  "chg": "fa: second gloss had the reversed sense («در یاد کسی بودن» = to be in someone's memory) -> «به یاد کسی بودن»"
+ },
+ {
+  "id": "粥",
+  "fa": [
+   "حریرهٔ برنج (آش رقیق چینی)",
+   "فرنی غلات"
+  ],
+  "en": [
+   "congee, rice porridge",
+   "porridge"
+  ],
+  "ex": [
+   {
+    "zh": "我生病的时候，妈妈常常给我煮粥喝。",
+    "py": "Wǒ shēngbìng de shíhou, māma chángcháng gěi wǒ zhǔ zhōu hē.",
+    "fa": "وقتی مریض می‌شدم، مادرم اغلب برایم حریرهٔ برنج می‌پخت.",
+    "en": "When I was ill, my mum often cooked congee for me."
+   }
+  ],
+  "chg": "fa: «شوربا» is a meat/vegetable soup, misleading for rice porridge -> «حریرهٔ برنج (آش رقیق چینی)»; example fa aligned"
+ },
+ {
+  "id": "栏",
+  "fa": [
+   "نرده (حصار)",
+   "ستون (بخش در فرم یا نشریه)"
+  ],
+  "en": [
+   "railing, fence",
+   "column, field (in a form)"
+  ],
+  "ex": [
+   {
+    "zh": "请在表格的“姓名”一栏写上你的名字。",
+    "py": "Qǐng zài biǎogé de \"xìngmíng\" yì lán xiě shang nǐ de míngzi.",
+    "fa": "لطفاً در قسمت «نام و نام خانوادگی» فرم، اسمتان را بنویسید.",
+    "en": "Please write your name in the \"name\" field of the form."
+   }
+  ],
+  "chg": "py: curly quotes replaced with ASCII punctuation per guide"
+ }
+]

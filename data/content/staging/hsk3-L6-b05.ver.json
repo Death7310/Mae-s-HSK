@@ -1,0 +1,86 @@
+[
+ {
+  "id": "宫",
+  "fa": [
+   "کاخ (قصر)"
+  ],
+  "en": [
+   "palace"
+  ],
+  "ex": [
+   {
+    "zh": "以前皇帝和他的家人都住在宫里。",
+    "py": "Yǐqián huángdì hé tā de jiārén dōu zhù zài gōng lǐ.",
+    "fa": "در گذشته امپراتور و خانواده‌اش همگی در کاخ زندگی می‌کردند.",
+    "en": "In the past the emperor and his family all lived in the palace."
+   }
+  ],
+  "chg": "fa: merged two synonyms into one gloss so fa and en have the same number of senses"
+ },
+ {
+  "id": "定位",
+  "fa": [
+   "موقعیت‌یابی کردن (مکان چیزی را تعیین کردن)",
+   "جایگاه (تعریف‌شده)"
+  ],
+  "en": [
+   "to locate, to position",
+   "positioning, position"
+  ],
+  "ex": [
+   {
+    "zh": "这个手机软件可以准确地定位你的位置。",
+    "py": "Zhège shǒujī ruǎnjiàn kěyǐ zhǔnquè de dìngwèi nǐ de wèizhi.",
+    "fa": "این برنامهٔ تلفن همراه می‌تواند مکان شما را به‌دقت تعیین کند.",
+    "en": "This phone app can pinpoint your location accurately."
+   }
+  ],
+  "chg": "ex.fa: unnatural calque (مکان را موقعیت‌یابی کردن) -> natural Persian"
+ },
+ {
+  "id": "一阵",
+  "fa": [
+   "یک موج (باد، صدا، درد ناگهانی و گذرا)",
+   "مدتی کوتاه"
+  ],
+  "en": [
+   "a burst, a gust",
+   "a short while"
+  ],
+  "ex": [
+   {
+    "zh": "外面突然刮起了一阵大风。",
+    "py": "Wàimiàn tūrán guāqǐ le yízhèn dàfēng.",
+    "fa": "بیرون ناگهان باد شدیدی وزیدن گرفت.",
+    "en": "A gust of strong wind suddenly blew up outside."
+   },
+   {
+    "zh": "教室里响起了一阵热烈的掌声。",
+    "py": "Jiàoshì lǐ xiǎngqǐ le yízhèn rèliè de zhǎngshēng.",
+    "fa": "در کلاس موجی از تشویق پرشور بلند شد.",
+    "en": "A burst of warm applause rang out in the classroom."
+   }
+  ],
+  "chg": "ex.fa: word-for-word 'یک موج باد' -> natural Persian in both examples"
+ },
+ {
+  "id": "时机",
+  "fa": [
+   "زمان مناسب",
+   "فرصت مناسب (موقعیت)"
+  ],
+  "en": [
+   "the right moment",
+   "opportunity"
+  ],
+  "ex": [
+   {
+    "zh": "现在还不是谈这个问题的最好时机。",
+    "py": "Xiànzài hái bú shì tán zhège wèntí de zuì hǎo shíjī.",
+    "fa": "الان هنوز بهترین زمان برای صحبت دربارهٔ این مسئله نیست.",
+    "en": "Now is not yet the best moment to discuss this issue."
+   }
+  ],
+  "chg": "ex.fa: redundant 'بهترین زمان مناسب' -> 'بهترین زمان'"
+ }
+]

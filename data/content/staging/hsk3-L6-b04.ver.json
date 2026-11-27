@@ -1,0 +1,58 @@
+[
+ {
+  "id": "公主",
+  "fa": [
+   "شاهدخت (پرنسس)"
+  ],
+  "en": [
+   "princess"
+  ],
+  "ex": [
+   {
+    "zh": "这个故事讲的是一位美丽的公主。",
+    "py": "Zhège gùshi jiǎng de shì yí wèi měilì de gōngzhǔ.",
+    "fa": "این داستان دربارهٔ شاهدختی زیباست.",
+    "en": "This story is about a beautiful princess."
+   }
+  ],
+  "chg": "en: duplicate gloss \"princess | princess\"; merged fa into one gloss so fa/en match"
+ },
+ {
+  "id": "危机",
+  "fa": [
+   "بحران"
+  ],
+  "en": [
+   "crisis"
+  ],
+  "ex": [
+   {
+    "zh": "这家公司正面临严重的财务危机。",
+    "py": "Zhè jiā gōngsī zhèng miànlín yánzhòng de cáiwù wēijī.",
+    "fa": "این شرکت با بحران مالی شدیدی روبه‌روست.",
+    "en": "This company is facing a serious financial crisis."
+   }
+  ],
+  "chg": "ex: 经济危机 -> 财务危机 (natural collocation for a company; matches the fa/en \"financial crisis\")"
+ },
+ {
+  "id": "脑子",
+  "fa": [
+   "مغز",
+   "ذهن (هوش)"
+  ],
+  "en": [
+   "brain",
+   "mind, brains"
+  ],
+  "ex": [
+   {
+    "zh": "这孩子脑子很灵活，学什么都快。",
+    "py": "Zhè háizi nǎozi hěn línghuó, xué shénme dōu kuài.",
+    "fa": "این بچه ذهن خیلی تیزی دارد و هر چیزی را زود یاد می‌گیرد.",
+    "en": "This child has a quick mind and learns everything fast."
+   }
+  ],
+  "chg": "ex: 脑子很聪明 is an unnatural collocation -> 脑子很灵活"
+ }
+]
