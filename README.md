@@ -111,6 +111,9 @@ data/
   raw/               downloaded open datasets (tools/fetch_sources.py)
   content/           authored content: words/, dialogues/, grammar/, staging/
 tools/               the data pipeline (Python) and authoring guides
+  economy/           token-economy method, context guard and usage ledger
+CLAUDE.md            standing rules for Claude Code sessions on this repository
+.claude/             Claude Code settings (the context-warning hook)
 ```
 
 ## Working on it
@@ -151,6 +154,20 @@ Authoring is resumable at any time; nothing depends on a particular session.
    batch), and the equivalents for dialogues and grammar.
 3. `python3 tools/merge_content.py && python3 tools/build_data.py && python3 tools/status_md.py`
    publishes the result into the app and refreshes the table above.
+
+### Working on it with Claude Code
+
+The repository carries its own rules for AI-assisted sessions, so they apply in
+every session without being repeated:
+
+- [`CLAUDE.md`](CLAUDE.md) holds the standing rules, including the token-economy
+  rules. Claude Code loads it at the start of every session.
+- [`tools/economy/README.md`](tools/economy/README.md) is the method behind those
+  rules: what costs tokens, how to size multi-agent workflows (Ultracode), when
+  a conversation is too long, and a ledger of what sessions actually cost.
+- A hook in `.claude/settings.json` runs `tools/economy/context_guard.py` on
+  every prompt and warns when the conversation has grown long enough that a new
+  session is cheaper.
 
 ## Sources and licences
 
