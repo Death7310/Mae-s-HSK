@@ -1,0 +1,345 @@
+[
+ {
+  "id": "主食",
+  "fa": [
+   "غذای اصلی (برنج، نان، نودل)",
+   "غذای پایه"
+  ],
+  "en": [
+   "staple food",
+   "main food"
+  ],
+  "ex": [
+   {
+    "zh": "北方人的主食是面条和馒头。",
+    "py": "Běifāng rén de zhǔshí shì miàntiáo hé mántou.",
+    "fa": "غذای اصلی مردم شمال چین نودل و مانتو (نان بخارپز) است.",
+    "en": "The staple foods of northerners are noodles and steamed buns."
+   }
+  ],
+  "chg": "fa: typo نوودل -> نودل"
+ },
+ {
+  "id": "跳高",
+  "fa": [
+   "پرش ارتفاع کردن",
+   "پرش ارتفاع"
+  ],
+  "en": [
+   "to do the high jump",
+   "high jump"
+  ],
+  "ex": [
+   {
+    "zh": "他跳高跳得很好，拿了第一名。",
+    "py": "Tā tiàogāo tiào de hěn hǎo, ná le dì-yī míng.",
+    "fa": "او در پرش ارتفاع خیلی خوب است و مقام اول را گرفت.",
+    "en": "He is very good at the high jump and won first place."
+   }
+  ],
+  "chg": "fa: pos is v, verb gloss first; fa/en count aligned"
+ },
+ {
+  "id": "跳远",
+  "fa": [
+   "پرش طول کردن",
+   "پرش طول"
+  ],
+  "en": [
+   "to do the long jump",
+   "long jump"
+  ],
+  "ex": [
+   {
+    "zh": "她跳远的成绩在班里最好。",
+    "py": "Tā tiàoyuǎn de chéngjì zài bān li zuì hǎo.",
+    "fa": "نتیجهٔ او در پرش طول بهترین در کلاس است.",
+    "en": "Her long jump result is the best in the class."
+   }
+  ],
+  "chg": "fa: pos is v, verb gloss first; fa/en count aligned"
+ },
+ {
+  "id": "压岁钱",
+  "fa": [
+   "عیدی سال نو چینی (پولی که به کودکان می‌دهند)"
+  ],
+  "en": [
+   "New Year lucky money (for children)"
+  ],
+  "ex": [
+   {
+    "zh": "春节时，爷爷奶奶给了我很多压岁钱。",
+    "py": "Chūnjié shí, yéye nǎinai gěi le wǒ hěn duō yāsuìqián.",
+    "fa": "در جشن بهار، پدربزرگ و مادربزرگ عیدی زیادی به من دادند.",
+    "en": "At Spring Festival, my grandparents gave me a lot of lucky money."
+   }
+  ],
+  "chg": "ex: 一个压岁钱红包 unnatural, rewritten; en reduced to match fa"
+ },
+ {
+  "id": "短处",
+  "fa": [
+   "نقطهٔ ضعف",
+   "کاستی"
+  ],
+  "en": [
+   "weak point",
+   "shortcoming"
+  ],
+  "ex": [
+   {
+    "zh": "每个人都有自己的长处和短处。",
+    "py": "Měi ge rén dōu yǒu zìjǐ de chángchù hé duǎnchù.",
+    "fa": "هر کسی نقاط قوت و ضعف خودش را دارد.",
+    "en": "Everyone has their own strengths and weaknesses."
+   }
+  ],
+  "chg": "fa: ezafe نقطهٔ ضعف; dropped عیب (recalls 缺点); fa/en aligned"
+ },
+ {
+  "id": "酸甜苦辣",
+  "fa": [
+   "ترش و شیرین و تلخ و تند",
+   "فراز و نشیب‌های زندگی"
+  ],
+  "en": [
+   "sour, sweet, bitter, spicy",
+   "joys and sorrows of life"
+  ],
+  "ex": [
+   {
+    "zh": "他经历了生活中的酸甜苦辣。",
+    "py": "Tā jīnglì le shēnghuó zhōng de suān-tián-kǔ-là.",
+    "fa": "او تلخی و شیرینی‌های زندگی را تجربه کرده است.",
+    "en": "He has experienced the joys and sorrows of life."
+   }
+  ],
+  "pos": [
+   "n"
+  ],
+  "chg": "note: deleted, repeats the second gloss"
+ },
+ {
+  "id": "占线",
+  "fa": [
+   "اشغال بودن (خط تلفن)"
+  ],
+  "en": [
+   "(phone line) to be busy"
+  ],
+  "ex": [
+   {
+    "zh": "我打了好几次，他的电话一直占线。",
+    "py": "Wǒ dǎ le hǎo jǐ cì, tā de diànhuà yìzhí zhànxiàn.",
+    "fa": "چند بار زنگ زدم، ولی تلفنش مدام اشغال بود.",
+    "en": "I called several times and his line was always busy."
+   }
+  ],
+  "chg": "fa: standard Persian for a busy line is اشغال; ex fa همیشه -> مدام"
+ },
+ {
+  "id": "没法儿",
+  "fa": [
+   "چاره‌ای نداشتن",
+   "نتوانستن (راهی نبودن)"
+  ],
+  "en": [
+   "to have no way",
+   "to be unable to"
+  ],
+  "note": "محاوره‌ای؛ معادل 没办法.",
+  "ex": [
+   {
+    "zh": "路被堵住了，我们没法儿过去。",
+    "py": "Lù bèi dǔzhù le, wǒmen méifǎr guòqù.",
+    "fa": "راه بسته شده و ما نمی‌توانیم رد شویم.",
+    "en": "The road is blocked, so we can't get through."
+   }
+  ],
+  "chg": "fa: citation forms (infinitives) instead of finite نمی‌شود; fa/en aligned"
+ },
+ {
+  "id": "连忙",
+  "fa": [
+   "با عجله (بی‌درنگ)",
+   "شتابان"
+  ],
+  "en": [
+   "hurriedly",
+   "promptly"
+  ],
+  "ex": [
+   {
+    "zh": "看见老师进来，大家连忙站起来。",
+    "py": "Kànjiàn lǎoshī jìnlái, dàjiā liánmáng zhàn qǐlái.",
+    "fa": "وقتی دیدند معلم وارد شد، همه با عجله بلند شدند.",
+    "en": "Seeing the teacher come in, everyone quickly stood up."
+   }
+  ],
+  "chg": "fa: bare فوراً recalls 马上/立刻, sense is \"in a hurry\"; fa/en aligned; ex fa made natural"
+ },
+ {
+  "id": "二维码",
+  "fa": [
+   "کد کیوآر",
+   "بارکد دوبعدی"
+  ],
+  "en": [
+   "QR code",
+   "2D barcode"
+  ],
+  "ex": [
+   {
+    "zh": "请扫一下这个二维码付款。",
+    "py": "Qǐng sǎo yíxià zhège èrwéimǎ fùkuǎn.",
+    "fa": "لطفاً برای پرداخت این کد کیوآر را اسکن کنید.",
+    "en": "Please scan this QR code to pay."
+   }
+  ],
+  "chg": "fa: natural order کد کیوآر; ex fa made consistent with gloss"
+ },
+ {
+  "id": "池",
+  "fa": [
+   "حوض",
+   "استخر (برکه)"
+  ],
+  "en": [
+   "pool",
+   "pond"
+  ],
+  "note": "معمولاً در ترکیب‌ها: 游泳池 (استخر شنا)، 水池 (حوض).",
+  "ex": [
+   {
+    "zh": "公园里有一个很大的水池。",
+    "py": "Gōngyuán li yǒu yí ge hěn dà de shuǐchí.",
+    "fa": "در پارک یک حوض بزرگ وجود دارد.",
+    "en": "There is a large pond in the park."
+   }
+  ],
+  "chg": "fa: گودال (pit) wrong sense; note: 电池 (battery) is not a \"pool\" compound"
+ },
+ {
+  "id": "充值",
+  "fa": [
+   "شارژ کردن (حساب یا سیم‌کارت)",
+   "اعتبار افزودن"
+  ],
+  "en": [
+   "to top up",
+   "to recharge an account"
+  ],
+  "ex": [
+   {
+    "zh": "我想给手机充值一百块钱。",
+    "py": "Wǒ xiǎng gěi shǒujī chōngzhí yìbǎi kuài qián.",
+    "fa": "می‌خواهم گوشی‌ام را صد یوان شارژ کنم.",
+    "en": "I want to top up my phone with 100 yuan."
+   }
+  ],
+  "chg": "fa: second gloss was a noun, now infinitive; ex fa ungrammatical"
+ },
+ {
+  "id": "发音",
+  "fa": [
+   "تلفظ کردن",
+   "تلفظ"
+  ],
+  "en": [
+   "to pronounce",
+   "pronunciation"
+  ],
+  "ex": [
+   {
+    "zh": "这个字我不知道怎么发音。",
+    "py": "Zhège zì wǒ bù zhīdào zěnme fāyīn.",
+    "fa": "نمی‌دانم این نویسه را چطور باید تلفظ کرد.",
+    "en": "I don't know how to pronounce this character."
+   }
+  ],
+  "chg": "ex: used headword as noun, first pos is v; rewritten with verb use"
+ },
+ {
+  "id": "降水",
+  "fa": [
+   "باریدن (باران و برف)",
+   "بارش (جوّی)"
+  ],
+  "en": [
+   "to precipitate (rain, snow)",
+   "precipitation"
+  ],
+  "ex": [
+   {
+    "zh": "天气预报说，明天全市将普遍降水。",
+    "py": "Tiānqì yùbào shuō, míngtiān quán shì jiāng pǔbiàn jiàngshuǐ.",
+    "fa": "طبق پیش‌بینی هواشناسی، فردا در سراسر شهر بارندگی خواهد بود.",
+    "en": "The forecast says there will be precipitation across the whole city tomorrow."
+   }
+  ],
+  "chg": "fa/en: pos is v, verb gloss first; ex: 有大量降水 unnatural, rewritten with verb use"
+ },
+ {
+  "id": "拼音",
+  "fa": [
+   "هجی کردن (ترکیب آواها)",
+   "پین‌یین (آوانگاری چینی)"
+  ],
+  "en": [
+   "to spell phonetically",
+   "pinyin"
+  ],
+  "ex": [
+   {
+    "zh": "我会用拼音输入汉字。",
+    "py": "Wǒ huì yòng pīnyīn shūrù Hànzì.",
+    "fa": "من می‌توانم با پین‌یین نویسه‌های چینی تایپ کنم.",
+    "en": "I can type Chinese characters using pinyin."
+   }
+  ],
+  "chg": "fa: نوشتن آوانگاری unnatural for the verb sense"
+ },
+ {
+  "id": "轻重",
+  "fa": [
+   "سبکی و سنگینی (وزن)",
+   "میزان اهمیت",
+   "حد و اندازه (در گفتار و رفتار)"
+  ],
+  "en": [
+   "weight",
+   "relative importance",
+   "proper limits (in speech, action)"
+  ],
+  "ex": [
+   {
+    "zh": "他说话不知轻重，常常让别人不高兴。",
+    "py": "Tā shuōhuà bù zhī qīngzhòng, chángcháng ràng biérén bù gāoxìng.",
+    "fa": "او در حرف زدن حد و اندازه را نمی‌شناسد و اغلب دیگران را ناراحت می‌کند.",
+    "en": "He does not know how far to go when he speaks and often upsets people."
+   }
+  ],
+  "chg": "ex: headword was inside the idiom 轻重缓急, rewritten; fa disambiguated, fa/en aligned"
+ },
+ {
+  "id": "商家",
+  "fa": [
+   "فروشنده (مغازه یا شرکت)",
+   "کاسب"
+  ],
+  "en": [
+   "seller (business)",
+   "merchant"
+  ],
+  "ex": [
+   {
+    "zh": "这家商家的服务态度很好。",
+    "py": "Zhè jiā shāngjiā de fúwù tàidu hěn hǎo.",
+    "fa": "رفتار این فروشنده در خدمت‌رسانی خیلی خوب است.",
+    "en": "This merchant's service attitude is very good."
+   }
+  ],
+  "chg": "fa: کسب‌وکار recalls 生意; disambiguated, fa/en aligned"
+ }
+]

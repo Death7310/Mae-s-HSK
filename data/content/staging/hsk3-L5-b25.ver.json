@@ -1,0 +1,286 @@
+[
+ {
+  "id": "竹子",
+  "fa": [
+   "بامبو"
+  ],
+  "en": [
+   "bamboo"
+  ],
+  "ex": [
+   {
+    "zh": "熊猫最喜欢吃山上的竹子。",
+    "py": "Xióngmāo zuì xǐhuan chī shān shang de zhúzi.",
+    "fa": "پاندا بیش از هر چیز دوست دارد بامبوهای کوهستان را بخورد.",
+    "en": "Pandas like eating the bamboo on the mountains best."
+   }
+  ],
+  "chg": "ex.fa: translation dropped \"eat\"; fa: removed odd second gloss"
+ },
+ {
+  "id": "升温",
+  "fa": [
+   "گرم شدن هوا",
+   "داغ شدن (اوج گرفتن)"
+  ],
+  "en": [
+   "to warm up",
+   "to heat up"
+  ],
+  "ex": [
+   {
+    "zh": "从明天开始，北方地区将明显升温。",
+    "py": "Cóng míngtiān kāishǐ, běifāng dìqū jiāng míngxiǎn shēngwēn.",
+    "fa": "از فردا هوای مناطق شمالی به‌طور محسوسی گرم می‌شود.",
+    "en": "Starting tomorrow, the northern regions will warm up noticeably."
+   }
+  ],
+  "chg": "ex: 气温…升温 is redundant; rewritten"
+ },
+ {
+  "id": "时差",
+  "fa": [
+   "اختلاف ساعت",
+   "جت‌لگ"
+  ],
+  "en": [
+   "time difference",
+   "jet lag"
+  ],
+  "ex": [
+   {
+    "zh": "我刚到北京，时差还没倒过来。",
+    "py": "Wǒ gāng dào Běijīng, shíchā hái méi dǎo guòlái.",
+    "fa": "من تازه به پکن رسیده‌ام و هنوز جت‌لگ دارم.",
+    "en": "I just arrived in Beijing and haven't recovered from the jet lag yet."
+   }
+  ],
+  "chg": "ex: 还没倒过时差 unnatural -> 时差还没倒过来"
+ },
+ {
+  "id": "风俗",
+  "fa": [
+   "آداب و رسوم",
+   "رسم و رسوم"
+  ],
+  "en": [
+   "custom",
+   "social customs"
+  ],
+  "ex": [
+   {
+    "zh": "每个地方都有自己的风俗。",
+    "py": "Měi ge dìfang dōu yǒu zìjǐ de fēngsú.",
+    "fa": "هر منطقه آداب و رسوم خودش را دارد.",
+    "en": "Every place has its own customs."
+   }
+  ],
+  "chg": "note: deleted (misleading measure word 个; usual is 种; adds nothing)"
+ },
+ {
+  "id": "教材",
+  "fa": [
+   "کتاب درسی",
+   "مواد آموزشی"
+  ],
+  "en": [
+   "textbook",
+   "teaching materials"
+  ],
+  "note": "واحد شمارش: 本",
+  "ex": [
+   {
+    "zh": "老师为我们选了一本新教材。",
+    "py": "Lǎoshī wèi wǒmen xuǎn le yì běn xīn jiàocái.",
+    "fa": "معلم برای ما یک کتاب درسی جدید انتخاب کرد.",
+    "en": "The teacher chose a new textbook for us."
+   }
+  ],
+  "chg": "en: reordered to match fa order"
+ },
+ {
+  "id": "一路顺风",
+  "fa": [
+   "سفر بخیر",
+   "سفر به‌سلامت"
+  ],
+  "en": [
+   "bon voyage",
+   "have a good trip"
+  ],
+  "note": "عبارت خداحافظی برای مسافر؛ لفظاً «در طول راه، باد موافق».",
+  "ex": [
+   {
+    "zh": "明天你就要出发了，一路顺风！",
+    "py": "Míngtiān nǐ jiù yào chūfā le, yílù-shùnfēng!",
+    "fa": "فردا راه می‌افتی؛ سفر بخیر!",
+    "en": "You set off tomorrow, have a safe trip!"
+   }
+  ],
+  "chg": "fa: «راه سبز» is not a Persian expression -> «سفر به‌سلامت»"
+ },
+ {
+  "id": "橡皮",
+  "fa": [
+   "پاک‌کن"
+  ],
+  "en": [
+   "eraser"
+  ],
+  "note": "واحد شمارش: 块",
+  "ex": [
+   {
+    "zh": "我的橡皮找不到了，借你的用一下。",
+    "py": "Wǒ de xiàngpí zhǎo bu dào le, jiè nǐ de yòng yíxià.",
+    "fa": "پاک‌کنم گم شده است، پاک‌کن تو را قرض می‌گیرم.",
+    "en": "I can't find my eraser; let me borrow yours."
+   }
+  ],
+  "chg": "fa/en: removed «لاستیک» (means tyre/rubber material, ambiguous; headword sense is eraser)"
+ },
+ {
+  "id": "近代",
+  "fa": [
+   "دوران جدید (در تاریخ)",
+   "عصر نوین"
+  ],
+  "en": [
+   "modern times",
+   "modern era"
+  ],
+  "note": "در تاریخ چین معمولاً از جنگ تریاک تا ۱۹۱۹ را می‌گویند.",
+  "ex": [
+   {
+    "zh": "他研究的是中国近代历史。",
+    "py": "Tā yánjiū de shì Zhōngguó jìndài lìshǐ.",
+    "fa": "او تاریخ نوین چین را مطالعه می‌کند.",
+    "en": "He studies modern Chinese history."
+   }
+  ],
+  "chg": "fa: «معاصر» is 当代/现代, wrong period -> modern era"
+ },
+ {
+  "id": "胡同",
+  "fa": [
+   "هوتونگ (کوچهٔ سنتی پکن)",
+   "کوچهٔ باریک"
+  ],
+  "en": [
+   "hutong",
+   "alley"
+  ],
+  "note": "واحد شمارش: 条",
+  "ex": [
+   {
+    "zh": "我们在北京的老胡同里散步。",
+    "py": "Wǒmen zài Běijīng de lǎo hútòng lǐ sànbù.",
+    "fa": "ما در کوچه‌های قدیمی پکن قدم می‌زدیم.",
+    "en": "We strolled through the old hutongs of Beijing."
+   }
+  ],
+  "chg": "fa: «کوچه‌باغ» means garden lane, wrong -> hutong transliteration + explanation"
+ },
+ {
+  "id": "中华",
+  "fa": [
+   "چین (نام ادبی و فرهنگی)",
+   "جونگ‌هوا"
+  ],
+  "en": [
+   "China (literary name)",
+   "Zhonghua"
+  ],
+  "ex": [
+   {
+    "zh": "中华文化有五千年的历史。",
+    "py": "Zhōnghuá wénhuà yǒu wǔqiān nián de lìshǐ.",
+    "fa": "فرهنگ چین پنج هزار سال تاریخ دارد.",
+    "en": "Chinese culture has a history of five thousand years."
+   }
+  ],
+  "chg": "fa: wrong transliteration «چونگهوا» -> «جونگ‌هوا»; not a formal name but literary/cultural"
+ },
+ {
+  "id": "中药",
+  "fa": [
+   "داروی گیاهی چینی",
+   "داروی سنتی چینی"
+  ],
+  "en": [
+   "Chinese herbal medicine",
+   "traditional Chinese drug"
+  ],
+  "note": "واحد شمارش: 服 یا 种",
+  "ex": [
+   {
+    "zh": "医生给我开了几服中药。",
+    "py": "Yīshēng gěi wǒ kāi le jǐ fù zhōngyào.",
+    "fa": "دکتر برایم چند دوز داروی گیاهی چینی نوشت.",
+    "en": "The doctor prescribed me a few doses of Chinese herbal medicine."
+   }
+  ],
+  "chg": "fa/en: second gloss confused with 中医 (medicine as practice) -> drug sense only"
+ },
+ {
+  "id": "保质期",
+  "fa": [
+   "مدت ماندگاری",
+   "مهلت مصرف"
+  ],
+  "en": [
+   "shelf life",
+   "best-before period"
+  ],
+  "ex": [
+   {
+    "zh": "这瓶牛奶的保质期是六个月。",
+    "py": "Zhè píng niúnǎi de bǎozhìqī shì liù ge yuè.",
+    "fa": "مدت ماندگاری این شیر شش ماه است.",
+    "en": "The shelf life of this milk is six months."
+   }
+  ],
+  "chg": "fa: «تاریخ انقضا» is a date, not a period; primary gloss -> shelf life"
+ },
+ {
+  "id": "扇子",
+  "fa": [
+   "بادبزن",
+   "بادبزن دستی"
+  ],
+  "en": [
+   "hand fan",
+   "fan"
+  ],
+  "note": "واحد شمارش: 把",
+  "ex": [
+   {
+    "zh": "天气太热，她拿着扇子扇风。",
+    "py": "Tiānqì tài rè, tā názhe shànzi shān fēng.",
+    "fa": "هوا خیلی گرم است و او با بادبزن خودش را باد می‌زند.",
+    "en": "It was so hot that she fanned herself with a fan."
+   }
+  ],
+  "chg": "fa: «پنکه دستی» suggests electric fan and lacked ezafe -> «بادبزن دستی»"
+ },
+ {
+  "id": "挂号",
+  "fa": [
+   "نوبت گرفتن (در بیمارستان)",
+   "سفارشی فرستادن (نامه)"
+  ],
+  "en": [
+   "to register at a hospital",
+   "to send by registered mail"
+  ],
+  "note": "فعل جداشدنی: 挂个号",
+  "ex": [
+   {
+    "zh": "我想给王医生挂个号。",
+    "py": "Wǒ xiǎng gěi Wáng yīshēng guà ge hào.",
+    "fa": "می‌خواهم برای دکتر وانگ نوبت بگیرم.",
+    "en": "I'd like to register for an appointment with Dr. Wang."
+   }
+  ],
+  "chg": "fa: dropped redundant second gloss, aligned with en; clearer registered-mail gloss"
+ }
+]

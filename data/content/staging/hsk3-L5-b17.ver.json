@@ -1,0 +1,369 @@
+[
+ {
+  "id": "密切",
+  "fa": [
+   "نزدیک و تنگاتنگ",
+   "نزدیک‌تر کردن (رابطه)"
+  ],
+  "en": [
+   "close",
+   "to make closer"
+  ],
+  "ex": [
+   {
+    "zh": "这两件事有密切的关系。",
+    "py": "Zhè liǎng jiàn shì yǒu mìqiè de guānxi.",
+    "fa": "این دو موضوع ارتباط نزدیکی با هم دارند.",
+    "en": "These two matters are closely related."
+   }
+  ],
+  "chg": "fa/en: verb sense wrong (密切 as verb = to make closer, e.g. 密切两国关系; 'follow closely' is the adverbial use)"
+ },
+ {
+  "id": "象征",
+  "fa": [
+   "نماد چیزی بودن",
+   "نماد"
+  ],
+  "en": [
+   "to symbolize",
+   "symbol"
+  ],
+  "ex": [
+   {
+    "zh": "白鸽象征着和平与友好。",
+    "py": "Báigē xiàngzhēngzhe hépíng yǔ yǒuhǎo.",
+    "fa": "کبوتر سفید نماد صلح و دوستی است.",
+    "en": "The white dove symbolizes peace and friendship."
+   }
+  ],
+  "chg": "fa/en: order matched to official pos (v, n) and to the verb example; removed unneeded kasra diacritic in example fa"
+ },
+ {
+  "id": "小型",
+  "fa": [
+   "کوچک (از نظر اندازه)",
+   "کوچک‌مقیاس"
+  ],
+  "en": [
+   "small-sized",
+   "small-scale"
+  ],
+  "ex": [
+   {
+    "zh": "这是一家小型公司。",
+    "py": "Zhè shì yì jiā xiǎoxíng gōngsī.",
+    "fa": "این یک شرکت کوچک است.",
+    "en": "This is a small company."
+   }
+  ],
+  "chg": "fa: 'کوچک‌اندازه' is not natural Persian; en order aligned"
+ },
+ {
+  "id": "提问",
+  "fa": [
+   "سؤال پرسیدن",
+   "پرسش مطرح کردن"
+  ],
+  "en": [
+   "to ask a question",
+   "to put questions to"
+  ],
+  "ex": [
+   {
+    "zh": "上课时同学们可以随时向老师提问。",
+    "py": "Shàngkè shí tóngxuémen kěyǐ suíshí xiàng lǎoshī tíwèn.",
+    "fa": "در کلاس دانش‌آموزان هر زمان بخواهند می‌توانند از معلم سؤال بپرسند.",
+    "en": "In class, students can ask the teacher questions at any time."
+   }
+  ],
+  "chg": "note deleted: wrong (提了一个问 is not Chinese; one says 提了一个问题); fa order"
+ },
+ {
+  "id": "犹豫",
+  "fa": [
+   "مردد",
+   "دودل"
+  ],
+  "en": [
+   "hesitant",
+   "to hesitate"
+  ],
+  "ex": [
+   {
+    "zh": "他犹豫了很久，还是没有买。",
+    "py": "Tā yóuyù le hěn jiǔ, háishi méiyǒu mǎi.",
+    "fa": "او مدت زیادی مردد ماند و باز هم نخرید.",
+    "en": "He hesitated for a long time and still didn't buy it."
+   }
+  ],
+  "chg": "fa/en: official pos is adjective -> bare adjective citation forms first"
+ },
+ {
+  "id": "实践",
+  "fa": [
+   "به عمل درآوردن",
+   "در عمل به کار بستن"
+  ],
+  "en": [
+   "to put into practice",
+   "to carry out"
+  ],
+  "ex": [
+   {
+    "zh": "学到的知识要在生活中实践。",
+    "py": "Xuédào de zhīshi yào zài shēnghuó zhōng shíjiàn.",
+    "fa": "دانشی که آموخته‌ایم باید در زندگی به کار گرفته شود.",
+    "en": "Knowledge you have learned should be put into practice in life."
+   }
+  ],
+  "chg": "fa: 'عمل کردن' ambiguous (to act/operate) -> precise gloss"
+ },
+ {
+  "id": "当前",
+  "fa": [
+   "حال حاضر",
+   "کنونی",
+   "پیش رو بودن"
+  ],
+  "en": [
+   "the present",
+   "current",
+   "to be right ahead"
+  ],
+  "ex": [
+   {
+    "zh": "当前最重要的是先休息。",
+    "py": "Dāngqián zuì zhòngyào de shì xiān xiūxi.",
+    "fa": "در حال حاضر مهم‌ترین کار این است که اول استراحت کنی.",
+    "en": "The most important thing at present is to rest first."
+   }
+  ],
+  "chg": "fa/en: noun sense given as noun ('the present') before attributive 'current'; verb sense is 'to be right ahead' (大敌当前)"
+ },
+ {
+  "id": "讲述",
+  "fa": [
+   "روایت کردن",
+   "تعریف کردن (ماجرا)"
+  ],
+  "en": [
+   "to narrate",
+   "to tell (a story)"
+  ],
+  "ex": [
+   {
+    "zh": "爷爷给我们讲述了过去的故事。",
+    "py": "Yéye gěi wǒmen jiǎngshù le guòqù de gùshi.",
+    "fa": "پدربزرگ داستان‌های گذشته را برای ما تعریف کرد.",
+    "en": "Grandpa told us stories of the past."
+   }
+  ],
+  "chg": "fa: most precise gloss first; 'بیان کردن' is 表达/表示 and not recallable"
+ },
+ {
+  "id": "设立",
+  "fa": [
+   "تأسیس کردن",
+   "دایر کردن (ایجاد کردن)"
+  ],
+  "en": [
+   "to set up",
+   "to establish"
+  ],
+  "ex": [
+   {
+    "zh": "学校设立了新的奖学金。",
+    "py": "Xuéxiào shèlì le xīn de jiǎngxuéjīn.",
+    "fa": "مدرسه بورسیهٔ جدیدی ایجاد کرده است.",
+    "en": "The school has set up a new scholarship."
+   }
+  ],
+  "chg": "fa: 'برپا کردن' -> 'دایر کردن'; example fa collocation (بورسیه تأسیس کردن is unnatural)"
+ },
+ {
+  "id": "业余",
+  "fa": [
+   "مربوط به اوقات فراغت",
+   "آماتور (غیرحرفه‌ای)"
+  ],
+  "en": [
+   "spare-time",
+   "amateur"
+  ],
+  "ex": [
+   {
+    "zh": "我的业余爱好是画画。",
+    "py": "Wǒ de yèyú àihào shì huàhuà.",
+    "fa": "سرگرمی اوقات فراغت من نقاشی است.",
+    "en": "My spare-time hobby is painting."
+   }
+  ],
+  "chg": "fa: 'اوقات فراغ' -> 'اوقات فراغت'; spare-time sense first to match example and frequency"
+ },
+ {
+  "id": "学者",
+  "fa": [
+   "پژوهشگر",
+   "محقق (اهل علم)"
+  ],
+  "en": [
+   "scholar"
+  ],
+  "ex": [
+   {
+    "zh": "这位学者研究中国历史。",
+    "py": "Zhè wèi xuézhě yánjiū Zhōngguó lìshǐ.",
+    "fa": "این پژوهشگر دربارهٔ تاریخ چین تحقیق می‌کند.",
+    "en": "This scholar studies Chinese history."
+   }
+  ],
+  "chg": "fa: 'دانشمند' is 科学家 (scientist); scholar = پژوهشگر / محقق"
+ },
+ {
+  "id": "对比",
+  "fa": [
+   "مقایسه کردن",
+   "مقایسه",
+   "تقابل (تضاد آشکار)"
+  ],
+  "en": [
+   "to compare",
+   "comparison",
+   "contrast"
+  ],
+  "ex": [
+   {
+    "zh": "把两张图对比一下。",
+    "py": "Bǎ liǎng zhāng tú duìbǐ yíxià.",
+    "fa": "این دو تصویر را با هم مقایسه کن.",
+    "en": "Compare the two pictures."
+   }
+  ],
+  "chg": "fa/en: noun sense 'comparison' added; 'تضاد' alone is misleading for 对比"
+ },
+ {
+  "id": "危害",
+  "fa": [
+   "به خطر انداختن",
+   "آسیب جدی رساندن"
+  ],
+  "en": [
+   "to endanger",
+   "to harm"
+  ],
+  "ex": [
+   {
+    "zh": "吸烟会严重危害身体健康。",
+    "py": "Xīyān huì yánzhòng wēihài shēntǐ jiànkāng.",
+    "fa": "سیگار کشیدن سلامت بدن را به‌شدت به خطر می‌اندازد.",
+    "en": "Smoking seriously endangers your health."
+   }
+  ],
+  "chg": "fa: identical to 损害 gloss, not recallable -> 'endanger' first; example lengthened to level range"
+ },
+ {
+  "id": "季度",
+  "fa": [
+   "سه‌ماهه (یک‌چهارم سال)",
+   "فصل مالی"
+  ],
+  "en": [
+   "quarter (of a year)",
+   "three-month period"
+  ],
+  "ex": [
+   {
+    "zh": "这个季度公司的收入增加了。",
+    "py": "Zhège jìdù gōngsī de shōurù zēngjiā le.",
+    "fa": "درآمد شرکت در این سه‌ماهه افزایش یافته است.",
+    "en": "The company's income rose this quarter."
+   }
+  ],
+  "chg": "fa: 'فصل مالی' unnatural as first gloss -> 'سه‌ماهه'"
+ },
+ {
+  "id": "围绕",
+  "fa": [
+   "حول چیزی چرخیدن",
+   "محور قرار دادن"
+  ],
+  "en": [
+   "to revolve around",
+   "to center on"
+  ],
+  "ex": [
+   {
+    "zh": "大家围绕这个问题讨论了很久。",
+    "py": "Dàjiā wéirào zhège wèntí tǎolùn le hěn jiǔ.",
+    "fa": "همه مدتی طولانی حول این مسئله بحث کردند.",
+    "en": "Everyone had a long discussion centered on this issue."
+   }
+  ],
+  "chg": "fa: literal sense 'to circle around' added; example fa lost the headword sense (حول)"
+ },
+ {
+  "id": "掌声",
+  "fa": [
+   "تشویق (کف زدن)",
+   "صدای کف زدن"
+  ],
+  "en": [
+   "applause",
+   "clapping"
+  ],
+  "ex": [
+   {
+    "zh": "演出结束后，大家给了他热烈的掌声。",
+    "py": "Yǎnchū jiéshù hòu, dàjiā gěi le tā rèliè de zhǎngshēng.",
+    "fa": "پس از پایان اجرا، همه پرشور برایش کف زدند.",
+    "en": "After the performance, everyone gave him warm applause."
+   }
+  ],
+  "note": "واحد شمارش: 阵",
+  "chg": "example fa: 'بدرقه کردند' (saw him off) mistranslates 给了他掌声"
+ },
+ {
+  "id": "模糊",
+  "fa": [
+   "مبهم",
+   "تار (محو)",
+   "مبهم کردن (محو کردن)"
+  ],
+  "en": [
+   "vague",
+   "blurry",
+   "to blur"
+  ],
+  "ex": [
+   {
+    "zh": "照片太模糊，看不清楚。",
+    "py": "Zhàopiàn tài móhu, kàn bu qīngchu.",
+    "fa": "عکس خیلی تار است و واضح دیده نمی‌شود.",
+    "en": "The photo is too blurry to see clearly."
+   }
+  ],
+  "chg": "fa/en: verb sense (official pos a, v) was missing"
+ },
+ {
+  "id": "录音",
+  "fa": [
+   "صدا ضبط کردن",
+   "صدای ضبط‌شده"
+  ],
+  "en": [
+   "to record (sound)",
+   "sound recording"
+  ],
+  "ex": [
+   {
+    "zh": "老师，上课的时候可以录音吗？",
+    "py": "Lǎoshī, shàngkè de shíhou kěyǐ lùyīn ma?",
+    "fa": "استاد، سر کلاس می‌شود صدا ضبط کرد؟",
+    "en": "Teacher, may I record during class?"
+   }
+  ],
+  "note": "فعل جداشدنی: 录音 ← 录了音",
+  "chg": "example rewritten: 把老师的话录音 is ungrammatical (录音 is verb-object and takes no 把-object); noun gloss 'فایل صوتی' -> 'صدای ضبط‌شده'; separable note added"
+ }
+]

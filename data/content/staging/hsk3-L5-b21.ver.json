@@ -1,0 +1,265 @@
+[
+ {
+  "id": "动人",
+  "fa": [
+   "تأثیرگذار",
+   "احساس‌برانگیز"
+  ],
+  "en": [
+   "touching",
+   "moving"
+  ],
+  "ex": [
+   {
+    "zh": "她唱了一首非常动人的歌。",
+    "py": "Tā chàng le yì shǒu fēicháng dòngrén de gē.",
+    "fa": "او آهنگی بسیار تأثیرگذار خواند.",
+    "en": "She sang a very moving song."
+   }
+  ],
+  "chg": "fa: «دل‌انگیز» means pleasant, not moving; replaced gloss and example translation"
+ },
+ {
+  "id": "急需",
+  "fa": [
+   "فوراً نیاز داشتن",
+   "نیاز مبرم داشتن"
+  ],
+  "en": [
+   "to urgently need"
+  ],
+  "ex": [
+   {
+    "zh": "灾区急需食物和药品。",
+    "py": "Zāiqū jíxū shíwù hé yàopǐn.",
+    "fa": "منطقهٔ حادثه‌دیده فوراً به غذا و دارو نیاز دارد.",
+    "en": "The disaster area urgently needs food and medicine."
+   }
+  ],
+  "chg": "ex.fa: 灾区 is a disaster area, not specifically earthquake-stricken"
+ },
+ {
+  "id": "图书",
+  "fa": [
+   "کتاب (به‌طور کلی)",
+   "مجموعهٔ کتاب‌ها"
+  ],
+  "en": [
+   "books",
+   "publications"
+  ],
+  "ex": [
+   {
+    "zh": "图书馆里有很多外文图书。",
+    "py": "Túshūguǎn lǐ yǒu hěn duō wàiwén túshū.",
+    "fa": "در کتابخانه کتاب‌های زیادی به زبان‌های خارجی وجود دارد.",
+    "en": "The library has many foreign-language books."
+   }
+  ],
+  "chg": "ex.fa: 外文图书 = foreign-language books, not 'foreign books'"
+ },
+ {
+  "id": "生动",
+  "fa": [
+   "زنده و گیرا",
+   "جاندار (توصیف، بیان)"
+  ],
+  "en": [
+   "vivid",
+   "lively"
+  ],
+  "ex": [
+   {
+    "zh": "老师讲得很生动，大家都爱听。",
+    "py": "Lǎoshī jiǎng de hěn shēngdòng, dàjiā dōu ài tīng.",
+    "fa": "معلم خیلی گیرا درس می‌دهد و همه دوست دارند گوش کنند.",
+    "en": "The teacher speaks so vividly that everyone loves to listen."
+   }
+  ],
+  "chg": "fa: «پرجنب‌وجوش» (energetic) is the wrong sense of lively; 生动 = vivid (of description/expression)"
+ },
+ {
+  "id": "就业",
+  "fa": [
+   "شاغل شدن",
+   "یافتن شغل"
+  ],
+  "en": [
+   "to get a job",
+   "to be employed"
+  ],
+  "ex": [
+   {
+    "zh": "今年大学毕业生就业比较困难。",
+    "py": "Jīnnián dàxué bìyèshēng jiùyè bǐjiào kùnnan.",
+    "fa": "امسال پیدا کردن شغل برای فارغ‌التحصیلان دانشگاه نسبتاً دشوار است.",
+    "en": "This year it is rather hard for university graduates to find jobs."
+   }
+  ],
+  "chg": "ex: 在一家银行就业 unnatural (就业 is used for employment in general); sentence rewritten"
+ },
+ {
+  "id": "自觉",
+  "fa": [
+   "خودجوش و وظیفه‌شناس",
+   "آگاه بودن (از چیزی)"
+  ],
+  "en": [
+   "conscientious; self-motivated",
+   "to be aware of"
+  ],
+  "ex": [
+   {
+    "zh": "他学习很自觉，不用父母提醒。",
+    "py": "Tā xuéxí hěn zìjué, bú yòng fùmǔ tíxǐng.",
+    "fa": "او خودش درس می‌خواند و نیازی به یادآوری پدر و مادر ندارد.",
+    "en": "He studies on his own and needs no reminders from his parents."
+   }
+  ],
+  "chg": "fa: verb gloss «احساس کردن» too vague/ambiguous -> to be aware of"
+ },
+ {
+  "id": "海外",
+  "fa": [
+   "خارج از کشور",
+   "آن سوی دریاها"
+  ],
+  "en": [
+   "overseas",
+   "abroad"
+  ],
+  "ex": [
+   {
+    "zh": "她的很多亲戚住在海外。",
+    "py": "Tā de hěn duō qīnqi zhù zài hǎiwài.",
+    "fa": "بسیاری از خویشاوندان او در خارج از کشور زندگی می‌کنند.",
+    "en": "Many of her relatives live overseas."
+   }
+  ],
+  "chg": "fa: «ماورای دریا» is not idiomatic Persian -> «آن سوی دریاها»"
+ },
+ {
+  "id": "专心",
+  "fa": [
+   "حواس‌جمع",
+   "با تمرکز"
+  ],
+  "en": [
+   "focused",
+   "attentive"
+  ],
+  "ex": [
+   {
+    "zh": "上课时要专心听老师讲。",
+    "py": "Shàngkè shí yào zhuānxīn tīng lǎoshī jiǎng.",
+    "fa": "سر کلاس باید با تمرکز به صحبت معلم گوش داد.",
+    "en": "In class you should listen to the teacher attentively."
+   }
+  ],
+  "chg": "note deleted: 专心学习 is adverbial use of the adjective, not a verb"
+ },
+ {
+  "id": "册",
+  "fa": [
+   "واحد شمارش برای جلد کتاب (جلد، نسخه)"
+  ],
+  "en": [
+   "volume (for books)",
+   "copy"
+  ],
+  "ex": [
+   {
+    "zh": "这套书一共有三册。",
+    "py": "Zhè tào shū yígòng yǒu sān cè.",
+    "fa": "این مجموعه در مجموع سه جلد دارد.",
+    "en": "This set of books has three volumes in all."
+   },
+   {
+    "zh": "图书馆买了五十册新书。",
+    "py": "Túshūguǎn mǎi le wǔshí cè xīn shū.",
+    "fa": "کتابخانه پنجاه جلد کتاب جدید خرید.",
+    "en": "The library bought fifty new books."
+   }
+  ],
+  "chg": "ex2.py: 新书 is two words (xīn shū)"
+ },
+ {
+  "id": "被子",
+  "fa": [
+   "لحاف"
+  ],
+  "en": [
+   "quilt"
+  ],
+  "note": "کلمهٔ شمارش معمول: 床 (chuáng).",
+  "ex": [
+   {
+    "zh": "天冷了，我要盖厚被子。",
+    "py": "Tiān lěng le, wǒ yào gài hòu bèizi.",
+    "fa": "هوا سرد شده و من باید لحاف ضخیم بکشم روی خودم.",
+    "en": "It's getting cold, so I'll use a thick quilt."
+   }
+  ],
+  "chg": "fa/en: «پتو» (blanket) is 毯子 and would mislead on the reverse card; removed"
+ },
+ {
+  "id": "引进",
+  "fa": [
+   "وارد کردن (از خارج)",
+   "جذب کردن (فناوری، سرمایه، نیرو)"
+  ],
+  "en": [
+   "to import; to bring in",
+   "to introduce (technology, talent)"
+  ],
+  "ex": [
+   {
+    "zh": "这家工厂引进了先进的技术。",
+    "py": "Zhè jiā gōngchǎng yǐnjìn le xiānjìn de jìshù.",
+    "fa": "این کارخانه فناوری پیشرفته‌ای را وارد کرده است.",
+    "en": "This factory has introduced advanced technology."
+   }
+  ],
+  "chg": "fa: «معرفی کردن» means to present/introduce someone, not to bring in; replaced"
+ },
+ {
+  "id": "排列",
+  "fa": [
+   "به ترتیب چیدن",
+   "ردیف کردن"
+  ],
+  "en": [
+   "to arrange in order",
+   "to line up"
+  ],
+  "ex": [
+   {
+    "zh": "请把这些词按顺序排列。",
+    "py": "Qǐng bǎ zhèxiē cí àn shùnxù páiliè.",
+    "fa": "لطفاً این واژه‌ها را به ترتیب بچینید.",
+    "en": "Please arrange these words in order."
+   }
+  ],
+  "chg": "fa/en: noun glosses («ترتیب», permutation) dropped for verb entry; glosses made specific"
+ },
+ {
+  "id": "用途",
+  "fa": [
+   "کاربرد",
+   "مورد استفاده"
+  ],
+  "en": [
+   "use",
+   "purpose"
+  ],
+  "ex": [
+   {
+    "zh": "这种工具有很多不同的用途。",
+    "py": "Zhè zhǒng gōngjù yǒu hěn duō bùtóng de yòngtú.",
+    "fa": "این ابزار کاربردهای متفاوت زیادی دارد.",
+    "en": "This tool has many different uses."
+   }
+  ],
+  "chg": "fa: «مصرف» means consumption, ambiguous -> «مورد استفاده»"
+ }
+]

@@ -1,0 +1,297 @@
+[
+ {
+  "id": "从而",
+  "fa": [
+   "و بدین ترتیب",
+   "در نتیجه"
+  ],
+  "en": [
+   "thus",
+   "thereby"
+  ],
+  "note": "حرف ربط نوشتاری؛ معمولاً در نیمهٔ دوم جمله می‌آید و نتیجه یا هدف را نشان می‌دهد.",
+  "ex": [
+   {
+    "zh": "他每天坚持锻炼，从而改善了健康状况。",
+    "py": "Tā měi tiān jiānchí duànliàn, cóng'ér gǎishàn le jiànkāng zhuàngkuàng.",
+    "fa": "او هر روز پیوسته ورزش می‌کند و بدین ترتیب وضع سلامتی‌اش را بهتر کرده است.",
+    "en": "He exercises every day without fail, thereby improving his health."
+   },
+   {
+    "zh": "我们改变了方法，从而节省了时间。",
+    "py": "Wǒmen gǎibiàn le fāngfǎ, cóng'ér jiéshěng le shíjiān.",
+    "fa": "ما روش را عوض کردیم و بدین ترتیب در وقت صرفه‌جویی شد.",
+    "en": "We changed the method, thereby saving time."
+   }
+  ],
+  "chg": "ex1: 从而 + bare subject clause unnatural; rewritten with verb phrase result"
+ },
+ {
+  "id": "吸收",
+  "fa": [
+   "جذب کردن",
+   "پذیرفتن (عضو)"
+  ],
+  "en": [
+   "to absorb",
+   "to recruit"
+  ],
+  "ex": [
+   {
+    "zh": "植物从土壤里吸收水分。",
+    "py": "Zhíwù cóng tǔrǎng lǐ xīshōu shuǐfèn.",
+    "fa": "گیاهان آب را از خاک جذب می‌کنند.",
+    "en": "Plants absorb water from the soil."
+   }
+  ],
+  "chg": "ex: 土地 -> 土壤 (natural collocation for soil)"
+ },
+ {
+  "id": "仿佛",
+  "fa": [
+   "انگار",
+   "گویی"
+  ],
+  "en": [
+   "as if",
+   "to seem"
+  ],
+  "ex": [
+   {
+    "zh": "他站在那里一动也不动，仿佛没听见我的话。",
+    "py": "Tā zhàn zài nàlǐ yí dòng yě bú dòng, fǎngfú méi tīngjiàn wǒ de huà.",
+    "fa": "او بی‌حرکت آنجا ایستاده بود، انگار حرف مرا نشنیده بود.",
+    "en": "He stood there motionless, as if he hadn't heard me."
+   }
+  ],
+  "chg": "ex: illogical sentence (as if not moving); rewritten"
+ },
+ {
+  "id": "不利",
+  "fa": [
+   "نامساعد",
+   "زیان‌آور (به ضررِ چیزی)"
+  ],
+  "en": [
+   "unfavorable",
+   "harmful"
+  ],
+  "ex": [
+   {
+    "zh": "熬夜对身体不利。",
+    "py": "Áoyè duì shēntǐ búlì.",
+    "fa": "بیدار ماندن شبانه برای بدن مضر است.",
+    "en": "Staying up late is bad for your health."
+   }
+  ],
+  "chg": "fa: 'به ضرر' is not an adjective citation form -> زیان‌آور"
+ },
+ {
+  "id": "漏",
+  "fa": [
+   "چکه کردن",
+   "نشت کردن",
+   "جا انداختن"
+  ],
+  "en": [
+   "to leak",
+   "to leave out"
+  ],
+  "ex": [
+   {
+    "zh": "屋顶漏雨了，得赶快修。",
+    "py": "Wūdǐng lòu yǔ le, děi gǎnkuài xiū.",
+    "fa": "سقف چکه می‌کند و باید زود تعمیر شود.",
+    "en": "The roof is leaking and needs fixing quickly."
+   }
+  ],
+  "chg": "ex fa: unnatural 'باران را رد می‌کند' -> چکه می‌کند"
+ },
+ {
+  "id": "目光",
+  "fa": [
+   "نگاه",
+   "دید (بینش)"
+  ],
+  "en": [
+   "gaze",
+   "vision"
+  ],
+  "ex": [
+   {
+    "zh": "大家的目光都集中在他身上。",
+    "py": "Dàjiā de mùguāng dōu jízhōng zài tā shēnshang.",
+    "fa": "نگاه همه به او دوخته شده بود.",
+    "en": "Everyone's eyes were fixed on him."
+   }
+  ],
+  "chg": "ex: 目光看着 is unnatural Chinese; rewritten"
+ },
+ {
+  "id": "姿势",
+  "fa": [
+   "حالت بدن",
+   "ژست"
+  ],
+  "en": [
+   "posture",
+   "pose"
+  ],
+  "ex": [
+   {
+    "zh": "坐的姿势不对，对身体不好。",
+    "py": "Zuò de zīshì bú duì, duì shēntǐ bù hǎo.",
+    "fa": "اگر حالت نشستن درست نباشد، برای بدن خوب نیست.",
+    "en": "A wrong sitting posture is bad for your health."
+   }
+  ],
+  "chg": "ex fa: ungrammatical Persian sentence repaired"
+ },
+ {
+  "id": "陌生",
+  "fa": [
+   "ناآشنا",
+   "غریب (ناشناس)"
+  ],
+  "en": [
+   "unfamiliar",
+   "strange"
+  ],
+  "ex": [
+   {
+    "zh": "在陌生的城市，他有点儿害怕。",
+    "py": "Zài mòshēng de chéngshì, tā yǒudiǎnr hàipà.",
+    "fa": "در شهر ناآشنا کمی ترسیده بود.",
+    "en": "In an unfamiliar city, he felt a little scared."
+   }
+  ],
+  "chg": "fa: 'غریبه' is a noun (stranger); adjective forms given"
+ },
+ {
+  "id": "扶",
+  "fa": [
+   "زیر بازوی کسی را گرفتن",
+   "با دست گرفتن (برای تکیه)",
+   "بلند کردن (افتاده)"
+  ],
+  "en": [
+   "to support by the arm",
+   "to hold onto",
+   "to help up"
+  ],
+  "ex": [
+   {
+    "zh": "他扶着老人慢慢地过马路。",
+    "py": "Tā fú zhe lǎorén mànmàn de guò mǎlù.",
+    "fa": "او بازوی پیرمرد را گرفت و آرام از خیابان رد شد.",
+    "en": "He helped the old man slowly across the road."
+   }
+  ],
+  "chg": "fa: 'تکیه دادن' (to lean) wrong; glosses for supporting with the hand / helping up"
+ },
+ {
+  "id": "构成",
+  "fa": [
+   "تشکیل دادن",
+   "ساختار (ترکیب)"
+  ],
+  "en": [
+   "to constitute",
+   "composition"
+  ],
+  "note": "هم فعل است و هم اسم: 人口的构成 (ترکیب جمعیت).",
+  "ex": [
+   {
+    "zh": "水是由氢和氧构成的。",
+    "py": "Shuǐ shì yóu qīng hé yǎng gòuchéng de.",
+    "fa": "آب از هیدروژن و اکسیژن تشکیل شده است.",
+    "en": "Water is composed of hydrogen and oxygen."
+   }
+  ],
+  "chg": "note: wrongly said noun sense is higher-level; pos is v+n at this level, noun gloss added"
+ },
+ {
+  "id": "不良",
+  "fa": [
+   "نامطلوب",
+   "ناسالم (عادت، تأثیر)"
+  ],
+  "en": [
+   "undesirable",
+   "unhealthy"
+  ],
+  "ex": [
+   {
+    "zh": "不良习惯会影响健康。",
+    "py": "Bùliáng xíguàn huì yǐngxiǎng jiànkāng.",
+    "fa": "عادت‌های بد بر سلامتی اثر می‌گذارند.",
+    "en": "Bad habits can affect your health."
+   }
+  ],
+  "chg": "fa: 'بد' too ambiguous for recall; 不良 = undesirable/unhealthy"
+ },
+ {
+  "id": "平台",
+  "fa": [
+   "پلتفرم (بستر اینترنتی)",
+   "سکو",
+   "تراس"
+  ],
+  "en": [
+   "platform (online)",
+   "raised platform",
+   "terrace"
+  ],
+  "ex": [
+   {
+    "zh": "这个网络平台有很多用户。",
+    "py": "Zhège wǎngluò píngtái yǒu hěn duō yònghù.",
+    "fa": "این پلتفرم اینترنتی کاربران زیادی دارد.",
+    "en": "This online platform has many users."
+   }
+  ],
+  "chg": "fa/en mismatch (سکو vs terrace); senses aligned and disambiguated"
+ },
+ {
+  "id": "观念",
+  "fa": [
+   "نگرش",
+   "باور",
+   "طرز فکر"
+  ],
+  "en": [
+   "outlook",
+   "notion",
+   "way of thinking"
+  ],
+  "ex": [
+   {
+    "zh": "老人和年轻人的观念不一样。",
+    "py": "Lǎorén hé niánqīngrén de guānniàn bù yíyàng.",
+    "fa": "طرز فکر پیران و جوانان یکسان نیست.",
+    "en": "Old and young people have different views."
+   }
+  ],
+  "chg": "fa: 'مفهوم' (概念) is the wrong leading sense; 观念 = outlook/belief"
+ },
+ {
+  "id": "催",
+  "fa": [
+   "به عجله واداشتن",
+   "با اصرار پیگیری کردن"
+  ],
+  "en": [
+   "to urge",
+   "to hurry (someone)"
+  ],
+  "ex": [
+   {
+    "zh": "妈妈一直催我快点儿起床。",
+    "py": "Māma yìzhí cuī wǒ kuài diǎnr qǐ chuáng.",
+    "fa": "مادرم مدام اصرار می‌کرد که زودتر از رختخواب بلند شوم.",
+    "en": "Mom kept urging me to get up quickly."
+   }
+  ],
+  "chg": "fa: unnatural 'عجله انداختن' and wrong 'هل می‌دهد' (pushes) in example"
+ }
+]

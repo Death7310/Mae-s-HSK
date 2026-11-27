@@ -1,0 +1,276 @@
+[
+ {
+  "id": "床单",
+  "fa": [
+   "ملافه",
+   "ملحفه (روی تشک)"
+  ],
+  "en": [
+   "bed sheet"
+  ],
+  "ex": [
+   {
+    "zh": "这条床单该洗了。",
+    "py": "Zhè tiáo chuángdān gāi xǐ le.",
+    "fa": "این ملافه باید شسته شود.",
+    "en": "This bed sheet needs washing."
+   }
+  ],
+  "chg": "fa: removed 'رو تختی' (means bedspread, not sheet); added variant spelling"
+ },
+ {
+  "id": "试用",
+  "fa": [
+   "آزمایشی استفاده کردن",
+   "دورهٔ آزمایشی گذراندن (کار)"
+  ],
+  "en": [
+   "to try out",
+   "to be on probation"
+  ],
+  "ex": [
+   {
+    "zh": "你可以先试用这个软件。",
+    "py": "Nǐ kěyǐ xiān shìyòng zhège ruǎnjiàn.",
+    "fa": "می‌توانی اول این نرم‌افزار را آزمایشی امتحان کنی.",
+    "en": "You can try this software out first."
+   }
+  ],
+  "chg": "fa: unnatural gloss and missing ezafe hamza; reworded"
+ },
+ {
+  "id": "邮局",
+  "fa": [
+   "ادارهٔ پست",
+   "پستخانه"
+  ],
+  "en": [
+   "post office"
+  ],
+  "ex": [
+   {
+    "zh": "邮局就在银行旁边。",
+    "py": "Yóujú jiù zài yínháng pángbiān.",
+    "fa": "ادارهٔ پست درست کنار بانک است.",
+    "en": "The post office is right next to the bank."
+   }
+  ],
+  "chg": "fa: ezafe on silent he (ادارهٔ پست)"
+ },
+ {
+  "id": "昆虫",
+  "fa": [
+   "حشره"
+  ],
+  "en": [
+   "insect"
+  ],
+  "ex": [
+   {
+    "zh": "夏天的晚上有很多昆虫。",
+    "py": "Xiàtiān de wǎnshang yǒu hěn duō kūnchóng.",
+    "fa": "شب‌های تابستان حشره‌های زیادی هست.",
+    "en": "There are many insects on summer nights."
+   }
+  ],
+  "chg": "ex.fa: ungrammatical singular (حشرهٔ زیادی) -> plural"
+ },
+ {
+  "id": "舍得",
+  "fa": [
+   "دریغ نکردن (از خرج کردن یا دادن چیزی)",
+   "دل کندن (از چیزی)"
+  ],
+  "en": [
+   "to not begrudge",
+   "to be willing to part with"
+  ],
+  "note": "ضد آن «舍不得» است: دلش نمی‌آید.",
+  "ex": [
+   {
+    "zh": "他舍得花钱给孩子买书。",
+    "py": "Tā shěde huā qián gěi háizi mǎi shū.",
+    "fa": "او از خرج کردن برای خریدن کتاب برای بچه‌اش دریغ نمی‌کند.",
+    "en": "He is willing to spend money buying books for his child."
+   }
+  ],
+  "chg": "fa: second gloss not a citation form; replaced with natural infinitive, commonest sense first"
+ },
+ {
+  "id": "随手",
+  "fa": [
+   "در همان حال و بی‌زحمت (سرِ دست)",
+   "ضمن کار دیگر"
+  ],
+  "en": [
+   "while at it",
+   "in passing"
+  ],
+  "ex": [
+   {
+    "zh": "出门时请随手关灯。",
+    "py": "Chūmén shí qǐng suíshǒu guān dēng.",
+    "fa": "هنگام بیرون رفتن لطفاً سرِ راه چراغ را خاموش کنید.",
+    "en": "Please turn off the light on your way out."
+   }
+  ],
+  "chg": "fa: second gloss wrong ('accidentally'); both reworded to the 'while at it, with no extra effort' sense"
+ },
+ {
+  "id": "汗水",
+  "fa": [
+   "عرق (بدن)"
+  ],
+  "en": [
+   "sweat",
+   "perspiration"
+  ],
+  "ex": [
+   {
+    "zh": "汗水流进了他的眼睛。",
+    "py": "Hànshuǐ liújìn le tā de yǎnjing.",
+    "fa": "عرق توی چشمش ریخت.",
+    "en": "Sweat ran into his eyes."
+   }
+  ],
+  "chg": "fa: bare عرق is ambiguous (also liquor); disambiguated, dropped redundant gloss"
+ },
+ {
+  "id": "超速",
+  "fa": [
+   "با سرعت غیرمجاز راندن",
+   "از سرعت مجاز تجاوز کردن"
+  ],
+  "en": [
+   "to speed",
+   "to exceed the speed limit"
+  ],
+  "ex": [
+   {
+    "zh": "在高速公路上开车不要超速。",
+    "py": "Zài gāosù gōnglù shang kāichē bú yào chāosù.",
+    "fa": "در بزرگراه با سرعت غیرمجاز رانندگی نکن.",
+    "en": "Don't speed when driving on the highway."
+   }
+  ],
+  "chg": "fa: unnatural gloss/translation (سرعت غیرمجاز رفتن); example lengthened to level range"
+ },
+ {
+  "id": "增进",
+  "fa": [
+   "تقویت کردن (دوستی، شناخت)",
+   "افزایش دادن"
+  ],
+  "en": [
+   "to enhance",
+   "to promote"
+  ],
+  "ex": [
+   {
+    "zh": "多交流能增进彼此的了解。",
+    "py": "Duō jiāoliú néng zēngjìn bǐcǐ de liǎojiě.",
+    "fa": "گفت‌وگوی بیشتر شناخت دو طرف از یکدیگر را افزایش می‌دهد.",
+    "en": "Communicating more can improve mutual understanding."
+   }
+  ],
+  "chg": "fa: 'بهبود بخشیدن' inexact; example made more natural and in length range"
+ },
+ {
+  "id": "深远",
+  "fa": [
+   "ژرف و ماندگار (تأثیر، اهمیت)",
+   "دامنه‌دار"
+  ],
+  "en": [
+   "far-reaching",
+   "profound"
+  ],
+  "ex": [
+   {
+    "zh": "这件事影响深远。",
+    "py": "Zhè jiàn shì yǐngxiǎng shēnyuǎn.",
+    "fa": "این رویداد تأثیری ژرف و ماندگار دارد.",
+    "en": "This matter has a far-reaching influence."
+   }
+  ],
+  "chg": "fa: 'دورگستر' is not a Persian word; replaced"
+ },
+ {
+  "id": "音量",
+  "fa": [
+   "بلندی صدا",
+   "میزان صدا (ولوم)"
+  ],
+  "en": [
+   "volume",
+   "loudness"
+  ],
+  "ex": [
+   {
+    "zh": "请把音量调小一点。",
+    "py": "Qǐng bǎ yīnliàng tiáo xiǎo yìdiǎn.",
+    "fa": "لطفاً صدا را کمی کم کن.",
+    "en": "Please turn the volume down a little."
+   }
+  ],
+  "chg": "fa: 'حجم صدا' is a calque of 'volume'; natural terms"
+ },
+ {
+  "id": "涨价",
+  "fa": [
+   "گران شدن",
+   "بالا رفتن قیمت"
+  ],
+  "en": [
+   "to rise in price",
+   "to increase in price"
+  ],
+  "ex": [
+   {
+    "zh": "最近水果涨价了。",
+    "py": "Zuìjìn shuǐguǒ zhǎngjià le.",
+    "fa": "اخیراً میوه گران شده است.",
+    "en": "Fruit has gone up in price recently."
+   }
+  ],
+  "chg": "fa: second gloss was a noun for a verb entry"
+ },
+ {
+  "id": "近日",
+  "fa": [
+   "این روزها",
+   "روزهای اخیر"
+  ],
+  "en": [
+   "recently",
+   "in the past few days"
+  ],
+  "ex": [
+   {
+    "zh": "近日天气一直很热。",
+    "py": "Jìnrì tiānqì yìzhí hěn rè.",
+    "fa": "این روزها هوا مدام گرم بوده است.",
+    "en": "The weather has been very hot recently."
+   }
+  ],
+  "chg": "ex.fa: 'همیشه' mistranslates 一直 here"
+ },
+ {
+  "id": "火锅",
+  "fa": [
+   "هات‌پات (دیگ جوشان چینی)"
+  ],
+  "en": [
+   "hotpot"
+  ],
+  "ex": [
+   {
+    "zh": "冬天我们常吃火锅。",
+    "py": "Dōngtiān wǒmen cháng chī huǒguō.",
+    "fa": "زمستان‌ها اغلب هات‌پات می‌خوریم.",
+    "en": "We often eat hotpot in winter."
+   }
+  ],
+  "chg": "fa: removed misleading 'آبگوشت چینی'; transliteration plus explanation"
+ }
+]

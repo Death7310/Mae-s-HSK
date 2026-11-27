@@ -1,14 +1,1 @@
-[
- {
-  "id": "带动",
-  "issue": "example 1: pinyin letters differ: expected ~lvyoudaidongliaodangdidejingji, got lvyoudaidongledangdidejingji"
- },
- {
-  "id": "问卷",
-  "issue": "example 1: tone of 卷: expected 3, got 4"
- },
- {
-  "id": "音量",
-  "issue": "example 1: pinyin letters differ: expected ~qingbayinliangdiaoxiaoyidian, got qingbayinliangtiaoxiaoyidian"
- }
-]
+[]

@@ -1,0 +1,186 @@
+[
+ {
+  "id": "性质",
+  "fa": [
+   "ماهیت",
+   "ویژگی"
+  ],
+  "en": [
+   "nature",
+   "characteristic"
+  ],
+  "ex": [
+   {
+    "zh": "这两个问题的性质完全不同。",
+    "py": "Zhè liǎng ge wèntí de xìngzhì wánquán bùtóng.",
+    "fa": "ماهیت این دو مسئله کاملاً با هم فرق دارد.",
+    "en": "The nature of these two problems is completely different."
+   }
+  ],
+  "chg": "py: 不同 is one word (bùtóng)"
+ },
+ {
+  "id": "大力",
+  "fa": [
+   "با تمام قوا",
+   "با جدیت",
+   "نیروی زیاد"
+  ],
+  "en": [
+   "vigorously",
+   "energetically",
+   "great strength"
+  ],
+  "note": "بیشتر به‌صورت قید پیش از فعل می‌آید: 大力发展، 大力支持.",
+  "ex": [
+   {
+    "zh": "政府大力发展农业。",
+    "py": "Zhèngfǔ dàlì fāzhǎn nóngyè.",
+    "fa": "دولت با تمام قوا کشاورزی را توسعه می‌دهد.",
+    "en": "The government is vigorously developing agriculture."
+   }
+  ],
+  "chg": "fa/en: official pos includes noun, added 'great strength'; 'قاطعانه' (decisively) replaced by 'با جدیت'; note reworded"
+ },
+ {
+  "id": "神话",
+  "fa": [
+   "اسطوره",
+   "افسانه"
+  ],
+  "en": [
+   "myth",
+   "mythology"
+  ],
+  "ex": [
+   {
+    "zh": "小时候我很喜欢听神话故事。",
+    "py": "Xiǎoshíhou wǒ hěn xǐhuan tīng shénhuà gùshi.",
+    "fa": "در کودکی خیلی دوست داشتم داستان‌های اسطوره‌ای بشنوم.",
+    "en": "As a child I loved listening to myth stories."
+   }
+  ],
+  "chg": "en: 'fairy tale' is 童话, not 神话 -> 'mythology'"
+ },
+ {
+  "id": "紧密",
+  "fa": [
+   "نزدیک و پیوسته",
+   "فشرده"
+  ],
+  "en": [
+   "close",
+   "tight"
+  ],
+  "ex": [
+   {
+    "zh": "两国之间的关系非常紧密。",
+    "py": "Liǎng guó zhījiān de guānxi fēicháng jǐnmì.",
+    "fa": "روابط میان دو کشور بسیار نزدیک است.",
+    "en": "Relations between the two countries are very close."
+   }
+  ],
+  "chg": "py: 关系 has neutral second syllable (guānxi)"
+ },
+ {
+  "id": "铃",
+  "fa": [
+   "زنگ",
+   "زنگوله"
+  ],
+  "en": [
+   "bell",
+   "small bell"
+  ],
+  "ex": [
+   {
+    "zh": "下课铃响了，学生们走出了教室。",
+    "py": "Xiàkè líng xiǎng le, xuéshengmen zǒuchū le jiàoshì.",
+    "fa": "زنگ پایان کلاس خورد و دانش‌آموزان از کلاس بیرون رفتند.",
+    "en": "The bell rang for the end of class, and the students left the classroom."
+   }
+  ],
+  "chg": "ex: 小铃 unnatural (natives say 小铃铛) -> natural sentence with 铃 as bell; fa gloss order: general 'زنگ' first"
+ },
+ {
+  "id": "语音",
+  "fa": [
+   "آواهای گفتاری",
+   "صدا (گفتار)"
+  ],
+  "en": [
+   "speech sounds",
+   "voice (speech)"
+  ],
+  "note": "در کاربرد امروزی «پیام صوتی» هم معنا می‌دهد: 语音消息.",
+  "ex": [
+   {
+    "zh": "这个软件可以把语音变成文字。",
+    "py": "Zhège ruǎnjiàn kěyǐ bǎ yǔyīn biànchéng wénzì.",
+    "fa": "این نرم‌افزار می‌تواند صدا را به متن تبدیل کند.",
+    "en": "This software can turn speech into text."
+   }
+  ],
+  "chg": "fa/en: 'تلفظ' is 发音; 语音 is speech sounds / voice"
+ },
+ {
+  "id": "夜间",
+  "fa": [
+   "شب",
+   "هنگام شب"
+  ],
+  "en": [
+   "nighttime",
+   "at night"
+  ],
+  "ex": [
+   {
+    "zh": "夜间开车一定要小心。",
+    "py": "Yèjiān kāichē yídìng yào xiǎoxīn.",
+    "fa": "هنگام رانندگی در شب حتماً باید احتیاط کرد.",
+    "en": "You must be careful when driving at night."
+   }
+  ],
+  "chg": "ex fa: ungrammatical/awkward Persian sentence rewritten"
+ },
+ {
+  "id": "病房",
+  "fa": [
+   "اتاق بیمار (در بیمارستان)",
+   "اتاق بستری"
+  ],
+  "en": [
+   "hospital room",
+   "ward"
+  ],
+  "ex": [
+   {
+    "zh": "病房里很安静，大家都在休息。",
+    "py": "Bìngfáng lǐ hěn ānjìng, dàjiā dōu zài xiūxi.",
+    "fa": "اتاق بیماران خیلی ساکت است و همه دارند استراحت می‌کنند.",
+    "en": "The hospital room is very quiet; everyone is resting."
+   }
+  ],
+  "chg": "fa: 病房 is the patients' room, not a hospital department; reordered and disambiguated"
+ },
+ {
+  "id": "外部",
+  "fa": [
+   "بیرون (بخش بیرونی)",
+   "خارج (از یک مجموعه)"
+  ],
+  "en": [
+   "the outside",
+   "external"
+  ],
+  "ex": [
+   {
+    "zh": "解决这个问题不能只靠外部的帮助。",
+    "py": "Jiějué zhège wèntí bù néng zhǐ kào wàibù de bāngzhù.",
+    "fa": "برای حل این مشکل نمی‌توان فقط به کمک بیرونی تکیه کرد.",
+    "en": "We can't rely only on outside help to solve this problem."
+   }
+  ],
+  "chg": "ex: 外部的声音 unnatural (natives say 外面) -> rewritten; fa 'خارجی' ambiguous (foreign) disambiguated"
+ }
+]

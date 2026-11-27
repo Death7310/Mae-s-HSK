@@ -1,0 +1,211 @@
+[
+ {
+  "id": "肌肉",
+  "fa": [
+   "ماهیچه",
+   "عضله"
+  ],
+  "en": [
+   "muscle"
+  ],
+  "ex": [
+   {
+    "zh": "他每天运动，肌肉很结实。",
+    "py": "Tā měi tiān yùndòng, jīròu hěn jiēshi.",
+    "fa": "او هر روز ورزش می‌کند و ماهیچه‌هایش محکم است.",
+    "en": "He exercises every day and his muscles are firm."
+   }
+  ],
+  "chg": "en: dropped \"flesh\", which has no Persian counterpart (fa glosses are both \"muscle\")"
+ },
+ {
+  "id": "安慰",
+  "fa": [
+   "دلداری دادن",
+   "تسلی دادن",
+   "تسلی‌یافته (آسوده‌خاطر)"
+  ],
+  "en": [
+   "to comfort",
+   "to console",
+   "comforted"
+  ],
+  "ex": [
+   {
+    "zh": "她哭了，朋友们都来安慰她。",
+    "py": "Tā kū le, péngyoumen dōu lái ānwèi tā.",
+    "fa": "او گریه کرد و دوستانش همه آمدند تا دلداری‌اش بدهند.",
+    "en": "She cried, and her friends all came to comfort her."
+   }
+  ],
+  "chg": "fa/en: added the adjective sense required by official pos (v, a)"
+ },
+ {
+  "id": "培训",
+  "fa": [
+   "آموزش دادن (کارکنان)",
+   "دورهٔ آموزشی گذراندن"
+  ],
+  "en": [
+   "to train (staff)",
+   "to undergo training"
+  ],
+  "ex": [
+   {
+    "zh": "公司下个星期培训新同事。",
+    "py": "Gōngsī xià ge xīngqī péixùn xīn tóngshì.",
+    "fa": "شرکت هفتهٔ آینده همکاران جدید را آموزش می‌دهد.",
+    "en": "The company will train the new colleagues next week."
+   }
+  ],
+  "chg": "en: second gloss \"training\" (noun) did not match fa \"to undergo training\"; fa first gloss disambiguated"
+ },
+ {
+  "id": "大众",
+  "fa": [
+   "عموم مردم",
+   "تودهٔ مردم"
+  ],
+  "en": [
+   "the masses",
+   "the public"
+  ],
+  "note": "Dàzhòng با حرف بزرگ نام خودروساز فولکس‌واگن هم هست.",
+  "ex": [
+   {
+    "zh": "这种音乐很受大众欢迎。",
+    "py": "Zhè zhǒng yīnyuè hěn shòu dàzhòng huānyíng.",
+    "fa": "این نوع موسیقی میان عموم مردم محبوب است.",
+    "en": "This kind of music is popular with the general public."
+   }
+  ],
+  "chg": "fa: missing ezafe هٔ (تودهٔ مردم); note: wrong pinyin spacing \"Dà zhòng\" -> Dàzhòng"
+ },
+ {
+  "id": "相对",
+  "fa": [
+   "نسبی",
+   "نسبتاً",
+   "روبه‌روی هم بودن"
+  ],
+  "en": [
+   "relative",
+   "relatively",
+   "to face each other"
+  ],
+  "ex": [
+   {
+    "zh": "这里的冬天相对比较暖和。",
+    "py": "Zhèlǐ de dōngtiān xiāngduì bǐjiào nuǎnhuo.",
+    "fa": "زمستان اینجا نسبتاً گرم است.",
+    "en": "Winter here is relatively warm."
+   }
+  ],
+  "chg": "fa: stray ZWNJ in رو‌به‌رو -> روبه‌رو; verb sense given as verb (official pos v, a); order kept"
+ },
+ {
+  "id": "拥抱",
+  "fa": [
+   "در آغوش گرفتن",
+   "بغل کردن"
+  ],
+  "en": [
+   "to embrace",
+   "to hug"
+  ],
+  "ex": [
+   {
+    "zh": "他们见面时紧紧地拥抱在一起。",
+    "py": "Tāmen jiànmiàn shí jǐnjǐn de yōngbào zài yìqǐ.",
+    "fa": "آن‌ها وقتی همدیگر را دیدند، یکدیگر را محکم در آغوش گرفتند.",
+    "en": "When they met, they hugged each other tightly."
+   }
+  ],
+  "chg": "ex: bare 紧紧地拥抱 ends abruptly -> 拥抱在一起; fa \"در آغوش هم کشیدند\" unidiomatic"
+ },
+ {
+  "id": "计算机",
+  "fa": [
+   "رایانه",
+   "کامپیوتر"
+  ],
+  "en": [
+   "computer"
+  ],
+  "note": "واحد شمارش معمول: 台.",
+  "ex": [
+   {
+    "zh": "这台计算机已经很旧了。",
+    "py": "Zhè tái jìsuànjī yǐjīng hěn jiù le.",
+    "fa": "این رایانه دیگر خیلی کهنه شده است.",
+    "en": "This computer is already very old."
+   }
+  ],
+  "chg": "fa/en: removed \"calculator\" (Taiwan-only sense; mainland uses 计算器)"
+ },
+ {
+  "id": "劝",
+  "fa": [
+   "نصیحت کردن",
+   "ترغیب کردن (به کاری)"
+  ],
+  "en": [
+   "to advise",
+   "to urge"
+  ],
+  "ex": [
+   {
+    "zh": "朋友劝我早点休息。",
+    "py": "Péngyou quàn wǒ zǎodiǎn xiūxi.",
+    "fa": "دوستم به من توصیه کرد زودتر استراحت کنم.",
+    "en": "My friend urged me to rest earlier."
+   }
+  ],
+  "chg": "fa: \"قانع کردن\" implies success; 劝 is to urge / try to persuade"
+ },
+ {
+  "id": "匹",
+  "fa": [
+   "واحد شمارش برای اسب (رأس) و توپ پارچه"
+  ],
+  "en": [
+   "classifier for horses",
+   "classifier for bolts of cloth"
+  ],
+  "ex": [
+   {
+    "zh": "草地上有三匹马。",
+    "py": "Cǎodì shàng yǒu sān pǐ mǎ.",
+    "fa": "روی چمن سه اسب هست.",
+    "en": "There are three horses on the grass."
+   },
+   {
+    "zh": "他买了一匹布。",
+    "py": "Tā mǎi le yì pǐ bù.",
+    "fa": "او یک توپ پارچه خرید.",
+    "en": "He bought a bolt of cloth."
+   }
+  ],
+  "chg": "fa: \"قواره پارچه\" lacked ezafe and is not a bolt; standard term is توپ پارچه (as in the example); nearest Persian counters added"
+ },
+ {
+  "id": "冻",
+  "fa": [
+   "یخ زدن",
+   "سرمازده شدن"
+  ],
+  "en": [
+   "to freeze",
+   "to feel very cold"
+  ],
+  "ex": [
+   {
+    "zh": "外面太冷了，我的手都冻僵了。",
+    "py": "Wàimiàn tài lěng le, wǒ de shǒu dōu dòng jiāng le.",
+    "fa": "بیرون خیلی سرد است و دست‌هایم از سرما بی‌حس شده‌اند.",
+    "en": "It's so cold outside that my hands are frozen stiff."
+   }
+  ],
+  "chg": "ex: 手都冻了 is unnatural without a complement -> 冻僵了; translations updated"
+ }
+]

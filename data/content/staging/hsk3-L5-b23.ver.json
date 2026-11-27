@@ -1,0 +1,280 @@
+[
+ {
+  "id": "主观",
+  "fa": [
+   "ذهنی (در برابر عینی)",
+   "مبتنی بر نظر شخصی"
+  ],
+  "en": [
+   "subjective"
+  ],
+  "ex": [
+   {
+    "zh": "你不要太主观，先听听别人的想法。",
+    "py": "Nǐ bú yào tài zhǔguān, xiān tīngting biéren de xiǎngfǎ.",
+    "fa": "این‌قدر فقط از دید خودت قضاوت نکن، اول نظر دیگران را بشنو.",
+    "en": "Don't be too subjective; listen to others' ideas first."
+   }
+  ],
+  "chg": "fa: glosses disambiguated; ex fa: unnatural «ذهنی قضاوت نکن» reworded"
+ },
+ {
+  "id": "缩短",
+  "fa": [
+   "کوتاه کردن",
+   "کاهش دادن (مدت یا فاصله)"
+  ],
+  "en": [
+   "to shorten",
+   "to cut down"
+  ],
+  "ex": [
+   {
+    "zh": "新的地铁缩短了我上班的时间。",
+    "py": "Xīn de dìtiě suōduǎn le wǒ shàngbān de shíjiān.",
+    "fa": "متروی جدید زمان رفت‌وآمد من به سر کار را کوتاه کرد.",
+    "en": "The new subway shortened my commute."
+   }
+  ],
+  "chg": "ex fa: missing ezafe (متروی جدید)"
+ },
+ {
+  "id": "长途",
+  "fa": [
+   "راه دور",
+   "مسافت طولانی"
+  ],
+  "en": [
+   "long-distance"
+  ],
+  "ex": [
+   {
+    "zh": "他坐了一天的长途汽车。",
+    "py": "Tā zuò le yì tiān de chángtú qìchē.",
+    "fa": "او یک روز تمام با اتوبوس بین‌شهری سفر کرد.",
+    "en": "He spent a whole day on a long-distance bus."
+   }
+  ],
+  "chg": "fa: «دوربرد» means long-range (weapons), wrong collocation -> «راه دور»"
+ },
+ {
+  "id": "广大",
+  "fa": [
+   "وسیع (پهناور)",
+   "پرشمار (انبوه مردم)"
+  ],
+  "en": [
+   "vast",
+   "numerous (of people)"
+  ],
+  "ex": [
+   {
+    "zh": "这个节目受到了广大观众的欢迎。",
+    "py": "Zhège jiémù shòudào le guǎngdà guānzhòng de huānyíng.",
+    "fa": "این برنامه با استقبال انبوه تماشاگران روبه‌رو شد.",
+    "en": "This program was well received by the broad audience."
+   }
+  ],
+  "chg": "fa: people sense is \"numerous\", not «گسترده»; ex: 广大的草地 unnatural, rewritten with typical collocation"
+ },
+ {
+  "id": "总数",
+  "fa": [
+   "مجموع",
+   "تعداد کل"
+  ],
+  "en": [
+   "total",
+   "sum"
+  ],
+  "ex": [
+   {
+    "zh": "参加比赛的学生总数是两百人。",
+    "py": "Cānjiā bǐsài de xuésheng zǒngshù shì liǎng bǎi rén.",
+    "fa": "تعداد کل دانش‌آموزان شرکت‌کننده در مسابقه دویست نفر است.",
+    "en": "The total number of students taking part in the contest is two hundred."
+   }
+  ],
+  "chg": "ex: redundant 人数总数 rewritten"
+ },
+ {
+  "id": "存放",
+  "fa": [
+   "نگهداری کردن (در جایی گذاشتن)",
+   "به امانت گذاشتن"
+  ],
+  "en": [
+   "to store",
+   "to deposit"
+  ],
+  "ex": [
+   {
+    "zh": "你可以把行李存放在这里。",
+    "py": "Nǐ kěyǐ bǎ xíngli cúnfàng zài zhèlǐ.",
+    "fa": "می‌توانی چمدان‌هایت را اینجا بگذاری.",
+    "en": "You can leave your luggage here."
+   }
+  ],
+  "chg": "fa: «نگه داشتن» ambiguous (to hold/stop) -> «نگهداری کردن»"
+ },
+ {
+  "id": "词汇",
+  "fa": [
+   "واژگان",
+   "دایرهٔ لغات"
+  ],
+  "en": [
+   "vocabulary",
+   "words"
+  ],
+  "ex": [
+   {
+    "zh": "多看中文书可以增加你的词汇。",
+    "py": "Duō kàn Zhōngwén shū kěyǐ zēngjiā nǐ de cíhuì.",
+    "fa": "زیاد خواندن کتاب‌های چینی می‌تواند دایرهٔ واژگانت را بیشتر کند.",
+    "en": "Reading more Chinese books can increase your vocabulary."
+   }
+  ],
+  "chg": "ex: 词汇 is collective, 几个新词汇 is questionable; rewritten"
+ },
+ {
+  "id": "工艺",
+  "fa": [
+   "فن ساخت",
+   "فرایند فنی تولید",
+   "هنرهای صناعی (صنایع دستی)"
+  ],
+  "en": [
+   "craftsmanship",
+   "production technique",
+   "arts and crafts"
+  ],
+  "ex": [
+   {
+    "zh": "这个杯子的工艺很精细。",
+    "py": "Zhège bēizi de gōngyì hěn jīngxì.",
+    "fa": "ساخت این لیوان بسیار ظریف است.",
+    "en": "The craftsmanship of this cup is very fine."
+   }
+  ],
+  "chg": "fa: main sense is craft/production technique, not «صنایع دستی» (that is 工艺品/手工艺); spelling «فناوری»; ex fa made natural"
+ },
+ {
+  "id": "不要紧",
+  "fa": [
+   "مهم نیست",
+   "جدی نیست (اشکالی ندارد)"
+  ],
+  "en": [
+   "not serious",
+   "it doesn't matter"
+  ],
+  "ex": [
+   {
+    "zh": "你的病不要紧，休息几天就好了。",
+    "py": "Nǐ de bìng búyàojǐn, xiūxi jǐ tiān jiù hǎo le.",
+    "fa": "بیماری‌ات جدی نیست، چند روز استراحت کنی خوب می‌شوی.",
+    "en": "Your illness isn't serious; a few days' rest and you'll be fine."
+   }
+  ],
+  "chg": "fa: added \"not serious\" sense; ex: redundant 没关系，不要紧 rewritten"
+ },
+ {
+  "id": "行人",
+  "fa": [
+   "عابر پیاده"
+  ],
+  "en": [
+   "pedestrian"
+  ],
+  "ex": [
+   {
+    "zh": "开车的时候要注意路上的行人。",
+    "py": "Kāi chē de shíhou yào zhùyì lù shang de xíngrén.",
+    "fa": "هنگام رانندگی باید مراقب عابران پیاده در خیابان بود.",
+    "en": "When driving, you must watch out for pedestrians on the road."
+   }
+  ],
+  "chg": "ex: dangling subject (who crosses the road?) rewritten"
+ },
+ {
+  "id": "初级",
+  "fa": [
+   "مقدماتی",
+   "ابتدایی (سطح آغازین)"
+  ],
+  "en": [
+   "elementary",
+   "beginner-level"
+  ],
+  "ex": [
+   {
+    "zh": "我在上初级汉语班。",
+    "py": "Wǒ zài shàng chūjí Hànyǔ bān.",
+    "fa": "من در کلاس چینی مقدماتی درس می‌خوانم.",
+    "en": "I'm in an elementary Chinese class."
+   }
+  ],
+  "chg": "fa: «سطح پایین» sounds like \"low quality\" -> «ابتدایی»"
+ },
+ {
+  "id": "现代化",
+  "fa": [
+   "مدرن‌سازی (نوسازی)",
+   "مدرن کردن"
+  ],
+  "en": [
+   "modernization",
+   "to modernize"
+  ],
+  "ex": [
+   {
+    "zh": "这个城市的现代化速度很快。",
+    "py": "Zhège chéngshì de xiàndàihuà sùdù hěn kuài.",
+    "fa": "سرعت مدرن‌سازی این شهر بسیار زیاد است.",
+    "en": "This city is modernizing very fast."
+   }
+  ],
+  "chg": "fa: verb sense in en had no Persian counterpart; «نوسازی» alone ambiguous (renovation)"
+ },
+ {
+  "id": "跑道",
+  "fa": [
+   "پیست دو",
+   "باند فرودگاه"
+  ],
+  "en": [
+   "running track",
+   "runway"
+  ],
+  "ex": [
+   {
+    "zh": "同学们在跑道上跑步。",
+    "py": "Tóngxuémen zài pǎodào shang pǎobù.",
+    "fa": "همکلاسی‌ها روی پیست دو می‌دوند.",
+    "en": "The classmates are running on the track."
+   }
+  ],
+  "chg": "fa: «مسیر دو» not idiomatic -> «پیست دو»; runway -> «باند فرودگاه»"
+ },
+ {
+  "id": "原有",
+  "fa": [
+   "از قبل موجود",
+   "اولیه (پیشین)"
+  ],
+  "en": [
+   "originally existing",
+   "original (former)"
+  ],
+  "ex": [
+   {
+    "zh": "这座老房子修好以后保留了原有的样子。",
+    "py": "Zhè zuò lǎo fángzi xiū hǎo yǐhòu bǎoliú le yuányǒu de yàngzi.",
+    "fa": "این خانهٔ قدیمی پس از تعمیر ظاهر اولیهٔ خود را حفظ کرده است.",
+    "en": "After being repaired, this old house kept its original look."
+   }
+  ],
+  "chg": "fa: «اصلی» reads as \"main\"; ex: a new house keeping its \"original\" look is illogical, rewritten"
+ }
+]
