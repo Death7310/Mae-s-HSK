@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "id": "坚定",
+  "issue": "example 1: pinyin letters differ: expected ~tadetaidufeichangjiandingshuiyeshuofubuliaota, got tadetaidufeichangjiandingsheiyeshuofubuliaota"
+ },
+ {
+  "id": "尖",
+  "issue": "example 1: pinyin letters differ: expected ~zhezhiqianbixuedehenjianxiezideshihouyaoxiaoxin, got zhezhiqianbixiaodehenjianxiezideshihouyaoxiaoxin"
+ },
+ {
+  "id": "箭",
+  "issue": "example 1: tone of 中: expected 1, got 4"
+ },
+ {
+  "id": "横",
+  "issue": "example 1: pinyin letters differ: expected ~zhexingzinishixianghengzhexiehaishishuzhexie, got zhehangzinishixianghengzhexiehaishishuzhexie"
+ },
+ {
+  "id": "占据",
+  "issue": "example 1: pinyin letters differ: expected ~zhegepinpaizaishichangshangzhanjuzhuozhongyaodediwei, got zhegepinpaizaishichangshangzhanjuzhezhongyaodediwei"
+ }
+]

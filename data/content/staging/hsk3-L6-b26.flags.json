@@ -1,1 +1,30 @@
-[]
+[
+ {
+  "id": "年终",
+  "issue": "example 1: pinyin letters differ: expected ~gongsimeiniannianzhongduhuigeiyuangongfajiangjin, got gongsimeiniannianzhongdouhuigeiyuangongfajiangjin"
+ },
+ {
+  "id": "下功夫",
+  "issue": "example 1: pinyin letters differ: expected ~yaoxiangxuehaowaiyujiudezaitingheshuoshangxiagongfu, got yaoxiangxuehaowaiyujiudeizaitingheshuoshangxiagongfu"
+ },
+ {
+  "id": "颈椎",
+  "issue": "example 1: pinyin letters differ: expected ~zhangshijianditoukanshoujiduijingchuibuhao, got changshijianditoukanshoujiduijingzhuibuhao"
+ },
+ {
+  "id": "胶水",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "近视",
+  "issue": "example 1: pinyin letters differ: expected ~tacongxiaojiujinshiyizhidaizhuoyanjing, got tacongxiaojiujinshiyizhidaizheyanjing"
+ },
+ {
+  "id": "有序",
+  "issue": "example 1: pinyin letters differ: expected ~chengkemenzhengzaiyouxudipaiduishangche, got chengkemenzhengzaiyouxudepaiduishangche"
+ },
+ {
+  "id": "两岸",
+  "issue": "example 1: tone of 种: expected 3, got 4"
+ }
+]

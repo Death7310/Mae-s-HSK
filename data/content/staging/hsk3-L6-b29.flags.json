@@ -1,1 +1,10 @@
-[]
+[
+ {
+  "id": "袖子",
+  "issue": "example 1: pinyin letters differ: expected ~zhejianchenshandexiuzitaizhanglewochuanbuheshi, got zhejianchenshandexiuzitaichanglewochuanbuheshi"
+ },
+ {
+  "id": "血型",
+  "issue": "example 1: pinyin letters differ: expected ~yishengwenwoshishenmexuexingwoshuoshixing, got yishengwenwoshishenmexuexingwoshuoshioxing"
+ }
+]

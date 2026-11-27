@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "id": "打仗",
+  "issue": "example 1: pinyin letters differ: expected ~shuiyebuyuanyikandaolianggeguojiadazhang, got sheiyebuyuanyikandaolianggeguojiadazhang"
+ },
+ {
+  "id": "捕",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "陪同",
+  "issue": "example 1: pinyin letters differ: expected ~xiaozhangpeitongkerenshenguanlexuexiaodetushuguan, got xiaozhangpeitongkerencanguanlexuexiaodetushuguan"
+ }
+]

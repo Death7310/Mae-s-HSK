@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": "墙壁",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "周期",
+  "issue": "example 1: tone of 种: expected 4, got 3"
+ },
+ {
+  "id": "坡",
+  "issue": "example 1: pinyin letters differ: expected ~wojiamenqianyouyigehenzhangdepoqicheshangquhenlei, got wojiamenqianyouyigehenchangdepoqicheshangquhenlei"
+ },
+ {
+  "id": "一模一样",
+  "issue": "example 1: pinyin letters differ: expected ~zheduishuangbaotaizhangdeyimuyiyanglianfumuduhuirencuo, got zheduishuangbaotaizhangdeyimuyiyanglianfumudouhuirencuo"
+ }
+]

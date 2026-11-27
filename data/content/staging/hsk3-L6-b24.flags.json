@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": "急切",
+  "issue": "example 1: pinyin letters differ: expected ~tajiqiedixiangzhidaokaoshijieguo, got tajiqiedexiangzhidaokaoshijieguo"
+ },
+ {
+  "id": "脚印",
+  "issue": "example 1: pinyin letters differ: expected ~xuedishangliuxialeyixingjiaoyin, got xuedishangliuxialeyihangjiaoyin"
+ },
+ {
+  "id": "定价",
+  "issue": "example 1: tone of 为: expected 4, got 2"
+ },
+ {
+  "id": "踏实",
+  "issue": "example 1: tone of 踏: expected 4, got 1"
+ }
+]

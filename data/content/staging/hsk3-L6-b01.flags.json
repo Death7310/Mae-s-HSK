@@ -1,1 +1,54 @@
-[]
+[
+ {
+  "id": "中~2",
+  "issue": "example 1: tone of 中: expected 1, got 4"
+ },
+ {
+  "id": "于",
+  "issue": "example 1: pinyin letters differ: expected ~tayuyijiujiunianchushengyushanghai, got tayuyijiujiulingnianchushengyushanghai"
+ },
+ {
+  "id": "结果~2",
+  "issue": "example 1: tone of 结: expected 2, got 1"
+ },
+ {
+  "id": "转~2",
+  "issue": "example 1: pinyin letters differ: expected ~diqiuweiraozhetaiyangbutingdizhuan, got diqiuweiraozhetaiyangbutingdezhuan"
+ },
+ {
+  "id": "线",
+  "issue": "example 1: tone of 缝: expected 4, got 2"
+ },
+ {
+  "id": "尽",
+  "issue": "example 1: tone of 尽: expected 3, got 4"
+ },
+ {
+  "id": "冲~2",
+  "issue": "example 1: tone of 冲: expected 1, got 4"
+ },
+ {
+  "id": "冲~2",
+  "issue": "example 2: tone of 冲: expected 1, got 4"
+ },
+ {
+  "id": "皮",
+  "issue": "example 1: pinyin letters differ: expected ~chipingguoyiqianzuihaobapixuediao, got chipingguoyiqianzuihaobapixiaodiao"
+ },
+ {
+  "id": "落~2",
+  "issue": "example 1: pinyin letters differ: expected ~wobayaoshiluozaibangongshilile, got wobayaoshilazaibangongshilile"
+ },
+ {
+  "id": "自我",
+  "issue": "example 1: pinyin letters differ: expected ~qingdajiaxianjiandandiziwojieshaoyixia, got qingdajiaxianjiandandeziwojieshaoyixia"
+ },
+ {
+  "id": "犯",
+  "issue": "example 1: pinyin letters differ: expected ~meigerenduhuifancuowuzhongyaodeshigaizheng, got meigerendouhuifancuowuzhongyaodeshigaizheng"
+ },
+ {
+  "id": "射",
+  "issue": "example 1: tone of 中: expected 1, got 4"
+ }
+]

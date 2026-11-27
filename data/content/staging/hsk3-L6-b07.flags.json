@@ -1,1 +1,6 @@
-[]
+[
+ {
+  "id": "情形",
+  "issue": "example 1: pinyin letters differ: expected ~tageiwomenjiangliaodangshideqingxing, got tageiwomenjiangledangshideqingxing"
+ }
+]

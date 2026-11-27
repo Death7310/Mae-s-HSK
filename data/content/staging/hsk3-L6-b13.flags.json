@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "id": "砖",
+  "issue": "example 1: pinyin letters differ: expected ~gongrenmenzhengzaibazhuanyikuaiyikuaidibanshangche, got gongrenmenzhengzaibazhuanyikuaiyikuaidebanshangche"
+ },
+ {
+  "id": "彩票",
+  "issue": "example 1: tone of 中: expected 1, got 4"
+ },
+ {
+  "id": "捐款",
+  "issue": "example 1: tone of 为: expected 2, got 4"
+ },
+ {
+  "id": "合成",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "预料",
+  "issue": "example 1: pinyin letters differ: expected ~shuiyemeiyouyuliaodaobisaihuishizheyangdejieguo, got sheiyemeiyouyuliaodaobisaihuishizheyangdejieguo"
+ }
+]

@@ -50,7 +50,21 @@ before planning a workflow, not on every task).
    and commit `tools/economy/README.md` with it. If the row contradicts a rule
    in that README, correct the rule in the same commit.
 
-If you are a subagent: your task prompt outranks this section. Read only the
+## Current state and next steps
+
+Update this when it changes. Figures: the status table in `README.md`.
+
+- New HSK 1–6 is complete: words, dialogues and grammar, written and reviewed by
+  models. No entry is checked by a person yet.
+- Next: the native-speaker check, starting with `data/content/NATIVE_CHECK.md`
+  and levels 3–5. After it: old-HSK-only words
+  (`tools/content_status.py --pending hsk2-L5`, `hsk2-L6`), levels 7–9, a
+  tone-pair trainer, sentence translation.
+- Before content or data work in a new container: `pip install pypinyin` and
+  `npm ci` in `app/`. The checkers and `tools/build_data.py` stop without them.
+- After a data rebuild: `cd app && npm test && npm run build && node tests/e2e/smoke.mjs`.
+
+If you are a subagent: your task prompt outranks the "Token economy" section. Read only the
 files it names; do not load a skill unless the task names it; do not start
 further agents; return exactly the schema or length asked for; write files only
 where the task says. Rules 1–3 and 7 are for the main conversation.

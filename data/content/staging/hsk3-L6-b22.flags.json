@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "id": "摆放",
+  "issue": "example 1: pinyin letters differ: expected ~zhuozishangzhengqidibaifangzhejibenxinshu, got zhuozishangzhengqidebaifangzhejibenxinshu"
+ },
+ {
+  "id": "面粉",
+  "issue": "example 1: pinyin letters differ: expected ~baojiaoziyiqianwomendexianqumaiyidaimianfen, got baojiaoziyiqianwomendeixianqumaiyidaimianfen"
+ },
+ {
+  "id": "滑冰",
+  "issue": "example 1: pinyin letters differ: expected ~dongtianhumianjiebingyihouhenduorenlaizheerhuabing, got dongtianhumianjiebingyihouhenduorenlaizherhuabing"
+ },
+ {
+  "id": "地质",
+  "issue": "example 1: pinyin letters differ: expected ~xiujianzhetiaotieluyiqianzhuanjiamenxiandiaochaliaodangdidedizhiqingkuang, got xiujianzhetiaotieluyiqianzhuanjiamenxiandiaochaledangdidedizhiqingkuang"
+ },
+ {
+  "id": "大都",
+  "issue": "example 1: pinyin letters differ: expected ~laizheerlvyouderendadoushicongnanfanglaide, got laizherlvyouderendadushicongnanfanglaide"
+ },
+ {
+  "id": "潮湿",
+  "issue": "example 1: tone of 干: expected 4, got 1"
+ }
+]

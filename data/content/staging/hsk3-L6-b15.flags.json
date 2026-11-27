@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "id": "券",
+  "issue": "example 1: tone of 当: expected 1, got 4"
+ },
+ {
+  "id": "岸",
+  "issue": "example 1: pinyin letters differ: expected ~xiaochuanmanmandikaoleandajiadouxialechuan, got xiaochuanmanmandekaoleandajiadouxialechuan"
+ },
+ {
+  "id": "联想",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "盛",
+  "issue": "example 1: pinyin letters differ: expected ~nizuozhebawoqugeinishengyiwantang, got nizuozhebawoqugeinichengyiwantang"
+ },
+ {
+  "id": "发放",
+  "issue": "example 1: tone of 发: expected 4, got 1"
+ },
+ {
+  "id": "歌唱",
+  "issue": "example 1: pinyin letters differ: expected ~niaoerzaishushangkuailedigechangchuntianlaile, got niaorzaishushangkuailedegechangchuntianlaile"
+ }
+]

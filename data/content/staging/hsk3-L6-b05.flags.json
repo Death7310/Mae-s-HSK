@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": "教训",
+  "issue": "example 1: pinyin letters differ: expected ~tayoushuohuanglebabahenhendijiaoxunletayidun, got tayoushuohuanglebabahenhendejiaoxunletayidun"
+ },
+ {
+  "id": "定位",
+  "issue": "example 1: pinyin letters differ: expected ~zhegeshoujiruanjiankeyizhunquedidingweinideweizhi, got zhegeshoujiruanjiankeyizhunquededingweinideweizhi"
+ },
+ {
+  "id": "撑",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "摆脱",
+  "issue": "example 1: pinyin letters differ: expected ~tahualehenzhangshijiancaibaituolenacishibaideyingxiang, got tahualehenchangshijiancaibaituolenacishibaideyingxiang"
+ }
+]

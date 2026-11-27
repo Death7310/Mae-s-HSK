@@ -1,1 +1,30 @@
-[]
+[
+ {
+  "id": "解答",
+  "issue": "example 1: pinyin letters differ: expected ~laoshinaixindijiedaletongxuementichudewenti, got laoshinaixindejiedaletongxuementichudewenti"
+ },
+ {
+  "id": "前期",
+  "issue": "example 1: pinyin letters differ: expected ~zhegexiangmudiqianqizhunbeigongzuoyijingwanchengle, got zhegexiangmudeqianqizhunbeigongzuoyijingwanchengle"
+ },
+ {
+  "id": "祖先",
+  "issue": "example 1: tone of 种: expected 3, got 4"
+ },
+ {
+  "id": "用餐",
+  "issue": "example 1: pinyin letters differ: expected ~qingwennimenjiweizaizheeryongcanma, got qingwennimenjiweizaizheryongcanma"
+ },
+ {
+  "id": "看似",
+  "issue": "example 1: pinyin letters differ: expected ~zhegewentikanshijiandanqishihennanhuida, got zhegewentikansijiandanqishihennanhuida"
+ },
+ {
+  "id": "金子",
+  "issue": "example 1: pinyin letters differ: expected ~shijinzidaonaerduhuifaguang, got shijinzidaonardouhuifaguang"
+ },
+ {
+  "id": "寿命",
+  "issue": "example 1: pinyin letters differ: expected ~suizheyixuedefazhanrendeshoumingyuelaiyuezhang, got suizheyixuedefazhanrendeshoumingyuelaiyuechang"
+ }
+]

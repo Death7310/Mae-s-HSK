@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "id": "奔跑",
+  "issue": "example 1: pinyin letters differ: expected ~haizimenzaicaodishangkuailedibenpao, got haizimenzaicaodishangkuailedebenpao"
+ },
+ {
+  "id": "叙述",
+  "issue": "example 1: pinyin letters differ: expected ~taxiangjingchaxiangxixushuliaoshiqingdejingguo, got taxiangjingchaxiangxixushuleshiqingdejingguo"
+ },
+ {
+  "id": "顽强",
+  "issue": "example 1: tone of 种: expected 4, got 3"
+ },
+ {
+  "id": "传染病",
+  "issue": "example 1: pinyin letters differ: expected ~qinxishoukeyiyouxiaodiyufangchuanranbing, got qinxishoukeyiyouxiaodeyufangchuanranbing"
+ },
+ {
+  "id": "不成",
+  "issue": "example 1: pinyin letters differ: expected ~guangshuobuzuoshibuchengdewomendemashangxingdong, got guangshuobuzuoshibuchengdewomendeimashangxingdong"
+ }
+]

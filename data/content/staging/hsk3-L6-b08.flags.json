@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "id": "清晰",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "码头",
+  "issue": "example 1: pinyin letters differ: expected ~nasouchuanmanmandilikailematou, got nasouchuanmanmandelikailematou"
+ },
+ {
+  "id": "铺",
+  "issue": "example 1: tone of 铺: expected 4, got 1"
+ },
+ {
+  "id": "狮子",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "倒是",
+  "issue": "example 1: tone of 倒: expected 3, got 4"
+ },
+ {
+  "id": "尺",
+  "issue": "example 1: pinyin letters differ: expected ~zhekuaibudagaiyouliuchizhanggouzuoyitiaoqunzi, got zhekuaibudagaiyouliuchichanggouzuoyitiaoqunzi"
+ },
+ {
+  "id": "惩罚",
+  "issue": "example 1: tone of 为: expected 4, got 2"
+ },
+ {
+  "id": "寸",
+  "issue": "example 1: pinyin letters differ: expected ~zhetiaokuzizhangleyicunxuyaogaiyixia, got zhetiaokuzichangleyicunxuyaogaiyixia"
+ }
+]

@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": "抛",
+  "issue": "example 1: pinyin letters differ: expected ~tabaqiugaogaodipaoxiangkongzhongyouyongshoujiezhule, got tabaqiugaogaodepaoxiangkongzhongyouyongshoujiezhule"
+ },
+ {
+  "id": "粘",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "损伤",
+  "issue": "example 1: pinyin letters differ: expected ~zhangshijiankanshoujihuisunshangwomendeyanjing, got changshijiankanshoujihuisunshangwomendeyanjing"
+ },
+ {
+  "id": "扇~2",
+  "issue": "example 2: pinyin letters differ: expected ~taqingqingdituikailenashanguanzhedemen, got taqingqingdetuikailenashanguanzhedemen"
+ }
+]

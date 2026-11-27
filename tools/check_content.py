@@ -34,8 +34,9 @@ ALWAYS_OK = set("小王李张刘陈老师明红丽华美东西南北京上海中
 
 try:
     from pypinyin import Style, lazy_pinyin
-except ImportError:  # the pinyin cross-check is optional
-    lazy_pinyin = None
+except ImportError:
+    # Without it every batch passed with the pinyin cross-check silently skipped.
+    raise SystemExit("pypinyin is missing, so pinyin cannot be checked: pip install pypinyin")
 
 
 def pinyin_flags(zh: str, py: str) -> list[str]:

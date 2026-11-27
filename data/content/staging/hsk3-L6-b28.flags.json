@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": "北美洲",
+  "issue": "example 1: pinyin letters differ: expected ~jianadahemeiguoduweiyubeimeizhou, got jianadahemeiguodouweiyubeimeizhou"
+ },
+ {
+  "id": "存储",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "精准",
+  "issue": "example 1: pinyin letters differ: expected ~zhegeruanjiannengjingzhundizhaodaonideweizhi, got zhegeruanjiannengjingzhundezhaodaonideweizhi"
+ },
+ {
+  "id": "生命力",
+  "issue": "example 1: tone of 种: expected 4, got 3"
+ }
+]

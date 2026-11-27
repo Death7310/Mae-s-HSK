@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": "火柴",
+  "issue": "example 1: tone of 划: expected 4, got 2"
+ },
+ {
+  "id": "用处",
+  "issue": "example 1: tone of 处: expected 3, got 4"
+ },
+ {
+  "id": "功效",
+  "issue": "example 1: tone of 种: expected 4, got 3"
+ },
+ {
+  "id": "图表",
+  "issue": "example 1: pinyin letters differ: expected ~zhezhangtubiaoqingchudixianshilequniandexiaoshouqingkuang, got zhezhangtubiaoqingchudexianshilequniandexiaoshouqingkuang"
+ }
+]

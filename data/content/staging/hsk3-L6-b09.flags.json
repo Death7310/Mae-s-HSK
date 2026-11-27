@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "id": "肩膀",
+  "issue": "example 1: pinyin letters differ: expected ~taqingqingdipailepaiwodejianbang, got taqingqingdepailepaiwodejianbang"
+ },
+ {
+  "id": "来临",
+  "issue": "example 1: pinyin letters differ: expected ~chuntianlailinliaohuayuanlidehuadoukaile, got chuntianlailinlehuayuanlidehuadoukaile"
+ },
+ {
+  "id": "割",
+  "issue": "example 1: tone of 切: expected 4, got 1"
+ }
+]

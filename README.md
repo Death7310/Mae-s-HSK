@@ -50,22 +50,24 @@ sentence; "Reviewed" counts those that also passed the independent second pass.
 | New HSK 2 | 200 | 200 | 200 | 175 | 10 | 78 |
 | New HSK 3 | 500 | 500 | 500 | 455 | 10 | 96 |
 | New HSK 4 | 1,000 | 1,000 | 1,000 | 836 | 10 | 95 |
-| New HSK 5 | 1,600 | 1,600 | 1,054 | 1,355 | – | – |
-| New HSK 6 | 1,800 | 0 | 0 | 1,374 | – | – |
+| New HSK 5 | 1,600 | 1,600 | 1,600 | 1,355 | 10 | 70 |
+| New HSK 6 | 1,800 | 1,800 | 1,800 | 1,374 | 10 | 50 |
 | Old HSK 1 | 150 | 150 | 150 | 143 | | |
 | Old HSK 2 | 151 | 151 | 151 | 139 | | |
 | Old HSK 3 | 300 | 300 | 300 | 285 | | |
-| Old HSK 4 | 600 | 597 | 590 | 560 | | |
-| Old HSK 5 | 1,300 | 947 | 720 | 1,186 | | |
-| Old HSK 6 | 2,500 | 131 | 89 | 2,123 | | |
+| Old HSK 4 | 600 | 600 | 600 | 560 | | |
+| Old HSK 5 | 1,300 | 1,183 | 1,183 | 1,186 | | |
+| Old HSK 6 | 2,500 | 837 | 837 | 2,123 | | |
 <!-- status:end -->
 
 - Old HSK dialogues and grammar reuse the new-HSK content of the same level number.
-- Levels 1-2 were written by the strongest model (about 5% of entries corrected in
-  review). From level 3 up a cheaper model wrote the entries and a stronger one
-  reviewed them, correcting 20-30% of entries, some of them real sense errors.
-  The review fixed what it found, but those levels deserve a second review pass
-  and are where a native proofread matters most.
+- Levels 1-2 and level 6 were written by the strongest model (about 5% and 8% of
+  entries corrected in review). Levels 3-5 were written by a cheaper model and
+  reviewed by a stronger one, which corrected 20-30% of entries, some of them
+  real sense errors. The review fixed what it found, but levels 3-5 deserve a
+  second review pass and are where a native proofread matters most.
+- No entry has been checked by a person yet. `data/content/NATIVE_CHECK.md`
+  lists the items the authors and reviewers were least sure of.
 - Words without Persian yet show their English gloss instead.
 - Words without a human recording use the device's own Mandarin voice when one
   is installed.

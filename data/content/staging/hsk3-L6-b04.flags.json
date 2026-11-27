@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": "嘿",
+  "issue": "example 1: pinyin letters differ: expected ~heinimenzaizheerganshenmene, got heinimenzaizherganshenmene"
+ },
+ {
+  "id": "松",
+  "issue": "example 1: pinyin letters differ: expected ~nidexiedaisonglekuaixiyixiaba, got nidexiedaisonglekuaijiyixiaba"
+ },
+ {
+  "id": "散",
+  "issue": "example 1: tone of 散: expected 4, got 3"
+ },
+ {
+  "id": "划~2",
+  "issue": "example 1: tone of 为: expected 4, got 2"
+ }
+]

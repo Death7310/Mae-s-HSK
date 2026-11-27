@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "id": "民俗",
+  "issue": "example 1: pinyin letters differ: expected ~zhegebowuguanzhanshiliaodangdideminsuwenhua, got zhegebowuguanzhanshiledangdideminsuwenhua"
+ },
+ {
+  "id": "粘贴",
+  "issue": "example 1: tone of 片: expected 1, got 4"
+ },
+ {
+  "id": "肥沃",
+  "issue": "example 1: tone of 种: expected 3, got 4"
+ },
+ {
+  "id": "水稻",
+  "issue": "example 1: tone of 种: expected 3, got 4"
+ },
+ {
+  "id": "模特儿",
+  "issue": "example 1: pinyin letters differ: expected ~tacongxiaojiumengxiangdangyimingmoteer, got tacongxiaojiumengxiangdangyimingmoter"
+ },
+ {
+  "id": "戏曲",
+  "issue": "example 1: tone of 曲: expected 1, got 3"
+ }
+]

@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "id": "打动",
+  "issue": "example 1: pinyin letters differ: expected ~tadezhenchengshenshendidadonglewo, got tadezhenchengshenshendedadonglewo"
+ },
+ {
+  "id": "当选",
+  "issue": "example 1: tone of 为: expected 4, got 2"
+ },
+ {
+  "id": "散发",
+  "issue": "example 1: tone of 发: expected 4, got 1"
+ }
+]

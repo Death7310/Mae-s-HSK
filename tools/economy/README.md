@@ -229,6 +229,22 @@ cloud sessions, so each repository carries its copy.
   README). The automatic checkers verify form (orthography, pinyin, level of
   vocabulary), not meaning, so nothing but the reviewer could catch what the
   cheaper author got wrong. Hence rule 4.
+- **The strongest author with the review's checklist needed a third of the
+  corrections.** Level 6 (1,800 words) was written by the strongest model at low
+  effort, with the most frequent review corrections added to the word guide: 8%
+  of entries were corrected in review, against 23% for the last nine batches of
+  level 5 (cheaper author, no checklist). Tier and checklist changed together,
+  so their separate effects are not measured.
+- **A large run can exhaust the usage allowance and strand its results.** The
+  58-agent level 6 run used 4.7M agent tokens and hit the 5-hour limit: eight
+  reviews failed, two of them leaving partial files, and 23 finished batches
+  stayed uncommitted for nine hours. Size a run to the allowance that is left,
+  commit after every workflow, and re-run failures with `resumeFromRunId`
+  (the 50 finished agents were reused at no cost).
+- **A fresh container silently degraded the tools.** Without `pypinyin` the
+  checkers skipped the pinyin cross-check, and without `app/node_modules` a data
+  rebuild wrote empty stroke packs; only the end-to-end smoke test showed it.
+  Both now stop with an error. Run the smoke test after every data rebuild.
 - **Tiering down checkable work cut its cost by an order of magnitude.** In the
   session that wrote this document, converted to top-tier input tokens: three
   top-tier agents cost about 730k (330k new input, 1.8M re-read, 55k output);
@@ -255,6 +271,7 @@ history.
 | Session | Date | Task | Main calls | Fresh start | Peak context | Main: new in / re-read / out | Agents | Agents: new in / re-read / out | Lesson |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ebd5a4d8 | 2026-11-27 | Token-economy method, context guard and session rules | 30 | 88k | 387k | 632k / 8.1M / 132k | 7 | 710k / 3.9M / 100k | New input and output were about 9/10 of main-conversation cost; re-reads 8%. One skill load added 99k. Mid- and small-tier agents did checkable work at a fraction of top-tier cost. Independent review corrected the first cost model. |
+| 7d324d62 | 2026-11-27 | Signing key; HSK 5 review; HSK 5-6 dialogues and grammar; HSK 6 words | 55 | 90k | 255k | 319k / 9.7M / 88k | 83 | 3.2M / 23.5M / 870k | 81 agents on the top tier. The 58-agent run hit the 5-hour limit: 8 reviews failed and were re-run from the journal. Strongest author plus review checklist: 8% of entries corrected against 23%. A fresh container lacked pypinyin and node_modules; the tools now stop instead of degrading. |
 <!-- ledger:end -->
 
 ## Sources

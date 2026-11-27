@@ -1,1 +1,30 @@
-[]
+[
+ {
+  "id": "例外",
+  "issue": "example 1: pinyin letters differ: expected ~suoyourendouyaozunshouguidingshuiyebunengliwai, got suoyourendouyaozunshouguidingsheiyebunengliwai"
+ },
+ {
+  "id": "血压",
+  "issue": "example 1: pinyin letters differ: expected ~woyeyexueyayoudianergaomeitiandoudechiyao, got woyeyexueyayoudianrgaomeitiandoudeichiyao"
+ },
+ {
+  "id": "纠正",
+  "issue": "example 1: pinyin letters differ: expected ~laoshinaixindijiuzhenglewodefayincuowu, got laoshinaixindejiuzhenglewodefayincuowu"
+ },
+ {
+  "id": "视觉",
+  "issue": "example 1: pinyin letters differ: expected ~zhangshijiankanshoujihuiyingxianghaizideshijuefayu, got changshijiankanshoujihuiyingxianghaizideshijuefayu"
+ },
+ {
+  "id": "冲击",
+  "issue": "example 1: pinyin letters differ: expected ~hailangbutingdichongjizheanbiandeshitou, got hailangbutingdechongjizheanbiandeshitou"
+ },
+ {
+  "id": "影子",
+  "issue": "example 1: pinyin letters differ: expected ~xiyangxiatadeyingzibeiladehenzhang, got xiyangxiatadeyingzibeiladehenchang"
+ },
+ {
+  "id": "考察",
+  "issue": "example 1: pinyin letters differ: expected ~zhuanjiamendaoshanqukaochaliaodangdidehuanjing, got zhuanjiamendaoshanqukaochaledangdidehuanjing"
+ }
+]

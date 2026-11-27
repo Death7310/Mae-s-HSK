@@ -120,6 +120,9 @@ def is_han(c: str) -> bool:
 
 
 def build_strokes(chars: set[str]) -> tuple[int, list[str]]:
+    if not STROKES_SRC.is_dir():
+        # Without the source every stroke pack would be written empty.
+        raise SystemExit(f"{STROKES_SRC.relative_to(ROOT)} is missing: run `npm ci` in app/ first")
     shards: dict[int, dict[str, dict]] = defaultdict(dict)
     missing: list[str] = []
     for ch in sorted(chars):
@@ -156,7 +159,8 @@ def build_ime(entries: list[Entry]) -> list[list]:
     try:
         from pypinyin import Style, pinyin
     except ImportError:
-        print("warning: pypinyin missing - IME table has words only", file=sys.stderr)
+        # Without it the pinyin keyboard would lose every single character.
+        raise SystemExit("pypinyin is missing, so the pinyin keyboard table cannot be built: pip install pypinyin")
     else:
         for c, rank in char_rank.items():
             for i, reading in enumerate(pinyin(c, style=Style.NORMAL, heteronym=True)[0][:3]):

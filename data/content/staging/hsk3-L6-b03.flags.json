@@ -1,1 +1,38 @@
-[]
+[
+ {
+  "id": "母",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "曲",
+  "issue": "example 1: tone of 曲: expected 1, got 3"
+ },
+ {
+  "id": "公",
+  "issue": "example 1: tone of 只: expected 3, got 1"
+ },
+ {
+  "id": "患者",
+  "issue": "example 1: pinyin letters differ: expected ~yishengnaixindihuidalehuanzhedemeiyigewenti, got yishengnaixindehuidalehuanzhedemeiyigewenti"
+ },
+ {
+  "id": "刺",
+  "issue": "example 1: pinyin letters differ: expected ~tabuxiaoxinbeizhencileyixiashouzhiliuxiele, got tabuxiaoxinbeizhencileyixiashouzhiliuxuele"
+ },
+ {
+  "id": "至于",
+  "issue": "example 2: pinyin letters differ: expected ~wozhifuzeshejizhiyujiagenidewenjingli, got wozhifuzeshejizhiyujiagenideiwenjingli"
+ },
+ {
+  "id": "撒",
+  "issue": "example 1: tone of 撒: expected 1, got 3"
+ },
+ {
+  "id": "斗争",
+  "issue": "example 1: pinyin letters differ: expected ~womenyaoyongganditongkunnandouzheng, got womenyaoyonggandetongkunnandouzheng"
+ },
+ {
+  "id": "露",
+  "issue": "example 1: pinyin letters differ: expected ~taxiaodeshihouhuiluchuliangkexiaohuya, got taxiaodeshihouhuilouchuliangkexiaohuya"
+ }
+]

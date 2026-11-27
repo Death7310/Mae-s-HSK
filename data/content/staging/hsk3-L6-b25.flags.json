@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": "轮子",
+  "issue": "example 1: pinyin letters differ: expected ~zheliangzixingchedeqianlunzihuailiaodexiuyixia, got zheliangzixingchedeqianlunzihuailedeixiuyixia"
+ },
+ {
+  "id": "湿度",
+  "issue": "example 1: tone of 闷: expected 4, got 1"
+ },
+ {
+  "id": "倒车",
+  "issue": "example 1: pinyin letters differ: expected ~congzheerqujichangbuyongdaochezuoditiejiunengdao, got congzherqujichangbuyongdaochezuoditiejiunengdao"
+ },
+ {
+  "id": "乐曲",
+  "issue": "example 1: pinyin letters differ: expected ~tayonggangqindanleyishouyoumeideyuequ, got tayonggangqintanleyishouyoumeideyuequ"
+ }
+]
