@@ -92,7 +92,8 @@ draft until a Persian-speaking Chinese teacher has gone through it.
 
 **Android** — every build on GitHub Actions ("Build app" workflow) produces
 `mae-hsk-<n>.apk` as a downloadable artifact. Copy it to the phone and open it
-(allow "install unknown apps"). It is a debug-signed build: see *Known limits*.
+(allow "install unknown apps"). How builds are signed, and what that means for
+updating: *Signing the Android app*.
 
 **Web / iPhone / desktop** — the same workflow produces `mae-hsk-web`, a folder
 of static files. Host it on any static web server (GitHub Pages works), open it
@@ -169,6 +170,24 @@ every session without being repeated:
   every prompt and warns when the conversation has grown long enough that a new
   session is cheaper.
 
+### Signing the Android app
+
+Android installs an update over an app only when both are signed with the same
+key. CI signs every APK with the project key, `app/signing/mae-hsk.p12`
+(`app/signing/sign-apk.sh`), and checks the result against
+`app/signing/cert-sha256.txt`.
+
+- The key file is encrypted (AES-256) with a 32-character random password. The
+  password is not in the repository: it is the repository secret
+  `ANDROID_KEYSTORE_PASSWORD` (*Settings → Secrets and variables → Actions*).
+- Without the secret (a fork, or before it is set) the build still succeeds and
+  shows a warning; that APK is signed with a key made for that one build and
+  does not install over other builds.
+- Keep a copy of the password outside GitHub, because a secret cannot be read
+  back. If it is lost, a new key has to be made and every user reinstalls once.
+- The first build signed with the project key does not install over an older
+  build: back up (*Settings → Back up progress*), uninstall, install, restore.
+
 ## Sources and licences
 
 | Source | Used for | Licence |
@@ -199,8 +218,8 @@ not redistributable, even though copies circulate online.
   bundled yet.
 - **About 18% of words have no human recording** (mostly modern vocabulary:
   手机, 超市 …). They fall back to the device voice.
-- **The APK is debug-signed.** Each CI build is signed with a throw-away key,
-  so installing a newer build over an older one can fail until the old one is
-  uninstalled — export a backup first (*Settings → Back up progress*). A fixed
-  signing key fixes this.
+- **Updating needs the signing secret.** Until the repository secret
+  `ANDROID_KEYSTORE_PASSWORD` is set, each build is signed with a throw-away
+  key and does not install over another build (see *Signing the Android app*).
+  The APK is a debug build and is not on an app store.
 - Levels 7–9 and a tone-pair listening trainer are not built yet.
