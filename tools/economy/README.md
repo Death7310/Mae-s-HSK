@@ -206,8 +206,9 @@ Limits worth knowing:
 - New cloud sessions start from the repository's default branch. The rules and
   the hook apply only once this work is merged there.
 - Project hooks run in a cloud session with this one repository attached. In
-  the session that added the hook it began firing on the next prompt; the
-  after-tool note was tested only by piping input to the script.
+  the session that added the hook, both the prompt warning and the after-tool
+  note were seen firing; the optional hold was tested only by piping input to
+  the script.
 - "What the next call will be sent" is an estimate (the last call's input plus
   its output).
 - `--report` gives costs as a range and does not convert between tiers, because
@@ -253,7 +254,7 @@ history.
 <!-- ledger:start -->
 | Session | Date | Task | Main calls | Fresh start | Peak context | Main: new in / re-read / out | Agents | Agents: new in / re-read / out | Lesson |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ebd5a4d8 | 2026-11-26 | Token-economy method, context guard and session rules | 23 | 88k | 370k | 308k / 5.8M / 121k | 6 | 659k / 3.8M / 99k | New input and output were about 9/10 of main-conversation cost; re-reads 8%. One skill load added 99k. Mid- and small-tier agents did checkable work at a fraction of top-tier cost. Independent review corrected the first cost model. |
+| ebd5a4d8 | 2026-11-27 | Token-economy method, context guard and session rules | 30 | 88k | 387k | 632k / 8.1M / 132k | 7 | 710k / 3.9M / 100k | New input and output were about 9/10 of main-conversation cost; re-reads 8%. One skill load added 99k. Mid- and small-tier agents did checkable work at a fraction of top-tier cost. Independent review corrected the first cost model. |
 <!-- ledger:end -->
 
 ## Sources
